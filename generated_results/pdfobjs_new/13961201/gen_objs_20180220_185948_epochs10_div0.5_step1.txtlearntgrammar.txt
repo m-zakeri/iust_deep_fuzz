@@ -1,0 +1,54 @@
+obj
+<<
+  /Type /Font
+  /Subtype /CIDFontType0
+  /BaseFont /........................>
+endobj
+obj
+.<
+  /.ype /.ont.escriptor
+  /.ontName /.........M....
+  /..nt.Box [ . . ....... .
+  /...t.ame /.........................o.d.. /..nt.ile. ...0 R
+. /..nt.ame /........ali... /..nt..le. ...0 R
+. /..nt.Box [ .... .... .... .... .
+ ./..nt.ame /......mes...ali... /..ags .
+  /.ont.Box [ ....-... .... ... .
+  /..nt..le. ....0 R
+  ...nt.ame /........+.......  /..a.s .
+  /.ontBBox [ .... -... .... .... .
+  /..nt.ame /........ali... /..nt.Box [ . . .......
+  /...t.ame /..........  /..nt..le. ...0 R
+. /..nt.ame /.......... /..nt.Box [ .... .... ... .... .
+  /..ags .
+  /.t.mV...
+  /..nt.a.e /.................ntity-... /...t.Box [ . . .........
+  /..ntName /........me.....o..n.  /..nt.Box [ ........ .... .... .
+  /..nt.ame /.....M...
+  /..ags .
+  /.ont.Box [ . . ....... .
+  /.talicAngle 0
+. /...mV....
+  /...gs .
+  /.ontBBox [ ........ .... ... .
+  /..nt..le. ...0 R
+  ...nt.ame /.......+.M...
+  /..nt.Box [ ........ .... ... .
+  /..ags .
+. /.temV....  /..nt.a.e /.............. /..a.s .
+  /.ontBBox [ ....... .... .....]
+  /..nt...il. (............... /..b.ype /..pe..>.
+endobj
+obj
+.<
+  /.ype /.ont.escriptor
+  /.ontName /.........M..... /..nt.Box [ ....... .... .... ]
+  /..ags .
+  /.t.mV........ /...at.onDate ..:2...0.............................. /.....e..nt.ty..... /..xt....n /....>
+.ndobj
+obj
+.<
+  /.ype /.at.log
+  /.ages ..0 R
+.>
+.ndobj

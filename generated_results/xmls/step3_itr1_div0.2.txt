@@ -1,0 +1,10 @@
+postmeta>
+			<wp:meta_key>tie_megamenu_positits</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>tamera_spuated</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>tattachment_type";s:0:"";s:17:"created_timestamp";i:0;s:13:"shutter_speed";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:17:"created_timestamp";i:0;s:13:"wp_smushit";s:28:"Reduced by 6.4% (1.6&nbsp;KB)";}s:

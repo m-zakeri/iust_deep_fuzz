@@ -1,0 +1,163 @@
+obj
+<<
+  /Contents 22 0 R
+  /Type /Page
+  /Parent 3 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /K RB R
+  /P 353 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 5783
+>>
+stream
+endobj
+obj
+<<
+  /Length 204
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 5604
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 329
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 6
+  /Length 175
+  /N 19
+  /Type /MetatBobllr
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 895 ]
+    /FontDescriptor 87 0 R
+  /Striepdtbrefa1>7
+>>
+endobj
+obj
+<<
+  /FontDescriptor 8 454 0 R
+  /Encoding 17 0 R
+  /Subpstyop 116 0 R
+>>
+endobj
+obj
+<<
+  /Title (TeX 2 tion 9.0)
+  /W [ 1 9 1 [ 436 0 R ]
+  /XMitlengfaref ]
+  /Fi0-Extonter [ 0 889 0 R 165 0 R ]
+>>
+endobj
+obj
+<<
+  /A 112 0 R
+  /K 4
+  /Pg 3 0 R
+  /S /Normal
+  /Pg 48 0 R
+>>
+endobj
+obj
+<<
+  /Length 25110
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 2600
+  /Filter /FlateDecode
+  /Length 394
+>>
+stream
+endobj
+obj
+<<
+  /Subtype /CIDFontType0C
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 57580
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 13578
+>>
+stream
+endobj
+obj
+<<
+  /Length 6841
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 1140 0 R
+>>
+stream
+endobj
+obj
+<<
+  /P 400 0 R
+  /S /Span
+  /Type /StructElem
+  /Pg 48 0 R
+  /K 264
+>>
+endobj
+obj
+<<
+  /Length 8500346
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length1 1560
+  /Filter /FlateDecode
+  /Length 41
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 4
+  /Length 278
+  /N 11
+  /Type /ObjStm
+>>
+stream
+endobj

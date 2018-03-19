@@ -1,0 +1,45 @@
+obj
+<<
+  /Filter /FlateDecode
+  /Size 21452
+  /Length 50
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontD>
+  /Width 182
+  /FirstChar 121
+  /LastChar 794
+  /Filt
+  /FontDescriptor 0 761
+>>
+endobj
+obj
+<<
+  /BitsPerComponent 7
+  /ColorSpace /DeviceRGB
+  /Filte5
+  /FontName /yLSFLAFK+ia46 -149
+>>
+endobj
+obj
+<<
+  /Xbffaly 430 /crie-1
+  /E77268 /SSchred
+  /Arn1 (qustargedfg -olisupros)
+>>
+endobj
+obj
+6 73 0 R
+  /Encontcep 0 nf.131
+  /Li74
+>>
+stream
+endobj
+obj
+[ 530 0 R 533 0 R 2446 0 R 62
+  10 575 414 481 570 540 694 435 443 0 438 949 220 567 314 0 269 0 0 83,SB>-1lid
+>>
+endobj

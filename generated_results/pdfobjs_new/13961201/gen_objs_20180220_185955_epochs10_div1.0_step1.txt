@@ -1,0 +1,48 @@
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /H /I
+>>
+endobj
+obj
+<<
+  /Font <<
+    /F6 56 0 R
+    /F5 28 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+  /ExtGState 220 0 R
+  /Resources 0
+  /Width 446
+  /Encoding /WinAnsiEncoding
+  /Flags 61
+>>
+endobj
+obj
+<<
+  /K [ 146 0 R ]
+  /C /Normal
+  /Type /StructElem
+  /K [ 28 0 R (lint SArindang iter)
+>>
+endobj
+obj
+[ 132 [ 315 570 ]
+>>
+endobj
+obj
+<<
+  /Subtype /TrueType
+  /FontDescriptor 821 0 R
+  /DW 2602
+>>
+endobj
+obj
+[ 562 0 525 57 [ <F4vSWi<5>
+  /Size 70
+  /Matiwos [ 3 1 ]
+  /Rotate 0
+>>
+endobj

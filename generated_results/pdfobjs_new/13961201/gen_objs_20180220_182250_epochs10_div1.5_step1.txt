@@ -1,0 +1,72 @@
+obj
+<<
+  /D [ 27 0 R /XYZ null 421 null ]
+>>
+endobj
+obj
+<<5 67 -91.63 92.8412-1775 9.4996 646.3152 65.53 52.1
+  /Nomenade [ 23 0 ]
+  /R [ 51 0 R ]
+  /Coup ]
+  /Pg 20 0 R
+  /K [ [ 0 3 453 0 R 547 0 R ]
+atiing 5
+  /Coutouyr 67
+>>
+enteridstr4 672 0 R
+>>
+endobj
+obj
+<<
+  /Type /ExtGState
+  /BC [ 1 4 -45 199 0 R
+  /LandR10 23 0 R
+  /A 634 0 R
+  /Pg 1440 0 R
+  /S /Normal
+  /Pg15 319 0 R
+>>
+endobj
+obj
+<<
+  /Ascent 667.32
+  /CapHeight 203
+  /Typ]C8 ]
+  /MediaBox [ 74 525 303 289 ]
+  /TrotStar 19 0 R
+  /PriodC [ 120  /A74 113 ]C 8  /Auc[A000003 552 0 R (i4 ) 417 0 R 609 0 R 1115 0 R [ 263 0 R ]sBold <<
+    /DeR
+      /MTadings19 2 0 R
+    /K -ComaicprintPLW 450.965E6624
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /P [ 3In0) 644 531 0 R
+  /Linigatsh 7 /Shahaw8Neierda 5Obacaabashred 871
+  /Coharsfers103
+  /Fuscent 394
+      /Fi13397 1260 0 R
+    /F7 749 0 R
+     /r6p 557 ]
+  >>
+  /A 257 0 R
+  /K 57
+  /P 668 0 R
+  /S /Serp
+  /K [ 556 0 R 1264 0 R 0 403 0 R 839 0 R 155 0 R 37 0 R
+      164 0 R 8 >> 716
+      342 0 R 251 0 R 227 398 0 0 680 896 389 1071 251 278.3 407.4 314.5 396.4 910.8 1045.7 907.8 104
+>>
+  /ArtBox [ 16.917 /72.91 5.60794 ]
+  /Alternans 7 0 R
+8 /221 0
+endobj
+ R
+  /Metadata
+  /LIndentile 16.059579
+  /riras6 48 0 R
+>>
+endobj

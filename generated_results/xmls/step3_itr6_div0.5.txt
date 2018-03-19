@@ -1,0 +1,17 @@
+wp:postmeta>
+			<wp:meta_key>tie_embed_code</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_be46b6510ebebb17c5c374fd86521c74</wp:meta_key>
+			<wp:meta_value><![CDATA[184]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>taq_review_summary</wp:meta_key>
+			<wp:meta_value><![CDATA[600]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>tie_banner_above</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp
