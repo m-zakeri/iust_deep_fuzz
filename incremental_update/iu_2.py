@@ -10,7 +10,7 @@ from incremental_update.config import config
 import sys
 import PyPDF2
 from numpy.lib.format import read_array
-import pdf_object_concat as poc
+import pdf_object_preprocess as poc
 import random
 import datetime
 import math
