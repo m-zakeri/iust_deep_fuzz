@@ -62,6 +62,7 @@ def get_list_of_object(seq, is_sort=True):
         match.sort(key=lambda s: len(s))
     return match
 
+
 # 01 - Remove all null and single / object from original trainset
 def remove_null_and_slash_object(seq):
     seq = seq.replace('obj\nnull\nendobj', '')
@@ -134,12 +135,11 @@ def create_iqr_cleaned_dataset(seq):
     print('number_of_objects', count)
 
 
-# 04 - retrieve_trainset from seq step03 and csv step04
-def retrieve_trainset(seq):
+# 04 - retrieve_specific_dataset_fold (e.g from seq step03 and csv step04)
+def retrieve_specific_dataset_fold(seq, csv_path):
     """Read a CSV file using csv.DictReader"""
-    csv_path = 'D:/iust_pdf_objects/preprocess/' \
-               '04_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_testset_119276_shuffle.csv'
     object_id_list = []
+    print('Reading csv file and retrieve object ids ...')
     with open(csv_path, 'r') as f:
         # reader = csv.reader(f)
         reader = csv.DictReader(f, delimiter=',')
@@ -147,16 +147,17 @@ def retrieve_trainset(seq):
             # print(line["object_id"]),
             # print(line["object_len"])
             object_id_list.append(line['object_id'])
-    print('end reading csv.')
+
+    print('Retrieving specific dataset fold ...')
     match = get_list_of_object(seq, is_sort=True)
     new_seq = ''
     for i, obj_id in enumerate(object_id_list):
         obj_id = int(obj_id[3:])
         new_seq += match[obj_id] + '\n\n'
-    save_to_file('04_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_testset_119276_shuffle_ii.txt'
-                 , new_seq)
+
+    save_to_file(csv_path[:-4] + '_ii.txt', new_seq)
     match = get_list_of_object(new_seq)
-    print('trainset write successfully', len(match))
+    print('Number of retrieved objects:', len(match))
 
 
 def statistical_analysis(seq):
@@ -205,19 +206,33 @@ def sample_some_object_from_trainset(match):
 
 
 def main(argv):
-    """comment"""
+    """call function on this script and build your specific file"""
     # seq = concat()
     # path = 'D:/iust_pdf_objects/test_info.txt'
     # path = 'D:/iust_pdf_objects/preprocess/00_pdf_object_dataset_original_504153.txt'
     # path = 'D:/iust_pdf_objects/preprocess/01_pdf_object_dataset_removed_null_and_slash_494979.txt'
-    path = 'D:/iust_pdf_objects/preprocess/02_pdf_object_dataset_removed_null_and_slash_and_percentile_485080_sorted.txt'
-    path = 'D:/iust_pdf_objects/preprocess/03_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_sorted_ii.txt'
+    path = 'D:/iust_pdf_objects/preprocess/' \
+           '02_pdf_object_dataset_removed_null_and_slash_and_percentile_485080_sorted.txt'
+    path = 'D:/iust_pdf_objects/preprocess/' \
+           '03_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_sorted_ii.txt'
     seq = load_from_file(path)
     # remove_null_and_slash_object(seq)
     # remove_first_and_last_percentile(seq)
     # calculate_object_len_frequency(seq)
     # create_iqr_cleaned_dataset(seq)
-    retrieve_trainset(seq)
+    csv_path = 'D:/iust_pdf_objects/small_size_dataset/' \
+               '06_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_testset_35784_shuffle.csv'
+    csv_path = 'D:/iust_pdf_objects/small_size_dataset/' \
+               '06_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_trainset_47711_shuffle.csv'
+    csv_path = 'D:/iust_pdf_objects/small_size_dataset/' \
+               '06_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_validationset_11927_shuffle.csv'
+    csv_path = 'D:/iust_pdf_objects/large_size_dataset/' \
+               '05_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_testset_119276_shuffle.csv'
+    csv_path = 'D:/iust_pdf_objects/large_size_dataset/' \
+               '05_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_trainset_268371_shuffle.csv'
+    csv_path = 'D:/iust_pdf_objects/large_size_dataset/' \
+               '05_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_validationset_89457_shuffle.csv'
+    retrieve_specific_dataset_fold(seq, csv_path)
     # statistical_analysis(seq)
     """end_of_main_function_script"""
 

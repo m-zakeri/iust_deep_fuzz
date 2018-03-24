@@ -1,14 +1,7 @@
 """
 PDF OBJ 2
-Train with generator for large train sets
-At least 20 epochs are required before the generated text
-starts sounding coherent.
+Train with generator for large datasets
 
-It is recommended to run this script on GPU, as recurrent
-networks are quite computationally intensive.
-
-If you try this script on new data, make sure your corpus
-has at least ~100k characters. ~1M is better.
 """
 
 from __future__ import print_function
@@ -18,6 +11,7 @@ from keras.models import Sequential, load_model
 from keras.layers import Dense, Activation
 from keras.layers import LSTM
 from keras.optimizers import RMSprop
+from keras.callbacks import LambdaCallback
 from keras.utils import plot_model
 from keras.utils.data_utils import get_file
 import numpy as np
@@ -26,7 +20,7 @@ import sys
 import io
 
 import datetime
-import pdf_object_concat as poc
+import pdf_object_preprocess as preprocess
 
 
 def save(model, epochs):
@@ -44,7 +38,7 @@ def dataset2npyfilse():
     """ for using with data generator"""
     trainset_path = './trainset/pdfobjs.txt'
     trainset_path = './trainset/pdf_object_trainset_100_to_500_percent10.txt'
-    text = poc.load_from_file(trainset_path)
+    text = preprocess.load_from_file(trainset_path)
     print('corpus length:', len(text))
 
     chars = sorted(list(set(text)))
@@ -66,15 +60,15 @@ def dataset2npyfilse():
     next_chars = []  # list of all next chars as labels
     for i in range(0, len(text) - maxlen, step):  # arg2 why this?
         sentences.append(text[i: i + maxlen])
-        poc.save_to_file('./npysamples/IDs/id-' + str(i), text[i: i + maxlen])
+        preprocess.save_to_file('./npysamples/IDs/id-' + str(i), text[i: i + maxlen])
         next_chars.append(text[i + maxlen])
-        poc.save_to_file('./npysamples/Labels/id-' + str(i), text[i + maxlen])
+        preprocess.save_to_file('./npysamples/Labels/id-' + str(i), text[i + maxlen])
 
     print('semi sequences:', len(sentences))
 
     print('end...')
 
-'''
+"""
     for i, sentence in enumerate(sentences):
         x = np.zeros((1, maxlen, len(chars)), dtype=np.bool)  # input x
         y = np.zeros((1, len(chars)), dtype=np.bool)  # output label y
@@ -83,13 +77,13 @@ def dataset2npyfilse():
         y[0, char_indices[next_chars[i]]] = 1
         np.save('./npysamples/IDs/id-' + str(i), x)
         np.save('./npysamples/Labels/id-' + str(i), y)
-'''
+"""
 
 
 def train():
     trainset_path = './trainset/pdfobjs.txt'
     trainset_path = './trainset/pdf_object_trainset_100_to_500_percent20.txt'
-    text = poc.load_from_file(trainset_path)
+    text = preprocess.load_from_file(trainset_path)
     print('corpus length:', len(text))
 
     chars = sorted(list(set(text)))
@@ -179,7 +173,7 @@ def train():
     p_t = 0.9  # 0.9 for format fuzzing and 0.5 or letter for data fuzzing. Now format fuzzing
     # end of configuration parameters
 
-    list_of_objects = poc.get_list_of_object(text)
+    list_of_objects = preprocess.get_list_of_object(text)
     list_of_objects_with_maxlen = []
     for o in list_of_objects:
         if len(o) > maxlen:
@@ -264,7 +258,7 @@ def train():
         dir_name = './generated_results/pdfobjs_new/'
         file_name = 'gen_objs' + dt + 'epochs' + repr(epochs) + '_div' \
                     + repr(diversity) + '_step' + repr(step) + '.txt'
-        poc.save_to_file(dir_name + file_name, generated)
+        preprocess.save_to_file(dir_name + file_name, generated)
         # poc.save_to_file(dir_name + file_name + 'probabilities.txt', prob_vals)
         # poc.save_to_file(dir_name + file_name + 'learntgrammar.txt',learnt_grammar)
 

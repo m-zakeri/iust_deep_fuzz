@@ -6,7 +6,6 @@ str1= 'ali'
 
 def funv(arg1, arg2):
     print(arg1+arg2)
-
 # funv(2,3)
 
 seq1 = 'x obj yobjzobjcdoj'
@@ -18,17 +17,17 @@ sample = np.random.multinomial(6, [1/6.]*6, 10)
 
 sample = np.random.multinomial(1, [1/5., 1/5., 3/5.], 5)
 # print(sample)
-
 x = random.random()
 
 # print(int(1e6))
-
 # print(int(5.95))
 
 x = 966
-
 x = str(x).zfill(10)
 # print(x)
 
 z = 'zekeri morteza'
-print(z.find('mor'))
+# print(z.find('mor'))
+
+sum = lambda x,y: x+y
+print(sum(12,13))

@@ -1,5 +1,5 @@
 import numpy as np
-import pdf_object_concat as poc
+import pdf_object_preprocess as poc
 
 class DataGenerator(object):
     """Generates data for Keras"""
