@@ -146,7 +146,7 @@ class FileFormatFuzzer(object):
             nonlocal model
             nonlocal epochs
             print('Sampling model ... ')
-            self.generate_and_fuzz_new_samples(self, model=model, epochs=epochs, step=self.step, maxlen=self.maxlen,
+            self.generate_and_fuzz_new_samples(model=model, epochs=epochs, step=self.step, maxlen=self.maxlen,
                                                len_chars=len(self.chars))
         generate_and_fuzz_new_samples_callback = LambdaCallback(on_epoch_begin=None,
                                                                 on_epoch_end=on_epoch_end,
@@ -166,9 +166,9 @@ class FileFormatFuzzer(object):
 
             print('Start training on large dataset ...')
             model.fit_generator(generator=ts_data_generator,
-                                steps_per_epoch=len(sentences_training) // self.batch_size,
+                                steps_per_epoch=len(sentences_training) // self.batch_size, # 1000,
                                 validation_data=vs_data_generator,
-                                validation_steps=len(sentences_validation) // self.batch_size,
+                                validation_steps=len(sentences_validation) // self.batch_size, # 100,
                                 epochs=epochs,
                                 callbacks=[model_chekpoint, model_early_stopping, model_tensorboard, model_csv_logger,
                                            generate_and_fuzz_new_samples_callback])
@@ -314,7 +314,7 @@ def save_model_plot(model, epochs):
 
 def main(argv):
     """ the main function """
-    fff = FileFormatFuzzer()
+    fff = FileFormatFuzzer(maxlen=85, step=1, batch_size=128)
     fff.train(epochs=2)
     previous_model_dir = './model_checkpoint/best_models/'
     previous_model_name = 'lstm_text_generation_pdf_objs_1_20180221_182435_epochs10.h5'
