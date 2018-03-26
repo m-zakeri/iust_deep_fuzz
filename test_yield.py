@@ -1,3 +1,4 @@
+import os, datetime
 
 test_list = [12,13,14,15,16,17,18,19,20]
 
@@ -30,3 +31,10 @@ def sample_function():
     pass
 
 print(sample_function.__doc__)
+
+dt = datetime.datetime.now().strftime('%Y_%m_%d__%H_%M_%S')
+dir_name = './generated_results/pdfs/' + dt + '/'
+if not os.path.exists(dir_name):
+    os.makedirs(dir_name)
+
+print('build dirs')
