@@ -6,8 +6,14 @@ Train with generator for large datasets
 
 from __future__ import print_function
 
-import keras
-from docutils.nodes import paragraph
+import sys
+import os
+import io
+import datetime
+import random
+import numpy as np
+
+from keras import metrics
 from keras.models import Sequential, load_model
 from keras.layers import Dense, Activation
 from keras.layers import LSTM
@@ -15,12 +21,8 @@ from keras.optimizers import RMSprop
 from keras.callbacks import ModelCheckpoint, EarlyStopping, TensorBoard, CSVLogger, LambdaCallback
 from keras.utils import plot_model
 from keras.utils.data_utils import get_file
-import numpy as np
-import random
-import sys
-import os
-import io
-import datetime
+
+from docutils.nodes import paragraph
 
 import pdf_object_preprocess as preprocess
 from incremental_update.config import learning_config
@@ -50,8 +52,8 @@ class FileFormatFuzzer(object):
 
     def define_model(self, input_dim, output_dim):
         """build the model: a single LSTM layer # we need to deep it"""
-        model = config_model.model_2(input_dim, output_dim)
-        return model
+        model, model_name = config_model.model_3(input_dim, output_dim)
+        return model, model_name
 
     def load_dataset(self):
         """ load all 3 part of each dataset and building dictionary index """
@@ -119,35 +121,69 @@ class FileFormatFuzzer(object):
 
     def train(self, epochs=1):
         """ Create and train deep model"""
+        # Start time of training
+        dt = datetime.datetime.now().strftime('_date_%Y-%m-%d_%H-%M-%S_')
+
         print('Generate training samples ...')
         sentences_training, next_chars_training = self.generate_samples(self.text_training)
         print('Generate validations samples ...')
         sentences_validation, next_chars_validation = self.generate_samples(self.text_validation)
 
         print('Build and compile model ...')
-        model = self.define_model((self.maxlen, len(self.chars)), len(self.chars))
-        optimizer = RMSprop(lr=0.02)
-        model.compile(loss='categorical_crossentropy', optimizer=optimizer)
+        model, model_name = self.define_model((self.maxlen, len(self.chars)), len(self.chars))
+        optimizer = RMSprop(lr=0.01)  # [0.01, 0.02, 0.05, 0.1]
+        model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
+
+        print(model_name, ' summary ...')
+        model.summary()
+
+        print(model_name, ' count_params ...')
+        print(model.count_params())
+        # input()
 
         print('Set #5 callback ...')
-        dt = datetime.datetime.now().strftime('date_%Y%m%d_%H%M%S_')
-        model_checkpoint_filepath = './model_checkpoint/'+dt+'epoch_{epoch:02d}_val_loss_{val_loss:.4f}.h5'
-        model_chekpoint = ModelCheckpoint(model_checkpoint_filepath, verbose=1)
+        # callback #1 EarlyStopping
+        model_early_stopping = EarlyStopping(monitor='val_loss', min_delta=0.01, patience=2, verbose=1, mode='auto')
 
-        model_early_stopping = EarlyStopping(monitor='val_loss', min_delta=0.01, patience=1, verbose=0, mode='auto')
+        # callback #2 ModelCheckpoint
+        # Create a directory for each training process to keep model checkpoint in .h5 format
+        dir_name = './model_checkpoint/pdfs/' + model_name + dt + 'epochs_' + str(epochs) + '/'
+        if not os.path.exists(dir_name):
+            os.makedirs(dir_name)
+        file_name = dir_name + model_name + dt + 'epoch_{epoch:02d}_val_loss_{val_loss:.4f}.h5'
+        model_chekpoint = ModelCheckpoint(file_name, verbose=1)
 
-        model_tensorboard = TensorBoard(log_dir='./logs_tensorboard', histogram_freq=0, batch_size=self.batch_size,
-                                        write_graph=True,write_grads=False, write_images=True, embeddings_freq=0,
+        # callback #3 TensorBoard
+        dir_name = './logs_tensorboard/pdfs/' + model_name + dt + 'epochs_' + str(epochs) + '/'
+        if not os.path.exists(dir_name):
+            os.makedirs(dir_name)
+        model_tensorboard = TensorBoard(log_dir=dir_name, histogram_freq=0, batch_size=self.batch_size,
+                                        write_graph=True, write_grads=False, write_images=True, embeddings_freq=0,
                                         embeddings_layer_names=None, embeddings_metadata=None)
-        model_csv_logger_filepath = './logs_csv/training_with_epoch_02.csv'
-        model_csv_logger = CSVLogger(model_csv_logger_filepath, separator=',', append=False)
+
+        # callback #4 CSVLogger
+        # Create a directory and an empty csv file within to save mode csv log.
+        dir_name = './logs_csv/pdfs/' + model_name + dt + 'epochs_' + str(epochs) + '/'
+        if not os.path.exists(dir_name):
+            os.makedirs(dir_name)
+        file_name = dir_name + model_name + dt + '_epochs_' + str(epochs) + '_step_' + str(self.step) + '.csv'
+        open(file_name, mode='a', newline='').close()
+        model_csv_logger = CSVLogger(file_name, separator=',', append=True)
+
+        # callback #5 LambdaCallback
+        dir_name = './generated_results/pdfs/' + model_name + dt + 'epochs_' + str(epochs) + '/'
+        if not os.path.exists(dir_name):
+            os.makedirs(dir_name)
 
         def on_epoch_end(epoch, logs):
             nonlocal model
             nonlocal epochs
-            print('Sampling model ... ')
-            self.generate_and_fuzz_new_samples(model=model, epochs=epochs, step=self.step, maxlen=self.maxlen,
-                                               len_chars=len(self.chars))
+            nonlocal model_name
+            nonlocal dir_name
+            print('Sampling model and save results ... ')
+            self.generate_and_fuzz_new_samples(model=model, model_name=model_name,
+                                               epochs=epochs, step=self.step, maxlen=self.maxlen,
+                                               len_chars=len(self.chars), dir_name=dir_name)
         generate_and_fuzz_new_samples_callback = LambdaCallback(on_epoch_begin=None,
                                                                 on_epoch_end=on_epoch_end,
                                                                 on_batch_begin=None, on_batch_end=None,
@@ -166,26 +202,27 @@ class FileFormatFuzzer(object):
 
             print('Start training on large dataset ...')
             model.fit_generator(generator=ts_data_generator,
-                                steps_per_epoch=len(sentences_training) // self.batch_size, # 1000,
+                                # steps_per_epoch=200,
+                                steps_per_epoch=len(sentences_training) // self.batch_size,  # 1000,
                                 validation_data=vs_data_generator,
-                                validation_steps=len(sentences_validation) // self.batch_size, # 100,
+                                validation_steps=len(sentences_validation) // self.batch_size,  # 100,
+                                # validation_steps=10,
                                 epochs=epochs,
                                 callbacks=[model_chekpoint, model_early_stopping, model_tensorboard, model_csv_logger,
                                            generate_and_fuzz_new_samples_callback])
     # end of train method
 
-    def generate_and_fuzz_new_samples(self, model=None, epochs=1, step=1, maxlen=100, len_chars=96):
+    def generate_and_fuzz_new_samples(self,
+                                      model=None,
+                                      model_name='model_1',
+                                      epochs=1, step=1, maxlen=100, len_chars=96,
+                                      dir_name=None):
         """ sampling the model and generate new object """
-
-        dt = datetime.datetime.now().strftime('%Y_%m_%d__%H_%M_%S')
-        dir_name = './generated_results/pdfs/' + dt + '/'
-        if not os.path.exists(dir_name):
-            os.makedirs(dir_name)
-
         # fuzzing hyperparameters
         # diversities = [i*0.10 for i in range(1,20,2)]
         diversities = [0.2, 0.5, 1.0, 1.2, 1.5, 1.8]
-        generated_obj_total = 10  # [100, 1000]
+        diversities = [1]
+        generated_obj_total = 5  # [100, 1000]
         generated_obj_with_same_prefix = 5  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
         generated_obj_max_allowed_len = random.randint(400, 500)
         parasite_chars_set = set(['s', 't', 'r', 'e', 'a', 'm'])
@@ -303,24 +340,23 @@ class FileFormatFuzzer(object):
     def sample_space(self):
         pass
 
-
-def save_model_plot(model, epochs):
-    """ save the model architecture plot """
-    dt = datetime.datetime.now().strftime('_%Y%m%d_%H%M%S_')
-    # plot the model
-    plot_model(model, to_file='./modelpic/date_' + dt + 'epochs_' + str(epochs) + '.png',
-               show_shapes=True, show_layer_names=True)
+    def save_model_plot(self, model, epochs):
+        """ save the model architecture plot """
+        dt = datetime.datetime.now().strftime('_%Y%m%d_%H%M%S_')
+        # plot the model
+        plot_model(model, to_file='./modelpic/date_' + dt + 'epochs_' + str(epochs) + '.png',
+                   show_shapes=True, show_layer_names=True)
 
 
 def main(argv):
     """ the main function """
-    fff = FileFormatFuzzer(maxlen=85, step=1, batch_size=128)
-    fff.train(epochs=2)
+    fff = FileFormatFuzzer(maxlen=85, step=1, batch_size=256)
+    fff.train(epochs=10)
     previous_model_dir = './model_checkpoint/best_models/'
-    previous_model_name = 'lstm_text_generation_pdf_objs_1_20180221_182435_epochs10.h5'
+    previous_model_name = 'date_20180325_200701_epoch_02_7.3107.h5'
     previous_model_path = previous_model_dir + previous_model_name
-    # model = load_model(previous_model_path)
-    # fff.generate_and_fuzz_new_samples(model=model, maxlen=100, len_chars=96)
+    model = load_model(previous_model_path)
+    # fff.generate_and_fuzz_new_samples(model=model, model_name='best_models', maxlen=85, len_chars=96)
 
 
 if __name__ == "__main__":
