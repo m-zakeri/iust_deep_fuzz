@@ -1,6 +1,8 @@
 import numpy as np
 import random
 
+import pdf_object_extractor_2
+
 str1= 'ali'
 # print('Hello')
 
@@ -31,3 +33,10 @@ z = 'zekeri morteza'
 
 sum = lambda x,y: x+y
 print(sum(12,13))
+
+
+# print(pdf_object_extractor_2.get_xref.__doc__)
+
+x = bytes('ali \\n', encoding='utf8')
+
+print('len bytes = ', len(x))

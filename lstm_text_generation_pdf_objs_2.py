@@ -1,6 +1,10 @@
 """
 PDF OBJ 2
-Train with generator for large datasets
+Train with generator for large datasets.
+My strategy in this script is departed and not work,
+so I decide to build new script.
+Please refer to PDF OBJ 3 (lstm_text_generation_pdf_objs_3.py)
+
 
 """
 

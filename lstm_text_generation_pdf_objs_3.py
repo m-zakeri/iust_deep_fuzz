@@ -1,37 +1,47 @@
 """
 PDF OBJ 3
-Train with generator for large datasets
+-New in this version:
+-- Add support for training in large dataset with the help of python generators.
+-- Add callbacks to log most of training time events.
+-- File and directory now mange by code in appropriate manner for each train run.
+-- Add class FileFormatFuzz to do learn and fuzz process in one script.
+--
+-Note: The ability of training small dataset in memory with model.fit() method was include in this version.
 
 """
 
 from __future__ import print_function
 
+__version__ = '0.3'
+__author__ = 'Morteza'
+
 import sys
 import os
-import io
 import datetime
 import random
 import numpy as np
 
-from keras import metrics
-from keras.models import Sequential, load_model
-from keras.layers import Dense, Activation
-from keras.layers import LSTM
+from keras.models import load_model
 from keras.optimizers import RMSprop
 from keras.callbacks import ModelCheckpoint, EarlyStopping, TensorBoard, CSVLogger, LambdaCallback
 from keras.utils import plot_model
-from keras.utils.data_utils import get_file
-
-from docutils.nodes import paragraph
 
 import pdf_object_preprocess as preprocess
-from incremental_update.config import learning_config
-import config_model
+from config import learning_config
+import deep_models
 
 
 class FileFormatFuzzer(object):
-    """ Main class for learn and fuzz process"""
+    """
+    Main class for learn and fuzz process
+    """
     def __init__(self, maxlen=85, step=1, batch_size=128):
+        """
+
+        :param maxlen:
+        :param step:
+        :param batch_size:
+        """
         # learning hyper-parameter
         self.maxlen = maxlen
         self.step = step
@@ -52,7 +62,7 @@ class FileFormatFuzzer(object):
 
     def define_model(self, input_dim, output_dim):
         """build the model: a single LSTM layer # we need to deep it"""
-        model, model_name = config_model.model_3(input_dim, output_dim)
+        model, model_name = deep_models.model_3(input_dim, output_dim)
         return model, model_name
 
     def load_dataset(self):
@@ -225,7 +235,7 @@ class FileFormatFuzzer(object):
         generated_obj_total = 5  # [100, 1000]
         generated_obj_with_same_prefix = 5  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
         generated_obj_max_allowed_len = random.randint(400, 500)
-        parasite_chars_set = set(['s', 't', 'r', 'e', 'a', 'm'])
+        parasite_chars_set = {'s', 't', 'r', 'e', 'a', 'm'}   # set(['s', 't', 'r', 'e', 'a', 'm'])
         t_fuzz = 0.9
         p_t = 0.9  # 0.9 for format fuzzing and 0.5 or little than 0.5 for data fuzzing. Now format fuzzing
         # end of fuzzing hyperparameters

@@ -1,36 +1,36 @@
 """
-incremental update pdf file
-version 2 - attach multi-object to end of the pdf file
-base on 'portion_of_rewrite_objects' in config.py
+Incremental update pdf file
+New in version 2
+- attach multi-object to end of the pdf file. base on 'portion_of_rewrite_objects' in config.py
 """
 
+__version__ = '0.2'
+__author__ = 'Morteza'
 
-from incremental_update.config import config
+from config import iu_config
 
 import sys
 import PyPDF2
-from numpy.lib.format import read_array
 import pdf_object_preprocess as poc
 import random
 import datetime
 import math
-import re
 
 
 def read_pdf_file(host_id):
-    with open(config['raw_host_directory'] + host_id + '.pdf', 'br') as f:
+    with open(iu_config['raw_host_directory'] + host_id + '.pdf', 'br') as f:
         data = f.read()
     return data
 
 
 def write_pdf_file(host_id, description ,new_pdf_file):
-    with open(config['new_host_directory'] + host_id + '/'
+    with open(iu_config['new_host_directory'] + host_id + '/'
               + host_id + description + '.pdf', 'bw') as f:
         f.write(new_pdf_file)
 
 
 def get_last_object_id(host_id):
-    with open(config['raw_host_directory'] + host_id + '.pdf', 'br') as f:
+    with open(iu_config['raw_host_directory'] + host_id + '.pdf', 'br') as f:
         read_pdf = PyPDF2.PdfFileReader(f)
     last_object_id = read_pdf.trailer['/Size'] - 1  # size xref  - 1
     return last_object_id
@@ -57,9 +57,9 @@ def incremental_update(single_object_update, host_id, sequential_number):
     rewrite_object_content = get_one_object()
 
     if single_object_update:
-        if config['update_policy'] == 'random':
+        if iu_config['update_policy'] == 'random':
             rewrite_object_id = str(random.randint(1, int(last_object_id)))
-        elif config['update_policy' == 'bottom_up']:
+        elif iu_config['update_policy' == 'bottom_up']:
             rewrite_object_id = last_object_id
         data = attach_new_object(data, last_object_id,
                                              rewrite_object_content, rewrite_object_id)
@@ -70,14 +70,14 @@ def incremental_update(single_object_update, host_id, sequential_number):
         write_pdf_file(host_id, name_description, data)
         print('save new pdf file successfully')
     else:
-        number_of_of_rewrite_objects = math.ceil(config['portion_of_rewrite_objects'] * int(last_object_id))
+        number_of_of_rewrite_objects = math.ceil(iu_config['portion_of_rewrite_objects'] * int(last_object_id))
         # print(host_id, number_of_of_rewrite_objects)
         rewrite_object_ids = ''
         for i in range(number_of_of_rewrite_objects):
             rewrite_object_content = get_one_object()
-            if config['update_policy'] == 'random':
+            if iu_config['update_policy'] == 'random':
                 rewrite_object_id = str(random.randint(1, int(last_object_id)))
-            elif config['update_policy' == 'bottom_up']:
+            elif iu_config['update_policy' == 'bottom_up']:
                 rewrite_object_id = last_object_id - i
             rewrite_object_ids += rewrite_object_id
             data = attach_new_object(data, last_object_id,
@@ -159,7 +159,7 @@ def attach_new_object(data, last_object_id, rewrite_object_content, rewrite_obje
 def main(argv):
     host_id = 'host2'
     for i in range(0, 10):
-        incremental_update(config['single_object_update'], host_id, i)
+        incremental_update(iu_config['single_object_update'], host_id, i)
 
     print('*** end ***')
 

@@ -1,4 +1,8 @@
 """
+PDF OBJ 1
+A more complete version of this script is PDF OBJ 3.
+Please refer to PDF OBJ 3 (lstm_text_generation_pdf_objs_3.py)
+
 At least 20 epochs are required before the generated text
 starts sounding coherent.
 
