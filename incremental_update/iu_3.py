@@ -1,7 +1,8 @@
 """
 Incremental update pdf file
 New in version 3
-- add stream to object which have stream keyword
+- add binary stream to object which have stream keyword
+- Fuzz binary streams with mutation-based algorithms.
 New in version 2
 - attach multi-object to end of the pdf file. base on 'portion_of_rewrite_objects' in config.py
 """
@@ -79,13 +80,16 @@ class IncrementalUpdate(object):
         stream_index = obj.find('stream')
         obj = bytes(obj, encoding='ascii')
         if stream_index != -1:
-            random_stream_index = random.randint(0, len(self.stream_filename_list))
+            random_stream_index = random.randint(0, len(self.stream_filename_list)-1)
             with open(self.stream_directory_path+self.stream_filename_list[random_stream_index], mode='rb') as f:
                 binary_stream = f.read()
-
+            # Fuzz binary stream separately.
+            # We use generation fuzzing for pdf data objects and mutation fuzzing for pdf binary streams that exist
+            # within our pdf data objects
+            binary_stream = self.fuzz_binary_stream(binary_stream)
             obj = obj[:stream_index+7] + binary_stream + bytes('\nendstream\n', encoding='ascii') + obj[stream_index+7:]
             print('binary_stream added')
-            print(obj)
+            # print(obj)
 
         return obj
 
@@ -225,6 +229,49 @@ class IncrementalUpdate(object):
         # print('attach_content\n', attach_content)
         new_pdf_file = data + attach_content
         return new_pdf_file
+
+    def fuzz_binary_stream(self, binary_stream):
+        """
+        Fuzzing strategy for binary stream fuzz testing.
+        Simple basic fuzzing strategy:
+        Reverse 1% of all bytes in stream randomly. Below code do this
+        :param binary_stream:
+        :return: fuzz_binary_stream
+        """
+        strategy = 'basic_random'
+        if strategy == 'basic_random':
+            for i in range(math.ceil(len(binary_stream)/100)):
+                # Choose one byte randomly
+                byte_to_reverse_index = random.randint(0, len(binary_stream)-1)
+                one_byte = binary_stream[byte_to_reverse_index]
+
+                # Convert byte int representation to byte binary string representation (Step 2)
+                eight_bit = "{0:b}".format(one_byte)
+                # print('eight_bit of one_bye', eight_bit)
+
+                # Reverse eight_bit e.g. 0110000 ==> 1001111
+                eight_bit_reverse_str = ''
+                for j in range(len(eight_bit)):
+                    if eight_bit[j] == '1':
+                        eight_bit_reverse_str += '0'
+                    else:
+                        eight_bit_reverse_str += '1'
+                # print('eight_bit_reverse_str', eight_bit_reverse_str)
+
+                # Back eight_bit_reverse_str to int representation (Reverse of step 2)
+                eight_bit_reverse_int = int(eight_bit_reverse_str, 2)
+
+                # Convert eight_bit_reverse_int to byte
+                one_byte_reverse = \
+                    eight_bit_reverse_int.to_bytes(1, 'little')  # 1 is for one byte as length, e.g 15 => 0x0f
+
+                # Substitute one_byte with one_byte_reverse in the  input binary_stream
+                binary_stream = binary_stream[0:byte_to_reverse_index]\
+                                + one_byte_reverse \
+                                + binary_stream[byte_to_reverse_index+1:]
+        elif strategy == 'other':
+            pass
+        return binary_stream
 
 
 def main(argv):

@@ -32,11 +32,34 @@ z = 'zekeri morteza'
 # print(z.find('mor'))
 
 sum = lambda x,y: x+y
-print(sum(12,13))
+# print(sum(12,13))
 
 
 # print(pdf_object_extractor_2.get_xref.__doc__)
 
-x = bytes('ali \\n', encoding='utf8')
 
-print('len bytes = ', len(x))
+# Test working with byte and reversing bits of bytes. System programming.
+x = bytes('xyz120456', encoding='ascii')
+
+# print('len bytes = ', len(x))
+print('x_all', x)
+print('x5', x[5])
+b = "{0:b}".format(x[5])
+print('x5_binary_str',b)
+breverse =''
+for i in range(len(b)):
+    if b[i] == '1':
+        breverse+='0'
+    else:
+        breverse += '1'
+
+print(breverse)
+breverse2 = int(breverse, 2)
+# breverse = bytes(breverse)
+# breverse2 = bytes([breverse2])
+breverse2 = breverse2.to_bytes(1, 'little')
+print('breverse2',breverse2)
+x = x[:5]+ breverse2 +x[6:]
+print('x5_rev=', x[5])
+print('x_all_new=', x)
+

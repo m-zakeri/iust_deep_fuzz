@@ -129,8 +129,13 @@ class FileFormatFuzzer(object):
             y[i, self.char_indices[next_chars[i]]] = 1
         return x, y
 
-    def train(self, epochs=1):
-        """ Create and train deep model"""
+    def train(self,
+              epochs=1):
+        """
+        Create and train deep model
+        :param epochs: Specify number of epoch for training.
+        :return: Nothing.
+        """
         # Start time of training
         dt = datetime.datetime.now().strftime('_date_%Y-%m-%d_%H-%M-%S_')
 
@@ -153,7 +158,7 @@ class FileFormatFuzzer(object):
 
         print('Set #5 callback ...')
         # callback #1 EarlyStopping
-        model_early_stopping = EarlyStopping(monitor='val_loss', min_delta=0.01, patience=2, verbose=1, mode='auto')
+        model_early_stopping = EarlyStopping(monitor='val_loss', min_delta=0.01, patience=4, verbose=1, mode='auto')
 
         # callback #2 ModelCheckpoint
         # Create a directory for each training process to keep model checkpoint in .h5 format
@@ -178,7 +183,7 @@ class FileFormatFuzzer(object):
             os.makedirs(dir_name)
         file_name = dir_name + model_name + dt + '_epochs_' + str(epochs) + '_step_' + str(self.step) + '.csv'
         open(file_name, mode='a', newline='').close()
-        model_csv_logger = CSVLogger(file_name, separator=',', append=True)
+        model_csv_logger = CSVLogger(file_name, separator=',', append=False)
 
         # callback #5 LambdaCallback
         dir_name = './generated_results/pdfs/' + model_name + dt + 'epochs_' + str(epochs) + '/'
@@ -191,9 +196,11 @@ class FileFormatFuzzer(object):
             nonlocal model_name
             nonlocal dir_name
             print('Sampling model and save results ... ')
-            self.generate_and_fuzz_new_samples(model=model, model_name=model_name,
-                                               epochs=epochs, step=self.step, maxlen=self.maxlen,
-                                               len_chars=len(self.chars), dir_name=dir_name)
+            self.generate_and_fuzz_new_samples(model=model,
+                                               model_name=model_name,
+                                               epochs=epochs,
+                                               current_epoch=epoch,
+                                               dir_name=dir_name)
         generate_and_fuzz_new_samples_callback = LambdaCallback(on_epoch_begin=None,
                                                                 on_epoch_end=on_epoch_end,
                                                                 on_batch_begin=None, on_batch_end=None,
@@ -220,30 +227,48 @@ class FileFormatFuzzer(object):
                                 epochs=epochs,
                                 callbacks=[model_chekpoint, model_early_stopping, model_tensorboard, model_csv_logger,
                                            generate_and_fuzz_new_samples_callback])
+
     # end of train method
 
     def generate_and_fuzz_new_samples(self,
                                       model=None,
                                       model_name='model_1',
-                                      epochs=1, step=1, maxlen=100, len_chars=96,
+                                      epochs=1,
+                                      current_epoch=1,
                                       dir_name=None):
-        """ sampling the model and generate new object """
-        # fuzzing hyperparameters
+        """
+        sampling the model and generate new object
+        :param model: The model which is training.
+        :param model_name: Name of model (base on hyperparameters config in deep_model.py file) e.g. [model_1, model_2,
+        ...]
+        :param epochs: Number of total epochs of training, e.g. 10,20,30,40,50 or 60
+        :param current_epoch: Number of current epoch
+        :param dir_name: root directory for this running.
+        :return: Nothing
+        """
+
+        # End time of current epoch
+        dt = datetime.datetime.now().strftime('_date_%Y-%m-%d_%H-%M-%S')
+        dir_name = dir_name + 'epoch_' + str(current_epoch) + dt + '/'
+        if not os.path.exists(dir_name):
+            os.makedirs(dir_name)
+
+        # Fuzzing hyperparameters
         # diversities = [i*0.10 for i in range(1,20,2)]
         diversities = [0.2, 0.5, 1.0, 1.2, 1.5, 1.8]
-        diversities = [1]
-        generated_obj_total = 5  # [100, 1000]
+        # diversities = [1]
+        generated_obj_total = 10  # [100, 1000]
         generated_obj_with_same_prefix = 5  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-        generated_obj_max_allowed_len = random.randint(400, 500)
+        generated_obj_max_allowed_len = random.randint(450, 550)
         parasite_chars_set = {'s', 't', 'r', 'e', 'a', 'm'}   # set(['s', 't', 'r', 'e', 'a', 'm'])
         t_fuzz = 0.9
         p_t = 0.9  # 0.9 for format fuzzing and 0.5 or little than 0.5 for data fuzzing. Now format fuzzing
-        # end of fuzzing hyperparameters
+        # End of fuzzing hyperparameters
 
         testset_objects_list = preprocess.get_list_of_object(self.text_test)
         testset_object_gt_maxlen_list = []
         for obj in testset_objects_list:
-            if len(obj) > maxlen:
+            if len(obj) > self.maxlen:
                 testset_object_gt_maxlen_list.append(obj)
         print('len filtered testset:', len(testset_object_gt_maxlen_list))
         for diversity in diversities:
@@ -256,7 +281,7 @@ class FileFormatFuzzer(object):
                 print()
                 print('-- Diversity:', diversity)
 
-                obj_prefix = str(testset_object_gt_maxlen_list[obj_index])[0: maxlen]
+                obj_prefix = str(testset_object_gt_maxlen_list[obj_index])[0: self.maxlen]
                 generated = obj_prefix
                 prob_vals = '1 ' * self.maxlen
                 learnt_grammar = obj_prefix
@@ -271,7 +296,7 @@ class FileFormatFuzzer(object):
                     stop_condition = True
 
                 while not stop_condition:
-                    x_pred = np.zeros((1, maxlen, len_chars))
+                    x_pred = np.zeros((1, self.maxlen, len(self.chars)))
                     for t, char in enumerate(obj_prefix):
                         x_pred[0, t, self.char_indices[char]] = 1.
 
@@ -282,7 +307,7 @@ class FileFormatFuzzer(object):
                         p_fuzz = random.random()
                         if p_fuzz > t_fuzz and preds2[next_index] > p_t:
                             next_index = np.argmin(preds2)
-                            print('Character fuzzed!')
+                            print('Fuzz!')
                         next_char = self.indices_char[next_index]
 
                     # print()
@@ -322,7 +347,7 @@ class FileFormatFuzzer(object):
                 generated_total += generated
             # save generated_result to file inside program
 
-            file_name = 'diversity_' + repr(diversity) + '_epochs_' + repr(epochs) + '_step_' + repr(step) + '.txt'
+            file_name = model_name + '_diversity_' + repr(diversity) + '_epochs_' + repr(epochs) + '_step_' + repr(self.step) + '.txt'
             preprocess.save_to_file(dir_name + file_name, generated_total)
             # preprocess.save_to_file(dir_name + file_name + 'probabilities.txt', prob_vals)
             # preprocess.save_to_file(dir_name + file_name + 'learntgrammar.txt',learnt_grammar)
@@ -330,7 +355,13 @@ class FileFormatFuzzer(object):
     # lower temperature will cause the model to make more likely,
     # but also more boring and conservative predictions.
     def sample(self, preds, temperature=1.0):
-        """helper function to sample an index from a probability array"""
+        """
+        Helper function to sample an index from a probability array
+        :param preds:
+        :param temperature:
+        :return:
+        """
+
         # print('raw predictions = ', preds)
         preds = np.asarray(preds).astype('float64')
 
@@ -338,7 +369,7 @@ class FileFormatFuzzer(object):
         exp_preds = np.exp(preds)
         preds = exp_preds / np.sum(exp_preds)
 
-        """sampling with numpy functions:"""
+        # Sampling with numpy functions:
         probas = np.random.multinomial(1, preds, 1)
         # print()
         # print('sanitize predictions = ', preds)
@@ -351,7 +382,12 @@ class FileFormatFuzzer(object):
         pass
 
     def save_model_plot(self, model, epochs):
-        """ save the model architecture plot """
+        """
+        Save the model architecture plot.
+        :param model:
+        :param epochs:
+        :return:
+        """
         dt = datetime.datetime.now().strftime('_%Y%m%d_%H%M%S_')
         # plot the model
         plot_model(model, to_file='./modelpic/date_' + dt + 'epochs_' + str(epochs) + '.png',
@@ -360,13 +396,15 @@ class FileFormatFuzzer(object):
 
 def main(argv):
     """ the main function """
+    epochs = 60
     fff = FileFormatFuzzer(maxlen=85, step=1, batch_size=256)
-    fff.train(epochs=10)
-    previous_model_dir = './model_checkpoint/best_models/'
-    previous_model_name = 'date_20180325_200701_epoch_02_7.3107.h5'
-    previous_model_path = previous_model_dir + previous_model_name
-    model = load_model(previous_model_path)
+    fff.train(epochs=epochs)
+    # previous_model_dir = './model_checkpoint/best_models/'
+    # previous_model_name = 'date_20180325_200701_epoch_02_7.3107.h5'
+    # previous_model_path = previous_model_dir + previous_model_name
+    # model = load_model(previous_model_path)
     # fff.generate_and_fuzz_new_samples(model=model, model_name='best_models', maxlen=85, len_chars=96)
+    print('training complete successfully on %s epochs' % epochs)
 
 
 if __name__ == "__main__":
