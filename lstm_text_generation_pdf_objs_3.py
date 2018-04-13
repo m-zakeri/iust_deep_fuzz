@@ -62,7 +62,7 @@ class FileFormatFuzzer(object):
 
     def define_model(self, input_dim, output_dim):
         """build the model: a single LSTM layer # we need to deep it"""
-        model, model_name = deep_models.model_3(input_dim, output_dim)
+        model, model_name = deep_models.model_2(input_dim, output_dim)
         return model, model_name
 
     def load_dataset(self):
@@ -158,7 +158,8 @@ class FileFormatFuzzer(object):
 
         print('Set #5 callback ...')
         # callback #1 EarlyStopping
-        model_early_stopping = EarlyStopping(monitor='val_loss', min_delta=0.01, patience=4, verbose=1, mode='auto')
+        # monitor= 'val_loss' or monitor='loss'?
+        model_early_stopping = EarlyStopping(monitor='loss', min_delta=0.01, patience=5, verbose=1, mode='auto')
 
         # callback #2 ModelCheckpoint
         # Create a directory for each training process to keep model checkpoint in .h5 format
@@ -393,12 +394,22 @@ class FileFormatFuzzer(object):
         plot_model(model, to_file='./modelpic/date_' + dt + 'epochs_' + str(epochs) + '.png',
                    show_shapes=True, show_layer_names=True)
 
+    def get_model_summary(self):
+        print('Get model summary ...')
+        model, model_name = self.define_model((self.maxlen, len(self.chars)), len(self.chars))
+        print(model_name, ' summary ...')
+        model.summary()
+        print(model_name, ' count_params ...')
+        print(model.count_params())
+
 
 def main(argv):
     """ the main function """
     epochs = 60
-    fff = FileFormatFuzzer(maxlen=85, step=1, batch_size=256)
+    fff = FileFormatFuzzer(maxlen=85, step=1, batch_size=128)
     fff.train(epochs=epochs)
+    # fff.get_model_summary()
+
     # previous_model_dir = './model_checkpoint/best_models/'
     # previous_model_name = 'date_20180325_200701_epoch_02_7.3107.h5'
     # previous_model_path = previous_model_dir + previous_model_name
