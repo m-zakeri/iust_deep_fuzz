@@ -86,6 +86,10 @@ def model_3(input_dim, output_dim):
     return model, 'model_3'
 
 
-def model_3(input_dim, output_dim):
+def model_4(input_dim, output_dim):
+    pass
+
+
+def model_5(input_dim, output_dim):
     pass
 
