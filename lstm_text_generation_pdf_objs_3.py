@@ -202,6 +202,7 @@ class FileFormatFuzzer(object):
                                                epochs=epochs,
                                                current_epoch=epoch,
                                                dir_name=dir_name)
+
         generate_and_fuzz_new_samples_callback = LambdaCallback(on_epoch_begin=None,
                                                                 on_epoch_end=on_epoch_end,
                                                                 on_batch_begin=None, on_batch_end=None,
@@ -210,9 +211,15 @@ class FileFormatFuzzer(object):
         if learning_config['dataset_size'] == 'very_small':
             print('Start training on small dataset ...')
             x, y = self.data_generator_in_memory(sentences_training, next_chars_training)
-            model.fit(x, y, batch_size=self.batch_size, epochs=epochs, validation_split=0.2,
-                      callbacks=[model_chekpoint, model_early_stopping, model_tensorboard, model_csv_logger,
-                                 generate_and_fuzz_new_samples_callback])
+            model.fit(x, y,
+                      batch_size=self.batch_size,
+                      epochs=epochs,
+                      validation_split=0.2,
+                      callbacks=[model_chekpoint,
+                                 model_tensorboard,
+                                 model_csv_logger,
+                                 generate_and_fuzz_new_samples_callback]
+                      )
         else:
             print('Build training and validation data generators ...')
             ts_data_generator = self.data_generator(sentences_training, next_chars_training)
