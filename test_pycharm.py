@@ -1,5 +1,8 @@
-import numpy as np
+
+import sys
+import os
 import random
+import numpy as np
 
 import pdf_object_extractor_2
 
@@ -63,3 +66,14 @@ def reverse_all_bits_in_byte():
     print('x5_rev=', x[5])
     print('x_all_new=', x)
 
+
+sys.stdout.write('Hello dolly!')
+print()
+sys.stdout.write('\nHello dolly2!')
+
+string_obj = 'abcdefgendobj'
+
+print(string_obj.endswith('endobj'))
+
+for i in range(10):
+    print(random.randint(0,9))
