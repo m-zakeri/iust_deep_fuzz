@@ -120,15 +120,15 @@ class FileFormatFuzzer(object):
         x = np.zeros((self.batch_size, self.maxlen, len(self.chars)), dtype=np.bool)
         y = np.zeros((self.batch_size, len(self.chars)), dtype=np.bool)
         while True:
-            # j = random.randint(0, len(sentences) - (self.batch_size+1))
+            j = random.randint(0, len(sentences) - (self.batch_size+1))
             for i, one_sample in enumerate(sentences[j: j + self.batch_size]):
                 for t, char in enumerate(one_sample):
                     x[i, t, self.char_indices[char]] = 1
                 y[i, self.char_indices[next_chars[i]]] = 1
             yield x, y
-            j += self.batch_size
-            if j > (len(sentences) - (self.batch_size+1)):
-                j = 0
+            # j += self.batch_size
+            # if j > (len(sentences) - (self.batch_size+1)):
+            #     j = 0
 
     def data_generator_in_memory(self, sentences, next_chars):
         """All data generate for small dataset fit completely in memory"""
@@ -158,7 +158,7 @@ class FileFormatFuzzer(object):
 
         print('Build and compile model ...')
         model, model_name = self.define_model((self.maxlen, len(self.chars)), len(self.chars))
-        optimizer = RMSprop(lr=0.01)  # [0.01, 0.02, 0.05, 0.1]
+        optimizer = RMSprop(lr=0.001)  # [0.001, 0.01, 0.02, 0.05, 0.1]
         model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
 
         print(model_name, ' summary ...')
@@ -313,8 +313,8 @@ class FileFormatFuzzer(object):
                 generated_obj_len = 0
                 generated = ''
                 stop_condition = False
-
-                print()
+                endobj_attach_manually = False
+                # print()
                 print('-- Diversity:', diversity)
 
                 obj_prefix = str(testset_object_gt_maxlen_list[obj_index])[0: self.maxlen]
@@ -376,7 +376,13 @@ class FileFormatFuzzer(object):
                         # Attach '\nendobj\n' manually, and reset obj_prefix
                         generated += '\nendobj\n'
                         generated_obj_counter += 1
-                        generated_obj_len = self.maxlen
+                        generated_obj_len = 0
+                        endobj_attach_manually = True
+
+                    if generated_obj_counter > generated_obj_with_same_prefix:
+                        stop_condition = True
+                    elif endobj_attach_manually:
+                        # Reset prefix:
                         # Here we need to modify obj_prefix because we manually change the generated_obj!
                         # Below we add this new repair:
 
@@ -387,13 +393,11 @@ class FileFormatFuzzer(object):
                         obj_index = random.randint(0, len(testset_object_gt_maxlen_list) - 1)
                         obj_prefix = str(testset_object_gt_maxlen_list[obj_index])[0: self.maxlen]
                         generated += obj_prefix
-
-                    if generated_obj_counter > generated_obj_with_same_prefix:
-                        stop_condition = True
+                        endobj_attach_manually = False
 
                     sys.stdout.write(next_char)
                     sys.stdout.flush()
-                    print()
+                    # print()
                 generated_total += generated + '\n'
             # save generated_result to file inside program
 
@@ -463,7 +467,7 @@ class FileFormatFuzzer(object):
 def main(argv):
     """ the main function """
     epochs = 100
-    fff = FileFormatFuzzer(maxlen=85, step=1, batch_size=128)
+    fff = FileFormatFuzzer(maxlen=50, step=3, batch_size=128)
     fff.train(epochs=epochs)
     # fff.get_model_summary()
 

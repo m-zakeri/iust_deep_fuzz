@@ -99,6 +99,10 @@ def model_3(input_dim, output_dim):
 
 
 # Summery of result for this model:
+# When learning rate is 0.01 and batch select sequentially the loss stuck on 2.3454 after about 6 epochs.
+# This is very  bad -:(
+# So we changed lr and also batch selection:
+# Result for: lr=0.001, batch select randomly! (Shuffle), step=3, batch_size=128
 def model_4(input_dim, output_dim):
     """
         Total corpus length: 11,530,647
