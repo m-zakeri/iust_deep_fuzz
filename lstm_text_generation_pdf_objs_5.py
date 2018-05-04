@@ -16,7 +16,7 @@ PDF OBJ 5
 
 from __future__ import print_function
 
-__version__ = '0.5'
+__version__ = '0.5.1'
 __author__ = 'Morteza'
 
 import sys
@@ -66,7 +66,7 @@ class FileFormatFuzzer(object):
 
     def define_model(self, input_dim, output_dim):
         """build the model: a single LSTM layer # we need to deep it"""
-        model, model_name = deep_models.model_4(input_dim, output_dim)
+        model, model_name = deep_models.model_6(input_dim, output_dim)
         return model, model_name
 
     def load_dataset(self):
@@ -74,7 +74,7 @@ class FileFormatFuzzer(object):
         if learning_config['dataset_size'] == 'small':
             self.text_training = preprocess.load_from_file(learning_config['small_training_set_path'])
             self.text_validation = preprocess.load_from_file(learning_config['small_validation_set_path'])
-            self.text_test = preprocess.load_from_file(learning_config['small_testing_set_path'])
+            self.text_test = preprocess.load_from_file(learning_config['small_training_set_path'])
         elif learning_config['dataset_size'] == 'medium':
             self.text_training = preprocess.load_from_file(learning_config['medium_training_set_path'])
             self.text_validation = preprocess.load_from_file(learning_config['medium_validation_set_path'])
@@ -111,7 +111,7 @@ class FileFormatFuzzer(object):
     def data_generator(self, sentences, next_chars):
         """
         Batch data generator for large dataset not fit completely in memory
-        Index j now increase sequentially
+        # Index j now increase sequentially
 
         :param sentences:
         :param next_chars:
@@ -122,15 +122,15 @@ class FileFormatFuzzer(object):
         x = np.zeros((self.batch_size, self.maxlen, len(self.chars)), dtype=np.bool)
         y = np.zeros((self.batch_size, len(self.chars)), dtype=np.bool)
         while True:
-            j = random.randint(0, len(sentences) - (self.batch_size+1))
+            # j = random.randint(0, len(sentences) - (self.batch_size+1))
             for i, one_sample in enumerate(sentences[j: j + self.batch_size]):
                 for t, char in enumerate(one_sample):
                     x[i, t, self.char_indices[char]] = 1
                 y[i, self.char_indices[next_chars[i]]] = 1
             yield x, y
-            # j += self.batch_size
-            # if j > (len(sentences) - (self.batch_size+1)):
-            #     j = 0
+            j += self.batch_size
+            if j > (len(sentences) - (self.batch_size+1)):
+                j = random.randint(0, len(sentences) - (self.batch_size+1))
 
     def data_generator_in_memory(self, sentences, next_chars):
         """All data generate for small dataset fit completely in memory"""
@@ -158,9 +158,17 @@ class FileFormatFuzzer(object):
         print('Generate validations samples ...')
         sentences_validation, next_chars_validation = self.generate_samples(self.text_validation)
 
+        # print(sentences_training[0] + '\t' + next_chars_training[0])
+        # print(sentences_training[1] + '\t' + next_chars_training[1])
+        # print(sentences_training[2] + '\t' + next_chars_training[2])
+        # print(sentences_training[3] + '\t' + next_chars_training[3])
+        # print(sentences_training[4] + '\t' + next_chars_training[4])
+        #
+        # input()
+
         print('Build and compile model ...')
         model, model_name = self.define_model((self.maxlen, len(self.chars)), len(self.chars))
-        optimizer = RMSprop(lr=0.001)  # [0.001, 0.01, 0.02, 0.05, 0.1]
+        optimizer = RMSprop(lr=0.0001)  # [0.001, 0.01, 0.02, 0.05, 0.1]
         model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
 
         print(model_name, ' summary ...')
@@ -467,7 +475,7 @@ class FileFormatFuzzer(object):
 
 
 def main(argv):
-    """ the main function """
+    """ The main function to call train() method"""
     epochs = 100
     fff = FileFormatFuzzer(maxlen=50, step=3, batch_size=128)
     fff.train(epochs=epochs)

@@ -108,10 +108,14 @@ def model_3(input_dim, output_dim):
 # Result for: lr=0.001, batch select randomly! (Shuffle), step=3, batch_size=128, maxlen=50
 # * Pretty good with above config on small dataset
 #
-# Try 3
+# Try 3:
 # Train on large dataset (prefix choose from the train-set not test-set) on generation phase:
+# Bad result after 6 epoch (the loss decrease suddenly.
 #
+# Try 4:
+# bach_size=256, lr=0.001, step=1, maxlen=50
 #
+# Totally not good model
 def model_4(input_dim, output_dim):
     """
         Total corpus length: 11,530,647
@@ -155,6 +159,62 @@ def model_4(input_dim, output_dim):
     return model, 'model_4'
 
 
+# Summery of result for this model:
+# Try 1:
+# batch_size=128, lr=0.001
+#
+#
+#
+#
 def model_5(input_dim, output_dim):
-    pass
+    """
+    _________________________________________________________________
+    Layer (type)                 Output Shape              Param #
+    =================================================================
+    lstm_1 (LSTM)                (None, 50, 64)            41216
+    _________________________________________________________________
+    dropout_1 (Dropout)          (None, 50, 64)            0
+    _________________________________________________________________
+    lstm_2 (LSTM)                (None, 50, 64)            33024
+    _________________________________________________________________
+    dropout_2 (Dropout)          (None, 50, 64)            0
+    _________________________________________________________________
+    lstm_3 (LSTM)                (None, 64)                33024
+    _________________________________________________________________
+    dropout_3 (Dropout)          (None, 64)                0
+    _________________________________________________________________
+    dense_1 (Dense)              (None, 96)                6240
+    _________________________________________________________________
+    activation_1 (Activation)    (None, 96)                0
+    =================================================================
+    Total params: 113,504
+    Trainable params: 113,504
+    Non-trainable params: 0
+    _________________________________________________________________
+    model_5  count_params ...
+    113504
+
+    :param input_dim:
+    :param output_dim:
+    :return:
+    """
+    model = Sequential()
+    model.add(LSTM(64, return_sequences=True, input_shape=input_dim))
+    model.add(Dropout(0.2))
+    model.add(LSTM(64, return_sequences=True, input_shape=input_dim))
+    model.add(Dropout(0.2))
+    model.add(LSTM(64, return_sequences=False))
+    model.add(Dropout(0.2))
+    model.add(Dense(output_dim))
+    model.add(Activation('softmax'))
+    return model, 'model_5'
+
+
+def model_6(input_dim, output_dim):
+    model = Sequential()
+    model.add(LSTM(128, input_shape=input_dim, return_sequences=True))
+    model.add(LSTM(128, input_shape=input_dim, return_sequences=False))
+    model.add(Dense(output_dim))
+    model.add(Activation('softmax'))
+    return model, 'model_6'
 

@@ -33,7 +33,7 @@ iu_config = {
 
 learning_config = {
     'file_fromat': 'pdf',  # ['pdf', 'xml', 'html', 'png']
-    'dataset_size': 'large',  # ['small', 'medium', 'large'] # switch to large dataset date: 1397-02-12
+    'dataset_size': 'small',  # ['small', 'medium', 'large'] # switch to large dataset date: 1397-02-12
     'small_training_set_path': './dataset/pdfs/small_size_dataset/'
                                '06_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_'
                                'trainset_47711_shuffle_ii.txt',
