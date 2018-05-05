@@ -168,7 +168,7 @@ class FileFormatFuzzer(object):
 
         print('Build and compile model ...')
         model, model_name = self.define_model((self.maxlen, len(self.chars)), len(self.chars))
-        optimizer = RMSprop(lr=0.001)  # [0.001, 0.01, 0.02, 0.05, 0.1]
+        optimizer = RMSprop(lr=0.0001)  # [0.001, 0.01, 0.02, 0.05, 0.1]
         model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
 
         print(model_name, ' summary ...')
@@ -329,11 +329,11 @@ class FileFormatFuzzer(object):
 
                 obj_prefix = str(testset_object_gt_maxlen_list[obj_index])[0: self.maxlen]
                 generated += obj_prefix
-                prob_vals = '1 ' * self.maxlen
-                learnt_grammar = obj_prefix
+                # prob_vals = '1 ' * self.maxlen
+                # learnt_grammar = obj_prefix
 
-                print('--- Generating ts_text with seed:\n "' + obj_prefix + '"')
-                sys.stdout.write(generated)
+                # print('--- Generating ts_text with seed:\n "' + obj_prefix + '"')
+                # sys.stdout.write(generated)
 
                 if generated.endswith('endobj'):
                     generated_obj_counter += 1
@@ -349,13 +349,16 @@ class FileFormatFuzzer(object):
                     preds = model.predict(x_pred, verbose=0)[0]
                     next_index, prob, preds2 = self.sample(preds, diversity)
                     next_char = self.indices_char[next_index]
+                    next_char_for_prefix = next_char
 
-                    if next_char not in exclude_from_fuzzing_set:
-                        p_fuzz = random.random()
-                        if p_fuzz > t_fuzz and preds2[next_index] > p_t:
-                            next_index = np.argmin(preds2)
-                            print('((Fuzz!))')
-                        next_char = self.indices_char[next_index]
+                    ###### Fuzzing section we don't need it yet!
+                    # if next_char not in exclude_from_fuzzing_set:
+                    #     p_fuzz = random.random()
+                    #     if p_fuzz > t_fuzz and preds2[next_index] > p_t:
+                    #         next_index = np.argmin(preds2)
+                    #         print('((Fuzz!))')
+                    #     next_char = self.indices_char[next_index]
+                    ###### End of fuzzing section
 
                     # print()
                     # print(preds2)
@@ -374,8 +377,8 @@ class FileFormatFuzzer(object):
                     #     learnt_grammar += '.'
                     # input()
 
-                    obj_prefix = obj_prefix[1:] + next_char
-                    generated += next_char
+                    obj_prefix = obj_prefix[1:] + next_char_for_prefix
+                    generated += next_char_for_prefix  # next_char
                     generated_obj_len += 1
 
                     if generated.endswith('endobj'):
@@ -405,8 +408,8 @@ class FileFormatFuzzer(object):
                         generated += obj_prefix
                         endobj_attach_manually = False
 
-                    sys.stdout.write(next_char)
-                    sys.stdout.flush()
+                    # sys.stdout.write(next_char)
+                    # sys.stdout.flush()
                     # print()
                 generated_total += generated + '\n'
             # save generated_result to file inside program
@@ -465,6 +468,18 @@ class FileFormatFuzzer(object):
         plot_model(model, to_file='./modelpic/date_' + dt + 'epochs_' + str(epochs) + '.png',
                    show_shapes=True, show_layer_names=True)
 
+    def load_model_and_generate(self, model_name='model_1', epochs=1):
+        dt = datetime.datetime.now().strftime('_date_%Y-%m-%d_%H-%M-%S')
+        dir_name = './generated_results/pdfs/' + model_name + dt + 'epochs_' + str(epochs) + '/'
+        if not os.path.exists(dir_name):
+            os.makedirs(dir_name)
+        model = load_model('./model_checkpoint/best_models/model_6_date_2018-05-05_11-16-05_epoch_17_val_loss_10.8927.h5')
+        self.generate_and_fuzz_new_samples(model=model,
+                                      model_name=model_name,
+                                      epochs=1,
+                                      current_epoch=1,
+                                      dir_name=dir_name)
+
     def get_model_summary(self):
         print('Get model summary ...')
         model, model_name = self.define_model((self.maxlen, len(self.chars)), len(self.chars))
@@ -477,9 +492,11 @@ class FileFormatFuzzer(object):
 def main(argv):
     """ The main function to call train() method"""
     epochs = 100
-    fff = FileFormatFuzzer(maxlen=50, step=1, batch_size=1024)
+    fff = FileFormatFuzzer(maxlen=50, step=1, batch_size=128)
     fff.train(epochs=epochs)
     # fff.get_model_summary()
+    # fff.load_model_and_generate(model_name='model_6',
+    #                             epochs=10)
 
     # previous_model_dir = './model_checkpoint/best_models/'
     # previous_model_name = 'date_20180325_200701_epoch_02_7.3107.h5'
