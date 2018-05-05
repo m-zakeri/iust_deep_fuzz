@@ -168,7 +168,7 @@ class FileFormatFuzzer(object):
 
         print('Build and compile model ...')
         model, model_name = self.define_model((self.maxlen, len(self.chars)), len(self.chars))
-        optimizer = RMSprop(lr=0.0001)  # [0.001, 0.01, 0.02, 0.05, 0.1]
+        optimizer = RMSprop(lr=0.001)  # [0.001, 0.01, 0.02, 0.05, 0.1]
         model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
 
         print(model_name, ' summary ...')
@@ -248,14 +248,14 @@ class FileFormatFuzzer(object):
                       )
         else:
             print('Build training and validation data generators ...')
-            ts_data_generator = self.data_generator(sentences_training, next_chars_training)
-            vs_data_generator = self.data_generator(sentences_validation, next_chars_validation)
+            training_data_generator = self.data_generator(sentences_training, next_chars_training)
+            validation_data_generator = self.data_generator(sentences_validation, next_chars_validation)
 
             print('Start training on large dataset ...')
-            model.fit_generator(generator=ts_data_generator,
+            model.fit_generator(generator=training_data_generator,
                                 # steps_per_epoch=200,
                                 steps_per_epoch=len(sentences_training) // self.batch_size,  # 1000,
-                                validation_data=vs_data_generator,
+                                validation_data=validation_data_generator,
                                 validation_steps=len(sentences_validation) // self.batch_size,  # 100,
                                 # validation_steps=10,
                                 epochs=epochs,
@@ -477,7 +477,7 @@ class FileFormatFuzzer(object):
 def main(argv):
     """ The main function to call train() method"""
     epochs = 100
-    fff = FileFormatFuzzer(maxlen=50, step=3, batch_size=128)
+    fff = FileFormatFuzzer(maxlen=50, step=1, batch_size=1024)
     fff.train(epochs=epochs)
     # fff.get_model_summary()
 
