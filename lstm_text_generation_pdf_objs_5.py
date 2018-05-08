@@ -119,9 +119,10 @@ class FileFormatFuzzer(object):
         """
         j = 0
         # print('Vectorization...')
-        x = np.zeros((self.batch_size, self.maxlen, len(self.chars)), dtype=np.bool)
-        y = np.zeros((self.batch_size, len(self.chars)), dtype=np.bool)
         while True:
+            # Fix generator :))
+            x = np.zeros((self.batch_size, self.maxlen, len(self.chars)), dtype=np.bool)
+            y = np.zeros((self.batch_size, len(self.chars)), dtype=np.bool)
             # j = random.randint(0, len(sentences) - (self.batch_size+1))
             for i, one_sample in enumerate(sentences[j: j + self.batch_size]):
                 for t, char in enumerate(one_sample):
@@ -168,7 +169,7 @@ class FileFormatFuzzer(object):
 
         print('Build and compile model ...')
         model, model_name = self.define_model((self.maxlen, len(self.chars)), len(self.chars))
-        optimizer = RMSprop(lr=0.0001)  # [0.001, 0.01, 0.02, 0.05, 0.1]
+        optimizer = RMSprop(lr=0.01)  # [0.001, 0.01, 0.02, 0.05, 0.1]
         model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
 
         print(model_name, ' summary ...')
@@ -234,7 +235,7 @@ class FileFormatFuzzer(object):
                                                                 on_train_end=None
                                                                 )
 
-        if learning_config['dataset_size'] == 'very_small':
+        if learning_config['dataset_size'] == 'very_small':  # very_small
             print('Start training on small dataset ...')
             x, y = self.data_generator_in_memory(sentences_training, next_chars_training)
             model.fit(x, y,
