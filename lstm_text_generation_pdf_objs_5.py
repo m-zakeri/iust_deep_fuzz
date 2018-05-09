@@ -26,7 +26,7 @@ import random
 import numpy as np
 
 from keras.models import load_model
-from keras.optimizers import RMSprop
+from keras.optimizers import RMSprop, Adam
 from keras.callbacks import ModelCheckpoint, EarlyStopping, TensorBoard, CSVLogger, LambdaCallback
 from keras.utils import plot_model
 
@@ -169,7 +169,8 @@ class FileFormatFuzzer(object):
 
         print('Build and compile model ...')
         model, model_name = self.define_model((self.maxlen, len(self.chars)), len(self.chars))
-        optimizer = RMSprop(lr=0.01)  # [0.001, 0.01, 0.02, 0.05, 0.1]
+        optimizer = RMSprop(lr=0.05)  # [0.001, 0.01, 0.02, 0.05, 0.1]
+        # Adam
         model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
 
         print(model_name, ' summary ...')
@@ -297,7 +298,7 @@ class FileFormatFuzzer(object):
         diversities = [0.2, 0.5, 1.0, 1.2, 1.5, 1.8]
         # diversities = [1]
 
-        generated_obj_total = 10  # [100, 1000]
+        generated_obj_total = 5  # [100, 1000]
         generated_obj_with_same_prefix = 5  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
         generated_obj_max_allowed_len = random.randint(450, 550)  # Choose max allowed len for object randomly
         exclude_from_fuzzing_set = {'s', 't', 'r', 'e', 'a', 'm'}  # set(['s', 't', 'r', 'e', 'a', 'm'])
