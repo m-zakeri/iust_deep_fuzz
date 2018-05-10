@@ -210,6 +210,13 @@ def model_5(input_dim, output_dim):
     return model, 'model_5'
 
 
+# Summery of result for this model:
+# Try 3:
+# batch_size=128, lr=0.001
+#
+#
+#
+#
 def model_6(input_dim, output_dim):
     model = Sequential()
     model.add(LSTM(128, input_shape=input_dim, return_sequences=True))
