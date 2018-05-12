@@ -268,6 +268,7 @@ class FileFormatFuzzer(object):
                                 )
 
     # end of train method
+    # --------------------------------------------------------------------
 
     def generate_and_fuzz_new_samples(self,
                                       model=None,
@@ -494,7 +495,7 @@ class FileFormatFuzzer(object):
 def main(argv):
     """ The main function to call train() method"""
     epochs = 100
-    fff = FileFormatFuzzer(maxlen=50, step=3, batch_size=128)
+    fff = FileFormatFuzzer(maxlen=50, step=3, batch_size=64)
     fff.train(epochs=epochs)
     # fff.get_model_summary()
     # fff.load_model_and_generate(model_name='model_6',
