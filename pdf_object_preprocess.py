@@ -5,14 +5,19 @@ Created on Mon Jan  8 15:13:22 2018
 @author: Morteza
 """
 
+__version__ = '0.3.1'
+__author__ = 'Morteza'
+
 import sys
 import subprocess
 import re
 import os
-
-from collections import Counter
 import csv
+
 import matplotlib.pyplot as plt
+from collections import Counter
+
+from config import learning_config
 
 
 def save_to_file(path, seq):
@@ -205,6 +210,60 @@ def sample_some_object_from_trainset(match):
     # save_to_file('./pdf_object_trainset_100_to_500_percent01.txt', seq_sort)
 
 
+def chars_repeats_csv_calculate():
+    text_training = load_from_file(learning_config['large_training_set_path'])
+    text_validation =load_from_file(learning_config['large_validation_set_path'])
+    text_test = load_from_file(learning_config['large_testing_set_path'])
+    text_all = text_training + text_validation + text_test
+    chars = sorted(list(set(text_all)))
+
+    char_repeated = dict((c, 0) for i, c in enumerate(chars))
+
+    for ch in text_all:
+        char_repeated[ch] += 1
+
+    # print(char_repeated)
+    with open('char__repeat.csv', 'w', newline='') as f:
+        fieldnames = ['char', 'repeat']
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        data = [dict(zip(fieldnames, [k, v])) for k, v in char_repeated.items()]
+        writer.writerows(data)
+
+
+def stop_chars_elimination():
+    stop_chars_set = {'|', '$', '`', '^', '{', '}', '%', '"', '!', ';',
+                      '&', '~', '=', '?', '*', '@', ',', '_', 'q', '#',
+                      "'",
+                      }
+    # text normalization :)
+    replace_char_dict = {'z': 'Z', 'J': 'j', '\\': '/', 'Q': 'u', 'K': 'k', 'V': 'v', 'w': 'W', 'X': 'x', 'Y': 'y',
+                         'G': 'g', 'U': 'u', '+': '-', '\n\n': '\n'}
+
+    text_training = load_from_file(learning_config['small_training_set_path'])
+    text_validation = load_from_file(learning_config['small_validation_set_path'])
+    text_test = load_from_file(learning_config['small_testing_set_path'])
+
+    for ch in stop_chars_set:
+        # print(ch)
+        text_training = text_training.replace(ch, '')
+        text_test = text_test.replace(ch, '')
+        text_validation = text_validation.replace(ch, '')
+
+    for ch in replace_char_dict:
+        # print(ch)
+        # print(replace_char_dict[ch])
+        text_training = text_training.replace(ch, replace_char_dict[ch])
+        text_test = text_test.replace(ch, replace_char_dict[ch])
+        text_validation = text_validation.replace(ch, replace_char_dict[ch])
+
+    save_to_file(learning_config['small_training_set_path'], text_training)
+    save_to_file(learning_config['small_testing_set_path'], text_test)
+    save_to_file(learning_config['small_validation_set_path'], text_validation)
+
+    print('end small...')
+
+
 def main(argv):
     """call function on this script and build your specific file"""
     # seq = concat()
@@ -215,7 +274,7 @@ def main(argv):
            '02_pdf_object_dataset_removed_null_and_slash_and_percentile_485080_sorted.txt'
     path = 'D:/iust_pdf_objects/preprocess/' \
            '03_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_sorted_ii.txt'
-    seq = load_from_file(path)
+    # seq = load_from_file(path)
     # remove_null_and_slash_object(seq)
     # remove_first_and_last_percentile(seq)
     # calculate_object_len_frequency(seq)
@@ -232,8 +291,11 @@ def main(argv):
                '05_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_trainset_268371_shuffle.csv'
     csv_path = 'D:/iust_pdf_objects/large_size_dataset/' \
                '05_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_validationset_89457_shuffle.csv'
-    retrieve_specific_dataset_fold(seq, csv_path)
+    # retrieve_specific_dataset_fold(seq, csv_path)
     # statistical_analysis(seq)
+
+    chars_repeats_csv_calculate()
+    # stop_chars_elimination()
     """end_of_main_function_script"""
 
 
