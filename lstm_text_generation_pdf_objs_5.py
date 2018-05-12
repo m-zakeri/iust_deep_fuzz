@@ -66,7 +66,7 @@ class FileFormatFuzzer(object):
 
     def define_model(self, input_dim, output_dim):
         """build the model: a single LSTM layer # we need to deep it"""
-        model, model_name = deep_models.model_6(input_dim, output_dim)
+        model, model_name = deep_models.model_0(input_dim, output_dim)
         return model, model_name
 
     def load_dataset(self):
@@ -117,21 +117,21 @@ class FileFormatFuzzer(object):
         :param next_chars:
         :return:
         """
-        j = 0
+        # j = 0
         # print('Vectorization...')
         while True:
             # Fix generator :))
             x = np.zeros((self.batch_size, self.maxlen, len(self.chars)), dtype=np.bool)
             y = np.zeros((self.batch_size, len(self.chars)), dtype=np.bool)
-            # j = random.randint(0, len(sentences) - (self.batch_size+1))
+            j = random.randint(0, len(sentences) - (self.batch_size+1))
             for i, one_sample in enumerate(sentences[j: j + self.batch_size]):
                 for t, char in enumerate(one_sample):
                     x[i, t, self.char_indices[char]] = 1
                 y[i, self.char_indices[next_chars[i]]] = 1
             yield x, y
-            j += self.batch_size
-            if j > (len(sentences) - (self.batch_size+1)):
-                j = random.randint(0, len(sentences) - (self.batch_size+1))
+            # j += self.batch_size
+            # if j > (len(sentences) - (self.batch_size+1)):
+            #     j = random.randint(0, len(sentences) - (self.batch_size+1))
 
     def data_generator_in_memory(self, sentences, next_chars):
         """All data generate for small dataset fit completely in memory"""
@@ -169,8 +169,8 @@ class FileFormatFuzzer(object):
 
         print('Build and compile model ...')
         model, model_name = self.define_model((self.maxlen, len(self.chars)), len(self.chars))
-        # optimizer = RMSprop(lr=0.01)  # [0.001, 0.01, 0.02, 0.05, 0.1]
-        optimizer = Adam()
+        optimizer = RMSprop(lr=0.01)  # [0.001, 0.01, 0.02, 0.05, 0.1]
+        # optimizer = Adam()
         model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
 
         print(model_name, ' summary ...')
