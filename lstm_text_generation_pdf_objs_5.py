@@ -117,24 +117,27 @@ class FileFormatFuzzer(object):
         :param next_chars:
         :return:
         """
-        # j = 0
+        j = 0
         # print('Vectorization...')
         while True:
             # Fix generator :))
+            x = np.zeros((self.batch_size, self.maxlen, len(self.chars)), dtype=np.bool)
+            y = np.zeros((self.batch_size, len(self.chars)), dtype=np.bool)
+            # j = random.randint(0, len(sentences) - (self.batch_size + 1))
+            next_chars2 = next_chars[j:j + self.batch_size]  ## F...:)
+            for i, one_sample in enumerate(sentences[j: j + self.batch_size]):
+                for t, char in enumerate(one_sample):
+                    x[i, t, self.char_indices[char]] = 1
+                y[i, self.char_indices[next_chars2[i]]] = 1
 
-            yield self.generate_single_batch(sentences, next_chars)
-            # j += self.batch_size
-            # if j > (len(sentences) - (self.batch_size+1)):
-            #     j = random.randint(0, len(sentences) - (self.batch_size+1))
+            yield (x, y)
+            # yield self.generate_single_batch(sentences, next_chars)
+            j += self.batch_size
+            if j > (len(sentences) - (self.batch_size+1)):
+                j = random.randint(0, len(sentences) - (self.batch_size+1))
 
     def generate_single_batch(self, sentences, next_chars):
-        x = np.zeros((self.batch_size, self.maxlen, len(self.chars)), dtype=np.bool)
-        y = np.zeros((self.batch_size, len(self.chars)), dtype=np.bool)
-        j = random.randint(0, len(sentences) - (self.batch_size + 1))
-        for i, one_sample in enumerate(sentences[j: j + self.batch_size]):
-            for t, char in enumerate(one_sample):
-                x[i, t, self.char_indices[char]] = 1
-            y[i, self.char_indices[next_chars[i]]] = 1
+        x,y = 1,2
         return (x, y)
 
     def data_generator_in_memory(self, sentences, next_chars):
@@ -278,8 +281,8 @@ class FileFormatFuzzer(object):
                                 validation_data=validation_data_generator,
                                 validation_steps=len(sentences_validation) // self.batch_size,  # 100,
                                 # validation_steps=10,
-                                use_multiprocessing=True,
-                                workers=6,
+                                use_multiprocessing=False,
+                                # workers=4,
                                 epochs=epochs,
                                 shuffle=True,
                                 callbacks=[model_chekpoint,
@@ -516,7 +519,7 @@ class FileFormatFuzzer(object):
 def main(argv):
     """ The main function to call train() method"""
     epochs = 100
-    fff = FileFormatFuzzer(maxlen=50, step=3, batch_size=8)
+    fff = FileFormatFuzzer(maxlen=50, step=3, batch_size=128)
     fff.train(epochs=epochs)
     # fff.get_model_summary()
     # fff.load_model_and_generate(model_name='model_6',
