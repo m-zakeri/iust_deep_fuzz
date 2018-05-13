@@ -1,6 +1,7 @@
 """
 PDF OBJ 5
 - New in this version
+-- Data generator fixed.
 -- Train on large dataset for first time!
 -New in version 4:
 -- Changing the data generator method for use with model.fit_generator()
@@ -16,7 +17,7 @@ PDF OBJ 5
 
 from __future__ import print_function
 
-__version__ = '0.5.1'
+__version__ = '0.5.3'
 __author__ = 'Morteza'
 
 import sys
@@ -66,7 +67,7 @@ class FileFormatFuzzer(object):
 
     def define_model(self, input_dim, output_dim):
         """build the model: a single LSTM layer # we need to deep it"""
-        model, model_name = deep_models.model_0(input_dim, output_dim)
+        model, model_name = deep_models.model_7(input_dim, output_dim)
         return model, model_name
 
     def load_dataset(self):
@@ -74,7 +75,7 @@ class FileFormatFuzzer(object):
         if learning_config['dataset_size'] == 'small':
             self.text_training = preprocess.load_from_file(learning_config['small_training_set_path'])
             self.text_validation = preprocess.load_from_file(learning_config['small_validation_set_path'])
-            self.text_test = preprocess.load_from_file(learning_config['small_training_set_path'])
+            self.text_test = preprocess.load_from_file(learning_config['small_testing_set_path'])
         elif learning_config['dataset_size'] == 'medium':
             self.text_training = preprocess.load_from_file(learning_config['medium_training_set_path'])
             self.text_validation = preprocess.load_from_file(learning_config['medium_validation_set_path'])
@@ -82,7 +83,7 @@ class FileFormatFuzzer(object):
         elif learning_config['dataset_size'] == 'large':
             self.text_training = preprocess.load_from_file(learning_config['large_training_set_path'])
             self.text_validation = preprocess.load_from_file(learning_config['large_validation_set_path'])
-            self.text_test = preprocess.load_from_file(learning_config['large_training_set_path'])
+            self.text_test = preprocess.load_from_file(learning_config['large_testing_set_path'])
         self.text_all = self.text_training + self.text_validation + self.text_test
         print('Total corpus length:', len(self.text_all))
         self.chars = sorted(list(set(self.text_all)))
@@ -124,7 +125,7 @@ class FileFormatFuzzer(object):
             x = np.zeros((self.batch_size, self.maxlen, len(self.chars)), dtype=np.bool)
             y = np.zeros((self.batch_size, len(self.chars)), dtype=np.bool)
             # j = random.randint(0, len(sentences) - (self.batch_size + 1))
-            next_chars2 = next_chars[j:j + self.batch_size]  ## F...:)
+            next_chars2 = next_chars[j: j + self.batch_size]  ## F...:)
             for i, one_sample in enumerate(sentences[j: j + self.batch_size]):
                 for t, char in enumerate(one_sample):
                     x[i, t, self.char_indices[char]] = 1
@@ -282,7 +283,7 @@ class FileFormatFuzzer(object):
                                 validation_steps=len(sentences_validation) // self.batch_size,  # 100,
                                 # validation_steps=10,
                                 use_multiprocessing=False,
-                                # workers=4,
+                                workers=1,
                                 epochs=epochs,
                                 shuffle=True,
                                 callbacks=[model_chekpoint,
@@ -519,7 +520,7 @@ class FileFormatFuzzer(object):
 def main(argv):
     """ The main function to call train() method"""
     epochs = 100
-    fff = FileFormatFuzzer(maxlen=50, step=3, batch_size=128)
+    fff = FileFormatFuzzer(maxlen=50, step=1, batch_size=256)
     fff.train(epochs=epochs)
     # fff.get_model_summary()
     # fff.load_model_and_generate(model_name='model_6',

@@ -211,8 +211,12 @@ def sample_some_object_from_trainset(match):
 
 
 def chars_repeats_csv_calculate():
+    """
+
+    :return:
+    """
     text_training = load_from_file(learning_config['large_training_set_path'])
-    text_validation =load_from_file(learning_config['large_validation_set_path'])
+    text_validation = load_from_file(learning_config['large_validation_set_path'])
     text_test = load_from_file(learning_config['large_testing_set_path'])
     text_all = text_training + text_validation + text_test
     chars = sorted(list(set(text_all)))
@@ -231,25 +235,39 @@ def chars_repeats_csv_calculate():
         writer.writerows(data)
 
 
-def stop_chars_elimination():
+def dataset_text_normalization():
+    """
+       Do some text normalization in order to reduce vocab size:)
+       Vocabulary size before text normalization = 96
+       Vocabulary size after text normalization = 64
+    :return:
+    """
     stop_chars_set = {'|', '$', '`', '^', '{', '}', '%', '"', '!', ';',
-                      '&', '~', '=', '?', '*', '@', ',', '_', 'q', '#',
-                      "'",
+                      '&', '~', '=', '?', '@', ',', '_', '#', "'",
                       }
-    # text normalization :)
-    replace_char_dict = {'z': 'Z', 'J': 'j', '\\': '/', 'Q': 'u', 'K': 'k', 'V': 'v', 'w': 'W', 'X': 'x', 'Y': 'y',
-                         'G': 'g', 'U': 'u', '+': '-', '\n\n': '\n'}
 
-    text_training = load_from_file(learning_config['small_training_set_path'])
-    text_validation = load_from_file(learning_config['small_validation_set_path'])
-    text_test = load_from_file(learning_config['small_testing_set_path'])
+    replace_char_dict = {  # Replace a small letter with its capital
+                        'q': 'Q', 'w': 'W', 'z': 'Z',
+                           # Replace a capital letter with its small
+                        'G': 'g', 'J': 'j',  'K': 'k', 'U': 'u', 'V': 'v',  'X': 'x', 'Y': 'y',
+                           # Replace operator * and + with -
+                         '+': '-', '*': '-',
+                           # Replace other operators
+                         '\\': '/', '\n\n': '\n'
+                        }
 
+    text_training = load_from_file(learning_config['large_training_set_path'])
+    text_validation = load_from_file(learning_config['large_validation_set_path'])
+    text_test = load_from_file(learning_config['large_testing_set_path'])
+
+    # Eliminate stop chars and chars with very small repetitions
     for ch in stop_chars_set:
         # print(ch)
         text_training = text_training.replace(ch, '')
         text_test = text_test.replace(ch, '')
         text_validation = text_validation.replace(ch, '')
 
+    # Replace some chars with similar chars
     for ch in replace_char_dict:
         # print(ch)
         # print(replace_char_dict[ch])
@@ -257,11 +275,11 @@ def stop_chars_elimination():
         text_test = text_test.replace(ch, replace_char_dict[ch])
         text_validation = text_validation.replace(ch, replace_char_dict[ch])
 
-    save_to_file(learning_config['small_training_set_path'], text_training)
-    save_to_file(learning_config['small_testing_set_path'], text_test)
-    save_to_file(learning_config['small_validation_set_path'], text_validation)
+    save_to_file(learning_config['large_training_set_path'], text_training)
+    save_to_file(learning_config['large_testing_set_path'], text_test)
+    save_to_file(learning_config['large_validation_set_path'], text_validation)
 
-    print('end small...')
+    print('end large ...')
 
 
 def main(argv):
@@ -294,8 +312,10 @@ def main(argv):
     # retrieve_specific_dataset_fold(seq, csv_path)
     # statistical_analysis(seq)
 
-    chars_repeats_csv_calculate()
-    # stop_chars_elimination()
+    # chars_repeats_csv_calculate()
+    dataset_text_normalization()
+
+
     """end_of_main_function_script"""
 
 
