@@ -231,16 +231,16 @@ def model_6(input_dim, output_dim):
 # Summery of result for this model:
 # Try 3:
 # batch_size=128, lr=0.001
-#
+# With step 1 and neuron size 128 was very bad. Set step=3 and neuron size=256 and step=3
 #
 #
 #
 def model_7(input_dim, output_dim):
     model = Sequential()
     model.add(LSTM(128, input_shape=input_dim, return_sequences=True))
-    model.add(Dropout(0.1))
+    model.add(Dropout(0.2))
     model.add(LSTM(128, input_shape=input_dim, return_sequences=False))
-    model.add(Dropout(0.1))
+    model.add(Dropout(0.2))
     model.add(Dense(output_dim))
     model.add(Activation('softmax'))
     return model, 'model_7'
