@@ -207,7 +207,7 @@ class FileFormatFuzzer(object):
         optimizer = Adam()
         model.compile(optimizer=optimizer,
                       loss='categorical_crossentropy',
-                      metrics=['accuracy', 'perplexity'])
+                      metrics=['accuracy'])
 
         print(model_name, ' summary ...')
         model.summary()
