@@ -237,9 +237,9 @@ def model_6(input_dim, output_dim):
 #
 def model_7(input_dim, output_dim):
     model = Sequential()
-    model.add(LSTM(128, input_shape=input_dim, return_sequences=True))
+    model.add(LSTM(256, input_shape=input_dim, return_sequences=True))
     model.add(Dropout(0.2))
-    model.add(LSTM(128, input_shape=input_dim, return_sequences=False))
+    model.add(LSTM(256, input_shape=input_dim, return_sequences=False))
     model.add(Dropout(0.2))
     model.add(Dense(output_dim))
     model.add(Activation('softmax'))

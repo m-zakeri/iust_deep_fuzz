@@ -112,13 +112,13 @@ class FileFormatFuzzer(object):
     def data_generator(self, sentences, next_chars):
         """
         Batch data generator for large dataset not fit completely in memory
-        # Index j now increase sequentially
+        # Index j now increase Shuffle
 
         :param sentences:
         :param next_chars:
         :return:
         """
-        j = 0
+        j = random.randint(0, len(sentences) - (self.batch_size+1))
         # print('Vectorization...')
         while True:
             # Fix generator :))
@@ -137,9 +137,35 @@ class FileFormatFuzzer(object):
             if j > (len(sentences) - (self.batch_size+1)):
                 j = random.randint(0, len(sentences) - (self.batch_size+1))
 
-    def generate_single_batch(self, sentences, next_chars):
-        x,y = 1,2
-        return (x, y)
+    def data_generator_validation(self, sentences, next_chars):
+        """
+                Batch data generator for large dataset not fit completely in memory
+                # Index j now increase sequentially (validation don't need to shuffle)
+
+                :param sentences:
+                :param next_chars:
+                :return:
+                """
+        j = 0
+        # print('Vectorization...')
+        while True:
+            # Fix generator :))
+            x = np.zeros((self.batch_size, self.maxlen, len(self.chars)), dtype=np.bool)
+            y = np.zeros((self.batch_size, len(self.chars)), dtype=np.bool)
+            # j = random.randint(0, len(sentences) - (self.batch_size + 1))
+            next_chars2 = next_chars[j: j + self.batch_size]  ## F...:)
+            for i, one_sample in enumerate(sentences[j: j + self.batch_size]):
+                for t, char in enumerate(one_sample):
+                    x[i, t, self.char_indices[char]] = 1
+                y[i, self.char_indices[next_chars2[i]]] = 1
+
+            yield (x, y)
+            # yield self.generate_single_batch(sentences, next_chars)
+            j += self.batch_size
+            if j > (len(sentences) - (self.batch_size + 1)):
+                j = 0
+
+
 
     def data_generator_in_memory(self, sentences, next_chars):
         """All data generate for small dataset fit completely in memory"""
@@ -260,7 +286,7 @@ class FileFormatFuzzer(object):
         else:
             print('Build training and validation data generators ...')
             training_data_generator = self.data_generator(sentences_training, next_chars_training)
-            validation_data_generator = self.data_generator(sentences_validation, next_chars_validation)
+            validation_data_generator = self.data_generator_validation(sentences_validation, next_chars_validation)
 
             # x, y = next(training_data_generator)
             # print(x)
@@ -280,7 +306,7 @@ class FileFormatFuzzer(object):
                                 # steps_per_epoch=200,
                                 steps_per_epoch=len(sentences_training) // self.batch_size,  # 1000,
                                 validation_data=validation_data_generator,
-                                validation_steps=len(sentences_validation) // self.batch_size,  # 100,
+                                validation_steps=len(sentences_validation) // (self.batch_size*2),  # 100,
                                 # validation_steps=10,
                                 use_multiprocessing=False,
                                 workers=1,
