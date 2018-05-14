@@ -204,8 +204,10 @@ class FileFormatFuzzer(object):
         print('Build and compile model ...')
         model, model_name = self.define_model((self.maxlen, len(self.chars)), len(self.chars))
         optimizer = RMSprop(lr=0.01)  # [0.001, 0.01, 0.02, 0.05, 0.1]
-        # optimizer = Adam()
-        model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
+        optimizer = Adam()
+        model.compile(optimizer=optimizer,
+                      loss='categorical_crossentropy',
+                      metrics=['accuracy', 'perplexity'])
 
         print(model_name, ' summary ...')
         model.summary()
