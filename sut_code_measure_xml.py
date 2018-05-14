@@ -16,6 +16,8 @@ import xml.etree.ElementTree as et
 
 def calculate_covered_block_percent():
     xmls_directory_path = 'D:/afl/mupdf/platform/win32/Release/all_00_10kb_coverage_xml/'
+    # Path full merged
+    xmls_directory_path = 'D:/iust_pdf_corpus/corpus_merged_coverage/coverage_xml/'
     file_name_coverage_dic = {}
     for file_name in os.listdir(xmls_directory_path):
         tree = et.parse(xmls_directory_path + file_name)
@@ -37,7 +39,7 @@ def calculate_covered_block_percent():
     file_name_coverage_dic_sorted = dict(file_name_coverage_dic_sorted)
 
     print('Saving to csv file...')
-    with open('pdf_file_name__block_coverage.csv', 'w', newline='') as f:
+    with open('pdf_file_name__block_coverage_full_6160_file.csv', 'w', newline='') as f:
         fieldnames = ['pdf_file_name', 'block_coverage']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
