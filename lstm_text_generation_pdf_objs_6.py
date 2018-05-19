@@ -1,6 +1,9 @@
 """
-PDF OBJ 5
+PDF OBJ 6
 - New in this version
+-- Train with 256 LSTM search, Model=Model_8
+-- Train on large dataset for first time!
+-New in version 5:
 -- Data generator fixed.
 -- Train on large dataset for first time!
 -New in version 4:
@@ -67,7 +70,7 @@ class FileFormatFuzzer(object):
 
     def define_model(self, input_dim, output_dim):
         """build the model: a single LSTM layer # we need to deep it"""
-        model, model_name = deep_models.model_7(input_dim, output_dim)
+        model, model_name = deep_models.model_8(input_dim, output_dim)
         return model, model_name
 
     def load_dataset(self):
@@ -202,7 +205,7 @@ class FileFormatFuzzer(object):
         print('Build and compile model ...')
         model, model_name = self.define_model((self.maxlen, len(self.chars)), len(self.chars))
         optimizer = RMSprop(lr=0.01)  # [0.001, 0.01, 0.02, 0.05, 0.1]
-        optimizer = Adam()
+        optimizer = Adam(lr=0.001)
         model.compile(optimizer=optimizer,
                       loss='categorical_crossentropy',
                       metrics=['accuracy'])
@@ -546,7 +549,7 @@ class FileFormatFuzzer(object):
 def main(argv):
     """ The main function to call train() method"""
     epochs = 100
-    fff = FileFormatFuzzer(maxlen=50, step=3, batch_size=256)
+    fff = FileFormatFuzzer(maxlen=50, step=1, batch_size=256)
     fff.train(epochs=epochs)
     # fff.get_model_summary()
     # fff.load_model_and_generate(model_name='model_6',

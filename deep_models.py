@@ -232,7 +232,7 @@ def model_6(input_dim, output_dim):
 # Try 3:
 # batch_size=128, lr=0.001
 # With step 1 and neuron size 128 was very bad. Set step=3 and neuron size=256 and step=3
-#
+# With Adam Optimizer, Lr=0.001 and step=3. after 61 epoch is the bset model !!!
 #
 #
 def model_7(input_dim, output_dim):
@@ -244,3 +244,18 @@ def model_7(input_dim, output_dim):
     model.add(Dense(output_dim))
     model.add(Activation('softmax'))
     return model, 'model_7'
+
+
+#
+#
+#
+def model_8(input_dim, output_dim):
+    model = Sequential()
+    model.add(LSTM(256, input_shape=input_dim, return_sequences=True, recurrent_dropout=0.1))
+    model.add(Dropout(0.3))
+    model.add(LSTM(256, input_shape=input_dim, return_sequences=False, recurrent_dropout=0.1))
+    model.add(Dropout(0.3))
+    model.add(Dense(output_dim))
+    model.add(Activation('softmax'))
+    return model, 'model_8'
+
