@@ -1,6 +1,6 @@
 from keras.models import Sequential, load_model
 from keras.layers import Dense, Activation, Dropout
-from keras.layers import LSTM
+from keras.layers import LSTM, Bidirectional
 
 
 # Keras LSTM text generation example model (simplest model)
@@ -228,25 +228,27 @@ def model_6(input_dim, output_dim):
     return model, 'model_6'
 
 
+# ------------------------------------------------------------------------
+
+# Unidirectional LSTM (Many to One)
+#
 # Summery of result for this model:
 # Try 3:
 # batch_size=128, lr=0.001
 # With step 1 and neuron size 128 was very bad. Set step=3 and neuron size=256 and step=3
 # With Adam Optimizer, Lr=0.001 and step=3. after 61 epoch is the bset model !!!
-#
+# Change from RMSProp to Adam fix the learning process
 #
 def model_7(input_dim, output_dim):
     model = Sequential()
     model.add(LSTM(128, input_shape=input_dim, return_sequences=True))
-    # model.add(Dropout(0.2))
     model.add(LSTM(128, input_shape=input_dim, return_sequences=False))
-    # model.add(Dropout(0.2))
     model.add(Dense(output_dim))
     model.add(Activation('softmax'))
     return model, 'model_7'
 
 
-#
+# Unidirectional LSTM (Many to One)
 #
 #
 def model_8(input_dim, output_dim):
@@ -259,3 +261,76 @@ def model_8(input_dim, output_dim):
     model.add(Activation('softmax'))
     return model, 'model_8'
 
+
+# Bidirectional LSTM (Many to One)
+#
+#
+def model_9(input_dim, output_dim):
+    """
+    model_9  summary ...
+    _________________________________________________________________
+    Layer (type)                 Output Shape              Param #
+    =================================================================
+    bidirectional_1 (Bidirection (None, 256)               657408
+    _________________________________________________________________
+    dense_1 (Dense)              (None, 64)                16448
+    _________________________________________________________________
+    activation_1 (Activation)    (None, 64)                0
+    =================================================================
+    Total params: 673,856
+    Trainable params: 673,856
+    Non-trainable params: 0
+    _________________________________________________________________
+    model_9  count_params ...
+    673856
+
+    :param input_dim:
+    :param output_dim:
+    :return:
+    """
+    model = Sequential()
+    model.add(Bidirectional(LSTM(256, return_sequences=False),
+                            input_shape=input_dim,
+                            merge_mode='sum'))
+    model.add(Dense(output_dim))
+    model.add(Activation('softmax'))
+    return model, 'model_9'
+
+
+# Bidirectional Deep LSTM (Many to One)
+#
+#
+def model_10(input_dim, output_dim):
+    """
+    model_10  summary ...
+    _________________________________________________________________
+    Layer (type)                 Output Shape              Param #
+    =================================================================
+    bidirectional_1 (Bidirection (None, 50, 128)           197632
+    _________________________________________________________________
+    bidirectional_2 (Bidirection (None, 128)               263168
+    _________________________________________________________________
+    dense_1 (Dense)              (None, 64)                8256
+    _________________________________________________________________
+    activation_1 (Activation)    (None, 64)                0
+    =================================================================
+    Total params: 469,056
+    Trainable params: 469,056
+    Non-trainable params: 0
+    _________________________________________________________________
+    model_10  count_params ...
+    469056
+
+    :param input_dim:
+    :param output_dim:
+    :return:
+    """
+    model = Sequential()
+    model.add(Bidirectional(LSTM(128, return_sequences=True),
+                            input_shape=input_dim,
+                            merge_mode='sum'))
+    model.add(Bidirectional(LSTM(128, return_sequences=False),
+                            merge_mode='sum'))
+    model.add(Dense(output_dim))
+    model.add(Activation('softmax'))
+    return model, 'model_10'

@@ -49,8 +49,35 @@ def calculate_covered_block_percent():
     print('work finished!')
 
 
+def get_statistical_info_of_coverd_blocks():
+    """Read a CSV file using csv.DictReader"""
+    csv_path = 'seed/pdf_file_name__block_coverage_full_6160_file.csv'
+    coverage_percent_list = []
+    print('Reading csv file and retrieve coverage percents ...')
+    sum = 0
+    index = 0
+    with open(csv_path, 'r') as f:
+        # reader = csv.reader(f)
+        reader = csv.DictReader(f, delimiter=',')
+        for line in reader:
+            # print(line["object_id"]),
+            # print(line["object_len"])
+            coverage_percent_list.append(float(line['block_coverage']))
+            sum += float(line['block_coverage'])
+            index += 1
+    print('sum=', sum)
+    print('index=', index)
+    print('average=', sum/index)
+    """
+    sum = 62310.35054070596
+    index = 6160
+    average = 10.1153166462185
+    """
+
+
 def main(argv):
-    calculate_covered_block_percent()
+    # calculate_covered_block_percent()
+    get_statistical_info_of_coverd_blocks()
 
 
 if __name__ == "__main__":
