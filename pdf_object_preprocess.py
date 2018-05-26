@@ -5,8 +5,10 @@ Created on Mon Jan  8 15:13:22 2018
 @author: Morteza
 """
 
-__version__ = '0.3.1'
+__version__ = '0.3.2'
 __author__ = 'Morteza'
+__last_edit__ = '13970305'
+
 
 import sys
 import subprocess
@@ -81,7 +83,7 @@ def remove_null_and_slash_object(seq):
 # number_of_not_null_or_slash_objects  is 494979
 def remove_first_and_last_percentile(seq):
     match = get_list_of_object(seq, is_sort=True)
-    # first percentile  = [0,4950]
+    # first percentile  = [0, 4950]
     # last percentile = [490030, 494979]
     new_seq = ''
     count = 0
@@ -292,28 +294,36 @@ def main(argv):
            '02_pdf_object_dataset_removed_null_and_slash_and_percentile_485080_sorted.txt'
     path = 'D:/iust_pdf_objects/preprocess/' \
            '03_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_sorted_ii.txt'
-    # seq = load_from_file(path)
-    # remove_null_and_slash_object(seq)
-    # remove_first_and_last_percentile(seq)
-    # calculate_object_len_frequency(seq)
-    # create_iqr_cleaned_dataset(seq)
+    seq = load_from_file(path)
+    # remove_null_and_slash_object(seq)  # Preprocess Step 1
+    # remove_first_and_last_percentile(seq)  # Preprocess Step 2
+    # calculate_object_len_frequency(seq)  # Preprocess Step 3
+    # create_iqr_cleaned_dataset(seq)  # Preprocess Step 4
+
+    # small dataset csv paths
     csv_path = 'D:/iust_pdf_objects/small_size_dataset/' \
                '06_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_testset_35784_shuffle.csv'
     csv_path = 'D:/iust_pdf_objects/small_size_dataset/' \
                '06_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_trainset_47711_shuffle.csv'
     csv_path = 'D:/iust_pdf_objects/small_size_dataset/' \
                '06_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_validationset_11927_shuffle.csv'
+
+    # large dataset csv paths
     csv_path = 'D:/iust_pdf_objects/large_size_dataset/' \
                '05_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_testset_119276_shuffle.csv'
     csv_path = 'D:/iust_pdf_objects/large_size_dataset/' \
                '05_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_trainset_268371_shuffle.csv'
     csv_path = 'D:/iust_pdf_objects/large_size_dataset/' \
                '05_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_validationset_89457_shuffle.csv'
-    # retrieve_specific_dataset_fold(seq, csv_path)
+
+    # Baseline csv
+    csv_path = 'incremental_update/hosts/baseline/baseline_obj_1193_from_testset.csv'
+
+    retrieve_specific_dataset_fold(seq, csv_path)
     # statistical_analysis(seq)
 
     # chars_repeats_csv_calculate()
-    dataset_text_normalization()
+    # dataset_text_normalization()
 
 
     """end_of_main_function_script"""

@@ -29,17 +29,17 @@ class IncrementalUpdate(object):
     """
     def __init__(self,
                  host_id=None,
-                 object_file_path=learning_config['small_testing_set_path'],
+                 object_file_path=iu_config['baseline_object_path'],
                  stream_directory_path=iu_config['stream_directory_path']):
         """
 
-        :param host_id: e.g. host1, host2 or host3
+        :param host_id: Name of host file without postfix, e.g. host1_max, host2_min or host3_avg
         :param object_file_path: See iu_config, new_objects_path
         :param stream_directory_path: See iu_config, stream_directory_path
         """
         self.host_id = host_id
 
-        self.object_file_path = '../' + object_file_path
+        self.object_file_path = object_file_path
         self.obj_list = preprocess.get_list_of_object(seq=preprocess.load_from_file(self.object_file_path),
                                                       is_sort=False)
 
@@ -53,6 +53,8 @@ class IncrementalUpdate(object):
             os.makedirs(self.storage_dir_name)
             print('new storage directory build.')
 
+        self.obj_getter = self.obj_generator(self.obj_list)
+
     def read_pdf_file(self):
         with open(iu_config['raw_host_directory'] + self.host_id + '.pdf', 'rb') as f:
             data = f.read()
@@ -62,17 +64,31 @@ class IncrementalUpdate(object):
         with open(self.storage_dir_name + self.host_id + name_description + '.pdf', 'wb') as f:
             f.write(data)
 
-    def get_one_object(self):
+    def obj_generator(self, obj_list):
+        i = 0
+        while True:
+            yield obj_list[i]
+            i += 1
+            if i >= len(obj_list):
+                i = 0
+
+    def get_one_object(self, getting_object_policy=iu_config['getting_object_policy']):
         """
         Provide one pdf data object whether an existing object in corpus or
         an online new generated object from learnt model
         this function is not complete yet!
         when complete it is expected to get object coming from deep model (learn_and_fuzz) algorithm
         """
-
-        # For now randomly choose as object from given obj_list
-        random_object_index = random.randint(0, len(self.obj_list) - 1)
-        obj = self.obj_list[random_object_index]
+        obj = ''
+        if getting_object_policy == 'sequential':
+            # For now using object getter generator
+            obj = next(self.obj_getter)
+            print(obj)
+            # x = input()
+        elif getting_object_policy == 'random':
+            # For now randomly choose as object from given obj_list
+            random_object_index = random.randint(0, len(self.obj_list) - 1)
+            obj = self.obj_list[random_object_index]
 
         # Recently added (1397-01-16)
         # Check if selected object contain keyword 'stream' then add a random/ and fuzzed binary stream to
@@ -86,7 +102,7 @@ class IncrementalUpdate(object):
             # Fuzz binary stream separately.
             # We use generation fuzzing for pdf data objects and mutation fuzzing for pdf binary streams that exist
             # within our pdf data objects
-            binary_stream = self.fuzz_binary_stream(binary_stream)
+            # binary_stream = self.fuzz_binary_stream(binary_stream)
             obj = obj[:stream_index+7] + binary_stream + bytes('\nendstream\n', encoding='ascii') + obj[stream_index+7:]
             print('binary_stream added')
             # print(obj)
@@ -113,7 +129,7 @@ class IncrementalUpdate(object):
         if iu_config['single_object_update']:  # Just one object rewrite with new content
             if iu_config['update_policy'] == 'random':
                 rewrite_object_id = str(random.randint(1, int(last_object_id)))
-            elif iu_config['update_policy' == 'bottom_up']:
+            elif iu_config['update_policy'] == 'bottom_up':
                 rewrite_object_id = last_object_id
             else:
                 rewrite_object_id = last_object_id
@@ -232,14 +248,13 @@ class IncrementalUpdate(object):
 
     def fuzz_binary_stream(self, binary_stream):
         """
-        Fuzzing strategy for binary stream fuzz testing.
-        Simple basic fuzzing strategy:
+        Fuzzing fuzzing_policy for binary stream fuzz testing.
+        Simple basic fuzzing fuzzing_policy:
         Reverse 1% of all bytes in stream randomly. Below code do this
         :param binary_stream:
-        :return: fuzz_binary_stream
+        :return: fuzzed_binary_stream
         """
-        strategy = 'basic_random'
-        if strategy == 'basic_random':
+        if iu_config['stream_fuzzing_policy'] == 'basic_random':
             for i in range(math.ceil(len(binary_stream)/100)):
                 # Choose one byte randomly
                 byte_to_reverse_index = random.randint(0, len(binary_stream)-1)
@@ -269,14 +284,15 @@ class IncrementalUpdate(object):
                 binary_stream = binary_stream[0:byte_to_reverse_index]\
                                 + one_byte_reverse \
                                 + binary_stream[byte_to_reverse_index+1:]
-        elif strategy == 'other':
+        elif iu_config['stream_fuzzing_policy'] == 'other':
+            # No other policy implement yet:)
             pass
         return binary_stream
 
 
 def main(argv):
-    host_id = 'host3'
-    amount_of_testdata = 100
+    host_id = 'host3_avg'
+    amount_of_testdata = 1000
     iu = IncrementalUpdate(host_id=host_id)
     for i in range(amount_of_testdata):
         iu.incremental_update(sequential_number=i)

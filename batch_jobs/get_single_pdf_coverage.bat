@@ -1,4 +1,4 @@
-REM get_single_pdf_coverage
+REM get_single_pdf_coverage from corpus
 REM measure code coverage for each pdf file seperatly (i.e 6160 items)
 REM test mupdf pdf viewer on windows (c++ win32)
 REM @ECHO off
