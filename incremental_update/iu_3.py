@@ -7,7 +7,7 @@ New in version 2
 - attach multi-object to end of the pdf file. base on 'portion_of_rewrite_objects' in config.py
 """
 
-__version__ = '0.3'
+__version__ = '0.3.2'
 __author__ = 'Morteza'
 
 import sys
@@ -115,8 +115,7 @@ class IncrementalUpdate(object):
         last_object_id = read_pdf.trailer['/Size'] - 1  # size xref  - 1
         return last_object_id
 
-    def incremental_update(self,
-                           sequential_number=0):
+    def incremental_update(self, sequential_number=0):
         """
         Shape the incremental update behaviour
         :param sequential_number: Number appear at the end of new pdf file name as identity number (e.g. 1,2 and 3)
@@ -128,7 +127,8 @@ class IncrementalUpdate(object):
 
         if iu_config['single_object_update']:  # Just one object rewrite with new content
             if iu_config['update_policy'] == 'random':
-                rewrite_object_id = str(random.randint(1, int(last_object_id)))
+                # Random choose between [2,:] because we don't want modify first object at any condition.
+                rewrite_object_id = str(random.randint(2, int(last_object_id)))
             elif iu_config['update_policy'] == 'bottom_up':
                 rewrite_object_id = last_object_id
             else:
@@ -142,7 +142,7 @@ class IncrementalUpdate(object):
             name_description = '_sou_' + str(sequential_number).zfill(4) + '_obj-' + str(rewrite_object_id).zfill(3)
             self.write_pdf_file(name_description, data)
             print('save new pdf file successfully')
-        else:  # Multiple object rewrite with new content (base on 'portion_of_rewrite_objects')
+        else:  # Multiple object rewrite with new content (base on 'portion_of_rewrite_objects') in config file
             number_of_rewrite_objects = math.ceil(iu_config['portion_of_rewrite_objects'] * int(last_object_id))
             # print(host_id, number_of_of_rewrite_objects)
             rewrite_object_id = last_object_id
@@ -150,15 +150,19 @@ class IncrementalUpdate(object):
             for i in range(int(number_of_rewrite_objects)):
                 rewrite_object_content = self.get_one_object()
                 if iu_config['update_policy'] == 'random':
-                    rewrite_object_id = str(random.randint(1, int(last_object_id)))
-                elif iu_config['update_policy' == 'bottom_up']:
+                    # Random choose between [2,:] because we don't want modify first object at any condition.
+                    rewrite_object_id = str(random.randint(2, int(last_object_id)))
+                elif iu_config['update_policy'] == 'bottom_up':
                     rewrite_object_id = int(last_object_id) - i
+                elif iu_config['update_policy'] == 'top-down':
+                    # Not implement yet.
+                    pass
                 rewrite_object_ids += '-' + str(rewrite_object_id).zfill(3)
                 data = self.attach_new_object(data=data,
                                               rewrite_object_id=rewrite_object_id,
                                               rewrite_object_content=rewrite_object_content)
-                # set name for new pdf files like:
-                # host1_sou_85_6_20180307_114117
+            # Set name for new pdf files like:
+            # host1_sou_85_6_20180307_114117
             # dt = datetime.datetime.now().strftime('_%Y%m%d_%H%M%S')
             name_description = '_mou_' + str(sequential_number).zfill(4) + '_objs' + str(rewrite_object_ids)
             self.write_pdf_file(name_description, data)
