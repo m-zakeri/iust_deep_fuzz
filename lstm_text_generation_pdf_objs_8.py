@@ -261,7 +261,7 @@ class FileFormatFuzzer(object):
             model = trained_model
             model_name = trained_model_name
         optimizer = RMSprop(lr=0.01)  # [0.001, 0.01, 0.02, 0.05, 0.1]
-        optimizer = Adam(lr=0.001)
+        optimizer = Adam(lr=0.0001)
         model.compile(optimizer=optimizer,
                       loss='categorical_crossentropy',
                       # metrics=['accuracy']
