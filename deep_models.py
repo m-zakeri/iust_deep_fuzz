@@ -240,6 +240,30 @@ def model_6(input_dim, output_dim):
 # Change from RMSProp to Adam fix the learning process
 #
 def model_7(input_dim, output_dim):
+    """
+    model_7  summary ...
+    _________________________________________________________________
+    Layer (type)                 Output Shape              Param #
+    =================================================================
+    lstm_1 (LSTM)                (None, 50, 128)           98816
+    _________________________________________________________________
+    lstm_2 (LSTM)                (None, 128)               131584
+    _________________________________________________________________
+    dense_1 (Dense)              (None, 64)                8256
+    _________________________________________________________________
+    activation_1 (Activation)    (None, 64)                0
+    =================================================================
+    Total params: 238,656
+    Trainable params: 238,656
+    Non-trainable params: 0
+    _________________________________________________________________
+    model_7  count_params ...
+    238656
+
+    :param input_dim:
+    :param output_dim:
+    :return:
+    """
     model = Sequential()
     model.add(LSTM(128, input_shape=input_dim, return_sequences=True))
     model.add(LSTM(128, input_shape=input_dim, return_sequences=False))
@@ -252,6 +276,33 @@ def model_7(input_dim, output_dim):
 #
 #
 def model_8(input_dim, output_dim):
+    """
+    model_8  summary ...
+    _________________________________________________________________
+    Layer (type)                 Output Shape              Param #
+    =================================================================
+    lstm_1 (LSTM)                (None, 50, 256)           328704
+    _________________________________________________________________
+    dropout_1 (Dropout)          (None, 50, 256)           0
+    _________________________________________________________________
+    lstm_2 (LSTM)                (None, 256)               525312
+    _________________________________________________________________
+    dropout_2 (Dropout)          (None, 256)               0
+    _________________________________________________________________
+    dense_1 (Dense)              (None, 64)                16448
+    _________________________________________________________________
+    activation_1 (Activation)    (None, 64)                0
+    =================================================================
+    Total params: 870,464
+    Trainable params: 870,464
+    Non-trainable params: 0
+    _________________________________________________________________
+    model_8  count_params ...
+    870464
+    :param input_dim:
+    :param output_dim:
+    :return:
+    """
     model = Sequential()
     model.add(LSTM(256, input_shape=input_dim, return_sequences=True, recurrent_dropout=0.1))
     model.add(Dropout(0.3))
