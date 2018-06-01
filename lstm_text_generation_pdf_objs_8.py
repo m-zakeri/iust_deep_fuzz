@@ -607,11 +607,13 @@ def main(argv):
     """ The main function to call train() method"""
     epochs = 100
     fff = FileFormatFuzzer(maxlen=50, step=1, batch_size=256)
-    trained_model_dir = './model_checkpoint/best_models/'
-    trained_model_file_name = 'model_7_date_2018-05-14_21-44-21_epoch_65_val_loss_0.3335.h5'
-    trained_model_path = trained_model_dir + trained_model_file_name
-    trained_model = load_model(trained_model_path, compile=False)
+    # trained_model_dir = './model_checkpoint/best_models/'
+    # trained_model_file_name = 'model_7_date_2018-05-14_21-44-21_epoch_65_val_loss_0.3335.h5'
+    # trained_model_path = trained_model_dir + trained_model_file_name
+    # trained_model = load_model(trained_model_path, compile=False)
 
+    # Train deep model from first or continue training for previous trained model.
+    # Trained model pass as argument.
     fff.train(epochs=epochs,
               # trained_model=trained_model,
               # trained_model_name='model_7-1'
