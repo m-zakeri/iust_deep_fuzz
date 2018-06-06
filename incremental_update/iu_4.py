@@ -21,7 +21,7 @@ import datetime
 
 import PyPDF2
 
-from config import iu_config, learning_config
+from ..config import iu_config, learning_config
 import pdf_object_preprocess as preprocess
 from lstm_text_generation_pdf_objs_8 import FileFormatFuzzer
 
