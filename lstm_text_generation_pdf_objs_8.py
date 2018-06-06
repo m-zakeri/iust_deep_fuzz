@@ -409,7 +409,7 @@ class FileFormatFuzzer(object):
 
         # diversities = [i*0.10 for i in range(1,20,2)]
         diversities = [0.2, 0.5, 1.0, 1.2, 1.5, 1.8]
-        diversities = [1.0]
+        diversities = [1.5]
 
         generated_obj_total = 1000  # [5, 10, 100, 1000]
         generated_obj_with_same_prefix = 10  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
