@@ -1,11 +1,11 @@
 """
 PDF OBJ 8
-- New in this version
--- Fuzzing back to object generator.
+- New in version 8
+-- Fuzzing back to generate_and_fuzz method.
 -- Perplexity and cross entropy add to metrics list.
 -- Use some Keras backend to reset model graph and state.
---
-- New in  version 7
+-- Lets iu_4.py call the generate_and_fuzz method.
+- New in version 7
 -- Use for bidirectional LSTM model, model=model9
 - New in version 6
 -- Train with 256 LSTM search, model=model_8
@@ -15,7 +15,6 @@ PDF OBJ 8
 -- Train on large dataset for first time!
 -New in version 4:
 -- Changing the data generator method for use with model.fit_generator()
---
 -New in version 3:
 -- Add support for training in large dataset with the help of python generators.
 -- Add callbacks to log most of training time events.
@@ -27,7 +26,7 @@ PDF OBJ 8
 
 from __future__ import print_function
 
-__version__ = '0.8.0'
+__version__ = '0.8.1'
 __author__ = 'Morteza'
 
 import sys
@@ -89,6 +88,8 @@ class FileFormatFuzzer(object):
         :param step:
         :param batch_size:
         """
+        # os.chdir('./')
+
         # learning hyper-parameters
         self.maxlen = maxlen
         self.step = step
@@ -261,7 +262,7 @@ class FileFormatFuzzer(object):
             model = trained_model
             model_name = trained_model_name
         optimizer = RMSprop(lr=0.01)  # [0.001, 0.01, 0.02, 0.05, 0.1]
-        optimizer = Adam(lr=0.0001)
+        optimizer = Adam(lr=0.0001)  # Reduce from 0.001 to 0.0001 for model_10
         model.compile(optimizer=optimizer,
                       loss='categorical_crossentropy',
                       # metrics=['accuracy']
@@ -408,10 +409,10 @@ class FileFormatFuzzer(object):
 
         # diversities = [i*0.10 for i in range(1,20,2)]
         diversities = [0.2, 0.5, 1.0, 1.2, 1.5, 1.8]
-        # diversities = [1]
+        diversities = [1.0]
 
-        generated_obj_total = 5  # [100, 1000]
-        generated_obj_with_same_prefix = 5  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        generated_obj_total = 1000  # [5, 10, 100, 1000]
+        generated_obj_with_same_prefix = 10  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
         generated_obj_max_allowed_len = random.randint(450, 550)  # Choose max allowed len for object randomly
         exclude_from_fuzzing_set = {'s', 't', 'r', 'e', 'a', 'm'}  # set(['s', 't', 'r', 'e', 'a', 'm'])
 
@@ -427,7 +428,7 @@ class FileFormatFuzzer(object):
             if len(obj) > self.maxlen+len(' endobj'):
                 testset_object_gt_maxlen_list.append(obj)
         print('len filtered test-set: ', len(testset_object_gt_maxlen_list))
-
+        generated_total = ''
         for diversity in diversities:
             generated_total = ''
             for q in range(round(generated_obj_total/generated_obj_with_same_prefix)):
@@ -506,7 +507,7 @@ class FileFormatFuzzer(object):
                         generated_obj_len = 0
                         endobj_attach_manually = True
 
-                    if generated_obj_counter > generated_obj_with_same_prefix:
+                    if generated_obj_counter >= generated_obj_with_same_prefix:  # Fix: Change > to >= (13970315)
                         stop_condition = True
                     elif endobj_attach_manually:
                         # Reset prefix:
@@ -540,6 +541,7 @@ class FileFormatFuzzer(object):
 
         print('End of generation method.')
         print('Starting new epoch ...')
+        return generated_total
 
     # Lower temperature will cause the model to make more likely,
     # but also more boring and conservative predictions.
@@ -582,17 +584,28 @@ class FileFormatFuzzer(object):
         plot_model(model, to_file='./modelpic/date_' + dt + 'epochs_' + str(epochs) + '.png',
                    show_shapes=True, show_layer_names=True)
 
-    def load_model_and_generate(self, model_name='model_1', epochs=1):
+    def load_model_and_generate(self, model_name='model_7', epochs=50):
         dt = datetime.datetime.now().strftime('_date_%Y-%m-%d_%H-%M-%S')
         dir_name = './generated_results/pdfs/' + model_name + dt + 'epochs_' + str(epochs) + '/'
         if not os.path.exists(dir_name):
             os.makedirs(dir_name)
-        model = load_model('./model_checkpoint/best_models/model_6_date_2018-05-05_11-16-05_epoch_17_val_loss_10.8927.h5')
-        self.generate_and_fuzz_new_samples(model=model,
+
+        model = load_model('./model_checkpoint/best_models/model_7_date_2018-05-14_21-44-21_epoch_38_val_loss_0.3300.h5',
+                           compile=False)
+        optimizer = Adam(lr=0.001)  # Reduce from 0.001 to 0.0001 for model_10
+        model.compile(optimizer=optimizer,
+                      loss='categorical_crossentropy',
+                      # metrics=['accuracy']
+                      metrics=['accuracy'])
+
+        seq = self.generate_and_fuzz_new_samples(model=model,
                                       model_name=model_name,
-                                      epochs=1,
-                                      current_epoch=1,
+                                      epochs=epochs,
+                                      current_epoch=38,
                                       dir_name=dir_name)
+
+        list_of_10_obj = preprocess.get_list_of_object(seq=seq, is_sort=False)
+        return list_of_10_obj
 
     def get_model_summary(self):
         print('Get model summary ...')

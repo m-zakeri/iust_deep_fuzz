@@ -1,9 +1,9 @@
 iu_config = {
-    'single_object_update': False,  # [False, True]
+    'single_object_update': True,  # [False, True]
     # The below option use only if 'single_object_update' set to False
     'portion_of_rewrite_objects': 1/4.,  # [1/4., 1/3., 1/2.] /**/ {host1_max: 1/5., host2_min: 1/3., host3_avg: 1/4.}
     #
-    'update_policy': 'random',  # ['random', 'bottom_up', 'top-down']
+    'update_policy': 'bottom_up',  # ['random', 'bottom_up', 'top-down']
     'getting_object_policy': 'random',  # ['sequential', 'random']
 
     # Old pdf file path (same hosts)
@@ -67,8 +67,7 @@ learning_config = {
                                   'validationset_89457_shuffle_ii.txt',
     'large_testing_set_path': './dataset/pdfs/large_size_dataset/'
                                '05_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_'
-                               'testset_119276_shuffle_ii.txt',
-
+                               'testset_119276_shuffle_ii.txt'
 }
 
 
