@@ -4,27 +4,27 @@ iu_config = {
     'portion_of_rewrite_objects': 1/5.,  # [1/4., 1/3., 1/2.] /**/ {host1_max: 1/5., host2_min: 1/3., host3_avg: 1/4.}
     #
     'update_policy': 'random',  # ['random', 'bottom_up', 'top-down'] /**/ {'bottom_up' for sou and 'random' for mou}
-    'getting_object_policy': 'random',  # ['sequential', 'random']
+    'getting_object_policy': 'sequential',  # ['sequential', 'random']
 
     # Old pdf file path (same hosts)
     'number_of_hosts': 3,
-    'raw_host_directory': './hosts/rawhost_new/',  # raw hosts root directory path, update to new path 13970305
-    'host1': './hosts/rawhost_new/host1_max.pdf',  # host1 relative path
-    'host2': './hosts/rawhost_new/host2_min.pdf',  # host2 relative path
-    'host3': './hosts/rawhost_new/host3_avg.pdf',  # host3 relative path
-    'host123': './hosts/rawhost/host123.pdf',  # host123 full path
+    'raw_host_directory': 'incremental_update/hosts/rawhost_new/',  # raw hosts root directory path, update to new path 13970305
+    'host1': 'incremental_update/hosts/rawhost_new/host1_max.pdf',  # host1 relative path
+    'host2': 'incremental_update/hosts/rawhost_new/host2_min.pdf',  # host2 relative path
+    'host3': 'incremental_update/hosts/rawhost_new/host3_avg.pdf',  # host3 relative path
+    'host123': 'incremental_update/hosts/rawhost/host123.pdf',  # host123 full path
 
     # New generated/fuzzed objects path (by deep learning model)
-    'baseline_object_path': './hosts/baseline/baseline_obj_1193_from_testset_ii.txt',
-    'new_objects_path': 'not set yet',  #
-    'stream_directory_path': './dataset/pdfs/small_size_dataset/binary_streams/',
+    'baseline_object_path': 'incremental_update/hosts/baseline/baseline_obj_1193_from_testset_ii.txt',
+    'new_objects_path': 'generated_results/pdfs/_newest_objects/',  # Not set yet
+    'stream_directory_path': 'dataset/pdfs/small_size_dataset/binary_streams/',
     'stream_fuzzing_policy': 'basic_random',  # ['basic_random', 'other']
 
     # New pdf files by attaching above new pdf objects
-    'new_pdfs_directory': './new_pdfs/',   # new generated pdf file root directory
-    'iupdf_host1': './new_pdfs/host1/',
-    'iupdf_host2': './new_pdfs/host2/',
-    'iupdf_host3': './new_pdfs/host3/',
+    'new_pdfs_directory': 'incremental_update/new_pdfs/',   # new generated pdf file root directory
+    'iupdf_host1': 'incremental_update/new_pdfs/host1/',
+    'iupdf_host2': 'incremental_update/new_pdfs/host2/',
+    'iupdf_host3': 'incremental_update/new_pdfs/host3/',
 
     # configuration setting to measure code coverage
     'sut_dir': 'D:/afl/mupdf/platform/win32/Release/',

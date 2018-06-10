@@ -409,9 +409,9 @@ class FileFormatFuzzer(object):
 
         # diversities = [i*0.10 for i in range(1,20,2)]
         diversities = [0.2, 0.5, 1.0, 1.2, 1.5, 1.8]
-        diversities = [0.5]
+        diversities = [1.0]
 
-        generated_obj_total = 1000  # [5, 10, 100, 1000]
+        generated_obj_total = 3000  # [5, 10, 100, 1000]
         generated_obj_with_same_prefix = 20  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
         generated_obj_max_allowed_len = random.randint(450, 550)  # Choose max allowed len for object randomly
         exclude_from_fuzzing_set = {'s', 't', 'r', 'e', 'a', 'm'}  # set(['s', 't', 'r', 'e', 'a', 'm'])
@@ -604,8 +604,8 @@ class FileFormatFuzzer(object):
                                       current_epoch=38,
                                       dir_name=dir_name)
 
-        list_of_10_obj = preprocess.get_list_of_object(seq=seq, is_sort=False)
-        return list_of_10_obj
+        list_of_obj = preprocess.get_list_of_object(seq=seq, is_sort=False)
+        return list_of_obj
 
     def get_model_summary(self):
         print('Get model summary ...')
@@ -619,7 +619,7 @@ class FileFormatFuzzer(object):
 def main(argv):
     """ The main function to call train() method"""
     epochs = 100
-    fff = FileFormatFuzzer(maxlen=50, step=1, batch_size=256)
+    fff = FileFormatFuzzer(maxlen=50, step=3, batch_size=256)
     # trained_model_dir = './model_checkpoint/best_models/'
     # trained_model_file_name = 'model_7_date_2018-05-14_21-44-21_epoch_65_val_loss_0.3335.h5'
     # trained_model_path = trained_model_dir + trained_model_file_name
@@ -627,15 +627,14 @@ def main(argv):
 
     # Train deep model from first or continue training for previous trained model.
     # Trained model pass as argument.
-    fff.train(epochs=epochs,
+    # fff.train(epochs=epochs,
               # trained_model=trained_model,
               # trained_model_name='model_7-1'
-              )
+              # )
     # fff.get_model_summary()
-    # fff.load_model_and_generate(model_name='model_6',
-    #                             epochs=10)
+    list_of_obj = fff.load_model_and_generate()
+    print('Len list_of_obj', len(list_of_obj))
 
-    # fff.generate_and_fuzz_new_samples(model=model, model_name='best_models', maxlen=85, len_chars=96)
     print('training complete successfully on %s epochs' % epochs)
 
 
