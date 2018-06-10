@@ -21,10 +21,10 @@ import datetime
 
 import PyPDF2
 
-# sys.path.insert(0, '../config.py')
-from .. import config
+# sys.path.insert(0, '..')
+from config import iu_config
 import pdf_object_preprocess as preprocess
-from .. import lstm_text_generation_pdf_objs_8
+from lstm_text_generation_pdf_objs_8 import FileFormatFuzzer
 
 
 class IncrementalUpdate(object):
@@ -33,8 +33,8 @@ class IncrementalUpdate(object):
     """
     def __init__(self,
                  host_id=None,
-                 object_file_path=config.iu_config['baseline_object_path'],
-                 stream_directory_path=config.iu_config['stream_directory_path']):
+                 object_file_path=iu_config['baseline_object_path'],
+                 stream_directory_path=iu_config['stream_directory_path']):
         """
 
         :param host_id: Name of host file without postfix, e.g. host1_max, host2_min or host3_avg
@@ -52,7 +52,7 @@ class IncrementalUpdate(object):
 
         # Creating new directory foreach time that program run and we want to generate new test data
         dt = datetime.datetime.now().strftime(self.host_id + '_date_%Y-%m-%d_%H-%M-%S')
-        self.storage_dir_name = config.iu_config['new_pdfs_directory'] + self.host_id + '/' + dt + '/'
+        self.storage_dir_name = iu_config['new_pdfs_directory'] + self.host_id + '/' + dt + '/'
         if not os.path.exists(self.storage_dir_name):
             os.makedirs(self.storage_dir_name)
             print('New storage directory build.')
@@ -62,14 +62,14 @@ class IncrementalUpdate(object):
         retval = os.getcwd()
         os.chdir('../')
         print(os.getcwd())
-        self.fff = lstm_text_generation_pdf_objs_8.FileFormatFuzzer(maxlen=50, step=1, batch_size=256)
+        self.fff = FileFormatFuzzer(maxlen=50, step=1, batch_size=256)
 
         self.object_buffer_list = self.fff.load_model_and_generate()
         self.object_buffer_index = 0
         os.chdir(retval)
 
     def read_pdf_file(self):
-        with open(config.iu_config['raw_host_directory'] + self.host_id + '.pdf', 'rb') as f:
+        with open(iu_config['raw_host_directory'] + self.host_id + '.pdf', 'rb') as f:
             data = f.read()
         return data
 
@@ -85,7 +85,7 @@ class IncrementalUpdate(object):
             if i >= len(obj_list):
                 i = 0
 
-    def get_one_object(self, getting_object_policy=config.iu_config['getting_object_policy'], from_model=True):
+    def get_one_object(self, getting_object_policy=iu_config['getting_object_policy'], from_model=True):
         """
         Provide one pdf data object whether an existing object in corpus or
         an online new generated object from learnt model
@@ -144,7 +144,7 @@ class IncrementalUpdate(object):
             return obj
 
     def get_last_object_id(self):
-        with open(config.iu_config['raw_host_directory'] + self.host_id + '.pdf', 'br') as f:
+        with open(iu_config['raw_host_directory'] + self.host_id + '.pdf', 'br') as f:
             read_pdf = PyPDF2.PdfFileReader(f)
         last_object_id = read_pdf.trailer['/Size'] - 1  # size xref  - 1
         return last_object_id
@@ -159,11 +159,11 @@ class IncrementalUpdate(object):
         last_object_id = str(self.get_last_object_id())
         rewrite_object_content = self.get_one_object()  # Updated. Now include stream objects.
 
-        if config.iu_config['single_object_update']:  # Just one object rewrite with new content
-            if config.iu_config['update_policy'] == 'random':
+        if iu_config['single_object_update']:  # Just one object rewrite with new content
+            if iu_config['update_policy'] == 'random':
                 # Random choose between [2,:] because we don't want modify first object at any condition.
                 rewrite_object_id = str(random.randint(2, int(last_object_id)))
-            elif config.iu_config['update_policy'] == 'bottom_up':
+            elif iu_config['update_policy'] == 'bottom_up':
                 rewrite_object_id = last_object_id
             else:
                 rewrite_object_id = last_object_id
@@ -177,18 +177,18 @@ class IncrementalUpdate(object):
             self.write_pdf_file(name_description, data)
             print('save new pdf file successfully')
         else:  # Multiple object rewrite with new content (base on 'portion_of_rewrite_objects') in config file
-            number_of_rewrite_objects = math.ceil(config.iu_config['portion_of_rewrite_objects'] * int(last_object_id))
+            number_of_rewrite_objects = math.ceil(iu_config['portion_of_rewrite_objects'] * int(last_object_id))
             # print(host_id, number_of_of_rewrite_objects)
             rewrite_object_id = last_object_id
             rewrite_object_ids = ''
             for i in range(int(number_of_rewrite_objects)):
                 rewrite_object_content = self.get_one_object()
-                if config.iu_config['update_policy'] == 'random':
+                if iu_config['update_policy'] == 'random':
                     # Random choose between [2,:] because we don't want modify first object at any condition.
                     rewrite_object_id = str(random.randint(2, int(last_object_id)))
-                elif config.iu_config['update_policy'] == 'bottom_up':
+                elif iu_config['update_policy'] == 'bottom_up':
                     rewrite_object_id = int(last_object_id) - i
-                elif config.iu_config['update_policy'] == 'top-down':
+                elif iu_config['update_policy'] == 'top-down':
                     # Not implement yet.
                     pass
                 rewrite_object_ids += '-' + str(rewrite_object_id).zfill(3)
@@ -198,7 +198,7 @@ class IncrementalUpdate(object):
             # Set name for new pdf files like:
             # host1_sou_85_6_20180307_114117
             # dt = datetime.datetime.now().strftime('_%Y%m%d_%H%M%S')
-            name_description = '_mou_' + str(sequential_number).zfill(4) + '_objs' + str(rewrite_object_ids)
+            name_description = '_mou_' + str(sequential_number).zfill(4) + '_objs_25p'  # + str(rewrite_object_ids)
             self.write_pdf_file(name_description, data)
             print('save new pdf file successfully')
 
@@ -292,7 +292,7 @@ class IncrementalUpdate(object):
         :param binary_stream:
         :return: fuzzed_binary_stream
         """
-        if config.iu_config['stream_fuzzing_policy'] == 'basic_random':
+        if iu_config['stream_fuzzing_policy'] == 'basic_random':
             for i in range(math.ceil(len(binary_stream)/100)):
                 # Choose one byte randomly
                 byte_to_reverse_index = random.randint(0, len(binary_stream)-1)
@@ -322,14 +322,14 @@ class IncrementalUpdate(object):
                 binary_stream = binary_stream[0:byte_to_reverse_index]\
                                 + one_byte_reverse \
                                 + binary_stream[byte_to_reverse_index+1:]
-        elif config.iu_config['stream_fuzzing_policy'] == 'other':
+        elif iu_config['stream_fuzzing_policy'] == 'other':
             # No other policy implement yet:)
             pass
         return binary_stream
 
 
 def main(argv):
-    host_id = 'host2_min'
+    host_id = 'host1_max'
     amount_of_testdata = 1000
     iu = IncrementalUpdate(host_id=host_id)
     for i in range(amount_of_testdata):
