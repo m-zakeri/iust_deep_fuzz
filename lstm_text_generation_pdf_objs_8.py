@@ -591,8 +591,7 @@ class FileFormatFuzzer(object):
         if not os.path.exists(dir_name):
             os.makedirs(dir_name)
 
-        model = load_model(model_name=
-                           './model_checkpoint/best_models/'
+        model = load_model('./model_checkpoint/best_models/'
                            'model_8_date_2018-05-19_21-32-03_epoch_50_val_loss_0.2891.h5',
                            compile=False)
         optimizer = Adam(lr=0.001)  # Reduce from 0.001 to 0.0001 for model_10
