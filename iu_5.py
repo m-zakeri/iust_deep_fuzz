@@ -89,6 +89,9 @@ class IncrementalUpdate(object):
             # finally:
         obj_list = preprocess.get_list_of_object(seq=seq, is_sort=False)
         print('obj_list len', len(obj_list))
+        print(obj_list)
+        for o in obj_list:
+            print(o, '\n', '#'*50)
         input()
         return obj_list
 
@@ -344,10 +347,10 @@ class IncrementalUpdate(object):
 
 
 def main(argv):
-    host_id = 'host1_max'
+    host_id = 'host2_min'
     amount_of_testdata = 1000
     iu = IncrementalUpdate(host_id=host_id)
-    for i in range(156, amount_of_testdata, 1):
+    for i in range(0, amount_of_testdata, 1):
         iu.incremental_update(sequential_number=i)
 
     print('%s test data was generate' % amount_of_testdata)

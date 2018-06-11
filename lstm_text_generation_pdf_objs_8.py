@@ -407,12 +407,13 @@ class FileFormatFuzzer(object):
 
         # Fuzzing hyper-parameters
 
-        # diversities = [i*0.10 for i in range(1,20,2)]
+        diversities = [i*0.10 for i in range(1, 20, 2)]
         diversities = [0.2, 0.5, 1.0, 1.2, 1.5, 1.8]
-        diversities = [1.5]
+        diversities = [0.5, 1.0, 1.5]  # for sou and for mou
+        # diversities = [1.5]
 
-        generated_obj_total = 3000  # [5, 10, 100, 1000]
-        generated_obj_with_same_prefix = 20  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        generated_obj_total = 3100  # [5, 10, 100, 1000, 3000] {1000 for sou and 3000 for muo}
+        generated_obj_with_same_prefix = 20  # [1, 5, 10, 20, 40] {10 for sou and 20 for mou}
         generated_obj_max_allowed_len = random.randint(450, 550)  # Choose max allowed len for object randomly
         exclude_from_fuzzing_set = {'s', 't', 'r', 'e', 'a', 'm'}  # set(['s', 't', 'r', 'e', 'a', 'm'])
 
