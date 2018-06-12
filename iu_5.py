@@ -90,9 +90,9 @@ class IncrementalUpdate(object):
         obj_list = preprocess.get_list_of_object(seq=seq, is_sort=False)
         print('obj_list len', len(obj_list))
         print(obj_list)
-        for o in obj_list:
-            print(o, '\n', '#'*50)
-        input()
+        # for o in obj_list:
+        #     print(o, '\n', '#'*50)
+        # input()
         return obj_list
 
     def obj_generator(self, obj_list):
@@ -195,7 +195,15 @@ class IncrementalUpdate(object):
             self.write_pdf_file(name_description, data)
             print('save new pdf file successfully')
         else:  # Multiple object rewrite with new content (base on 'portion_of_rewrite_objects') in config file
-            number_of_rewrite_objects = math.ceil(iu_config['portion_of_rewrite_objects'] * int(last_object_id))
+            poro = iu_config['portion_of_rewrite_objects']
+            # Special config for my thesis tests.
+            if self.host_id == 'host1_max':
+                poro = 1/5.
+            elif self.host_id == 'host2_min':
+                poro = 1/3.
+            elif self.host_id == 'host3_avg':
+                poro = 1/4.
+            number_of_rewrite_objects = math.ceil(poro * int(last_object_id))
             # print(host_id, number_of_of_rewrite_objects)
             rewrite_object_id = last_object_id
             rewrite_object_ids = ''
@@ -216,12 +224,15 @@ class IncrementalUpdate(object):
             # Set name for new pdf files like:
             # host1_sou_85_6_20180307_114117
             # dt = datetime.datetime.now().strftime('_%Y%m%d_%H%M%S')
-            name_description = '_mou_' + str(sequential_number).zfill(4) + '_objs_25p'  # + str(rewrite_object_ids)
+            if self.host_id == 'host1_max':
+                name_description = '_mou_' + str(sequential_number).zfill(4) + '_' + '20percent'
+            else:
+                name_description = '_mou_' + str(sequential_number).zfill(4) + '_' + str(rewrite_object_ids)
             self.write_pdf_file(name_description, data)
             print('save new pdf file successfully')
 
-    def attach_new_object(self,
-                          data=None,
+    @staticmethod
+    def attach_new_object(data=None,
                           rewrite_object_id=None,
                           rewrite_object_content=None):
         """
@@ -269,9 +280,9 @@ class IncrementalUpdate(object):
             # print('##', trailer_content[index_prev+5], index_prev)
             # check whether a byte is ascii number or space
             eliminate_content = trailer_content[index_prev+5+index_curr]
-            print('eliminate content', eliminate_content)
+            # print('eliminate content', eliminate_content)
             while (48 <= eliminate_content <= 57) or (eliminate_content == 32):
-                print('###', trailer_content[index_prev+5+index_curr])
+                # print('###', trailer_content[index_prev+5+index_curr])
                 index_curr += 1
                 eliminate_content = trailer_content[index_prev + 5 + index_curr]
 
@@ -279,11 +290,11 @@ class IncrementalUpdate(object):
 
         trailer_content_new = trailer_content[:-2] + b'   /Prev ' \
                               + bytes(str(startxref_offset), 'ascii') + b' \n>>'
-        print('trailer_content_new', trailer_content_new)
+        # print('trailer_content_new', trailer_content_new)
 
-        print('len_rewrite_object_content', len(rewrite_object_content))
+        # print('len_rewrite_object_content', len(rewrite_object_content))
         startxref_offset_new = len(data) + 1 + len(rewrite_object_id) + 3 + len(rewrite_object_content)  # if we attach just one obj
-        print('startxref_offset_new', startxref_offset_new)
+        # print('startxref_offset_new', startxref_offset_new)
 
         attach_content = bytes(str(rewrite_object_id + ' 0 '), encoding='ascii')\
                          + rewrite_object_content\
@@ -302,7 +313,8 @@ class IncrementalUpdate(object):
         new_pdf_file = data + attach_content
         return new_pdf_file
 
-    def fuzz_binary_stream(self, binary_stream):
+    @staticmethod
+    def fuzz_binary_stream(binary_stream):
         """
         Fuzzing fuzzing_policy for binary stream fuzz testing.
         Simple basic fuzzing fuzzing_policy:
@@ -347,7 +359,7 @@ class IncrementalUpdate(object):
 
 
 def main(argv):
-    host_id = 'host1_max'
+    host_id = 'host3_avg'
     amount_of_testdata = 1000
     iu = IncrementalUpdate(host_id=host_id)
     for i in range(0, amount_of_testdata, 1):
