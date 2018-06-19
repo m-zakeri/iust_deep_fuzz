@@ -385,3 +385,37 @@ def model_10(input_dim, output_dim):
     model.add(Dense(output_dim))
     model.add(Activation('softmax'))
     return model, 'model_10'
+
+
+
+def model7_laf(input_dim, output_dim):
+    """
+    model7_laf  summary ...
+    _________________________________________________________________
+    Layer (type)                 Output Shape              Param #
+    =================================================================
+    lstm_1 (LSTM)                (None, 50, 128)           98816
+    _________________________________________________________________
+    lstm_2 (LSTM)                (None, 128)               131584
+    _________________________________________________________________
+    dense_1 (Dense)              (None, 64)                8256
+    _________________________________________________________________
+    activation_1 (Activation)    (None, 64)                0
+    =================================================================
+    Total params: 238,656
+    Trainable params: 238,656
+    Non-trainable params: 0
+    _________________________________________________________________
+    model7_laf  count_params ...
+    238656
+
+    :param input_dim:
+    :param output_dim:
+    :return:
+    """
+    model = Sequential()
+    model.add(LSTM(128, input_shape=input_dim, return_sequences=True))
+    model.add(LSTM(128, return_sequences=False))
+    model.add(Dense(output_dim))
+    model.add(Activation('softmax'))
+    return model, 'model7_laf'

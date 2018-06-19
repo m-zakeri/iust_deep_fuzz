@@ -8,11 +8,11 @@ D:
 CD D:\afl\mupdf\platform\win32\Release
 CLS
 
-START VSPerfMon /coverage /output:./coverage_single/host1_max_model7_div_0.5_sou.coverage
+START VSPerfMon /coverage /output:./coverage_single/host2_min_model8_div_0.5_mou_date_2018-06-12_17-56-57.coverage
 REM ping google.com
 timeout /t 5
  
-FOR %%i IN (D:\AnacondaProjects\iust_deep_fuzz\incremental_update\new_pdfs\host1_max\host1_max_model7_div_0.5_sou_date_2018-06-05_17-28-34\*.pdf) DO ( 
+FOR %%i IN (D:\AnacondaProjects\iust_deep_fuzz\incremental_update\new_pdfs\host2_min\host2_min_model8_div_0.5_mou_date_2018-06-12_17-56-57\*.pdf) DO ( 
 	REM mutool clean -difa %%i	
 	REM mutool clean -d %%i
 	REM mutool clean -a
