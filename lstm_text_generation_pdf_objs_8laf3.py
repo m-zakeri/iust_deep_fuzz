@@ -435,8 +435,8 @@ class FileFormatFuzzer(object):
             generated_total = ''
             for q in range(round(generated_obj_total/generated_obj_with_same_prefix)):
 
-                # obj_index = random.randint(0, len(testset_object_gt_maxlen_list) - 1)
-                obj_index = 0
+                obj_index = random.randint(0, len(testset_object_gt_maxlen_list) - 1)
+                # obj_index = 0
                 generated_obj_counter = 0
                 generated_obj_len = 0
                 generated = ''
