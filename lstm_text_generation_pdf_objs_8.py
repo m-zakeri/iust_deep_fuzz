@@ -117,7 +117,7 @@ class FileFormatFuzzer(object):
         :param output_dim:
         :return:
         """
-        model, model_name = deep_models.model_10(input_dim, output_dim)
+        model, model_name = deep_models.model_0(input_dim, output_dim)
         return model, model_name
 
     def load_dataset(self):
@@ -262,7 +262,7 @@ class FileFormatFuzzer(object):
             model = trained_model
             model_name = trained_model_name
         optimizer = RMSprop(lr=0.01)  # [0.001, 0.01, 0.02, 0.05, 0.1]
-        optimizer = Adam(lr=0.0001)  # Reduce from 0.001 to 0.0001 for model_10
+        optimizer = Adam(lr=0.001)  # Reduce from 0.001 to 0.0001 for model_10
         model.compile(optimizer=optimizer,
                       loss='categorical_crossentropy',
                       # metrics=['accuracy']
@@ -412,8 +412,8 @@ class FileFormatFuzzer(object):
         diversities = [0.5, 1.0, 1.5]  # for sou and for mou
         # diversities = [1.5]
 
-        generated_obj_total = 1100  # [5, 10, 100, 1000, 3000] {1000-1100 for sou and 3000-3100 for muo}
-        generated_obj_with_same_prefix = 10  # [1, 5, 10, 20, 40] {10 for sou and 20 for mou}
+        generated_obj_total = 10  # [5, 10, 100, 1000, 3000] {1000-1100 for sou and 3000-3100 for muo}
+        generated_obj_with_same_prefix = 5  # [1, 5, 10, 20, 40] {10 for sou and 20 for mou}
         generated_obj_max_allowed_len = random.randint(450, 550)  # Choose max allowed len for object randomly
         exclude_from_fuzzing_set = {'s', 't', 'r', 'e', 'a', 'm'}  # set(['s', 't', 'r', 'e', 'a', 'm'])
 
@@ -629,13 +629,13 @@ def main(argv):
 
     # Train deep model from first or continue training for previous trained model.
     # Trained model pass as argument.
-    # fff.train(epochs=epochs,
+    fff.train(epochs=epochs,
               # trained_model=trained_model,
               # trained_model_name='model_7-1'
-              # )
+              )
     # fff.get_model_summary()
-    list_of_obj = fff.load_model_and_generate()
-    print('Len list_of_obj', len(list_of_obj))
+    # list_of_obj = fff.load_model_and_generate()
+    # print('Len list_of_obj', len(list_of_obj))
 
     print('Training complete successfully on %s epochs' % epochs)
 
