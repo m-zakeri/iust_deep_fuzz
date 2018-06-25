@@ -146,6 +146,7 @@ class IncrementalUpdate(object):
 
         return obj
 
+    '''
     def __get_one_object_from_model(self):
         """
 
@@ -163,6 +164,7 @@ class IncrementalUpdate(object):
             obj = self.__get_one_object_from_model()
             os.chdir(retval)
             return obj
+    '''
 
     def get_last_object_id(self):
         with open(iu_config['raw_host_directory'] + self.host_id + '.pdf', 'br') as f:
@@ -362,7 +364,7 @@ class IncrementalUpdate(object):
 
 
 def main(argv):
-    host_id = 'host1_max'
+    host_id = 'host3_avg'
     amount_of_testdata = 1000
     iu = IncrementalUpdate(host_id=host_id)
     for i in range(0, amount_of_testdata, 1):
