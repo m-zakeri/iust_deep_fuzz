@@ -140,7 +140,8 @@ class IncrementalUpdate(object):
             # within our pdf data objects
             # binary_stream = self.fuzz_binary_stream(binary_stream)
             # obj = obj[:stream_index+7] + binary_stream + bytes('\nendstream\n', encoding='ascii') + obj[stream_index+7:]
-            obj = obj[:stream_index + 7] + obj[stream_index + 7:]
+            # obj = obj[:stream_index + 7] + obj[stream_index + 7:]
+            obj = obj[:stream_index] + obj[stream_index + 7:]  # Fix above line.
             print('binary_stream not add.')
             # print(obj)
 
