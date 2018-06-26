@@ -585,7 +585,7 @@ class FileFormatFuzzer(object):
         plot_model(model, to_file='./modelpic/date_' + dt + 'epochs_' + str(epochs) + '.png',
                    show_shapes=True, show_layer_names=True)
 
-    def load_model_and_generate(self, model_name='model_8', epochs=50):
+    def load_model_and_generate(self, model_name='model_10', epochs=50):
         dt = datetime.datetime.now().strftime('_date_%Y-%m-%d_%H-%M-%S')
         dir_name = './generated_results/pdfs/' + model_name + dt + 'epochs_' + str(epochs) + '/'
         if not os.path.exists(dir_name):
