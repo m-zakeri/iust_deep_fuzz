@@ -585,16 +585,17 @@ class FileFormatFuzzer(object):
         plot_model(model, to_file='./modelpic/date_' + dt + 'epochs_' + str(epochs) + '.png',
                    show_shapes=True, show_layer_names=True)
 
-    def load_model_and_generate(self, model_name='model_10', epochs=50):
+    def load_model_and_generate(self, model_name='model_0', epochs=50):
         dt = datetime.datetime.now().strftime('_date_%Y-%m-%d_%H-%M-%S')
         dir_name = './generated_results/pdfs/' + model_name + dt + 'epochs_' + str(epochs) + '/'
         if not os.path.exists(dir_name):
             os.makedirs(dir_name)
 
         model = load_model('./model_checkpoint/best_models/'
-                           'model_10_date_2018-06-01_22-30-57_epoch_48_val_loss_0.2998.h5',
+                           'model_0_date_2018-06-24_23-39-22_epoch_48_val_loss_0.3647.h5',
                            compile=False)
-        optimizer = Adam(lr=0.0001)  # Reduce from 0.001 to 0.0001 for model_10
+        optimizer = Adam(lr=0.001)  # Reduce from 0.001 to 0.0001 just for model_10
+
         model.compile(optimizer=optimizer,
                       loss='categorical_crossentropy',
                       # metrics=['accuracy']
@@ -621,7 +622,7 @@ class FileFormatFuzzer(object):
 def main(argv):
     """ The main function to call train() method"""
     epochs = 100
-    fff = FileFormatFuzzer(maxlen=50, step=1, batch_size=256)
+    fff = FileFormatFuzzer(maxlen=50, step=3, batch_size=256)
     # trained_model_dir = './model_checkpoint/best_models/'
     # trained_model_file_name = 'model_7_date_2018-05-14_21-44-21_epoch_65_val_loss_0.3335.h5'
     # trained_model_path = trained_model_dir + trained_model_file_name
