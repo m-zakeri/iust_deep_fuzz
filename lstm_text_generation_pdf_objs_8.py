@@ -412,8 +412,8 @@ class FileFormatFuzzer(object):
         diversities = [0.5, 1.0, 1.5]  # for sou and for mou
         # diversities = [1.5]
 
-        generated_obj_total = 3100  # [5, 10, 100, 1000, 3000] {1000-1100 for sou and 3000-3100 for muo}
-        generated_obj_with_same_prefix = 20  # [1, 5, 10, 20, 40] {10 for sou and 20 for mou}
+        generated_obj_total = 1100  # [5, 10, 100, 1000, 3000] {1000-1100 for sou and 3000-3100 for muo}
+        generated_obj_with_same_prefix = 10  # [1, 5, 10, 20, 40] {10 for sou and 20 for mou}
         generated_obj_max_allowed_len = random.randint(450, 550)  # Choose max allowed len for object randomly
         exclude_from_fuzzing_set = {'s', 't', 'r', 'e', 'a', 'm'}  # set(['s', 't', 'r', 'e', 'a', 'm'])
 
