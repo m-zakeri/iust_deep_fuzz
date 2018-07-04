@@ -585,14 +585,14 @@ class FileFormatFuzzer(object):
         plot_model(model, to_file='./modelpic/date_' + dt + 'epochs_' + str(epochs) + '.png',
                    show_shapes=True, show_layer_names=True)
 
-    def load_model_and_generate(self, model_name='model_7', epochs=30):
+    def load_model_and_generate(self, model_name='model_7', epochs=40):
         dt = datetime.datetime.now().strftime('_date_%Y-%m-%d_%H-%M-%S')
         dir_name = './generated_results/pdfs/' + model_name + dt + 'epochs_' + str(epochs) + '/'
         if not os.path.exists(dir_name):
             os.makedirs(dir_name)
 
         model = load_model('./model_checkpoint/best_models/'
-                           'model_7_date_2018-05-14_21-44-21_epoch_30_val_loss_0.3322.h5',
+                           'model_7_date_2018-05-14_21-44-21_epoch_40_val_loss_0.3331.h5',
                            compile=False)
         optimizer = Adam(lr=0.001)  # Reduce from 0.001 to 0.0001 just for model_10
 
@@ -604,7 +604,7 @@ class FileFormatFuzzer(object):
         seq = self.generate_and_fuzz_new_samples(model=model,
                                       model_name=model_name,
                                       epochs=epochs,
-                                      current_epoch=30,
+                                      current_epoch=40,
                                       dir_name=dir_name)
 
         list_of_obj = preprocess.get_list_of_object(seq=seq, is_sort=False)
