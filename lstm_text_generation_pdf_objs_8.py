@@ -117,7 +117,7 @@ class FileFormatFuzzer(object):
         :param output_dim:
         :return:
         """
-        model, model_name = deep_models.model_0(input_dim, output_dim)
+        model, model_name = deep_models.model_7(input_dim, output_dim)
         return model, model_name
 
     def load_dataset(self):
@@ -409,11 +409,11 @@ class FileFormatFuzzer(object):
 
         diversities = [i*0.10 for i in range(1, 20, 2)]
         diversities = [0.2, 0.5, 1.0, 1.2, 1.5, 1.8]
-        diversities = [0.5, 1.0, 1.5]  # for sou and for mou
+        diversities = [1.0]  # for sou and for mou
         # diversities = [1.5]
 
-        generated_obj_total = 1100  # [5, 10, 100, 1000, 3000] {1000-1100 for sou and 3000-3100 for muo}
-        generated_obj_with_same_prefix = 10  # [1, 5, 10, 20, 40] {10 for sou and 20 for mou}
+        generated_obj_total = 3100  # [5, 10, 100, 1000, 3000] {1000-1100 for sou and 3000-3100 for muo}
+        generated_obj_with_same_prefix = 20  # [1, 5, 10, 20, 40] {10 for sou and 20 for mou}
         generated_obj_max_allowed_len = random.randint(450, 550)  # Choose max allowed len for object randomly
         exclude_from_fuzzing_set = {'s', 't', 'r', 'e', 'a', 'm'}  # set(['s', 't', 'r', 'e', 'a', 'm'])
 
@@ -585,14 +585,14 @@ class FileFormatFuzzer(object):
         plot_model(model, to_file='./modelpic/date_' + dt + 'epochs_' + str(epochs) + '.png',
                    show_shapes=True, show_layer_names=True)
 
-    def load_model_and_generate(self, model_name='model_0', epochs=50):
+    def load_model_and_generate(self, model_name='model_0', epochs=10):
         dt = datetime.datetime.now().strftime('_date_%Y-%m-%d_%H-%M-%S')
         dir_name = './generated_results/pdfs/' + model_name + dt + 'epochs_' + str(epochs) + '/'
         if not os.path.exists(dir_name):
             os.makedirs(dir_name)
 
         model = load_model('./model_checkpoint/best_models/'
-                           'model_0_date_2018-06-24_23-39-22_epoch_48_val_loss_0.3647.h5',
+                           'model_7_date_2018-05-14_21-44-21_epoch_10_val_loss_0.3479.h5',
                            compile=False)
         optimizer = Adam(lr=0.001)  # Reduce from 0.001 to 0.0001 just for model_10
 
@@ -604,7 +604,7 @@ class FileFormatFuzzer(object):
         seq = self.generate_and_fuzz_new_samples(model=model,
                                       model_name=model_name,
                                       epochs=epochs,
-                                      current_epoch=48,
+                                      current_epoch=10,
                                       dir_name=dir_name)
 
         list_of_obj = preprocess.get_list_of_object(seq=seq, is_sort=False)
