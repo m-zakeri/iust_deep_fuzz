@@ -366,7 +366,7 @@ class IncrementalUpdate(object):
 
 def main(argv):
     host_id = 'host1_max'
-    amount_of_testdata = 1000
+    amount_of_testdata = 10000
     iu = IncrementalUpdate(host_id=host_id)
     for i in range(0, amount_of_testdata, 1):
         iu.incremental_update(sequential_number=i)
