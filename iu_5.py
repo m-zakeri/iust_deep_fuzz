@@ -136,7 +136,7 @@ class IncrementalUpdate(object):
             # Fuzz binary stream separately.
             # We use generation fuzzing for pdf data objects and mutation fuzzing for pdf binary streams that exist
             # within our pdf data objects
-            # binary_stream = self.fuzz_binary_stream(binary_stream)
+            binary_stream = self.fuzz_binary_stream(binary_stream)
             obj = obj[:stream_index+7] + binary_stream + bytes('\nendstream\n', encoding='ascii') + obj[stream_index+7:]
             print('binary_stream add.')
             # print(obj)
@@ -318,12 +318,12 @@ class IncrementalUpdate(object):
         """
         Fuzzing fuzzing_policy for binary stream fuzz testing.
         Simple basic fuzzing fuzzing_policy:
-        Reverse 1% of all bytes in stream randomly. Below code do this
+        Reverse 2% of all bytes in stream randomly. Below code do this
         :param binary_stream:
         :return: fuzzed_binary_stream
         """
         if iu_config['stream_fuzzing_policy'] == 'basic_random':
-            for i in range(round(math.ceil(len(binary_stream)/100))):
+            for i in range(round(math.ceil(len(binary_stream)/50))):
                 # Choose one byte randomly
                 byte_to_reverse_index = random.randint(0, len(binary_stream)-1)
                 one_byte = binary_stream[byte_to_reverse_index]
@@ -360,7 +360,7 @@ class IncrementalUpdate(object):
 
 def main(argv):
     host_id = 'host1_max'
-    amount_of_testdata = 1000
+    amount_of_testdata = 10000
     iu = IncrementalUpdate(host_id=host_id)
     for i in range(0, amount_of_testdata, 1):
         iu.incremental_update(sequential_number=i)

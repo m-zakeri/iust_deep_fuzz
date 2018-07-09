@@ -415,7 +415,7 @@ class FileFormatFuzzer(object):
         diversities = [1.0]  # for sou and for mou
         # diversities = [1.5]
 
-        generated_obj_total = 30100  # [5, 10, 100, 1000, 3000] {1000-1100 for sou and 3000-3100 for muo}
+        generated_obj_total = 30200  # [5, 10, 100, 1000, 3000] {1000-1100 for sou and 3000-3100 for muo}
         generated_obj_with_same_prefix = 20  # [1, 5, 10, 20, 40] {10 for sou and 20 for mou}
         generated_obj_max_allowed_len = random.randint(450, 550)  # Choose max allowed len for object randomly
         exclude_from_fuzzing_set = {'s', 't', 'r', 'e', 'a', 'm', 'e', 'n', 'd', 'o', 'b', 'j'}  # set(['s', 't', 'r', 'e', 'a', 'm'])
@@ -623,8 +623,8 @@ def main(argv):
     # fff.get_model_summary()
     list_of_obj = fff.load_model_and_generate()
     print('Len list_of_obj', len(list_of_obj))
-
-    print('Training complete successfully on %s epochs' % epochs)
+    dt = datetime.datetime.now().strftime('_%Y_%m_%d__%H_%M_%S_')
+    print('Generation complete successfully', dt)
 
 
 if __name__ == "__main__":

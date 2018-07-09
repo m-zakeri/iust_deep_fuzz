@@ -1,9 +1,9 @@
 iu_config = {
-    'single_object_update': True,  # [False, True]
+    'single_object_update': False,  # [False, True]
     # The below option use only if 'single_object_update' set to False
     'portion_of_rewrite_objects': 1/5.,  # [1/4., 1/3., 1/2.] /**/ {host1_max: 1/5., host2_min: 1/3., host3_avg: 1/4.}
     #
-    'update_policy': 'bottom_up',  # ['random', 'bottom_up', 'top-down'] /**/ {'bottom_up' for sou and 'random' for mou}
+    'update_policy': 'random',  # ['random', 'bottom_up', 'top-down'] /**/ {'bottom_up' for sou and 'random' for mou}
     'getting_object_policy': 'sequential',  # ['sequential', 'random']
 
     # Old pdf file path (same hosts)
