@@ -5,7 +5,7 @@ Welcome to our new File Format Fuzzer :)
 
 This work belong to my master thesis in software engineering: "Automatic Test Data Generation in File Format Fuzzers". 
 
-## Bring Deep Neural Network for Use in Fuzz Testing
+## Bring Deep Neural Network to Fuzz Testing
 A file format fuzzer base on deep neural networks.
 This repository is under active development and it don't documented well.
 If you downloaded it and have any question feel free to email me
@@ -17,3 +17,7 @@ and improve the **learn\&fuzz algorithm**.
 
 
 ## About Version 0.2
+This version implements 4 new deep models and 2 new fuzz algorithms:
+DataNeuralFuzz and MetadataNeuralFuzz as our contribution in mentioned thesis.
+
+August 5, 2018
