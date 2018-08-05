@@ -1,0 +1,127 @@
+obj
+<<
+  /Filter /FlateDecode
+  /First 21
+  /Length 256
+  /N 1
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 4 0 R
+  /Resources 7 0 R
+  /Contents 5 0 R
+  /MediaBox [ 0 0 48 48 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 20 0 R
+  /FirstChar 32
+  /LastChar 125
+  /BaseFont /yZQSQH-CMR17
+  /FontDescriptor 69 0 R
+  /Type /Font
+  /FirstChar 97
+  /LastChar 121
+  /Widths [ 500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (738231343)
+  /Rect [ 440.94 490.98 449.44 509.52 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /Pages
+  /kids [ 4 0 R ]
+  /Count 1
+>>
+endobj
+obj
+<<
+  /Length 172
+>>
+stream
+endobj
+obj
+<<
+  /BaseFont /uZOIZM-CMMI8
+  /FontDescriptor 11 0 R
+  /Type /Font
+  /FirstChar 46
+  /LastChar 121
+  /Widths [ 250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+endobj
+obj
+<<
+  /Length 697 0 R
+  /Type /xObject
+  /Subtype /Image
+  /Width 1028
+  /Height 166
+  /BitsPerComponent 8
+  /ColorSpace /Devicegray
+  /Filter /DCTDecode
+  /Height 59
+  /Length 598
+  /Name /x
+  /Subtype /Type1
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536871336)
+  /Rect [ 143.7 162.86 371.7 172.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Contents 34 0 R
+  /Type /Page
+  /Parent 112 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im128
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 381 0 R ]
+  /Filter /FlateDecode
+  /Length 1127
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Encoding 90 0 R
+  /FirstChar 46
+  /LastChar 117
+  /Widths 37 0 R
+>>
+endobj

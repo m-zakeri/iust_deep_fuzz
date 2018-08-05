@@ -117,7 +117,7 @@ class FileFormatFuzzer(object):
         :param output_dim:
         :return:
         """
-        model, model_name = deep_models.model_7(input_dim, output_dim)
+        model, model_name = deep_models.model_10(input_dim, output_dim)
         return model, model_name
 
     def load_dataset(self):
@@ -273,7 +273,9 @@ class FileFormatFuzzer(object):
 
         print(model_name, ' count_params ...')
         print(model.count_params())
-        # input()
+
+        self.save_model_plot(model, 1010)
+        input()
 
         print('Set #5 callback ...')
         # callback #1 EarlyStopping
@@ -630,10 +632,10 @@ def main(argv):
 
     # Train deep model from first or continue training for previous trained model.
     # Trained model pass as argument.
-    # fff.train(epochs=epochs,
+    fff.train(epochs=epochs,
               # trained_model=trained_model,
               # trained_model_name='model_7-1'
-              # )
+              )
     # fff.get_model_summary()
     list_of_obj = fff.load_model_and_generate()
     print('Len list_of_obj', len(list_of_obj))

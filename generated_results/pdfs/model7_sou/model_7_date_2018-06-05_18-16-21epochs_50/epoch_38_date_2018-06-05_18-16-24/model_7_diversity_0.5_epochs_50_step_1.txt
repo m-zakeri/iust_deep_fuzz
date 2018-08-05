@@ -1,0 +1,141 @@
+obj
+<<
+  /A 25 0 R
+  /k [ 48 49 ]
+  /P 1282 0 R
+  /S /Normal
+  /Pg 1 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 104 0 R
+  /Resources 34 0 R
+  /Contents 31 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Resources <<
+    /Font <<
+      /F0 310 0 R
+      /F1 32 0 R
+      /F3 28 0 R
+      /F4 28 0 R
+      /F5 37 0 R
+      /F7 34 0 R
+    >>
+    /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+  >>
+  /MediaBox [ 0 0 595.32 841.92 ]
+  /Contents 9 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 13 0 R
+  /FirstChar 48
+  /LastChar 119
+  /BaseFont /ABHWLj-TimesNeWRoman
+  /W [ 63 [ 820 ] ]
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im278
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 173 0 R ]
+  /Filter /FlateDecode
+  /Length 1034
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im62
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 150 0 R ]
+  /Filter /FlateDecode
+  /Length 170
+>>
+stream
+endobj
+obj
+<<
+  /D [ 186 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (bQ9n18k)
+  /Rect [ 149.7 349.68 371.32 384.92 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+[ /ICCBased 17 0 R ]
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ARAAAA-F1
+  /FontBBox [ -19 -21 119 715 ]
+  /Flags 65568
+  /Ascent 760
+  /CapHeight 720
+  /Descent -220
+  /ItalicAngle 0
+  /Stemv 119
+  /MissingWidth 377
+  /CharSet (/g/hyphen/one/p/a/h/R/g/t/i/x)
+  /FontFile3 16 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 18 0 R
+  /FirstChar 12
+  /LastChar 121
+  /BaseFont /PZxWCQ-CMSS10
+  /FontDescriptor 11 0 R
+  /Type /Font
+  /FirstChar 46
+  /LastChar 110
+  /Widths [ 500 500 500 500 500 500 500 500 500 500 500 500
+  500 500 500 500 500 500 500 500 500 500 500 500 500
+  500 500 500 500 500 500 570 570 570 570 389 570 341
+      386 374 472 490 280 341 451 243 418 436 500 450 444
+      354 490 ]
+  /Encoding /WinAnsiEncoding
+  /Subtype /Type1
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 307
+>>
+stream
+endobj
+obj
+<<
+  /Length 13 0 R
+  /Type /Metadata
+  /Subtype /xML
+  /Filter /FlateDecode
+>>
+stream
+endobj

@@ -1,0 +1,139 @@
+obj
+<<
+  /Dest [ 37 0 R /xyZ null 559 null ]
+  /Next 1056 0 R
+  /Parent 1297 0 R
+  /Prev 1102 0 R
+  /Title (NeW mone shot Data Sering Simulink SoftWare)
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 1 ]
+  /C [ 0 1 1 ]
+  /A <<
+    /S /uRI
+    /uRI (http://WWW.mathWorks.com/help/releases/R2012a/toolbox/sldv/ref/sevicalystand.html)
+  >>
+  /Border [ 0 0 0 ]
+  /Rect [ 227.8 506.86 245.88 517.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 140 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 21 0 R
+  >>
+  /Contents 23 0 R
+>>
+endobj
+obj
+<<
+  /ColorSpace <<
+    /Cs8 585 0 R
+  >>
+  /Font <<
+    /TT1 448 0 R
+    /TT4 449 0 R
+    /TT3 451 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 227 0 R
+  /Resources 83 0 R
+  /Contents 96 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Type /xRef
+  /Index [ 0 13 ]
+  /SiZe 13
+  /W [ 1 2 1 ]
+  /Root 11 0 R
+  /Info 29 0 R
+  /ID [ <7E192EC6E81441EE1CFFD0D6CC69DB03> <144F6248FF9D62402469B5776520246> ]
+  /Length 374
+  /Filter /FlateDecode
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im273
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 21 0 R ]
+  /Filter /FlateDecode
+  /Length 420 0 R
+>>
+stream
+endobj
+obj
+<<
+  /D [ 112 0 R /xyZ null 340 null ]
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type0
+  /BaseFont /HSAAAA-F12
+  /FontDescriptor 10 0 R
+  /Type /Font
+  /Name /R16
+  /FirstChar 0
+  /LastChar 1
+  /Widths [ 0 250 ]
+  /Subtype /TrueType
+  /Type /Font
+  /FirstChar 58
+  /LastChar 111
+  /Widths [ 250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+endobj
+obj
+<<
+  /Ascent 1000
+  /xHeight 0
+  /FontFile2 33 0 R
+  /Type /Font
+  /FirstChar 58
+  /LastChar 124
+  /Widths [ 750 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+endobj
+obj
+<<
+  /Alternate /DeviceRgB
+  /Filter /FlateDecode
+  /Length 18 0 R
+>>
+stream
+endobj

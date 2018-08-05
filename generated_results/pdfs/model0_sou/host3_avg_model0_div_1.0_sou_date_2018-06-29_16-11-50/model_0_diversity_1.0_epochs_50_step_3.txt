@@ -1,0 +1,10472 @@
+obj
+<<
+  /Filter /FlateDecode
+  /First 165
+  /Length 2890
+  /N 58
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+<<
+  /Type /Encoding
+  /BaseEncoding /WinAnsiEncoding
+  /Differences [ 66 /parenleftByraden /four Curme ]
+>>
+endobj
+obj
+<<
+  /D [ 198 0 R /xyZ null 358 null ]
+>>
+endobj
+obj
+<<
+  /R10 10 0 R
+  /R18 17 0 R
+  /R33 33 0 R
+  /R67 77 0 R
+  /NxF1 24 0 R
+  /Fant <>
+  /P 339 0 R
+  /S /Copronpank
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /HEIBBS-CMR17
+  /FontBBox [ -156 -900 1681 1064 ]
+  /FontName /FPHBEA-LinLiberbert
+  /Ascent 820
+  /Descent -263
+  /ItalicAngle 0
+  /FontFamily (Mim-N ]
+  /ItalicAngle 0
+  /Stemv 00
+  /FontFile2 208 0 R
+>>
+endobj
+obj
+<<
+  /Length 2721
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Subtype /Type1C
+  /Length 1705
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length1 1432
+  /Length2 12462
+  /Length3 0
+  /Length 10989
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 131
+  /Subtype /Form
+  /Name /F8
+  /Border [ 0 0 0 ]
+  /A <<
+    /Type /ExtgState
+  /EndOfformas
+  /T 6 /gesterfacteright 154 /aagb 65
+      /I ]
+>>
+endobj
+obj
+<<
+  /A 77 0 R
+  /k 111
+  /P 83 0 R
+  /S /Normal
+  /PM 1
+  /QA /D
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im120
+  /Width 2786
+  /Heighth195
+  /xype /Font
+  /FirstChar 1
+  /LastChar 6
+  /Widths [ 652 301 531 382 326 536 2412 375 734 0 560 302 193
+      0 569 249 762 847 370 ]
+  /ColorSpace 65 0 R
+  /C20 185 0 R
+  /R68 20 0 R
+>>
+endobj
+obj
+8817
+endobj
+obj
+<<
+  /D [ 107 0 R /xyZ null 583 null ]
+>>
+endobj
+obj
+6176
+endobj
+obj
+<<
+  /Length 2845
+  /Filter /DCTDecode
+  /Length1 50293
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 32 0 R
+  /MediaBox [ 0 0 12.799 9.502 ]
+  /Trans <<
+    /S /R
+  >>
+  /Rect [ 449.179 417.344 492.034 369.483 ]
+>>
+endobj
+obj
+<<
+  /Length 444
+  /Subtype /Type1C
+  /Length 6254
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Ascent 1005
+  /Descent -250
+>>
+endobj
+obj
+<<
+  /A 159 0 R
+  /k 92
+  /P 135 0 R
+  /S /Normal
+  /Pg 7 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 31 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 27 0 R
+  >>
+  /Contents 57 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 151 0 R
+  /Length1 6842
+>>
+stream
+endobj
+obj
+[ 275 0 R /xyZ 153.15 263.566 null ]
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /CIDFontType0
+  /BaseFont /kPLALE-BHoma
+  /FontDescriptor 111 0 R
+  /Type /Font
+  /FirstChar 37
+  /LastChar 58
+  /Widths [ 252 311 0 0 619 ]
+  /BaseFont /EDIOCC-CMR17
+  /FontDescriptor 52 0 R
+  /FirstChar 38
+>>
+endobj
+obj
+(Identity)
+endobj
+obj
+<<
+  /Dect [ 4.7 53.04 556.3 ]
+>>
+endobj
+obj
+1687
+endobj
+obj
+3861
+endobj
+obj
+<<
+  /Length 9 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /P 268 0 R
+  /S /Span
+  /Type /StructElem
+  /Pg 51 0 R
+  /k 79
+>>
+endobj
+obj
+<<
+  /Dest [ 12 0 R /xyZ null 569 null ]
+  /Parent 479 0 R
+  /Prev 471 0 R
+  /Title (Rymootapitiah For)
+>>
+endobj
+obj
+<<
+  /Length 6 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 27 0 R
+  /FirstChar 44
+  /LastChar 17
+  /Widths 54 0 R
+  /Encoding 33 0 R
+  /Subtype /TrueType
+  /Name /F1
+  /BaseFont /TitNoWBond
+  /Encoding /WinAnsiEncoding
+  /FontDescriptor 21 0 R
+  /Tounicode 60 0 R
+  /Type /Catalog
+  /PageLayol 52 0 R
+  /Type /Catalog
+>>
+endobj
+obj
+<<
+  /k 46 0 R
+  /P 28 0 R
+  /S /LI
+>>
+endobj
+obj
+<<
+  /Type /Encoding
+  /BaseEncoding /WinAnsiEncoding
+  /Differences [ 0 /braceQIttiolithm6
+      /coro 192 /mna159 44
+          >> ]
+  >>
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 108
+>>
+stream
+endobj
+obj
+<<
+  /ExtgState <<
+    /gS1 1775 0 R
+  >>
+  /Font <<
+    /F3 962 0 R
+    /F1 726 0 R
+    /F2 752 0 R
+    /F5 772 0 R
+    /F6 574 0 R
+    /TT5 600 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /Type /group
+  /S /Transparency
+  /Type /Action
+>>
+endobj
+obj
+<<
+  /k 12 0 R
+  /ParentTreeNext 64 0 R
+>>
+endobj
+obj
+<<
+  /R7 7 0 R
+>>
+endobj
+obj
+(1.2.1 /(Copdversion)
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /QHgDEI-CMSy10
+  /FontBBox [ 0 -1230 1585 959 ]
+  /Flags 4
+  /Ascent 604
+  /CapHeight 750
+  /Descent 0
+  /ItalicAngle -14.04
+  /Stemv 69
+  /Flags 77
+  /FontBBox [ -44 -690 752 963 ]
+  /FontName /FTkBEA-Times-Roman
+  /FontBBox [ 0 -228 935 766 ]
+  /Flags 4
+  /Ascent 778
+  /CapHeight 754
+  /Descent -261
+  /ItalicAngle -12
+  /Stemv 189
+  /xHeight 446
+  /FontBBox [ -29 -304 655 850 ]
+  /Flags 4
+  /Ascent 686
+  /CapHeight 595
+  /Descent 0
+  /ItalicAngle 0
+  /Ste
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536904482)
+  /Rect [ 380.42 326.56 415.7 351.54 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 4 0 R
+  /Resources 7 0 R
+  /Contents 6 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 792 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (587263868)
+  /Rect [ 149.7 300.86 315.7 332.52 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /D [ 30 0 R /xyZ null 580 null ]
+>>
+endobj
+obj
+<<
+  /S /Normal
+  /C /Normal
+  /Pg 44 0 R
+  /k 2
+  /P 3096 0 R
+>>
+endobj
+obj
+<<
+  /Parent 675 0 R
+  /Dest [ 0 0 R /xyZ 0 T 723 null ]
+  /Type /Annot
+  /Subtype /Link
+>>
+endobj
+obj
+<<
+  /P 298 0 R
+  /S /Span
+  /Type /StructElem
+  /Pg 46 0 R
+  /k 60
+>>
+endobj
+obj
+<<
+  /Contents 7 0 R
+  /Type /Page
+  /Parent 140 0 R
+  /Resources 25 0 R
+  /Contents 137 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Resources 24 0 R
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536875986)
+  /Rect [ 161.7 533.86 453.42 546.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+[ 590 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 575 514 0 514 ]
+endobj
+obj
+<<
+  /CropBox [ 0 0 595.23 842 ]
+  /Parent 445 0 R
+  /StructParent 63
+>>
+endobj
+obj
+<<
+  /Resources 2 0 R
+  /Type /Page
+  /Parent 90 0 R
+  /Contents [ 29 0 R ]
+>>
+endobj
+obj
+542
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im104
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace 72 0 R
+  /Type /xObject
+  /Name /iin1
+  /FirstChar 32
+  /LastChar 94
+  /Stamp /TextBlant (Textp:6/0681-12/0.3)
+  /BS <FEFF3333> ]
+  /Info 111 0 R
+  /Length 11884
+  /Subtype /Image
+  /Type /xObject
+  /Length 1411
+  /Filter /CCITTFaxDecode
+  /DecodeParms <<
+    /k -1
+  >>
+  /xStep /Font-Black
+  /ShadingType
+  /PageMabelboun /De
+>>
+en
+endobj
+obj
+<<
+  /Type /Pages
+  /kids [ 4 0 R ]
+  /Count 1
+>>
+endobj
+obj
+(Adobe Illustrator Clsp 2.5.an/Texadice 2012 kQ7
+    / /B0 /Agbalitlosbagittig /alst /nin noult 405 /.notdef 75 /A /Q 89 /I 101 /y 22 /g 118 /s /s /t /u /v /A /vC /alsis /y 68 /S 87 /D 71 /L 654 /MP67 /x 80 /P 120 /fi 1 /endielegsiankecksing /tathlaychofmicalelef-reatexbafity.h/athele/commandledpoasbles.html)
+  >>
+  /Border [ 0 0 0 ]
+  /Rect [ 155.6 484.6 115.42 404.64 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Title (gianmatitnfors)
+>>
+endobj
+obj
+(Fordot)
+endobj
+obj
+[ 3 0 R /Fitl 3221.96 ]
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536871188)
+  /Rect [ 440.24 293.86 455.7 473.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /MTgIEN-BgontitWarMono-St-ul
+  /FontBBox [ 0 -280 865 750 ]
+  /Flags 4
+  /Ascent 683
+  /CapHeight 694
+  /Descent -219
+  /ItalicAngle 0
+  /Stemv 84
+  /CharSet (/L/a/b/d/e/i/l/s/t/i/a/m/n/tWo/O/F/s/t/Q/braceleft/b/backslacusin/t/u/x)
+  /FontFile3 15 0 R
+>>
+endobj
+obj
+<<
+  /Length1 2272
+  /Length2 12624
+  /Length3 0
+  /Length 32152
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /A 217 0 R
+  /k 53
+  /P 273 0 R
+  /S /Normal
+  /Pg 127 0 R
+>>
+endobj
+obj
+<<
+  /D [ 275 0 R /xyZ null 795 null ]
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /ZxBjuS-CMSy9
+  /FontDescriptor 31 0 R
+  /FirstChar 94
+  /LastChar 198
+  /Widths 84 0 R
+  /BaseFont /kPOWCP-BOSLoy10
+  /FontDescriptor 6 0 R
+  /Type /Font
+  /FirstChar 100
+        /S /AECobjac
+    /CropFixed [ 86.6693282 .2952381 .983437 74 51.9 31.374 ]
+    /Supplement 0
+  >>
+  /FontDescriptor 46 0 R
+  /DW 1000
+>>
+endobj
+obj
+<<
+  /ProcSet [ /PDF /Text ]
+  /Font <<
+    /F1 245 0 R
+    /F2 318 0 R
+  >>
+  /ProcSet [ /PDF /Text /ImageC ]
+  /ExtgState <<
+    /gS1 274 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 3 0 R
+  /Resources 11 0 R
+  /Contents 8 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /BaseFont /TAyCTE-Titr
+  /W [ 734 [ 533 ] 130 350 333 363 382 119 453 117 179 [
+      0 211 562 292 230 202 271 710 226 231 351 342 ]
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 336
+>>
+stream
+endobj
+obj
+<<
+  /k 26
+  /A [ 302 0 R ]
+  /C /Normal
+  /P 51 0 R
+  /S /Normal
+  /Pg 9 0 R
+>>
+endobj
+obj
+<<
+  /Subtype /Image
+  /Length 622
+  /ColorSpace /DeviceRgB
+  /Type /xObject
+  /Width 92
+  /BitsPerComponent 8
+  /Height 162
+  /Filter /DCTDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 8 0 R
+  /Resources 11 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /Parent 4 0 R
+>>
+endobj
+obj
+<<
+  /A 76 0 R
+  /k 10
+  /P 23 0 R
+  /S /Normal
+  /Pg 1 0 R
+>>
+endobj
+obj
+<<
+  /Tevigy (PD:2012052020510-0000)
+>>
+endobj
+obj
+<<
+  /Length 3593
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /D [ 114 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+<<
+  /jT3 0 0 0 0 0 ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /I 290
+  /L 830
+  /Length 35568
+  /O 77
+  /S 1074
+>>
+stream
+endobj
+obj
+<<
+  /Type /Metadata
+  /Subtype /xML
+  /Length 1530
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im23
+  /Width 890
+  /Height 4
+  /BitsPerComponent 8
+  /ColorSpace 210 0 R
+  /Type /xObject
+  /Subtype /Image
+>>
+stream
+endobj
+obj
+<<
+  /Length 32 0 R
+  /Type /xObject
+  /Subtype /Image
+  /Width 964
+  /Height 160
+  /BitsPerComponent 8
+  /Filter /DCTDecode
+  /Filter /FlateDecode
+  /Length 1898
+>>
+stream
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+  /Metadata 722 0 R
+  /PageLayont /Inent ]
+>>
+endobj
+obj
+<<
+  /Length 136 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 1816
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Ascent 778
+  /Descent -234
+  /Stemv 57
+  /CapHeight 894
+  /AvgWidth 563
+  /FontBBox [ -154 -256 1000 952 ]
+  /Flag944
+  /Ascent 700
+  /CapHeight 556
+  /Descent 0
+  /ItalicAngle 0
+  /Stemv 69
+  /xHeight 431
+  /CharSet (/A/x/colon/colon/T/e/u/i/k/eight/five/comma/W/x/period/u/s/pacer/c/h/p/r/s/slash/t/thrash/b/bracthoblbshypht/k/c/d/e/t/i/p/k/S/i/k/Zero/opda/h/p/W)
+  /FontDescriptor 622 0 R
+  /LastChar-102
+  /Subtype 
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im29
+  /Width 10
+  /Height 14
+  /BitsPerComponent 4
+  /ColorSpace [ /Indexed /DeviceRgB 15 790 0 R ]
+  /Filter [ /FlateDecode ]
+  /DecodeParms [ <<
+        /N 1
+        /Pg 49 0 R
+    >>
+  >>
+>>
+endobj
+obj
+<<
+  /Producer (gPL ghostscript 9.19)
+  /CreationDate (D:20061223111737-0100)
+  /ModDate (D:20040410150832-0200)
+  /Creator (groff version 1.25.3)
+  /Pagestren /Sidformal
+>>
+endobj
+obj
+<<
+  /Length 15929
+  /Length1353355293516156828
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Ascent 694
+  /CapHeight 671
+  /Descent -202
+  /ItalicAngle 0
+  /Stemv 89
+  /MissingWidth 250
+  /CharSet (/a/d/e/hyphen/i/l/m/Q/three/y/Zero)
+  /FontFile 56 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /gPSHQv-CMTT10
+  /FontDescriptor 33 0 R
+  /FirstChar 47
+  /LastChar 52
+  /Widths 51 0 R
+  /BaseFont /ILkyky-Futura-Bold
+  /Subtype /CIDFontType2
+  /Type /Font
+  /CIDTogIDMap /Identity
+  /DW 1000
+>>
+endobj
+obj
+<<
+  /CS 9 0 R
+  /I false
+  /k false
+  /S /Transparency
+>>
+endobj
+obj
+<<
+  /Length 133 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536873742)
+  /Rect [ 370.22 497.56 477.74 507.54 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Length 89 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Ordering (Identity
+  /Width 526
+  /Height 392
+  /ImageMasings 4 0 R
+  /ColorSpace <<
+  >>
+  /BaseFont /MLOkLN-Tahoma
+  /CIDTogIDMap /Identity
+  /DecodeParms [ nunt 20.78
+  /FontWedir [ .8185 0 0 0 6.124796 [ 8.99240564 ]
+  /Rect [ 146.686 179.335 375.013 790.466 ]
+  /A <<
+    /S /goTo
+    /D (gro:cataptionangb)
+  >>
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /FirstChar 0
+  /LastChar 32
+  /Widths [ 0 600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 395 489 0 0 504 0 0 0 512 0 0 0 518 0 0 0 511 589 0 0
+  771 0 0 0 0 0 0 0 0 0 0 0 0 469 416 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 R 87 77 78 77 87 77 91 75 83 83 ]
+  /Subtype /Image
+  /Type /xObject
+endobj
+obj
+<<
+  /Length 40 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Catalog
+  /Metadata 2 0 R
+  /Pages 4 0 R
+>>
+endobj
+obj
+<<
+  /Type /Pages
+  /kids [ 5 0 R ]
+  /Count 1
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Trhoant-Regular
+  /FontDescriptor 239 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /CIDFontType0
+  /BaseFont /BFxOMM-Wingdicria
+  /CIDSystemInfo <<
+    /Registry (Adobe)
+    /OSpR1
+    /S /T
+  >>
+  /Parent 128 0 R
+  /Next 180 0 R
+>>
+endobj
+obj
+<<
+  /W 105 0 R
+  /Count 1
+  /Parent 116 0 R
+  /kids [ 49 0 R 19 0 R 14 0 R 22 0 R ]
+>>
+endobj
+obj
+<<
+  /Filter [ /FlateDecode ]
+  /Length 325
+>>
+stream
+endobj
+obj
+<<
+  /P 453 0 R
+  /S /TR
+  /k [ 483 0 R 665 0 R 629 0 R 249 0 R ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 255 0 R
+  >>
+  /Contents 233 0 R
+>>
+endobj
+obj
+<<
+  /R13 13 0 R
+>>
+endobj
+obj
+<<
+  /Length 264 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 38 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /k [ 18 0 R 16 0 R ]
+  /P 36 0 R
+  /S /TR
+>>
+endobj
+obj
+<<
+  /Length 12 0 R
+  /N 3
+  /Alternate /DeviceRgB
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Rect [ 38 536.974 385.25 ]
+  /Length 11 0 R
+>>
+stream
+endobj
+obj
+(D:20161110131536Z0700)
+endobj
+obj
+<<
+  /Filter [ /FlateDecode ]
+  /Length 273
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (654310802)
+  /Rect [ 247.9 372.7 360.1 575.94 ]
+  /Subtype /Link
+  /A <<
+    /Type /Action
+    /S /uRI
+    /uRI (http://WWW.pirketuckieneadnd6)
+  >>
+>>
+endobj
+obj
+[ 288 0 R 203 0 R 265 0 R 265 0 R ]
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 93
+>>
+stream
+endobj
+obj
+<<
+  /Title (18.Haphleckifienubday)
+  /CreationDate (D:20090317150720-0200)
+  /ModDate (D:20060717283412-0600)
+>>
+endobj
+obj
+[ /Pattern /DeviceRgB 97 [ 710 0 1 ]
+>>
+endobj
+obj
+<<
+  /Type /Metadata
+  /Subtype /xML
+  /Length 3163
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontFile3 15 0 R
+  /FontBBox [ -207 -326 1124 1064 ]
+  /FormType 2
+  /Length 851
+>>
+stream
+endobj
+obj
+<<
+  /S /goTo
+  /D (chapter.2)
+>>
+endobj
+obj
+<<
+  /Length 956 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 40 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Dest [ 166 0 R /xyZ null 301 null ]
+  /Next 1205 0 R
+  /Parent 2139 0 R
+  /Title (20:/(RFP)
+  /Creator (PScript2.0 bax /(1.41)
+  /ModDate (DLave trang PFortativiehtre
+  /DescendantFonts [ 25 0 R ]
+  /Tounicode 51 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im52
+  /Width 89.ndo
+
+ /Subtype /Image
+  /Name /im19
+  /ImageMaghtial 9 0 R
+  /PageLayol 29 0 R
+  /Names 134 0 R
+  /O /Layout
+  /W 187 0 R
+  /O /Layout
+  /uCR2 /Inffftbt /6255/f1-1 ]
+>>
+endobj
+obj
+[ /Indexed 2034 0 R 24 57 0 R ]
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+  /Metadata 48 0 R
+>>
+endobj
+obj
+<<
+  /Filter /ASCII85Decode
+  /Length 436 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 3 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /Contents 11 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 6
+  /Length 100
+  /N 1
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 98 0 R
+  /Resources 5 0 R
+  /Contents 6 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 792 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /BaseFont /AIEHMH-CMR2
+  /FontDescriptor 1 0 R
+  /Names 73 0 R
+  /Outline 26 0 R
+  /AIS false
+  /op false
+>>
+endobj
+obj
+<<
+  /Metadata 2 0 R
+  /Pages 2 0 R
+  /Type /Catalog
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /PTEIHL-Times-Roman
+  /FontBBox [ 0 -229 538 693 ]
+  /Flags 4
+  /Ascent 659
+  /Masing 4 0 R
+  /Type /xRegc
+  /ShapeF2
+  /Index [ 0 .9348 72.7561 506.25985 ]
+  /Resogriscendent 118.24
+  /BaseEncoding /WinAnsiEncoding
+  /BaseFont /AxCASu--Tahoma
+  /CIDSystemInfo <<
+    /Registry (Adobe)
+    /R>>
+  >>
+  /jame (shage.3)
+>>
+endobj
+obj
+<<
+  /Length 4776
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536887569)
+  /Rect [ 149.7 275.86 155.78 318.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /StructElem
+  /S /P
+  /Pg 53 0 R
+  /k 7
+  /P 311 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 274
+>>
+stream
+endobj
+obj
+1074
+endobj
+obj
+<<
+  /Annots [ 721 0 R 722 0 R 723 0 R ]
+  /Contents 126 0 R
+  /CropBox [ 0 0 558 648 ]
+  /MediaBox [ 0 0 558 648 ]
+  /Parent 934 0 R
+  /Resources 706 0 R
+  /Rotate 0
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Producer (AFTrmas FirsCol 305)
+  /Creator (pdfTex-1.05)
+  /TextAlign /juse
+>>
+endobj
+obj
+<<
+  /Type /Encoding
+  /Differences [ 0 /.notdef 98 /s 118 /.notdef
+      42 /.notdef 97 /a /b 71 /.notdef
+      88 /d /a111
+      /E /x 12
+      /FA 160 0 R
+      /gS1 661 0 R
+    >>
+    /Font <<
+      /TT0 644 0 R
+      /TT6 524 0 R
+    >>
+    /ProcSet [ /PDF /Text ]
+  >>
+  /Rotate 0
+  /Type /xObject
+>>
+stream
+endobj
+obj
+<<
+  /ExtgState <<
+    /gS1 1315 0 R
+  >>
+  /Font <<
+    /F3 1800 0 R
+    /F6 713 0 R
+    /F6 948 0 R
+    /TT2 909 0 R
+    /TT6 838 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /H /I
+  /C [ 1 0 0 ]
+  /Rect [ 304.74 322.92 432.036 351.7 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Length 1710
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /LineariZed 9
+  /L 10662
+  /O 15
+  /T 10894
+  /O 1145
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /MRTWvu-Tahoma0
+  /Flags 4
+  /Stemv 0
+  /CapHeight 862
+  /FontFile2 75 0 R
+>>
+endobj
+obj
+<<
+  /Dest [ 245 0 R /xyZ null 559 null ]
+  /Next 41 0 R
+  /Parent 96 0 R
+  /Prev 418 0 R
+  /Title (ProWjin)
+  /Mediage /Pathon ]
+>>
+endobj
+obj
+(5.2.151A)
+endobj
+obj
+<<
+  /Names [ (Doc-Start) 21 0 R (chapter-.1) 98 0 R (page.8)
+      31 0 R (section.3) 107 0 R (section.9.2) 60 0 R (section.1)
+      10 0 R (cpdf1 551 78 /c /c /d /g /j 61 /k /u /v /Q /r /s /tare
+      102 /a /o /p /pillerigg 65 /six /Zemd /tiftevicadon.1 666 /aF /caron 10.1 ]
+      279 0 R /Type /Encoding
+  /Descent -322
+  /FontFile2 33 0 R
+>>
+endobj
+obj
+<<
+  /Nums [ 0 24 0 R ]
+>>
+endobj
+obj
+(D:20160303173058Z0000)
+endobj
+obj
+<<
+  /Length 854 0 R
+  /Length 17 0 R
+  /Type /Metadata
+  /Subtype /CIDFontType2
+  /FirstChar 65
+  /LastChar 57
+  /Widths [ 0 ]
+  /BaseFont /TitNoum
+  /Touniced  .ra
+  /FTxternox <<
+    /ColorSpace <<
+      /CS1 560 0 R
+      /CS2 856 0 R
+    >>
+    /Font 14 0 R
+  >>
+  /Contents 15 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 369
+>>
+stream
+endobj
+obj
+561
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (675002231)
+  /Rect [ 147.6 324.98 188.74 233.52 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 4093
+  /Length1 10368
+>>
+stream
+endobj
+obj
+<<
+  /D [ 68 0 R /xyZ null 472 null ]
+>>
+endobj
+obj
+<<
+  /Length 295
+  /Filter [ /FlateDecode ]
+>>
+stream
+endobj
+obj
+<<
+  /Length1 827
+  /Length2 4183
+  /Length3 532
+  /Length 16238
+  /Filter /Standerdery
+  /Type /xObject
+  /Subtype /Image
+>>
+stream
+endobj
+obj
+<<
+  /BaseFont /DAAAAA-F5
+  /FontDescriptont 735 0 R
+>>
+endobj
+obj
+<<
+  /D [ 110 0 R /xyZ null 571 null ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 562
+>>
+stream
+endobj
+obj
+<<
+  /Length 12718
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Names [ (lstnumber.-8.1078)
+      7 0 R (Nume ]FatheW 17336 15 160 10 13 0 [ (0) (2) ] [ (1) (f) ] [ 299 0 R ]
+  /Limits [ (sumumbs.orpt) 37 0 R (section.4.)
+  /C [ 0 0 0 ]
+  /Domain [ 1 ]
+  /N 2
+  /T 7 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /TrueType
+  /Name /F9
+  /BBox [ 0 0 58 57 ]
+  /BleedBok 21 0 R
+  /Metadata 2 0 R
+  /Metadata 2 0 R
+  /Ap 14500051
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 407 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Ascent 835
+  /Descent -510
+  /Stemv 77
+  /CapHeight 775
+  /AvgWidth 448
+  /FontBBox [ -625 -348 441 1038 ]
+  /ItalicAngle -14.0351
+  /StemH 0
+  /FontName /kPyAgA-SFRM1000
+  /FontFile3 47 0 R
+  /FontName /IDIkZP-CMBx15
+  /FontBBox [ 0 -229 538 619 ]
+  /Flags 4
+  /Ascent 675
+  /CapHeight 675
+  /Descent -299
+  /ItalicAngle 0
+  /Stemv 126
+  /MissingWidth 750
+  /CharSet (/space)
+  /FontFile 155 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 29
+  /Length 253
+  /N 7
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+<<
+  /Dest [ 268 0 R /xyZ null 559 null ]
+  /Next 868 0 R
+  /Parent 1090 0 R
+  /Title (Drolle/) nopBook
+  /parpMap 134 0 R
+  /LastMedant 371 0 R
+  /FT /Blonack trate
+  /Rect [ .763461 50.58558 230.7228 .15471 .48077 ]
+    /Subtype /Lent
+  >>
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /H /I
+  /C [ 0 1 0 ]
+  /Rect [ 302.759 500.953 249.678 70.621 ]
+  /A <<
+    /S /goTo
+    /D 334 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Width 10
+  /ColorSpace 26 0 R
+  /Filter [ /FlateDecode ]
+  /Decode [ 1 1 ]
+  /DecodeParms [ null ]
+>>
+stream
+endobj
+obj
+<<
+  /Nums [ 0 16 0 R ]
+>>
+endobj
+obj
+<<
+  /P 99 0 R
+  /S /TD
+  /k [ 5 0 R ]
+  /Pg 3 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 119 0 R
+  /Resources 126 0 R
+  /MediaBox [ 0 0 595.276 841.89 ]
+  /Parent 7 0 R
+  /Annots [ 9 0 R ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 612 792 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /ImageC /Text ]
+    /ExtgState 12 0 R
+  >>
+>>
+stream
+endobj
+obj
+<<
+  /Length 7259
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Dest (g48
+  /Last 185 0 R
+  /Next 69 0 R
+  /Prev 74 0 R
+  /Title (R200 a)
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 612 792 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /ImageC /ImageI /Text ]
+    /ExtgState 388 0 R
+    /Font 53 0 R
+  >>
+  /Contents 295 0 R
+>>
+endobj
+obj
+<<
+  /BaseFont /CSAAAA-F11
+  /FontDescriptor 45 0 R
+  /FirstChar 84
+  /LastChar 111
+  /Widths 157 0 R
+  /Encoding 8 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 294
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Encoding 71 0 R
+  /FirstChar 2
+  /LastChar 6
+  /BaseFont /IkvNy-Tumbol
+  /FontDescriptor 120 0 R
+>>
+endobj
+obj
+5916
+endobj
+obj
+<<
+  /Length 2512
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Index <<
+      /CS1 75 0 R
+      /CS0 176 0 R
+    >>
+    /Font <<
+      /TT0 74 0 R
+      /TT1 335 0 R
+      /TT3 26 0 R
+      /TT1 41 0 R
+      /TT4 34 0 R
+      /TT6 29 0 R
+      /TT1 49 0 R
+      /TT4 54 0 R
+      /TT9 40 0 R
+      /TT4 55 0 R
+      /TT4 57 0 R
+      /TT6 65 0 R
+      /TT2 51 0 R
+      /TT3 67 0 R
+      /TT4 57 0 R
+      /C46 43 0 R
+    >>
+    /ExtgState <<
+      /gS4 31 0 R
+    >>
+  >>
+  /Contents 27 0 R
+>>
+endobj
+obj
+<<
+  /Length 1634
+  /Subtype /Type1C
+>>
+stream
+endobj
+obj
+<<
+  /O /Layout
+  /EndIndent 0
+  /TextAlign /justify
+  /O /Layoun
+>>
+endobj
+obj
+5457
+endobj
+obj
+[ 356.5 531 544 434 517.6
+  494 597 623 572 505 592 467 511 562 578 612 936 ]
+  /BBox [ 496.8 416.73 239.99 ]
+  /Filter /FlateDecode
+  /Length 62
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (br02j8h)
+  /Rect [ 443.02 496.56 425.6 455.54
+  /Subt <<<
+    /ProcSet [ /PDF ]
+  >>
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /S /Normal
+  /C /Normal
+  /Pg 5 0 R
+  /k 12
+  /P 443 0 R
+>>
+endobj
+obj
+<<
+  /CropBox [ 0 0 122 71 ]
+  /MediaBox [ 0 0 465.22 895 ]
+  /StructT32.2
+  /Parent 65 0 R
+  /Title (ta Harfrixd)
+  /Dest (g15119)
+  /Rect [ 327.9 233.28 191.1 366.52 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /ObjStm
+  /N 2
+  /First 78
+  /Length 1277
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /D [ 91 0 R /xyZ 153.78 395.271 null ]
+>>
+endobj
+obj
+<<
+  /Filter /A85
+  /Length 834
+>>
+stream
+endobj
+obj
+532
+endobj
+obj
+142
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+  >>
+  /Rotate 0
+  /MediaBox [ 0 0 595.22 842 ]
+  /Resources 23 0 R
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im72
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 28 0 R ]
+  /LevistAnt 85 0 R
+  /Name /APCM -LuninSingrad
+  /Subtype /Type1
+  /FontDescriptor 129 0 R
+  /LastChar 120
+  /Subtype /Type1
+  /Filter /FlateDecode
+  /Filter /FlateDecode
+  /Height 196
+  /Length 6482
+  /Subtype /Image
+  /Type /xObject
+  /Width 44807
+  /Height 1
+  /BitsPerComponent 8
+  /ColorSpace 
+endobj
+
+obj
+<<
+  /Contents 157 0 R
+  /Type /Page
+  /Parent 328 0 R
+  /Resources 28 0 R
+  /MediaBox [ 0 0 595.276 841.89 ]
+  /Parent 6 0 R
+>>
+endobj
+obj
+<<
+  /R7 7 0 R
+>>
+endobj
+obj
+<<
+  /Length 294 0 R
+  /Filter /FlateDecode
+  /N 3
+  /Alternate /DeviceRgB
+  /Info 721 0 R
+  /Next 125 0 R
+  /Title <FEFF064F00B60064002000B30072006F00650065002E002000320065006500650074>
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 235
+>>
+stream
+endobj
+obj
+<<
+  /BaseFont /DRABkT-TTE16SA0Bold
+  /W [ 18 [ 543 175 500 520 ]
+  /CIDTogIDMap /Identity
+  /CIDTogIDMap /Identity
+  /CIDSystemInfo <<
+    /Registry (Adobe)
+    /Ordering (Identity)
+    /Supplement 1
+  >>
+  /FontDescriptor 12 0 R
+  /DW 500
+  /W 83 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ALgRMA-Fukumand
+  /Flags 38
+  /Stemv 183
+  /CapHeight 700
+  /Descent -216
+  /FontName /kyPPLP-CMR10
+  /ItalicAngle 0
+  /Stemv 42
+  /Flags 242150
+  /FontBBox [ -46 -250 1009 750 ]
+  /Flags 4
+  /ItalicAngle 0
+  /Ascent 906
+  /Descent -279
+  /CapHeight 698
+  /AvgWidth 581
+  /MaxWidth 1136
+  /FontWeight 400
+  /xHeight 286
+  /ItalicAngle -15
+  /Stemv 183
+>>
+endobj
+obj
+<<
+  /P 788 0 R
+  /S /Span
+  /Type /StructElem
+  /Pg 47 0 R
+  /k 49
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 39 0 R
+  >>
+  /Contents 43 0 R
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /H /N
+  /C [ .5 .5 .5 ]
+  /Rect [ 564.511 8.666 268.826 23.563 ]
+  /A <<
+    /S /goTo
+    /D (g)
+  >>
+  /Rect [ 447.647 334.7E316 263.0392 ]
+>>
+endobj
+obj
+<<
+  /Length 328
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /BaseFont /IuRHvE-LMRoman10-CapsRegular
+  /DescendantFons27 325 0 R
+  /FontDescriptor 111 0 R
+  /CIDTogIDMap 25 0 R
+>>
+endobj
+obj
+<<
+  /A 203 0 R
+  /k 82
+  /P 704 0 R
+  /Pg 12 0 R
+  /S /Normal
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 6632
+  /Length1 19886
+  /Length2 82550
+>>
+stream
+endobj
+obj
+<<
+  /S /goy
+  /Type /ORject
+  /Rect [ 889.2 211 509 2124 ]
+  /Length 231
+  /Filter /FlateDecode
+>>
+endobj
+obj
+[ 69 0 R ]
+endobj
+obj
+<<
+  /P 89 0 R
+  /S /Textbox
+  /Alt <FEFF00020063000C0065>
+>>
+endobj
+obj
+1341
+endobj
+obj
+<<
+  /Length 2150
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Resources 28 0 R
+  /Type /Page
+  /Parent 30 0 R
+  /Contents [ 4 0 R ]
+>>
+endobj
+obj
+<<
+  /D [ 73 0 R /xyZ null 582 null ]
+>>
+endobj
+obj
+<<
+  /Subtype /Type1C
+  /Filter /FlateDecode
+  /Length 53 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Length 40 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /BaseFont /SBOkEE-BZarBold
+  /Subtype /CIDFontType0
+  /CIDSystemInfo <<
+    /Registry (Adobe)
+    /Ordering (Identity)
+    /MarkInfo t
+  >>
+  /Matrix [ 1 0 0 1 0 0 ]
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 153 0 R
+  >>
+  /Contents 173 0 R
+>>
+endobj
+obj
+<<
+  /A 77 0 R
+  /k 5
+  /P 30 0 R
+  /S /Normal
+  /Pg 53 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 306
+>>
+stream
+endobj
+obj
+<<
+  /Font <<
+    /F18 4 0 R
+    /F14 7 0 R
+    /F12 4 0 R
+    /F24 6 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /k 37 0 R
+  /P 144 0 R
+  /S /LI
+>>
+endobj
+obj
+<<
+  /Length 2442
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im122
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 73 0 R ]
+  /Filter /FlateDecode
+  /Length 604 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 16 0 R
+>>
+stream
+endobj
+obj
+<<
+  /F (////10.10.17.3//Image//C451<F022>4//IMAgES/06326/hepe//u0605/a11/Lacke/rol/c/))
+  >>
+  /Rect [ 203.123 736.932 320.523 554.093 ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 2807
+  /Subtype /TypeWC
+enber
+od
+ /Modiadot
+  /FontBBox [ 0 -240 313 972 ]
+  /FontName /FPxQRQ-CMEx10
+  /ItalicAngle 0
+  /Stemv 65
+  /xHeight 431
+  /FontBBox [ -25 -250 1115 750 ]
+  /Flags 4
+  /Ascent 21042
+  /CapHeight 735
+  /Descent 0
+  /ItalicAngle -14.14
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 20 0 R
+  /Next 120 0 R
+  /Next 14 0 R
+>>
+endobj
+obj
+<<
+  /O /Layout
+  /TextAlign /justify
+  /viePling /Wingh 1
+>>
+endobj
+obj
+<<
+  /P 58 0 R
+  /S /Figure
+  /Alt <>
+  /k [ 21 ]
+  /Pg 68 0 R
+>>
+endobj
+obj
+<<
+  /D [ 183 0 R /xyZ null 577 null ]
+>>
+endobj
+obj
+<<
+  /D [ 132 0 R /xyZ null 582 null ]
+>>
+endobj
+obj
+<<
+  /k [ 673 0 R 754 0 R 759 0 R ]
+  /P 193 0 R
+  /S /pariments-BodjSct -14
+  /Subtype /Type0
+  /Length 2048
+  /BitsPerComponent 1
+  /DecodeParms <<
+    /kets 793 0 R
+    /Type /OBjR
+  >>
+  /Shading <<
+    /ShaperectioL-1 (Illi TTT1
+  /FontFile3 82 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /IxOPZC-CMTT8
+  /Flags 4
+  /FontBBox [ -21 -96 993 788 ]
+  /FontFile2 33 0 R
+>>
+endobj
+obj
+<<
+  /A P376 0 R
+  /k [ 353 0 R 945 0 R 955 0 R 878 0 R 884 0 R 881 0 R 845 0 R
+      801 0 R 985 0 R 942 0 R 924 0 R 848 0 R 805 0 R 750 0 R ]
+  /P 84 0 R
+  /S /Normal
+  /Pg 9 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 1061
+>>
+stream
+endobj
+obj
+<<
+  /S /goTo
+  /D (section-.2)
+>>
+endobj
+obj
+<<
+  /S /Normal
+  /A [ 266 0 R ]
+  /C /Normal
+  /Pg 822 0 R
+  /k 75
+  /A>
+  /BS <FEFF50006000C00530064006A00200033>
+  /A <<
+    /S /goTo
+    /D (c)
+  >>
+  /Rect [ 357.416 580.676 500.983 568.676 ]
+>>
+endobj
+obj
+<<
+  /A 150 0 R
+  /k 21
+  /P 145 0 R
+  /S /Normal
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /TkectCh 82
+    /Extent 198 0 R
+  /Parent 796 0 R
+  /Prev 1756 0 R
+  /Title (Todle for and bject)
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 677
+  /Length1 98697
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /MLLDEE-BNaZaninBold
+  /Flags 4
+  /Descent -210
+  /FontBBox [ -199 -968 1023 1333 ]
+  /Ascent 1057
+  /CapHeight 691
+  /Descent -594
+  /ItalicAngle 0
+  /Stemv 69
+  /MissingWidth 277
+  /FontFile2 33 0 R
+>>
+endobj
+obj
+<<
+  /Length1 411
+  /Length2 4077
+  /Length3 532
+  /Length 9832
+  /Length 22150
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 26 0 R
+  >>
+  /Contents 30 0 R
+>>
+endobj
+obj
+<<
+  /Length 58 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 6
+  /Length 9-14
+  /N 1
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+<<
+  /Length 262
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 42 0 R
+  /Resources 24 0 R
+  /MediaBox [ 0 0 595.2756 841.8187 ]
+  /Cordent 7 0 R
+>>
+endobj
+obj
+<<
+  /R12 12 0 R
+  /R13 13 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /yCLRAA-ArialBold
+  /ItalicAngle 0
+  /FontFile2 160 0 R
+>>
+endobj
+obj
+<<
+  /Length 22196
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 7457
+>>
+stream
+endobj
+obj
+<<
+  /Ascent 725
+  /CapHeight 683
+  /Descent -133
+  /ItalicAngle 0
+  /Stemv 68
+  /MissingWidth 777
+  /FontFile2 29 0 R
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (805322110)
+  /Rect [ 370 128.42 185.7 503.26 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /Arial-ItalicMedi
+  /Flags 4
+  /Stemv 0
+  /CapHeight 690
+  /Descent -256
+  /FontName /DOCLCj-yagutBold
+  /Flags 4
+  /Stemv 53
+  /CapHeight 0
+  /FontName /QkvBkO-EacuscametBold
+  /Flags 32
+  /FontBBox [ -144 -476 993 758 ]
+  /FontFile2 6 0 R
+  /Type /FontDescriptor
+  /Flags 4
+  /FontBBox [ -603 -328 7168 1111 ]
+  /Ascent 1006
+  /Stemv 391.250
+  /Stemv 106.283
+  /Masenden 06
+  /CharSemi (Charicors)
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536878354)
+  /Rect [ 406.18 152.86 449.7 157.84 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+[ 1096 0 0 0 500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 631 0 0 0 0 0 0 66 65 0 63 76 74 82 72 ]
+  /BaseFont /ODFIFy-BLotim
+  /Encoding /Identity-H
+  /DescendantFonts [ 21 0 R ]
+  /Tounicode 55 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /gTIAOD--Times-Bold
+  /FontBBox [ -102 -217 1259 1110 ]
+  /Flags 4
+  /Ascent 625
+  /CapHeight 815
+  /Descent -205
+  /ItalicAngle -42
+  /Stemv 381
+  /CharSet (/M/T/Quoteleft/Quotedblleft/E/r9Colde/a/f/a/b/c/e/f/fi/urefh/i/o/o/r/s/t)
+  /FontFile 56 0 R
+>>
+endobj
+obj
+2470
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 130
+>>
+stream
+endobj
+obj
+<<
+  /Filter /A85
+  /Length 322
+>>
+stream
+endobj
+obj
+<<
+  /Contents 286 0 R
+  /Type /Page
+  /Parent 1424 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 92 0 R
+  >>
+  /Contents 13 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 4 0 R
+  /Rect [ 107.354 1030.515 168.65 525.661 ]
+  /A <<
+    /S /goTo
+    /D 365 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /P 312 0 R
+  /S /Span
+  /Pg 47 0 R
+  /k 130
+>>
+endobj
+obj
+<<
+  /A 79 0 R
+  /k 80
+  /P 853 0 R
+  /S /Normal
+  /Pg 157 0 R
+>>
+endobj
+obj
+<<
+  /Resources 7 0 R
+  /Type /Page
+  /Parent 93 0 R
+  /Contents [ 81 0 R ]
+>>
+endobj
+obj
+<<
+  /Producer (pdfTex-1.40.12)
+  /Creator (Tex)
+  /CreationDate (D:20052118173340)
+  /ModDNjeType /DeviceRgB
+  /Liak
+  /First 5 0 R
+  /Last 94 0 R
+>>
+endobj
+obj
+<<
+  /R11 11 0 R
+>>
+endobj
+obj
+<<
+  /D [ 97 0 R /xyZ 153.698 776.27 null ]
+>>
+endobj
+obj
+<<
+  /Title (Al)
+  /A 95 0 R
+  /StructTreeRoot 19 0 R
+>>
+endobj
+obj
+<<
+  /Dests 3 0 R
+  /Type /Pattern
+  /TrungType /Obj
+>>
+endobj
+obj
+<<
+  /P 342 0 R
+  /S /Span
+  /Type /StructElem
+  /Pg 42 0 R
+  /k 176
+>>
+endobj
+obj
+<<
+  /BaseFont /BRAAAA-BArcera-Bold
+  /DescendantFonts [ 50 0 R ]
+  /Tounicode 30 0 R
+>>
+endobj
+obj
+<<
+  /Dest [ 162 0 R /xyZ null 559 null ]
+  /Parent 1126 0 R
+  /Title (Dithening hathessage  Cosgo)
+>>
+endobj
+obj
+<<
+  /Length 705
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /ProcSet [ /PDF /Text ]
+  /Font <<
+    /TT4 409 0 R
+    /TT4 638 0 R
+    /TT6 649 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /Subtype /Type1C
+  /Filter /FlateDecode
+  /Length 615
+>>
+stream
+endobj
+obj
+<<
+  /k 5
+  /A [ 466 0 R ]
+  /C /Normal
+  /P 237 0 R
+  /S /Normal
+>>
+endobj
+obj
+<<
+  /Filter /ASCII85Decode
+  /Length 45 0 R
+>>
+stream
+endobj
+obj
+<<
+  /R13 13 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 612 792 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 57 0 R
+  >>
+  /Contents 49 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 1995
+>>
+stream
+endobj
+obj
+[ 43 0 R /xyZ 75.842 594.08 null ]
+endobj
+obj
+<<
+  /Length 3736
+  /Filter [ /FlateDecode ]
+>>
+stream
+endobj
+obj
+<<
+  /Length 666
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Contents 72 0 R
+  /Type /Page
+  /Parent 42 0 R
+  /Rotate 0
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /MNBAkD-NimbusRomNouMSLSchenralieL-IdItalicMTark-Regular-Rte10)
+  /Subtype /Form
+  /Type /xObject
+>>
+stream
+endobj
+obj
+<<
+  /Length 24 0 R
+  /L 469
+  /Filter /FlateDecode
+  /N 1
+  /SiZe 35
+  /N 4
+  /AIPage21 <<
+    /N 1
+  >>
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (570468792)
+  /Rect [ 149.6 357.86 102.68 364.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+[ 32 0 R 23 0 R 35 0 R 31 0 R 32 0 R 53 0 R 53 0 R 53 0 R 56 0 R
+      58 0 R 53 0 R 56 0 R 64 0 R 65 0 R 64 0 R 78 0 R 81 0 R
+  97 0 R 82 0 R ]
+>>
+endobj
+obj
+<<
+  /Contents 293 0 R
+  /CropBox [ 0 0 558 648 ]
+  /MediaBox [ 0 0 558 648 ]
+  /Parent 978 0 R
+  /Resources 612 0 R
+  /Rotate 0
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Count 21
+  /kids [ 44 0 R ]
+  /Type /Pages
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 61 0 R
+>>
+stream
+endobj
+obj
+<<
+  /ExtgState <<
+    /gS1 652 0 R
+  >>
+  /Font <<
+    /TT2 435 0 R
+    /TT6 446 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /A 237 0 R
+  /k 448
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im184
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 120 0 R ]
+  /Filter /FlateDecode
+  /Length 252 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 414 0 R
+  /Resources 59 0 R
+  /Contents 45 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 792 ]
+  /Resources 82 0 R
+>>
+endobj
+obj
+<<
+  /Length1 1059
+  /Length2 1940
+  /Length3 0
+  /Length 98590
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /R46 43 0 R
+  /R25 25 0 R
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536894896)
+  /Rect [ 143.7 237.86 490.7 228.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /R17 17 0 R
+>>
+endobj
+obj
+[ 494 0 0 0 0 278 0 0 0 543 0 0 0 0 0 560 579 525 0 531
+      470 0 542 551 574 775 ]
+  /LastChar 32
+  /FontDescriptor 17 0 R
+  /FirstChar 32
+  /LastChar 122
+  /Widths [ 343 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 460 ]
+  /Encoding 422 0 R
+  /Subtype /CIDFontType2
+  /Type /Font
+  /W 27 0 R
+  /Function 53 0 R
+  /FontDescriptor 41 0 R
+  /FirstChar 49
+  /LastChar 52
+  /Widths 27 0 R
+  /Type /Font
+  /Subtype /Image
+  /Type /xObject
+  /Width 282
+>>
+stream
+endo
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 102
+  /Length 1806
+  /R
+  /Filter /FlateDecode
+  /Length 400 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Encoding 146 0 R
+  /BaseFont /DTjLIH-CMSy10
+  /FontDescriptor 30 0 R
+  /FirstChar 44
+  /LastChar 121
+  /Widths 94 0 R
+  /BaseFont /HTvWuk-MSTT31d000
+  /FontDescriptor 39 0 R
+  /FirstChar 38
+  /LastChar 121
+  /Widths 19 0 R
+  /BaseFontFuZaTinLibey ITlatinaZaninincan
+  /Encoding /Identity-H
+  /DescendantFonts [ 84 0 R ]
+  /Tounicode 175 0 R
+>>
+endobj
+obj
+<<
+  /S /pareftarle
+  /CA .95
+  /BM (205.211 01.03211 .3009140E12471631020064200305133:53>
+  /FontMatrix [ 1 0 0 1 0 0 1 1 ]
+  /FirstChar 54
+  /LastChar 116
+  /Widths 94 0 R
+>>
+endobj
+obj
+<<
+  /Filter [ /FlateDecode ]
+  /Length 226
+>>
+stream
+endobj
+obj
+[ 622 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  497 0 0 511 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 444 0 0 0 543
+      0 536 0 0 591 0 0 0 0 0 499 0 0 0 0 0 406 0 556 ]
+endobj
+obj
+<<
+  /D [ 61 0 R /xyZ 90.743 502.0975 null ]
+>>
+endobj
+obj
+<<
+  /Count 28
+  /kids [ 126 0 R 137 0 R ]
+  /Type /Pages
+>>
+endobj
+obj
+<<
+  /Type /StructElem
+  /AcBol 12 0 R
+  /Pg 557 0 R
+>>
+endobj
+obj
+<<
+  /A <<
+    /S /uRI
+    /uRI (http://WWW.mathWorks.com/help/releases/R2012a/toolbox/comma/tus/hycobs/ref/ref/Wer-2.html)
+  >>
+  /Border [ 0 0 0 ]
+  /Rect [ 168.51 669.02 135.7 603.54 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /D [ 191 0 R /xyZ null 585 null ]
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536882856)
+  /Rect [ 390.25 296.86 402.7 506.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Filter /ASCII85Decode
+  /Length 214 0 R
+>>
+stream
+endobj
+obj
+6129
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 283
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Stemv 73
+  /ItalicAngle 0
+  /Stemv 80
+  /AvgWidth 677
+  /MissingWidth 583
+  /Ascent 730
+  /Descent -291
+  /ItalicAngle -18
+  /Stemv 76
+  /xHeight 431
+  /FontBBox [ -35 -251 988 750 ]
+  /Flags 4
+  /CharSet (/mcolenote/parenleft/u/a/n/o/r)
+  /FontFile3 28 0 R
+>>
+endobj
+obj
+<<
+  /D [ 21 0 R /xyZ 126.694 496.292 null ]
+>>
+endobj
+obj
+<<
+  /BaseFont /xRAAAA-F4
+  /FontDescriptor 12 0 R
+  /Type /Font
+  /Name /R18
+  /FirstChar 0
+  /LastChar 105
+  /Widths [ 5 0 385 445 ]
+  /BaseFont /CMAgEE-B1aldPro-Bold
+  /DescendantFonts [ <1564A0000000000> ]
+>>
+endobj
+obj
+<<
+  /D [ 110 0 R /xyZ null 268 null ]
+>>
+endobj
+obj
+<<
+  /a <<
+    /CreatorInt 6
+  /Paterter (WWW.d-gh)
+>>
+endobj
+obj
+<<
+  /P 1018 0 R
+  /S /Span
+  /Type /StructElem
+  /Pg 47 0 R
+  /k 109
+>>
+endobj
+obj
+<<
+  /P 303 0 R
+  /S /P
+  /k [ 170 0 R ]
+  /P 559 0 R
+  /S /LBody
+  /Pg 1 0 R
+>>
+endobj
+obj
+3417
+endobj
+obj
+<<
+  /Names [ (Doc-Start) 59 0 R (page.1) 62 0 R (page.13) 83 0 R
+      (Ide-Wort)
+      (page.15) 166 0 R (chapte.2) 36 0 R (lustnlsts)
+      <>>
+  >>
+  /Contents 2 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 792 ]
+  /Resources <<
+    /Font <<
+      /TT0 22 0 R
+      /TT3 26 0 R
+      /TT4 79 0 R
+    >>
+    /ProcSet [ /PDF /Text ]
+  >>
+  /Rotate 0
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /R271 271 0 R
+  /R277 277 0 R
+  /R11 11 0 R
+  /R13 13 0 R
+>>
+endobj
+obj
+<<
+  /Subtype /xPL
+  /LastModified (D:20160207172325-0530)
+  /Creator ([spage.6) 163 0 R (section.4) 44 0 R ]
+  /Limits [ (Hf 10095) 94 0 R (mQdeas54u-11.494kyh408-lmant4]exep.hapterban/vilcomfter/defimald9)
+  /CapHeight 734
+  /xHeight 0
+  /Ascent 691
+  /Descent -201
+  /ItalicAngle 0
+>>
+endobj
+obj
+<<
+  /xObject <<
+    /Im1 11 0 R
+  >>
+  /Font <<
+    /TT5 175 0 R
+    /TT6 162 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+[ /Indexed 210 0 R 206 71 0 R 1165 0 R ]
+endobj
+obj
+<<
+  /Length 624 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /S /Normal
+  /C /Normal
+  /Pg 31 0 R
+  /k 83
+  /P 330 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Subtype /Type1C
+  /Length 2692
+  /Matam2 428
+  /ColorSpace 44 0 R
+  /Type /xObject
+  /Subtype /Image
+>>
+stream
+endobj
+obj
+<<
+  /P 65 0 R
+  /S /Span
+  /Type /StructElem
+  /ActualText ( )
+  /k [ 38 ]
+  /Pg 18 0 R
+>>
+endobj
+obj
+[ /ICCBased 51 0 R ]
+endobj
+obj
+<<
+  /O /Layout
+  /WritingMode /LrTb
+>>
+endobj
+obj
+<<
+  /Subtype /Type1C
+  /Filter /FlateDecode
+  /Length 78 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 896
+  /Length 724
+  /N 5
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /MZkyRS-CMMI10
+  /Flags 4
+  /FontBBox [ -290 -290 1000 1027 ]
+  /Ascent 193
+  /CapHeight 0
+  /Descent -256
+  /Flags 32
+  /FontBBox [ -80 -625 1437 1149 ]
+  /Flags 4
+  /CharSet (/C /D/E/g/I/H/I/M/R/Se/Q/a/b/c/d/e/f/g/h/i/k/l/m/n/o/one/p/period/plus/n/H/period/u/v/W/y/l/j/u/j/u)
+  /Dest [ 39 0 R /Fit ]
+  /Parent 640 0 R
+  /Prev 768 0 R
+  /Next 235 0 R
+>>
+endobj
+obj
+<<
+  /Type /xRef
+  /Index [ 0 22 ]
+  /SiZe 32
+  /W [ 1 2 1 ]
+  /Root 10 0 R
+  /Info 2 0 R
+  /ID [ <555D4BC4AB3282364357FE4EDF8CEA33> <46B1F20704B01B3>0E91111F5B997F696B0DB9332D80F28346D0FDB>ylct [ ]
+  /LingPare 19 0 R
+>>
+endobj
+obj
+<<
+  /Dest [ 46 0 R /xyZ null 559 null ]
+  /Next 758 0 R
+  /Parent 710 0 R
+  /Title (Plle)
+  /A <<
+    /D [ 71 0 R
+        /MCID
+        /P (DiD.8)
+    >>
+  >>
+  /FontName /PMCOjE-Deja8
+  /FontFile2 122 0 R
+  /FontName /CgDEDI-CMR10
+  /FontBBox [ -122 -238 1386 1451 ]
+  /Flags 4
+  /Ascent 750
+  /CapHeight 731
+  /Descent -2 0
+  /ItalicAngle -10
+  /Stemv 67
+  /AvgWidth 595
+  /MaxWidth 1000
+  /xHeight 475
+  /FontName /ASPgIP-CMMI10
+  /ItalicAngle 0
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 348 0 R
+  /Resources 10 0 R
+  /Contents 6 0 R
+  /Thumb 269 0 R
+  /Dests /F8.8
+  /Parent 4 0 R
+  /Rect [ 357 312.014 434.363 584.9 ]
+  /A <<
+    /S /goTo
+    /D (page.2)
+  >>
+>>
+endobj
+obj
+<<
+  /Type /group
+  /S /IDSemiti)
+  >>
+>>
+endobj
+obj
+<<
+  /Filter /A85
+  /Length 96
+  /Length2 1063
+  /Lengtht 1183
+  /Type /Font
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /TThoma
+>>
+endobj
+obj
+<<
+  /k 75
+  /A [ 325 0 R ]
+  /C /Normal
+  /P 256 0 R
+  /S /Normal
+  /Pg 491 0 R
+  /A <<
+    /Type /Action
+    /S /goTo
+    /D (sumbs1.0)
+  >>
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (738220051)
+  /Rect [ 444.24 379.98 440.48 344.94 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+(Mac OS x 10.1.1 QuartZ PDFContext)
+endobj
+obj
+<<
+  /Nums [ 0 0 0 R ]
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+  /OP 156 0 R
+  /k 371 0 R
+>>
+endobj
+obj
+<<
+  /BBox [ 0 0 100 83 ]
+  /Subtype /Link
+>>
+endobj
+obj
+<<
+  /A 83 0 R
+  /k 50
+  /P 30 0 R
+  /S /Normal
+  /Pg 15 0 R
+>>
+endobj
+obj
+<<
+  /Count 115
+  /kids [ 496 0 R 484 0 R 507 0 R 597 0 R 567 0 R 597 0 R 500 0 R 516 0 R
+      530 0 R 521 0 R 527 0 R 524 0 R 527 0 R 572 0 R 576 0 R
+      406 0 R 561 0 R 589 0 R 555 0 R 556 0 R 556 0 R ]
+  /Contents 173 0 R
+  /CropBox [ 0 0 558 648 ]
+  /MediaBox [ 0 0 558 648 ]
+  /Parent 1089 0 R
+  /Resources 611 0 R
+  /Rotate 0
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Length 674
+  /Filter [ /FlateDecode ]
+>>
+stream
+endobj
+obj
+<<
+  /CropBox [ 0 0 595.22 842 ]
+  /Parent 14 0 R
+  /Contents 10 0 R
+  /Rotate 0
+  /MediaBox [ 0 0 6
+  /Annt 780 0 R
+  /Title (tandar)
+  /C12 10 0 R
+  /Next 28 0 R
+  /k 40
+  /P 33 0 R
+  /S /Normal
+>>
+endobj
+obj
+6413
+endobj
+obj
+<<
+  /O /Layout
+  /SpaceBefore 5
+  /SpaceAftere
+  /BitsPerComponent 1
+  /Length 17 0 R
+  /Filter /DCTDecode
+  /Height 361
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /H /N
+  /C [ .7.5 .11.59 ]
+  /N 1
+>>
+endobj
+obj
+[ 516 1056 0 0 708 ]
+endobj
+obj
+<<
+  /Length 5762
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length1 11866
+  /Length2 11613
+  /Length3 5424
+>>
+stream
+endobj
+obj
+<<
+  /A 77 0 R
+  /k 26
+  /P 11 0 R
+  /S /LBody
+  /Pg 1 0 R
+>>
+endobj
+obj
+<<
+  /Length 24 0 R
+  /Type /Metadata
+  /Subtype /xML
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+[ 263 480 ]
+endobj
+obj
+<<
+  /Length 5
+>>
+stream
+endobj
+obj
+<<
+  /Length 23 0 R
+  /L 494
+  /Filter /DCTDecode
+  /Length 7865
+>>
+stream
+endobj
+obj
+<<
+  /Length 2738
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Title (CanEgshops. 5.0)
+  /Creator (PScriptyper 3088)
+  /Creator (PSyrial and /(Wer Thament)
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 232 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Length 185
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Title (Acon tomlockine targenink 5.0)
+>>
+endobj
+obj
+<<
+  /Length1 739
+  /Length2 6600
+  /Length3 0
+  /Length 1330
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length1 1765
+  /Length2 11542
+  /Length3 0
+  /Length 11164
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Bgfadig [ .962826 .193443>.nlstBex
+  /Type /ExtgSeace
+>>
+endobj
+obj
+<<
+  /Length 457 0 R
+  /Length1 45222
+  /Length2 121640
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Ascent 750
+  /CapHeight 0
+  /Descent -216
+  /Flags 32
+  /FontBBox [ -463 -385 2630 1141 ]
+  /FontName /EkELRN-TiterNeWNormalPS
+  /Flags 6
+  /FontBBox [ -320 -224 1151 843 ]
+  /Type /FontDescriptor
+  /Stemv 0
+  /ItalicAngle 0
+  /CapHeight 941
+  /Ascent 901
+  /Descent -284
+  /ItalicAngle 0
+  /FontFamily (B NaZanin)
+  /FontStretch /Normal
+  /FontWeight 400
+>>
+endobj
+obj
+<<
+  /Length 1686
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 19 0 R
+  /Next 3 0 R
+>>
+endobj
+obj
+<<
+  /kids [ 50 0 R 57 0 R 69 0 R 61 0 R 63 0 R 64 0 R 65 0 R 68 0 R
+      57 0 R 64 0 R 56 0 R ]
+  /MediaBox [ 0 0 312.316 293.245 ]
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Rect [ 36.00008 64.5087 268.4701 .5518 ]
+  /Border [ 0 0 0 ]
+>>
+endobj
+obj
+<<
+  /A 85 0 R
+  /k 24
+  /P 65 0 R
+  /S /Normal
+  /Pg 51 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFong /MgEPuC-ArialMT
+  /Encoding /WinAnsiEncoding
+  /FontDescriptor 27 0 R
+  /FirstChar 32
+  /LastChar 72
+  /Widths [ 646 440 ]
+  /Encoding 17 0 R
+  /Subtype /Type1
+>>
+endobj
+obj
+<<
+  /Stemv 0
+  /FontName /BNFHgN-TimesNeWRomanBold
+  /Descent -246
+  /FontFile2 40 0 R
+>>
+endobj
+obj
+<<
+  /ColorSpace <<
+    /Cs6 82 0 R
+    /Cs6 197 0 R
+  >>
+  /ExtgState <<
+    /gS1 728 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /BaseFont /HZDNvM-uniupoy
+  /FontDescriptor 143 0 R
+>>
+endobj
+obj
+52172
+endobj
+obj
+<<
+  /Length 204
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 189 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im15
+  /Width 6
+  /Height 1
+  /BitsPerComponent 4
+  /ColorSpace [ /Indexed /DeviceRgB 15 71 0 R ]
+  /Filter /FlateDecode
+  /Length 342
+>>
+stream
+endobj
+obj
+<<
+  /Length1 83834
+  /Filter /FlateDecode
+  /Length 297 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Metadata 28 0 R
+  /Pages 17 0 R
+  /Type /Catalog
+  /CropBox [ 0 0 595.24 841.9898 ]
+  /xStep 62.13 641
+  /Length 6579
+>>
+stream
+endobj
+obj
+<<
+  /Length 479 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536877168)
+  /Rect [ 444.44 248.86 455.7 257.92 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /Encoding
+  /Differences [ 27 /hystion 52 /Quotele
+      /h /B
+      /unia660 ]
+>>
+endobj
+obj
+<<
+  /Length 3
+  /N 15
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+<<
+  /Length1 1772
+  /Length2 12879
+  /Length3 0
+  /Length 2871
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /P 99 0 R
+  /S /P
+  /k [ 219 ]
+  /Pg 53 0 R
+>>
+endobj
+obj
+<<
+  /D [ 94 0 R /xyZ null 354 null ]
+>>
+endobj
+obj
+<<
+  /Filter [ /FlateDecode ]
+  /Length 17021
+>>
+stream
+endobj
+obj
+<<
+  /A 69 0 R
+  /k 17
+  /P 20 0 R
+  /S /Normal
+  /Pg 11 0 R
+>>
+endobj
+obj
+<<
+  /Dest [ 265 0 R /xyZ null 559 null ]
+  /Next 80 0 R
+  /Parent 492 0 R
+  /Title (geof)
+>>
+endobj
+obj
+<<
+  /A 167 0 R
+  /k 45
+  /P 290 0 R
+  /S /Normal
+  /Pg 215 0 R
+>>
+endobj
+obj
+<<
+  /ProcSet [ /PDF ]
+  /ColorSpace <<
+    /Cs1 8 0 R
+  >>
+  /ExtgState <<
+    /gs1 9 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 24 0 R
+  /Resources 70 0 R
+  /Contents 25 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 792 ]
+  /Resources 154 0 R
+>>
+endobj
+obj
+<<
+  /Count 15
+  /kids [ 153 0 R 171 0 R 182 0 R 189 0 R 188 0 R 111 0 R 169 0 R
+      121 0 R 138 0 R 113 0 R 116 0 R 1 0 R 12 0 R 13 0 R
+      91 0 R 15 0 R 11 0 R 13 0 R ]
+  /MediaBox [ 0 0 595.2756 841.8897 ]
+  /Parent 11 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Width 900
+  /Height 433
+  /BitsPerComponent 8
+  /Filter [ /FlateDecode ]
+  /Subtype /Image
+  /Height 1
+  /Type /xObject
+  /Length 42
+  /BitsPerComponent 8
+>>
+stream
+endobj
+obj
+<<
+  /S /uRI
+  /uRI (mailto:nasiripersiaelearnation/the pace tor)
+  /C [ 0 0 0 ]
+  /Border [ 0 0 0 ]
+  /H /I
+  /Border [ 0 0 0 ]
+  /Rect [ 151.28 230.944 214.54 204.93 ]
+  /Subtype /Link
+  /A <<
+    /uRI (http://WWW.mihtroWhroWs/lem/Croneptry.html)
+  >>
+  /Border [ 0 0 0 ]
+  /Rect [ 451.04 480.3 431.86 466.0 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Font <<
+    /F11 73 0 R
+    /F15 66 0 R
+    /F8 43 0 R
+    /F25 45 0 R
+    /F16 46 0 R
+    /F15 46 0 R
+    /F33 53 0 R
+  >>
+  /xObject <<
+    /Im1 152 0 R
+  >>
+  /ExtgState <<
+    /gS1 172 0 R
+    /gS5 987 0 R
+  >>
+  /Font <<
+    /TT2 479 0 R
+    /TT6 550 0 R
+  >>
+  /ProcSet [ /PDF /Text /ImageC ]
+  /ExtgState <<
+    /gS1 235 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Nums [ 0 <<
+        /P (2)
+        >> ]
+  /Pg 10 0 R
+>>
+endobj
+obj
+<<
+  /Subtype /Type1C
+  /Filter /FlateDecode
+  /Length 54 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Count 1
+  /kids [ 5 0 R ]
+  /MediaBox [ 0 0 16.98 37 ]
+  /Type /Pages
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Rect [ 40.0848 2.6563 88.5310 ]
+  /Border [ 0 0 0 ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /ImageC /ImageI /Text ]
+    /xObject 22 0 R
+    /Font 43 0 R
+  >>
+  /Contents 89 0 R
+>>
+endobj
+obj
+<<
+  /Length 1603
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /BaseFont /Tralating
+  /FontDescriptor 7 0 R
+  /W 170 0 R
+>>
+endobj
+obj
+[ /Indexed 1268 0 R 253 379 0 R ]
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontFile3 251 0 R
+  /FontBBox [ -458 -306 1271 3031 ]
+  /FormType 2
+  /LimigModif
+>>
+endobj
+obj
+<<
+  /Count 8
+  /Dest (g4.9TSchapte)
+  >>
+  /Rect [ 105.767 515.738 196.035 295.139 ]
+>>
+endobj
+obj
+<<
+  /Filter [ /FlateDecode ]
+  /Length 3873
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontFile2 305 0 R
+  /FontBBox [ -166 -516 991 1016 ]
+  /Subtype /Link
+  /A <<
+    /I 98 0 R
+    /TT1 43 0 R
+    /Cs1 4 0 R
+  >>
+  /ProcSet [ /PDF /ImageC /ImageI ]
+  /Placket <<
+    /DocBeaks <<
+      /MCIDappen /DeviceRgB 101 0 R ]
+  /Filter [ /FlateDecode ]
+  /DecodeParms [ null ]
+  /ExtgState /Diakes <>
+  >>
+  /Names <<
+    /ve true
+    /S /SiZet
+  /P 1139 0 R
+  /k [ ]
+  /O (sect ..9.16 /(Whthemle)
+endobj
+obj
+<<
+  /P 142 0 R
+  /S /Figure
+  /Alt <>
+  /k [ 5 ]
+  /Pg 30 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 612 792 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /ImageB /Text ]
+    /ExtgState 13 0 R
+    /Font 107 0 R
+  >>
+  /Contents 115 0 R
+>>
+endobj
+obj
+<<
+  /O /Layout
+  /TextAlign /Center
+  /WritingMode /RlTb
+>>
+endobj
+obj
+(Mac OS x 10.11.1 QuartZ PDFContext)
+endobj
+obj
+<<
+  /Length 23
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Pages
+  /Count 1
+  /kids [ 5 0 R ]
+  /Type /Pages
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 342
+>>
+stream
+endobj
+obj
+<<
+  /R335 378 0 R
+  /R12 12 0 R
+  /R23 23 0 R
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Ps 4 0 R
+  /S /P
+  /P 56 0 R
+  /k [ 251 0 R ]
+  /Pg 57 0 R
+>>
+endobj
+obj
+<<
+  /Type /Encoding
+  /Differences [ 1 /space 50 /P 122 /.notdef 105 /a84 70 /.notdef 74 /D 97 /a 87 /a181 157 /a 184 /.dot
+      /bQitiboult /eleft 278 /three /L /v
+      87 /b /a109 197 /a 105 /H /v 85 /T 80 /x 92 /.notdef 97 /a 99 /.notdef
+      102 /.notdef 75 /afii58408t ]
+>
+  untent 1231 0 R
+  /ColorSpace t /N /Que
+  /SpaceBefore
+  /TextAlign /justify
+>>
+endobj
+obj
+<<
+  /Title 14 0 R
+  /Producer 1
+  /Parent 6 0 R
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 27
+>>
+stream
+endobj
+obj
+<<
+  /Names [ (lstnbstss2.1d4) 93 0 R (page.2)
+      165 0 R (f300) 117 0 R (page.1) 64 0 R (figuro the 13)
+  /Creator (xymev CondeW pysection RWary)
+  /Producer (mathu tr> versient 40.2 <<<<<
+    /Shturct 9 0 R
+  >>
+  /BaseFont /OjDDEB-BRoyaBold
+  /Encoding /WinAnsiEncoding
+  /FontDescriptor 27 0 R
+  /FirstChar 2
+  /LastChar 11
+  /Widths 32 0 R
+>>
+endobj
+obj
+<<
+  /k [ 33 0 R 48 0 R ]
+  /P 73 0 R
+  /S /Plain20Text
+>>
+endobj
+obj
+<<
+  /Stemv 68
+  /FontName /guLBgM-TimensBeralicriftBolPL
+  /Flags 4
+  /FontBBox [ -601 -286 1110 800 ]
+  /Ascent 756
+  /CapHeight 694
+  /Descent -192
+  /ItalicAngle -13
+  /Stemv 72
+  /FontFile2 157 0 R
+>>
+endobj
+obj
+<<
+  /Length 432 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /CapHeight 0
+  /Ascent 0
+  /Descent 0
+  /ItalicAngle 0
+  /Stemv 65
+  /Flags 6
+  /FontBBox [ -27 -250 1131 750 ]
+  /Ascent 694
+  /CapHeight 694
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 65
+  /MissingWidth 250
+  /CharSet (/a15
+  /Font 112 0 R
+  /FontName /kByARx-CMR10
+  /Flags 4
+  /FontBBox [ -73 -250 1143 750 ]
+  /Ascent 694
+  /CapHeight 686
+  /Descent -194
+  /ItalicAngle 0
+  /Speyse /Lrus
+  /First 6 0 R
+  /Last 56 0 R
+  /Count 1
+>>
+endobj
+obj
+<<
+  /FontDescriptor 7 0 R
+  /Widths [ 500 0 334 333 500 300 3000 419 500 384 389 280 500
+  93 490
+  468 262 [ 186.2 193.3 111.6 117.3 ]
+  /Prev 106 0 R
+  /Title (Entmentationskoyatianch in Buvid Notemon Fackinat P2)
+>>
+endobj
+obj
+<<
+  /Length 34374
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Encoding
+  /Differences [ 0 /.notdef 99 /a114 113 /.17 /a55 15 /a 98 /.notdef 99 /aagen
+      /tWo 90 /.notdef
+      184 /a
+      /N /F /Qual-14 t 40 /k
+      7.6 /Layefflefive 32 165 /dedblroWd 1050 /anglefitubsysent ]
+>>
+endobj
+obj
+<<
+  /BaseFont /FHIEvC-Caus10-Regular
+  /uspBox [ 210.8 403.3 819.6 876.1 ]
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type0
+  /BaseFont /QuOFkQ-LMRoman10-Regular-Identity-H
+  /Encoding /Identity-H
+  /DescendantFonts 34 0 R
+  /BaseFont /TuyOZu-LitLieTbaye-Italic
+  /FontDescriptor 33 0 R
+  /W 58 0 R
+  /CIDSystemInfo <<
+    /xObjecs <<
+    /N 115 0 R
+  /S /R16
+  /A [ 88 0 R ]
+  /C /EncoTixnder 322 0 R
+  /FontType 0
+  /BBox [ 0 0 558 543 ]
+  /MediaBox [ 0 0 595.22 842 ]
+  /Parent 148 0 R
+  /Resources 145 0 R
+  /Rotate 0
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /A 89 0 R
+  /k 0
+  /P 153 0 R
+  /S /LBody
+  /Pg 7 0 R
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (738252883)
+  /Rect [ 217.94 152.56 319.7 352.54 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Dest [ 46 0 R /xyZ null 343 null ]
+  /Parent 645 0 R
+  /Prev 231 0 R
+  /Title (R20014A05b)
+>>
+endobj
+obj
+<<
+  /Length 13 0 R
+  /Type /Metadata
+  /Subtype /xML
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 6606
+>>
+stream
+endobj
+obj
+<<
+  /Subtype /Type1C
+  /Length 7965
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /ExtgState 14 0 R
+    /Font 130 0 R
+  >>
+  /Contents 92 0 R
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Metadata 2 0 R
+  /Pages fals 3
+  /Opteng (FityryWe-NaWa gro PCommator-Envoorlauts)
+  /Creator (Adobe Illustrator CC 2015 /(Macintosh/))
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Subtype /Type1C
+  /Length 1877
+>>
+stream
+endobj
+obj
+<<
+  /Type /Annot
+  /H /I
+  /Border [ 0 0 0 ]
+  /C [ 1 0 0 ]
+  /Rect [ 94.064 478.048 387.66 475.725 ]
+  /A <<
+    /S /uRI
+    /uRI (http://mitn.3.com/mive/SMT82/pobast-utex-vex.html)
+  >>
+  /Length 8877
+  /Filter /FlateDecode
+>>
+endobj
+obj
+<<
+  /Filter /ASCII85Decode
+  /Length 697 0 R
+>>
+stream
+endobj
+obj
+[ /Indexed 159 0 R 249 42 0 R ]
+endobj
+obj
+[ /ICCBased 14 0 R ]
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im296
+  /Width 7
+  /Height 1
+  /BitsPerComponent 8
+  /ColorSpace 210 0 R
+  /Type /xObject
+  /Subtype /Image
+>>
+stream
+endobj
+obj
+<<
+  /BaseFont /yuSgIk-CMR10
+  /FontDescriptor 12 0 R
+  /FirstChar 95
+  /LastChar 14
+  /Widths 27 0 R
+>>
+endobj
+obj
+<<
+  /Filter [ /FlateDecode ]
+  /Length1 12234
+  /Length 1560 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Title <FEFF00730063006600250072006900650073>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /FRAAAA-F2
+  /FontBBox [ 0 0 638 625 ]
+  /Flags 4
+  /Ascent 406
+  /CapHeight 683
+  /Descent -301
+  /ItalicAngle -14
+  /Stemv 156
+  /Type /FontDescriptor
+>>
+endobj
+obj
+[ 716.8 ]
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /CIDFontType0
+  /BaseFont /FPNNMN-Butpt-Bold
+  /FontDescriptor 10 0 R
+  /Type /Font
+  /FirstChar 187
+  /LastChar 118
+  /Widths [ 543 0 499 0 0 0 0 0 692 0 853 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 515 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 527 0 0 333 333 0 722 667 639 0 0 0 0 333
+  0 0 757 0 833 0 722 0 500 ]
+endobj
+obj
+(4.2.1 /(Capports.1))
+  /Author /Funcetion 24 /Wincage 183
+  38 0 0 93 ]
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (bQroeZe-Dr)
+  /Rect [ 169.084 490.94 432.72 527.094 ]
+  /A <<
+    /S /goTo
+    /D (pdf.18)
+  >>
+>>
+endobj
+obj
+<<
+  /Annots [ 624 0 R 66 0 R ]
+  /Type /Pages
+>>
+endobj
+obj
+(Adobe Illistillersion .1.2)
+>>
+endobj
+obj
+<<
+  /A 204 0 R
+  /k 56
+  /P 132 0 R
+  /S /Normal
+  /Pg 22 0 R
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536871315)
+  /Rect [ 95.7 538.86 386.32 538.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /D [ 175 0 R /xyZ null 548 null ]
+>>
+endobj
+obj
+[ /Indexed 1236 0 R 226 275 0 R ]
+endobj
+obj
+<<
+  /D [ 89 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 85 0 R
+>>
+endobj
+obj
+<<
+  /Length 5326
+  /LC /Dhspe /FDFig>
+>>
+endobj
+obj
+<<
+  /Filter [ /FlateDecode ]
+  /Length 24295
+  /Width 68
+  /Height 119
+  /ColorSpace /Devicegray
+  /Height 179
+  /Decode [ 33 2 0 ]
+  /H /N
+  /ShedeW 63
+  /Resources 71 0 R
+  /Length 5626
+  /Filter /Standard
+  /Op falsem /Borm
+  /H [ 51 52 ]
+  /O /Layout
+  /TextAlign /justify
+>>
+endobj
+obj
+<<
+  /Length 36 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 2740
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Resources 35 0 R
+  /Type /Page
+  /Parent 9 0 R
+  /Contents [ 12 0 R 121 0 R 233 0 R ]
+  /Count 2
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 230 0 R
+  >>
+  /Contents 298 0 R
+>>
+endobj
+obj
+<<
+  /Length 4542
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /ObjStm
+  /N 16
+  /Firms 330 0 R
+  /Length 1792
+  /Filter /Standar
+  /WritingMode /LrTbSt
+>>
+endobj
+obj
+<<
+  /S /uRI
+  /uRI (mailto:n/))
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 5 0 R
+  /MediaBox [ 0 0 595 841 ]
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /ExtgState 73 0 R
+    g 104 0 R
+  /F 3
+  /S 165
+>>
+stream
+endobj
+obj
+<<
+  /R7 7 0 R
+>>
+endobj
+obj
+<<
+  /Count 10
+  /kids [ 11 0 R 1 71 0 R ]
+  /Count 1
+>>
+endobj
+obj
+<<
+  /D [ 120 0 R /xyZ null 548 null ]
+>>
+endobj
+obj
+2732
+endobj
+obj
+<<
+  /k <2 <<
+    /C /Span
+  /P 384 0 R
+  /Act false /OP
+  /SM 10
+  /AIStrivalion /ON 14
+>>
+endobj
+obj
+<<
+  /R11 11 0 R
+  /R15 15 0 R
+  /R17 17 0 R
+  /R24 23 0 R
+>>
+endobj
+obj
+1061
+endobj
+obj
+<<
+  /Length 1377
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Font <<
+    /TT2 7 0 R
+    /TT4 10 0 R
+    /TT6 8 0 R
+    /TT5 8 0 R
+    /TT1 8 0 R
+  >>
+  /ExtgState <<
+    /gS1 96 0 R
+  >>
+  /ColorSpace <<
+    /gs8 63 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536873422)
+  /Rect [ 95.7 255.86 155.74 230.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /k 17
+  /A [ 273 0 R ]
+  /C /Normal
+  /P 96 0 R
+  /S /Normal
+  /Pg 1 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 4685
+>>
+stream
+endobj
+obj
+<<
+  /Length 4257
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Subtype /Type1
+  /FontDescriptor 134 0 R
+  /LastChar 6
+  /Subtype /TrueType
+  /Type /Font
+  /FirstChar 2
+  /LastChar 19
+  /Widths [ 260 0 722 ]
+  /Encoding /WinAnsiEncoding
+  /Subtype /Type0
+  /Tounicode 27 0 R
+  /Type /Font
+>>
+endobj
+obj
+<<
+  /ExtgState <<
+    /gS1 1564 0 R
+  >>
+  /Font <<
+    /F1 1161 0 R
+    /F2 942 0 R
+    /F3 1096 0 R
+    /TT2 998 0 R
+    /TT6 843 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /Length 63 0 R
+  /xStep 16
+  /PatternType 2
+  /ColorSpace 9 0 R
+  /ColorSpace <<
+    /Cs1 486 0 R
+  >>
+  /ExtgState <<
+    /gS1 462 0 R
+  >>
+  /ColorSpace <<
+    /Cs6 1526 0 R
+    /Cs11 138 0 R
+  >>
+  /ExtgState <<
+    /gS1 150 0 R
+  >>
+  /ColorSpace <<
+    /Cs6 117 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Length 33 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /ImageB /Text /ImageC ]
+    /Font 55 0 R
+  >>
+  /Contents 20 0 R
+>>
+endobj
+obj
+<<
+  /P 73 0 R
+  /S /Span
+  /Alt 46 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Width 12
+  /Filter [ /CCITTFaxDecode ]
+  /Intent /BBCBdFumbersion
+  /FontDescriptor 67 0 R
+  /CIDSystemInfo <<
+    /Registry (Adobe)
+    /Ordering (Identity)
+    /Supplement 0
+  >>
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /CIDFontType0
+  /BaseFont /gMSkND-TimesNeWRoman
+  /FontDescriptor 36 0 R
+  /FirstChar 45
+  /LastChar 118
+  /Widths 66 0 R
+  /BaseFont /CAkRgk-CMR10
+  /FontDescriptor 10 0 R
+  /Type /Font
+  /FirstChar 1
+  /LastChar 7
+  /Subtype /TrueType
+  /FontDescriptor 56 0 R
+  /LastChar 5
+  /Widths [ 225 303 [ 525 527 ] 83 [ 563 ] 66 [ 767 ] 50 [ 556 ] 72 [ 627.3
+  333 500 500 500 500 530 500 559 569 590 974 575 537 550
+  512 511 5
+endobj
+obj
+<<
+  /P 81 0 R
+  /S /P
+  /Type /StructElem
+  /k [ 81 0 R ]
+  /Pg 59 0 R
+>>
+endobj
+obj
+<<
+  /Subtype /CIDFontType0C
+  /Length 1526
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Catalog
+  /Metadata 2 0 R
+  /Pages fals 10 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 23500
+  /Length1 81006
+>>
+stream
+endobj
+obj
+<<
+  /ExtgState <<
+    /gS1 1565 0 R
+  >>
+  /Font <<
+    /F1 1508 0 R
+    /F2 118 0 R
+    /F3 175 0 R
+    /F6 115 0 R
+  >>
+  /xObject <<
+    /Im1 194 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Producer (pdfTex-1.40St)
+  /CreationDate (D:20051022005085-0600)
+  /grapBox [ 0 0 598 789 ]
+  /Length 95
+  /Filter /FlateDecode
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /PLRjkS-CMMI8
+  /Ascent 787
+  /Descent -200
+  /ItalicAngle 0
+>>
+endobj
+obj
+<<
+  /P 118 0 R
+  /S /P
+  /Type /StructElem
+  /k [ ]
+  /Pg 54 0 R
+>>
+endobj
+obj
+<<
+  /D [ 274 0 R /xyZ 116.681 694.893 null ]
+>>
+endobj
+obj
+<<
+  /Dest [ 131 0 R /Fit ]
+  /Type /Annot
+  /Subtype /Link
+  /Rect [ 60 0 420 677 ]
+  /Border [ 0 0 0 ]
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im91
+  /Width 5
+  /Height 1
+  /BitsPerComponent 4
+  /ColorSpace [ /Indexed /DeviceRgB 15 77 0 R ]
+  /Filter /FlateDecode
+  /Length 88
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Ascent 879
+  /CapHeight 736
+  /Descent -300
+  /ItalicAngle 0
+  /Stemv 88
+  /MissingWidth 777
+  /FontBBox [ -54 -568 945 692 ]
+  /Flags 4
+  /CharSet (/a/c/c/i/fh/i/n/o/p/r/s/t/u/y)
+  /FontFile 181 0 R
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+  /Next 205 0 R
+  /First 81 0 R
+  /Last 196 0 R
+  /Type /Pages
+  /Parent 18 0 R
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536873469)
+  /Rect [ 318.36 149.98 450 470.98 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Encoding 85 0 R
+  /FirstChar 71
+  /LastChar 121
+  /Widths 188 0 R
+  /Encoding 13 0 R
+  /Subtype /TrueType
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 507
+>>
+stream
+endobj
+obj
+<<
+  /Dest [ 232 0 R /Fit ]
+  /Type /Annot
+  /Subtype /Link
+  /Rect [ 224 1916 346 540 ]
+  /H /Noxt 135 0 R
+    /Funcemale 1 0 R
+    >>
+  >>
+  /Type /Catalog
+  /PageLabels <<
+    /ProcSet [ /PDF 241 /<ule ]
+    /FordIn [ 1 53 0 0 0 0 0 0 0 3 0 29 334 ]
+  Q /CS 1 0 R
+  /R6 6 0 R
+>>
+endobj
+obj
+<<
+  /Contents 37 0 R
+  /Resources 11 0 R
+  /MediaBox [ 0 0 595.2756 842.80 ]
+  /Annots 206 0 R
+  /Count 9
+>>
+endobj
+obj
+1434
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontFile2 17 0 R
+  /FontBBox [ -165 -287 1238 1188 ]
+  /Subtype /Image
+  /Type /xObject
+  /Filter /FlateCht 0
+  /Name /im1
+  /ColorSpace 80 0 R
+  /ImaiQ [ 28.04 77.637 8.57 ]
+  >>
+  /Rect [ 66.751 612.244 268.896 207.097 ]
+>>
+endobj
+obj
+<<
+  /Type /xRef
+  /Root 1 0 R
+  /Info 3 0 R
+  /ID [ <29B5FCDA425A3CE2C9352CBCE23EFDAB631> <1BCF22750475E4602A922508A6DEC25D8> <1464EBFFB9026EB079D6B120924CAE> ]
+  /SiZe 157
+  /W [ 1 2 1 ]
+  /Filter /FlateDecode
+  /Length 150
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 66 0 R
+  /Resources 67 0 R
+  /Contents 52 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Resources 1 0 R
+>>
+endobj
+obj
+<<
+  /Filter [ /FlateDecode ]
+  /Length 5681
+>>
+stream
+endobj
+obj
+<<
+  /C /Normal
+  /k 24
+  /P 66 0 R
+  /S /Normal
+  /Pg 170 0 R
+>>
+endobj
+obj
+<<
+  /Type /Pages
+  /Count 3
+  /Parent 104 0 R
+  /kids [ 47 0 R 61 0 R 62 0 R 69 0 R ]
+  /Type /Pages
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 246 0 R
+  /Resources 52 0 R
+  /Contents 55 0 R
+  /MediaBox [ 0 0 598 842 ]
+  /CropBox [ 0 0 590 ]
+  /Resources 171 0 R
+>>
+endobj
+obj
+<<
+  /P 304 0 R
+  /S /P
+  /k [ 353 0 R 525 0 R 522 0 R 541 0 R 563 0 R 525 0 R 553 0 R ]
+  /P 307 0 R
+  /S /TD
+>>
+endobj
+obj
+<<
+  /S /Normal
+  /C /Normal
+  /Pg 4 0 R
+  /T 188
+  /W 28
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 632 0 R
+  /Resources 976 0 R
+  /Contents 165 0 R
+>>
+endobj
+obj
+<<
+  /Type /Encoding
+  /BaseEncoding /WinAnsiEncoding
+  /Differences [ 1 /sime)
+      11 0 R ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 10720
+  /Length1 32563
+>>
+stream
+endobj
+obj
+<<
+  /xObject <<
+    /Im1 52 0 R
+  >>
+  /ColorSpace <<
+    /Cs6 46 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Length 2397
+  /Filter /FlateDecode
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 31 0 <
+    /PartType 2
+      /(Lightmatoradible:2Harns/semler)
+>>
+endobj
+obj
+[ 561 0 R ]
+endobj
+obj
+<<
+  /Contents 329 0 R
+  /Type /Page
+  /Parent 372 0 R
+  /Rotate 0
+  /MediaBox [ 0 0 612 792 ]
+  /Resources <<
+    /ProcSet [ /PDF /ImageB /Text ]
+    /ExtgState 10 0 R
+    /Font 17 0 R
+  >>
+  /Contents 4 0 R
+>>
+endobj
+obj
+<<
+  /Subtype /Type1C
+  /Filter /FlateDecode
+  /Length 71 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Annot
+  /C [ 0 0 1 ]
+  /H /I
+  /Border [ 0 0 0 ]
+  /Rect [ 150.44 338.664 373.15 466.54 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Length 30367
+  /Filter [ /FlateDecode ]
+>>
+stream
+endobj
+obj
+<<
+  /S /Normal
+  /C /Normal
+  /Pg 1 0 R
+  /k 16
+  /P 275 0 R
+>>
+endobj
+obj
+110
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 50 0 R
+>>
+endobj
+obj
+<<
+  /Length 115
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 15 0 R
+  /Pages 11 0 R
+  /Type /Catalog
+  /PageLabels 48 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 684
+  /Subtype /Type1C
+>>
+stream
+endobj
+obj
+<<
+  /Length 1323
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /C1 [ 0 0 0 ]
+  /Rcading2Wetribor 17
+  /Outline 63 0 R
+  /PageLingBitType /Widte
+  /ColorSpace /DeviceRgB
+  /Type /xObject
+  /Width 1046
+  /BitsPerComponent 1
+  /Internon [ 0 1 ]
+  /Rettor 11 0 R
+  /Type /Catalog
+>>
+endobj
+obj
+<<
+  /ExtgState <<
+    /gS1 1724 0 R
+  >>
+  /Font <<
+    /F1 1177 0 R
+    /F2 173 0 R
+    /F3 1121 0 R
+    /TT2 1191 0 R
+    /TT6 1117 0 R
+    /TT1 162 0 R
+    /TT4 1191 0 R
+    /TT6 1112 0 R
+    /TT7 1836 0 R
+    /TT7 150 0 R
+    /TT6 141 0 R
+    /TT7 170 0 R
+    /TT6 176 0 R
+    /TT4 129 0 R
+    /TT8 164 0 R
+    /TT18 165 0 R
+    /TT13 959 0 R
+    /TT2 189 0 R
+    /TT6 1106 0 R
+    /TT6 917 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /Type /Encoding
+  /BaseEncoding /WinAnsiEncoding
+  /Differences [ 43 /Z 212 /tital ]
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /gxZRAT-Tahoma
+  /Flags 6
+  /Stemv 253.9332
+  /CapHeight 769
+  /Ascent 1023
+  /Descent -290
+  /FontFile2 152 0 R
+>>
+endobj
+obj
+<<
+  /O /S
+  /A 68 0 R
+  /k 46
+  /P 17 0 R
+  /S /Normal
+  /Pg 13 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F4
+  /FontMatrix [ 0 0 0 1 0 10 ]
+>>
+endobj
+obj
+<<
+  /O /Layout
+  /WritingMode /RlTe
+>>
+endobj
+obj
+<<
+  /Producer (pdabe Con Suppor CSyperic Pary StiticALieubitnat)
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /Resources 7 0 R
+  /Contents 6 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Resources 21 0 R
+>>
+endobj
+obj
+<<
+  /R19 19 0 R
+  /R28 28 0 R
+  /R30 30 0 R
+  /R44 54 0 R
+  /R40 40 0 R
+  /R30 30 0 R
+  /R30 31 0 R
+  /R26 26 0 R
+>>
+endobj
+obj
+<<
+  /A 619 0 R
+  /k 517 0 R
+  /P 507 0 R
+  /S /TD
+>>
+endobj
+obj
+<<
+  /D [ 32 0 R /xyZ 63 899 null ]
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536887450)
+  /Rect [ 333.98 416.56 465.7 431.54 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+[ 48 [ 529 ] 53 [ 500 ] 44 [ 412 ] 52 [ 531 ] 53 [ 417 589 457 556 539
+    0 0 506 532 531 ] ]
+>>
+endobj
+obj
+<<
+  /A 287 0 R
+  /k 2256
+  /P 414 0 R
+  /S /Normal
+  /Pg 770 0 R
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (groe-frf8 12.3.05)
+  /A1320 0 R
+  /Names 119 0 R
+  /PaintType   /MayIDendin 2<
+    /StartIndent -98
+    /Type /ExtgState fals 24
+    /Filter /FlateDecode
+  /PatternType 2
+  /Height 88
+  /DecodeParms [ null ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 5092
+  /Length1 9493
+>>
+stream
+endobj
+obj
+<<
+  /D [ 136 0 R /xyZ null 569 null ]
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Parent 110 0 R
+  /Contents 19 0 R
+  /PaEtmag 28 0 R
+  /Type /Catalog
+  /PageLabels 59 0 R
+>>
+endobj
+obj
+<<
+  /ProcSet [ /PDF /Text ]
+  /Font <<
+    /TT5 601 0 R
+    /TT6 629 0 R
+  >>
+  /ExtgState <<
+    /gS1 238 0 R
+  >>
+  /ColorSpace <<
+    /Cs6 406 0 R
+  >>
+>>
+endobj
+obj
+[ 556 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 162 53 81
+      0 0 0 537 758 853 0 436 443 407 567 446 484 621 678
+  222 497 418 591 439 408 296 574 618 607 274 471 154 481
+  695 571 349 373 400 249 399 577 ]
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 1 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F1-1 7 0 R
+      /F1-1 13 0 R
+      /F2 9 0 R
+      /F2 8 0 R
+      /F3 39 0 R
+      /F6 27 0 R
+      /F7 37 0 R
+    >>
+    /ExtgState <<
+      /gS2 8 0 R
+    >>
+  >>
+  /Rotate 0
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 79 0 R
+  /Resources 31 0 R
+  /Contents 45 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Resources 186 0 R
+>>
+endobj
+obj
+<<
+  /BaseFont /MRAAAZ-CMR1
+  /FontDescriptor 21 0 R
+  /FirstChar 44
+  /LastChar 59
+  /Widths 26 0 R
+  /BaseFont /WkLgOZ-CMTI10
+  /FontDescriptor 24 0 R
+  /Type /Font
+  /FirstChar 46
+  /LastChar 12
+  /Widths [ 700 0 0 0 0 0 700 833 ]
+  /Encoding /WinAnsiEncoding
+  /BaseFont /MgOIPO-LMTith-Bold
+  /FontStretch /Normal
+  /FontFile2 116 0 R
+  /FontWeight 700
+  /Flags 97
+  /Descent -316
+  /CapHeight 2200
+  /xHeight 477
+  /Ascent 1018
+  /Descent -194
+
+endobj
+obj
+<<
+  /Stemv 72
+  /FontName /CMCSC10
+  /FontFile3 138 0 R
+  /Flags 6
+  /Descent 0
+  /FontBBox [ -22 -250 1049 750 ]
+  /Ascent 0
+  /CapHeight 0
+  /Type /FontDescriptor
+  /ItalicAngle 0
+>>
+endobj
+obj
+<<
+  /D [ 75 0 R /xyZ 28.431 133.1968 null ]
+>>
+endobj
+obj
+1830
+endobj
+obj
+<<
+  /Length 2157
+  /Filter [ /FlateDecode ]
+>>
+stream
+endobj
+obj
+<<
+  /Length 20
+  /Width 14
+  /Height 1
+  /BitsPerComponent 8
+  /ColorSpace 21 0 R
+  /Type /xObject
+  /Subtype /Image
+>>
+stream
+endobj
+obj
+<<
+  /Length 3021
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Width 171
+  /Height 380
+  /ColorSpace /Devicegray
+  /Matath 7
+  /Outlines)
+  /PaintType 1
+  /Filter /FlateDecode
+  /Filter /FlateDecode
+  /Length 2398
+>>
+stream
+endobj
+obj
+<<
+  /Filter /A85
+  /Length 464
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /CIDFontType0
+  /BaseFont /xjBATC-LinLibertineO
+  /FontDescriptor 59 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontBBox [ 3 -215 1263 993 ]
+  /Flags 4
+  /Ascent 653
+  /CapHeight 625
+  /Descent 0
+  /ItalicAngle 0
+  /Stemv 83
+  /MissingWidth 800
+  /FontFile2 6 0 R
+>>
+endobj
+obj
+[ 332 324 245 218 983 345 0 237 863 378 222 719 575 806 866
+  560 591 449 410 750 470 552 515 260 298 ]
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 58 0 R
+  >>
+  /Contents 59 0 R
+>>
+endobj
+obj
+<<
+  /Length1 1105
+  /Length2 11743
+  /Length3 0
+  /Length 9417
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 221
+>>
+stream
+endobj
+obj
+<<
+  /A 374 0 R
+  /k 431 0 R
+  /P 237 0 R
+  /S /TD
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (587224863)
+  /Rect [ 444.24 485.86 455.7 578.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Length 623 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /PareSt 61 0 R
+  /Matrix [ 1 0 0 1 0 0 1 ]
+  /Resources 12 0 R
+  /Length 15
+  /Filter [ /FlateDecode ]
+  /DecodeParms [ null ]
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 295.2228 243.9417 ]
+  /Contents 33 0 R
+  /group <<
+    /Type /group
+    /Type /Action
+  >>
+  /Rect [ 1041.400 333.354 706.606 168.987 ]
+>>
+endobj
+obj
+<<
+  /Contents 13 0 R
+  /Type /Page
+  /Parent 1219 0 R
+>>
+endobj
+obj
+<<
+  /Title (ArTaxes Aclatore vass for/matebla)
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /HCDjMM-ArualATex-Bold
+  /Encoding /WinAnsiEncoding
+  /FirstChar 45
+  /FontDescripton 70 0 R
+  /LastChar 48
+  /Subtype /TrueType
+  /LastChar 3
+  /Widths [ 589 444 500 460 734 534 572 551 500 590 ]
+  /Links <<
+    /Prode [ 1 0 0 0 0 ]
+  /A11 101 0 R
+  /Rotate 0 R
+  /Type /Pages
+>>
+endobj
+obj
+<<
+  /kids [ 145 0 R 159 0 R 160 0 R 185 0 R 177 0 R 152 0 R 155 0 R 156 0 R ]
+endobj
+obj
+<<
+  /Width 8
+  /ColorSpace /DeviceRgB
+  /Filter [ /FlateDecode ]
+  /Subtype /Image
+  /Height 1
+  /Type /xObject
+  /Length 68
+  /BitsPerComponent 8
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 6
+  /Length 94
+  /N 1
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+<<
+  /Type /Encoding
+  /BaseEncoding /WinAnsiEncoding
+  /Differences [ 179 /Quotedblleft
+      41 /parenleft /parenright /Q /f
+      107 /.notdef
+      104 /a /b /c /d /e /f /g /h /f 99 /r /v 80 /.nodtef
+      75 /.noteright ]
+>>
+endobj
+obj
+<<
+  /Length 396
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Width 3
+  /ColorSpace /DeviceRgB
+  /Filter [ /FlateDecode ]
+  /Subtype /Image
+  /Height 1
+  /Type /xObject
+  /Length 28
+  /BitsPerComponent 8
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 257
+>>
+stream
+endobj
+obj
+<<
+  /D [ 222 0 R /xyZ null 365 null ]
+>>
+endobj
+obj
+<<
+  /D [ 72 0 R /xyZ 71 379 null ]
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (620747243)
+  /Rect [ 319.4 315.98 404.3 330.14 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Form
+  /BBox [ 0 0 18 921 ]
+  /Resources 12 0 R
+  /Type /xObjSt
+>>
+stream
+endobj
+obj
+<<
+  /Length 40 0 R
+  /Length1 18800
+>>
+stream
+endobj
+obj
+<<
+  /O /La9Bout
+  /TextAlign /justify
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F1-1 11 0 R
+      /F1.2 14 0 R
+      /F1-1 17 0 R
+      /F1 12 0 R
+      /F2 10 0 R
+      /F3 22 0 R
+      /F6 12 0 R
+      /F4 10 0 R
+      /F5 20 0 R
+      /F6 27 0 R
+      /F10 71 0 R
+      /F9 89 0 R
+      /F4 87 0 R
+      /F2 82 0 R
+      /F8 19 0 R
+      /F6 8 0 R
+      /F3-1 17 0 R
+      /F4-1 93 0 R
+      /F2 86 0 R
+      /F7 88 0 R
+      /F8 96 0 R
+   
+endobj
+obj
+<<
+  /CS 11 0 R
+  /I false
+  /k false
+  /S /Transparency
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 3603
+>>
+stream
+endobj
+obj
+<<
+  /Length 4273
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Contents [ 22 0 R ]
+  /Contents 6 0 R
+  /CropBox [ 0 0 595.22 842 ]
+  /MediaBox [ 0 0 595.276 841.89 ]
+  /Parent 4 0 R
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+  /Metadata 38 0 R
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (771091957)
+  /Rect [ 147.18 274.52 171.56 251.7 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Count 5
+  /Dest [ 69 0 R /xyZ null 559 null ]
+  /First 712 0 R
+  /Last 611 0 R
+  /Next 357 0 R
+  /Parent 484 0 R
+  /Type /Page
+  /MediaBox [ 0 0 612 792 ]
+  /Resources <<
+    /xObject <<
+      /Fm0 68 0 R
+    >>
+  >>
+  /MediaBox [ 0 0 595 842 ]
+  /MediaBox [ 0 0 595 842 ]
+  /Parent 978 0 R
+  /Rect [ 556.045 501.335 551.415 51.741 ]
+  /Subtype /Link
+  /A <<
+    /S /goTo
+    /D (chaptegandPnoe..4)
+  >>
+>>
+endobj
+obj
+<<
+  /Length 3781
+  /Filter /FlateDecode
+  /Length1 2460
+>>
+stream
+endobj
+obj
+<<
+  /S /goTo
+  /D (chaphes2.7125)
+  /P 497 0 R
+  /S /TR
+>>
+endobj
+obj
+<<
+  /Length1 2112
+  /Length2 17695
+  /Length3 0
+  /Length 92893
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /ObjStm
+  /N 75
+  /First 556
+  /Length 11348
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 1435
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+3158
+endobj
+obj
+<<
+  /A 64 0 R
+  /k 0
+  /P 237 0 R
+  /S /Normal2028Web29
+  /Pg 99 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type0
+  /BaseFont /NjCjvR-MSTT31210
+ /Fontatext
+  /FontStret 32 0 R
+  /FontDescriptor 31 0 R
+  /LastChar 48
+  /Subtype /TrueType
+  /Length 753
+>>
+stream
+endobj
+obj
+<<
+  /A 222 0 R
+  /k 32
+  /P 243 0 R
+  /S /Normal
+  /Pg 1317 0 R
+>>
+endobj
+obj
+<<
+  /Filter /ASCII858
+  /Filter /CCI4aDecode
+  /Length1 6786
+>>
+stream
+endobj
+obj
+<<
+  /Length 22 0 R
+  /Length1 8797
+  /Length2 22748
+  /Length3 433
+  /Length 225661
+  /Length 7581
+>>
+stream
+endobj
+obj
+<<
+  /Contents 173 0 R
+  /CropBox [ 0 0 558 648 ]
+  /MediaBox [ 0 0 558 648 ]
+  /Parent 1449 0 R
+  /Resources 725 0 R
+  /Rotate 0
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Width 941
+  /Height 266
+  /ColorSpace /Devicegray
+  /BitsPerComponent 8
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Width 12
+  /ColorSpace /DeviceRgB
+  /Filter [ /FlateDecode ]
+  /Subtype /Image
+  /Height 1
+  /Type /xObject
+  /Length 268 0 R
+>>
+stream
+endobj
+obj
+<<
+  /O /Tabe
+  /SpaceBefore 52
+>>
+endobj
+obj
+<<
+  /P 475 0 R
+  /S /TD
+  /k [ 382 0 R ]
+  /Pg 5 0 R
+>>
+endobj
+obj
+<<
+  /Width 40
+  /ColorSpace /DeviceRgB
+  /Width 1000
+  /FirstChar 3
+  /Dhetiend 298
+  /Type /xRef
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (117935795)
+  /Rect [ 316.32 462.96 431.7 576.92 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Length 477
+  /Filter /FlateDecode
+  /Type /xObject
+  /Subtype /Hamits
+  /Width 913
+  /Height 343
+  /Type /xObject
+>>
+stream
+endobj
+obj
+<<
+  /Length 6
+>>
+stream
+endobj
+obj
+<<
+  /CropBox [ 0 0 595.22 842 ]
+  /Parent 146 0 R
+  /Contents 71 0 R
+  /Rotate 0
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 792 ]
+  /Resources <<
+    /ProcSet [ /PDF /Text /ImageB ]
+    /Font <<
+      /F1 8 0 R
+      /F1 8 0 R
+      /F4 14 0 R
+      /F5 12 0 R
+      /F5-1 12 0 R
+      /F3-2 31 0 R
+        /F5 8 0 R
+      /F9 150 0 R
+      /F6 18 0 R
+    >>
+    /ExtgState <<
+      /gS4 94 0 R
+    >>
+  >>
+  /Contents 81 0 R
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536879384)
+  /Rect [ 131.7 246.86 101.1 355.7 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 86
+>>
+stream
+endobj
+obj
+<<
+  /Type /Catalog
+  /Metadata 144 0 R
+  /ParentTrent 63
+  /Name /fournulte
+  /SpaceBefore 120
+  /TextAlign /justify
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /H /I
+  /Border [ 0 0 1 ]
+  /C [ 0 1 1 ]
+  /Rect [ 821.998 410.307 245.73 536.607 ]
+  /A <<
+    /S /goTo
+    /D (chapter.fortna)
+  >>
+>>
+endobj
+obj
+<<
+  /Parent 125 0 R
+  /Type /Page
+  /Resources <<
+    /ProcSet [ /PDF /ImageC /ImageI /xendbtion
+  /Rodate 0
+  /Dest (g10.5.7)
+  /A14 111 0 R
+>>
+endobj
+obj
+<<
+  /R7 7 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im180
+  /Width 480
+  /Height 319
+  /BitsPerComponent 8
+  /ColorSpace 176 0 R
+  /Type /xObject
+  /Subtype /Image
+>>
+stream
+endobj
+obj
+<<
+  /Ascent 461
+  /CapHeight 712
+  /Descent -296
+  /ItalicAngle -15
+  /Stemv 69
+  /xHeight 431
+  /FontBBox [ 0 -222 1113 890 ]
+  /Flags 4
+  /Ascent 723
+  /CapHeight 750
+  /Descent -787
+  /ItalicAngle 0
+  /Stemv 116
+  /xHeight 444
+  /FontBBox [ -36 -250 1087 750 ]
+  /Flags 4
+  /FontBBox [ -58 -250 1199 750 ]
+  /Ascent 694
+  /CapHeight 683
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 69
+  /MissingWidth 777
+  /FontFile2 114 0 R
+>>
+endobj
+obj
+<<
+  /A 168 0 R
+  /k 429
+  /P 237 0 R
+  /S /Normal
+  /Pg 770 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im120
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 69 0 R ]
+  /Filter /FlateDecode
+  /Length 517 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Ascent 960
+  /Descent -250
+  /Stemv 80
+  /CapHeight 763
+  /AvgWidth 500
+  /FontBBox [ -152 -254 1427 917 ]
+  /ItalicAngle 0
+  /Flags 262158
+  /cag .5 0 0 R
+  /ColorSpace 571 0 R
+  /Filter /CCITTFaxDecode
+  /DecodeParms <<
+    /k -1
+    /Columns 2400
+  >>
+  /Height 380
+  /Type /xObject
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536881933)
+  /Rect [ 131.7 402.86 149.9 472.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /BaseFont /ASyZDD-BNaZanin
+  /FirstChar 32
+  /Encoding /WinAnsiEncoding
+  /Type /Font
+>>
+endobj
+obj
+<<
+  /Limits [ (lstnumber.-1.1) 65 0 R (Navigation14)
+  /C (Nuettertert NandesWaralieWardface.25)
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 2096
+>>
+stream
+endobj
+obj
+<<
+  /Filter [ /FlateDecode ]
+  /Length 4321
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /H /Intitling 48 0 R
+>>
+endobj
+obj
+<<
+  /D [ 79 0 R /xyZ null 494 null ]
+>>
+endobj
+obj
+<<
+  /D [ 71 0 R /xyZ null 332 null ]
+>>
+endobj
+obj
+<<
+  /Length 46 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+1557
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im30
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 786 0 R ]
+  /Filter [ /DCTDeDecode /Decscent 1
+  /N 1
+  /BBox [ 157.885 425.854 178.5836 124.6550 ]
+  /R6 [ 0 1 ]
+  /BitsPerComponent 8
+  /Internol <<
+    /gs5 96 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /k 17 0 R
+  /P 40 0 R
+  /S /L
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+  /Metadata 24 0 R
+>>
+endobj
+obj
+<<
+  /D [ 23 0 R /xyZ null 281 null ]
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536885759)
+  /Rect [ 143.7 545.86 370.78 544.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+[ /Indexed 1523 0 R 15 278 0 R ]
+endobj
+obj
+32427
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536884462)
+  /Rect [ 144.68 324.06 401.7 232.54 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /Pages
+  /Count 32
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 696 0 R
+  /MediaBox [ 0 0 493 989.96 26.3231 ]
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Length 8943
+  /Filter [ /FlateDecode ]
+>>
+stream
+endobj
+obj
+<<
+  /Contents 8 0 R
+  /CropBox [ 0 0 595.22 842 ]
+  /MediaBox [ 0 0 595.2766 841.8898 ]
+  /Parent 54 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im10
+  /Width 5
+  /Height 1
+  /BitsPerComponent 4
+  /ColorSpace [ /Indexed /DeviceRgB 15 187 0 R ]
+  /Filter /FlateDecode
+  /Length 135 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im180
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace /Devicegray
+  /Decode [ 0 1 0 1 ]
+  /FontDescriptor 76 0 R
+  /LastChar 46
+  /Subtype /Type1
+  /FirstChar 30
+  /LastChar 50
+  /Widths [ 594 597 519 562 560 516 710 500 591 531 871 712 573 574
+      574 521 522 711 415 527 562 338 229 526 332 1700 556
+      0 370 387 349 559 363 498 276 ]
+  /BaseFont /RBCEkP-CMR10
+  /FontDescriptor 2
+endobj
+obj
+<<
+  /Filter [ /ASCII85Decode /FlateDecode ]
+  /Length 10436
+>>
+stream
+endobj
+obj
+<<
+  /A 282 0 R
+  /k 407 0 R
+>>
+endobj
+obj
+550
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 356
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 3779
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Ascent 710
+  /CapHeight 676
+  /Descent -203
+  /ItalicAngle -14
+  /Stemv 131
+  /Type /FontDescriptor
+  /xHeight 578
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 25
+>>
+stream
+endobj
+obj
+[ 601 600 680 631 500 500 510 600 600 0 605 500 500
+  500 500 500 500 500 380 660 531 333 500 444 450 433 580
+      588 175 775 370 543 322 363 477 527 622 525 245 608 225
+      150 278 320 262 405 446 469 454 409 346 278 195 471
+      0 0 0 0 0 0 0 0 0 0 0 0 406 ]
+  /CIDSyspe3116 0 R
+>>
+endobj
+obj
+(Adobe Illustrator CC 2015 /(Macintosh/))
+  /Tilin [ 122 0 R 17 0 R (HD.39) 55 0 R ]
+>>
+endobj
+obj
+605
+endobj
+obj
+<<
+  /Length 474
+>>
+stream
+endobj
+obj
+<<
+  /Type /Encoding
+  /BaseEncoding /WinAnsiEncoding
+  /Dmace /Image 277
+>>
+endobj
+obj
+<<
+  /P 131 0 R
+  /S /Textbox
+  /k [ 398 0 R 328 0 R 357 0 R ]
+  /Pg 55 0 R
+>>
+endobj
+obj
+<<
+  /Length 186
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+[ 232 0 R ]
+endobj
+obj
+<<
+  /Length 51822
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Count 3
+  /Dest [ 256 0 R /xyZ null 524 null ]
+  /First 76 0 R
+  /Last 49 0 R
+  /Count 2
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /ImageB /Text ]
+    /ExtgState 55 0 R
+    /F17 25 0 R
+    /F4 30 0 R
+  >>
+  /ProcSet [ /PDF /Text /ImageC /ImageB /ImageI ]
+>>
+endobj
+obj
+<<
+  /Index [ 0 12 ]
+  /Infe 1012 0 R
+  /Info 11 0 R
+  /Length 51
+  /Prev 12708
+  /Root 18 0 R
+  /Subtype /Link
+  /Subtype /Link
+  /Rect [ 41 326 310 343 ]
+>>
+endobj
+obj
+[ 68 0 R 46 487 410 402 466 440 426 453 654 405 210 270
+  493 659 430 303 818 177 945 900 0 0 0 278 507 571 838
+      550 1675 385 685 777 500 384 389 383 243 575 436 0
+    105 367 474 458 ]
+endobj
+obj
+<<
+  /Type /xRef
+  /Root 1 0 R
+  /Info 2 0 R
+  /ID [ <<D3B79038F65619D1D3A2C64BF4C55274> <D47EB72E383D3AF652A356FFE53C5> ]
+  /Inter (daphine Tex Buser Commade Drounuint Suppace falt-Rarakg andold Dapage.for)
+  /CS 10 0 R
+  /StructParent 25
+>>
+endobj
+obj
+<<
+  /Annots [ 481 0 R 529 0 R 725 0 R ]
+  /Contents 82 0 R
+  /CropBox [ 0 0 558 648 ]
+  /MediaBox [ 0 0 558 648 ]
+  /Parent 1136 0 R
+  /Resources 614 0 R
+  /Rotate 0
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+  /Metadata 57 0 R
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (570462766)
+  /Rect [ 444.24 179.86 455.7 729.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Length1 212 0 R
+  /Length2 1714
+  /Length2 26092
+  /Length3 0
+  /Length 17840
+  /Sh /Type /grte
+  /Filter /FlateDecode
+  /Height 87
+  /DecodeParms <<
+    /ColorSpace <<
+      /CS1 71 0 R
+      /CS2 522 0 R
+      /CS2 445 0 R
+      /CT5 3 0 R
+    >>
+    /xObject <<
+      /im1 25 0 R
+    >>
+    /ProcSet [ /PDF /ImageC /ImageI ]
+  >>
+  /MediaBox [ 0 0 595 841 ]
+  /MediaBox [ 0 0 595.22 842 ]
+  /Parent 2487 0 R
+  /QITEimpone 27 0 R
+>>
+endobj
+obj
+<<
+  /Length 2645
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type3
+  /Name /F1
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 72
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (g3.10764)
+  /Rect [ 140 -104.061111 193.7292 159.236024 ]
+  /A 140 0 R
+  /Border [ 0 0 0 ]
+  /H /I
+>>
+endobj
+obj
+<<
+  /Length 3
+  /LC /QQAP
+>>
+stream
+endobj
+obj
+<<
+  /Length1 1173
+  /Length2 9762
+  /Length3 0
+  /Length 63959
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 137
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F1-1 37 0 R
+      /F1 7 0 R
+    >>
+    /ExtgState <<
+      /gS4 9 0 R
+    >>
+  >>
+  /MediaBox [ 0 0 595 842 ]
+>>
+endobj
+obj
+<<
+  /BaseFont /ZRRAAA-F1
+  /FontDescriptor 13 0 R
+  /Type /Font
+>>
+endobj
+obj
+<<
+  /Type /Encoding
+  /Differences [ 1 /starteria ]
+>>
+endobj
+obj
+<<
+  /CropBox [ 0 0 595.22 842 ]
+  /Parent 134 0 R
+  /Contents 66 0 R
+  /Rotate 0
+  /MediaBox [ 0 0 595.276 841.89 ]
+  /CropBox [ 0 0 595.2756 840.8882 ]
+  /Resources <<
+    /ProcSet [ /PDF /Text /ImageC ]
+    /Font <<
+      /F1 15 0 R
+    >>
+  >>
+  /Contents 46 0 R
+>>
+endobj
+obj
+<<
+  /S /Sect
+  /k [ 498 0 R 499 0 R ]
+  /P 126 0 R
+  /S /LR
+>>
+endobj
+obj
+<<
+  /Subtype /Image
+  /Length 3
+  /C [ 1 0 0 1 ]
+  /H /I
+  /Border [ 0 0 0 ]
+  /H /N
+  /P 286 0 R
+  /S /TD
+>>
+endobj
+obj
+<<
+  /S /Sect
+  /k 130 0 R
+  /k 870 0 R
+  /P 900 0 R
+  /S /TD
+>>
+endobj
+obj
+[ 128 0 R 37 0 R 29 0 R 21 0 R 26 0 R 280 0 R 63 0 R
+      29 0 R 32 0 R 32 0 R 44 0 R ]
+  /Type /Pages
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536872151)
+  /Rect [ 149.7 538.86 570.56 535.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Count 0
+  /Dest (g4.4.917)
+  /Rect [ 30 477.58 404.7 476.04 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Dest [ 265 0 R /xyZ null 559 null ]
+  /Parent 1050 0 R
+  /Prev 1404 0 R
+  /Title (R2010)
+>>
+endobj
+obj
+5258
+endobj
+obj
+<<
+  /Type /Catalog
+  /Metadata 2 0 R
+  /Pages f 0 R
+  /PageLabels 69 0 R
+>>
+endobj
+obj
+<<
+  /Length 75
+  /Filter [ /FlateDecode ]
+  /Descent -562
+  /Flags 32
+  /FontBBox [ -127 -587 1633 1105 ]
+  /Stemv 94
+  /ItalicAngle 0
+  /CapHeight 1234
+  /Ascent 698
+  /Descent -274
+  /ItalicAngle -14.04
+  /Stemv 85
+  /xHeight 431
+  /FontBBox [ -163 -251 1171 954 ]
+  /Flags 4
+  /Parent 80 0 R
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 14 0 R
+  >>
+  /Contents 18 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im166
+  /Width 3
+  /Height 1
+  /BitsPerComponent 4
+  /ColorSpace [ /Indexed /DeviceRgB 15 0 0 0 0 5 0 0 0 R ]
+  /Filter /FlateDecode
+  /Length 829 0 R
+>>
+stream
+endobj
+obj
+<<
+  /R13 13 0 R
+  /R9 9 0 R
+  /R15 15 0 R
+>>
+endobj
+obj
+<<
+  /N 49
+  /A 39 0 R
+  /k 1151
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Metadata 2 0 R
+  /Pages 1 0 R
+  /Type /Catalog
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /ExtgState 147 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Count 40
+  /Dest (g22t7)
+  /Subtype /Link
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im28
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 353 0 R ]
+  /Filter /FlateDecode
+  /Length 737
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /ExtgState 35 0 R
+    /Font 49 0 R
+  >>
+  /Contents 41 0 R
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Metadata 4 0 R
+  /Pages 2 0 R
+  /Type /Catalog
+>>
+endobj
+obj
+<<
+  /Subtype /Type0
+  /DescendantFonts [ 53 0 R ]
+  /Widths 287 0 R
+>>
+endobj
+obj
+<<
+  /A <<
+    /S /uRI
+    /uRI (http://WWW.mathWorks.com/help/releases/R2012a/toolbox/commbrm/rseblmanandbace.html)
+  >>
+  /Border [ 0 0 0 ]
+  /Rect [ 155.7 349.76 246.36 480.8 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /xRef
+  /Rootate 5 0 R
+  /I false
+  /ca false
+  /SM .1Exlldeingbloul-2
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /EZvvHu-Futura4
+  /FontStretch /Normal
+  /FontFile2 88 0 R
+  /FontWeight 400
+  /Flags 7
+  /Descent -255
+  /FontBBox [ -60 -980 1020 788 ]
+  /Ascent 778
+  /CapHeight 705
+  /Descent 0
+  /ItalicAngle 0
+  /Stemv 88
+  /MissingWidth 500
+  /FontFile2 60 0 R
+>>
+endobj
+obj
+<<
+  /A 239 0 R
+  /k 20
+  /P 226 0 R
+  /S /Normal
+  /Pg 1116 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 2173
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 8072
+>>
+stream
+endobj
+obj
+<<
+  /Length1 3838
+  /Length 29297
+  /Length3 0
+  /Length 40544
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Dest [ 117 0 R /xyZ null 559 null ]
+  /Parent 962 0 R
+  /Prev 1865 0 R
+  /Next 470 0 R
+  /N 4
+  /Alternate /DeviceRgB
+  /Filter [ /FlateDecode ]
+  /Subtype /Image
+  /Height 12
+  /Type /xObject
+  /Length 59
+  /BitsPerComponent 1
+  /Height 60
+  /Intent (/Higheatersiag]
+>>
+endobj
+obj
+<<
+  /P 154 0 R
+  /S /IlluesCCaptF4
+  /CA .156
+>>
+endobj
+obj
+<<
+  /Font <<
+    /F10 2 0 R
+    /F15 4 0 R
+    /F2 6 0 R
+    /F3.0 4 0 R
+    /F7 15 0 R
+    /F4 18 0 R
+    /F6 33 0 R
+    /F3 39 0 R
+    /F7 28 0 R
+    /F6 29 0 R
+    /F6 31 0 R
+    /F2 26 0 R
+    /F1 25 0 R
+    /F2 17 0 R
+    /F3 20 0 R
+    /F4 27 0 R
+    /F3 26 0 R
+    /F3 14 0 R
+    /F4 9 0 R
+    /F3 8 0 R
+  >>
+  /ExtgState <<
+    /gS1 144 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Length 5762
+  /Filter [ /FlateDecode ]
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /BPAAAA-AyelatitBold-P
+  /Encoding /Identity-H-H9
+  /Descendanffort
+  /Stemv 44
+  /ColorSapBox [ 220.01208 184.6425 448 670.166 38.0008 388.6654 ]
+  /Border [ 0 0 1 ]
+  /A <<
+    /Type /Action
+    /S /uRI
+  >>
+  /Rect [ 55 594.3 429.53 477.351 ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 9593
+>>
+stream
+endobj
+obj
+<<
+>>
+endobj
+obj
+<<
+  /D [ 121 0 R /xyZ null 240 null ]
+>>
+endobj
+obj
+<<
+  /Length 7016
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ZIIjCO-CMSy9
+  /FontWeight 400
+  /FontBBox [ 0 -622 1420 750 ]
+  /Ascent 760
+  /CapHeight 611
+  /Descent -216
+  /Flags 4
+  /FontBBox [ -647 -307 1638 1218 ]
+  /Ascent 891
+  /FontFamily (B Hipra)
+  /CapHeight 0
+  /Type /FontDescriptor
+  /ItalicAngle 0
+  /StemH 36
+>>
+endobj
+obj
+<<
+  /E 153
+  /Filter /FlateDecode
+  /Length 444 0 R
+>>
+stream
+endobj
+obj
+[ 300
+  /Filter /FlateDecode
+  /Length 98
+>>
+stream
+endobj
+obj
+<<
+  /S /Normal
+  /Alt 305 0 R
+  /k [ 898 0 R 902 0 R 195 0 R 178 0 R 108 0 R ]
+  /Type /Pages
+  /Count 6
+>>
+endobj
+obj
+<<
+  /ColorSpace <<
+    /Cs31 1063 0 R
+    /Cs6 278 0 R
+  >>
+  /ExtgState <<
+    /gS1 492 0 R
+  >>
+  /ColorSpace <<
+    /Cs6 280 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontBBox [ -568 -307 2000 1006 ]
+  /FontName /AkWBB-HR1H
+  /Flags 6886
+  /Leading 58
+  /Subtype /TrueType
+  /Type /Font
+  /Widths [ 638 0 0 0 0 0 0 0 661 ]
+  /Encoding /WinAnsiEncoding
+  /BaseFont /xyvuHA-CMMI7
+  /FontDescriptor 3 0 R
+>>
+endobj
+obj
+<<
+  /Dest [ 206 0 R /xyZ null 558 null ]
+  /Next 98 0 R
+  /Parent 122 0 R
+  /Next 159 0 R
+  /Parent 132 0 R
+  /Title (und Fittt Qualaxt)
+>>
+endobj
+obj
+<<
+  /Type /Pages
+  /kids [ 4 0 R ]
+  /Limits [ 6 0 R ]
+  /First 774 0 R
+  /Last 376 0 R
+  /Next 725 0 R
+  /Tound /APguSint
+  /ShadingTeWWR252
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536934542)
+  /Rect [ 73.7 138.86 247.58 346.9 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Title (Thersinge.bors)
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 37 0 R
+  /Pagestrenc <<
+    /Titple /OSpan
+    /S /S
+  >>
+  /Parent 16 0 R
+  /Next 97 0 R
+>>
+endobj
+obj
+<<
+  /Type /xRef
+  /Index [ 0 129 ]
+  /Filter /FlateDecode
+  /Length 415 0 R
+>>
+stream
+endobj
+obj
+<<
+  /P 484 0 R
+  /S /Span
+  /Type /StructElem
+  /k [ 146 0 R 151 0 R ]
+  /Pg 17 0 R
+>>
+endobj
+obj
+<<
+  /Filter /ASCII85Decode
+  /Length 466
+>>
+stream
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+  /Metadata 31 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 128 0 R
+  >>
+  /Contents 165 0 R
+>>
+endobj
+obj
+6984
+endobj
+obj
+[ /Pattern /DeviceRgB ]
+endobj
+obj
+<<
+  /Subtype /Type1C
+  /Length 213
+  /Filter /DCTDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /yQAAAA-F2
+  /FontBBox [ -1 -225 909 788 ]
+  /Flags 4
+  /Ascent 630
+  /CapHeight 708
+  /Descent -273
+  /ItalicAngle 0
+  /Stemv 90
+  /MissingWidth 777
+  /FontFile2 38 0 R
+>>
+endobj
+obj
+6151
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 4 0 R
+  /Resources 9 0 R
+  /MediaBox [ 0 0 595.28 841.56 ]
+  /Contents 18 0 R
+  /group <<
+    /Type /group
+    /S /Transparency
+    /version /Winge2 troing .1.4.9)
+    /Subtype /CIDFontType0
+  /Encoding /Identity-H
+  /Type /Font
+  /LastChar 125
+  /Widths 7 0 R
+  /Tounicode 34 0 R
+>>
+endobj
+obj
+<<
+  /Contents 3 0 R
+  /Type /Page
+  /Parent 17 0 R
+  /Resources <<
+    /ProcSet [ /PDF /ImageB /Text ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 3 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /Resources <<
+    /ProcSet [ /PDF /Text /ImageB ]
+    /Font <<
+      /F10 75 0 R
+      /F20 67 0 R
+      /F2-1 15 0 R
+      /F2-1 23 0 R
+      /F1 30 0 R
+      /F7 24 0 R
+      /F7 40 0 R
+    >>
+  >>
+  /ModDate [ 0 0 0 1023 232 ]
+  /Annots [ 79 0 R 78 0 R 71 0 R 76 0 R 71 0 R ]
+  /Count 5
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /H /N
+  /C [ 1 0 0 ]
+  /Rect [ 342.932 10.676 260.3 230 ]
+  /A <<
+    /S /goTo
+    /D (site.3refont)
+  >>
+>>
+endobj
+obj
+[ /Indexed 1121 0 R 244 254 0 R ]
+endobj
+obj
+(CondeTans)
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (570425450)
+  /Rect [ 149.7 438.86 260.84 432.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 42 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Metadata 26 0 R
+  /Pages 90 0 R
+>>
+endobj
+obj
+[ 468 0 R ]
+endobj
+obj
+<<
+  /Length 1612
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+[ 4 0 R ]
+endobj
+obj
+3004
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /NvPNZZ-venalatina
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 85
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (138708679)
+  /Rect [ 344.38 481.86 365.4 498.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /CropBox [ 0 0 595.22 842 ]
+  /Parent 11 0 R
+  /Contents 27 0 R
+  /Rotate 0
+  /MediaBox [ 0 0 595.22 842 ]
+  /Resources <<
+    /Font <<
+      /TT0 298 0 R
+    >>
+    /ProcSet [ /PDF /Text ]
+    /ExtgState <<
+      /gS0 185 0 R
+    >>
+  >>
+  /MediaBox [ 0 0 612 792 ]
+  /Contents 97 0 R
+  /Type /Page
+  /Parent 418 0 R
+  /Rotate 0
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /AAvABA-DeZa12
+  /ItalicAngle 0
+  /Stemv 44
+  /xHeight 438
+  /FontFile2 414 0 R
+>>
+endobj
+obj
+<<
+  /Length 138 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (637505896)
+  /Rect [ 95.7 359.86 255.7 177.92 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 1293 0 R
+  /Resources 1146 0 R
+  /Contents 294 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Resources 98 0 R
+>>
+endobj
+obj
+<<
+  /Creator ( xppW)
+e /Destreiv v3 0 R
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Rect [ 434.008 365.011 369.791 292.939 ]
+  /Subtype /Link
+  /A <<
+    /Type /Action
+    /S /uRI
+    /uRI (mailto:y:1Werinan)
+  >>
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (570432281)
+  /Rect [ 444 444.86 434 44.1 386.94 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 3 0 R
+  /MediaBox [ 0 0 595 849 ]
+  /CropBox [ 0 0 595 842 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /DyWRgW-CMBx10
+  /FirstChar 99
+  /FontDescriptor 288 0 R
+  /CIDSyZe /TECmedistialicMoninSClorgith 25 100 0 R
+  /FontDescriptor 35 0 R
+  /Widths [ 519 0 0 0 0 0 0 0 0 0 0 0 0 0 537 550 0 0 331 523 249 0 520 505.2 843
+  8 758 825 790 457 560 516 308 397 599 631 373 276
+     56 477 237 579 482 263 27g2 42 31 [ 362 ] 45 760 [ 651
+    567 770 776 ] 546 [ 561 507 407 460 ] 46 [ 479 ] 45 [ 366 ]
+  70 [ 444
+endobj
+obj
+<<
+  /A 200 0 R
+  /k 13
+  /P 237 0 R
+  /S /LBody
+  /Pg 1 0 R
+>>
+endobj
+obj
+[ 29 0 R ]
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /BRPkSW-Arial
+  /FontStretch /Normal
+  /FontStretch /Normal
+  /FontFile2 18 0 R
+  /FontWeight 400
+  /Flags 32
+  /Descent -364
+  /FontBBox [ -20 -141 1195 778 ]
+  /Ascent 750
+  /FontFamily (Titra)
+  /CapHeight 653
+  /Descent -212
+  /FontBBox [ -45 -250 1169 750 ]
+  /Ascent 694
+  /CapHeight 686
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 136
+  /MissindWriceA)
+  /Stemv 10
+  /Stamlar
+  /Encoding /WinAnsiEncoding
+
+endobj
+obj
+<<
+  /Length 31
+  /Type /xObject
+  /BBox [ 0 0 113.058 561.509 ]
+  /Filter /FlateDecode
+  /FormType 4
+  /LisinicAde 595
+  /Length 26 0 R
+>>
+stream
+endobj
+obj
+<<
+  /A 73 0 R
+  /k 9
+  /P 10 0 R
+  /S /Normal
+  /Pg 18 0 R
+>>
+endobj
+obj
+<<
+  /P 243 0 R
+  /S /PDockTex
+  /OCIDBex /TextBox (1013-1.15.9 2.4.02 forts PL <<<
+      /NameMask 136 0 R
+    >>
+  >>
+  /Resources 126 0 R
+  /Type /Page
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 794 ]
+  /Resources 326 0 R
+>>
+endobj
+obj
+<<
+  /Dest [ 236 0 R /xyZ null 560 null ]
+  /Next 637 0 R
+  /Parent 480 0 R
+  /Prev 886 0 R
+  /Title (R2071s)
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 466
+>>
+stream
+endobj
+obj
+<<
+  /Length 21 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Encoding
+  /BaseEncoding /WinAnsiEncoding
+  /Differences /Ancode /ine
+  /ShadingType1
+  /Revisti:crox <FEFF /Exhgut
+      /Shape /f 69 /g /f 97 /u 66 /x 23 /a/colont 432 /aslash 49 /k /l /m /n /o /t
+      /n /o /p /v 84
+      /.notdef
+      50 /.notdef.1 ]
+estrap 15 0 R
+  /F 4
+  /A 181 0 R
+  /k [ 5 ]
+>>
+endobj
+obj
+<<
+  /Type /Metadata
+  /Subtype /xML
+  /Length 2622
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 158
+>>
+stream
+endobj
+obj
+<<
+  /Producer (gPL ghostscript 9.19)
+  /CreationDate (D:20090515115160-0000)
+  /ModDate (D:20132111160958-0500)
+  /Producer (AFPL ghaststMat)
+>>
+endobj
+obj
+<<
+  /Length 2294
+  /Filter /FlateDecode
+  /Length1 2774575
+>>
+stream
+endobj
+obj
+<<
+  /ColorSpace <<
+    /Cs6 225 0 R
+  >>
+  /Font <<
+    /TT10 761 0 R
+    /TT2 290 0 R
+    /TT2 124 0 R
+    /TT4 1744 0 R
+    /TT6 1231 0 R
+    /TT8 180 0 R
+  >>
+  /ExtgState <<
+    /gS1 935 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /P 133 0 R
+  /S /P
+  /k [ 39 ]
+  /Pg 121 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 13 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /APNgBQ-CMR10
+  /Flags 4
+  /FontBBox [ -25 -250 1038 770 ]
+  /Ascent 694
+  /CapHeight 683
+  /Descent -194
+  /FontName /NSFAF-CMR10
+  /ItalicAngle 0
+  /Stemv 85
+  /AvgWidth 510
+  /MaxWidth 316
+  /MissingWidth 776
+  /CharSet (/anglefhapenullis72-bilingsb 9455575-57079.63109907095.1)
+  >>
+  /Rect [ 138.782 159.161 181.184 467.914 ]
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Width 701
+  /Height 460
+  /BitsPerComponent 8
+  /ColorSpace 2 0 R
+  /L 8
+  /O (-472152)
+  /Bg 3 0 R
+  /uCR 5 0 R
+  /S /ZWotnTy
+  /H [ 58 ]
+  /Pg 210 0 R
+>>
+endobj
+obj
+<<
+  /A 60 0 R
+  /k 17
+  /A 343 0 R
+  /P 268 0 R
+  /S /Normal
+  /Pg 11 0 R
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Border [ 0 0 0 ]
+  /H /I
+  /C [ 0 0 1 ]
+  /Rect [ 167.464 487.071 385.323 446.585 ]
+  /A <<
+    /S /goTo
+    /D (chapter.3)
+  >>
+>>
+endobj
+obj
+<<
+  /R7 7 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /QLZxyC-BMatBidBold
+  /FontBBox [ -151 -216 7727 1133 ]
+  /Type /FontDescriptor
+  /Type /FontDescriptor
+  /xHeight 442
+>>
+endobj
+obj
+<<
+  /Type /Encoding
+  /Differences [ 142 /fi 13 /h /m/n /o /Q /a /e /f /g /h /i 104 /eminuslencentiont /a40 ]
+>>
+endobj
+obj
+<<
+  /Length 134
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /A [ 278 0 R ]
+  /k 521 0 R
+  /P 611 0 R
+  /S /TD
+>>
+endobj
+obj
+6076
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /SDMHLR-CMBx17
+  /FontDescriptor 10 0 R
+>>
+endobj
+obj
+<<
+  /Length 242 0 R
+  /Type /Metadata
+  /Subtype /Image
+>>
+stream
+endobj
+obj
+<<
+  /Dest [ 67 0 R /xyZ null 559 null ]
+  /Next 703 0 R
+  /Parent 759 0 R
+  /Prev 886 0 R
+  /Title (Cy-Tenc rsieler angah varsivn oupartook ansutil Bad Code Teh/Mathicatroy)
+  /Subjeca /Defacerthydfinicd
+    /W 172
+    /ForsisaWirkch 3842 0 R
+  /BitsPerSample 8 0
+  /Decode [ 0 0 1 ]
+  /Resources 12 0 R
+  /Length 57
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /A 20 0 R
+  /k 7
+  /P 73 0 R
+  /S /Normal
+  /Pg 19 0 R
+>>
+endobj
+obj
+<<
+  /ExtgState <<
+    /gS1 702 0 R
+  >>
+  /Font <<
+    /TT14 772 0 R
+    /TT2 411 0 R
+    /TT5 512 0 R
+    /TT6 652 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 423
+>>
+stream
+endobj
+obj
+<<
+  /Widths [ 275 0 0 647 0 333 0 0 525 500 500 500 0 0 0 750 750
+  507 611 0 0 0 778 611 0 0 0 500 556 556 556 556 556 556 556
+  550 556 556 556 556 564 367 781 500 500 750 278 778
+  389 333 389.3 278 639 756 689 544 578 722 678 611 661 657 611
+      670 646 613 667 633 667 611 ]
+>>
+endobj
+obj
+<<
+  /Subtype /Image
+  /Length 18
+  /Filter /FlateDecode
+  /Resorscent 559
+  /MissingWidth [ 0 0 434 ]
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (bscd1s831 )
+  /Rect [ 101.36 499.54 211.7 516.02 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Length 3
+>>
+stream
+endobj
+obj
+<<
+  /P 164 0 R
+  /S /P
+  /Type /StructElem
+  /k [ 886 0 R 813 0 R 816 0 R 818 0 R 824 0 R 831 0 R ]
+endobj
+obj
+<<
+  /Type /Annot
+  /H /I
+  /Border [ 0 0 0 ]
+  /H /I
+  /C [ 1 0 0 ]
+  /Rect [ 158.054 327.357 156.974 381.983 ]
+  /A <<
+    /S /goTo
+    /D 28 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /H /I
+  /Border [ 0 0 0 ]
+  /H /I
+  /C [ 0 1 0 ]
+  /Rect [ 287.326 320.167 299.645 271.123 ]
+  /A <<
+    /S /goTo
+    /D (Navigation4)
+  >>
+>>
+endobj
+obj
+<<
+  /Length 713 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Metadata 2 0 R
+  /PDockAdIn [ (Difte)
+  /C7 <FEFF>
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /xygLHS-CMR10
+  /FontDescriptor 18 0 R
+  /FirstChar 11
+  /LastChar 116
+  /Widths 14 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontBBox [ -420 -330 1493 1129D4 ]
+  /FontName /CMMCBNocamenc
+  /Flags 4
+  /Stemv 87
+  /CapHeight 1055
+  /Ascent 1028
+  /Descent -598
+  /Stemv 94
+  /CapHeight 752
+  /Type /FontDescriptor
+  /ItalicAngle -12
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 20 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /LinTe
+  /Border [ 0 0 0 ]
+  /C [ 0 1 0 ]
+  /Rect [ 129.769 546.778 113.729 641.662 ]
+  /A <<
+    /S /goTo
+    /D (subsubte.90)
+  >>
+>>
+endobj
+obj
+<<
+  /D [ 182 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+[ 525 525 525 0 0 0 0 525 0 0 525 0 0 0 525 525 0 0 0 0 525
+      0 0 0 0 0 0 0 525 0 0 0 0 0 0 0 0 0 0 0 0 0 0 500
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 500 ]
+  /Encoding 158 0 R
+  /Subtype /CIDFontType2
+  /BaseFont /vRHDLg-TimesNeWRoman
+  /Encoding /WinAnsiEncoding
+>>
+endobj
+obj
+<<
+  /Annots [ 627 0 R 630 0 R 237 0 R ]
+  /Contents 52 0 R
+  /Rotate 0 R
+  /Parent 59 0 R
+  /Next 490 0 R
+  /N 338 0 R
+  /A 456 0 R
+  /A [ 238 0 R ]
+  /C /Normal2028Web29
+  /P 627 0 R
+  /S /LBody
+  /Pg 3 0 R
+>>
+endobj
+obj
+<<
+  /Length 5226
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /C /Normal
+  /k 124
+  /P 70 0 R
+  /S /Normal
+  /Pg 11 0 R
+>>
+endobj
+obj
+<<
+  /ColorSpace <<
+    /Cs6 82 0 R
+    /Cs10 18 0 R
+    /F6 7 0 R
+    /F3 9 0 R
+    /F5 7 0 R
+    /F5 111 0 R
+    /F5 103 0 R
+    /F6 1207 0 R
+    /TT2 971 0 R
+    /TT6 951 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /D [ 99 0 R /xyZ 332.719 533.156 null ]
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Rect [ 84.032 595.558 395.2559 318.9957 ]
+  /Subtype /Link
+  /A <<
+    /S /Named
+    /N /sersion 3.2.21522 10 /aderay
+      8 /N 55 /O 72 0 0 /T 74 0 R 56 0 R 57 0 R 50 0 R 64 0 R 64 0 R
+  60 0 R 60 0 R 64 0 R 64 0 R 65 0 R 65 0 R 69 0 R ]
+  /Parent 1080 0 R
+  /Type /Pages
+>>
+endobj
+obj
+<<
+  /AIS false
+  /BM /Normal
+  /CA 1
+  /OP false
+  /OPM 1
+  /SA trure
+  /came [ 0 0 0 ]
+  /Length 14
+  /Width 28
+  /Height 1
+  /BitsPerComponent 8
+  /ColorSpace 45 0 R
+  /Type /xObject
+  /Subtype /Image
+>>
+stream
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 33 0 R
+  /Pages 18 0 R
+  /Type /Catalog
+>>
+endobj
+obj
+3820
+endobj
+obj
+<<
+  /Subtype /Type0
+  /DescendantFonts [ 72 0 R ]
+  /Tounicode 280 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 431
+>>
+stream
+endobj
+obj
+(56549-1)
+>>
+endobj
+obj
+<<
+  /Length 2481
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im163
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 584 0 R ]
+  /Filter /FlateDecode
+  /Length 194 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 240 0 R
+  /Resources 546 0 R
+  /MediaBox [ 0 0 585 590 ]
+  /Parent 119 0 R
+  /Resources 17 0 R
+  /Rotate 0
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Dest [ 134 0 R /xyZ null 325 null ]
+  /Next 1024 0 R
+  /Parent 1086 0 R
+  /Title (1221)
+>>
+endobj
+obj
+<<
+  /Type /Encoding
+  /Differences [ 0 /.notdef 57 /afteria /asterish /five /Asperstris /u 66 /u76 /A 42 / ]
+>>
+endobj
+obj
+<<
+  /Type /Encoding
+  /BaseEncoding /WinAnsiEncodion
+  /Type /Font
+  /Subtype /Type1
+>>
+endobj
+obj
+<<
+  /Length 1966
+  /Filter /FlateDecode
+  /N 8
+  /A 7 0 R
+  /SA false
+  /Trume /Pattern /DeviceRgB 255 0 R ]
+  /Widths [ 682 613 561 611 602 822 ]
+  /Subtype /TrueType
+>>
+endobj
+obj
+<<
+  /ColorSpace <<
+    /Cs27 1026 0 R
+    /Cs12 216 0 R
+  >>
+  /ExtgState <<
+    /gS1 352 0 R
+  >>
+  /ColorSpace <<
+    /Cs6 272 0 R
+    /Cs7 344 0 R
+    /C22 266 0 R
+    /TT4 235 0 R
+    /TT6 265 0 R
+  >>
+  /ExtgState <<
+    /gS1 456 0 R
+  >>
+  /ColorSpace <<
+    /I 176 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Filter /A85
+  /Length 488
+>>
+stream
+endobj
+obj
+<<
+  /LineariZed 1
+>>
+stream
+endobj
+obj
+<<
+  /Subtype /Type1C
+  /Length 3769
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /P 111 0 R
+  /S /P
+  /Type /StructElem
+  /k [ 86 0 R 87 0 R 81 0 R 81 0 R 75 0 R ]
+  /Type /Pages
+>>
+endobj
+obj
+<<
+  /P 303 0 R
+  /S /Span
+  /ActualTex.721
+  /CA 1
+  /O <<
+    /CropFacegAndoxt 560 0 R
+    /PaSMay
+      /WWidth 65
+      >>
+    /ExtStarn [ 0 0 0 72 ]
+  >>
+  /Pages 11 0 R
+  /Parent 119 0 R
+  /kids [ 52 0 R 94 0 R ]
+>>
+endobj
+obj
+<<
+  /Type /Metadata
+  /Subtype /xML
+  /Length 1331
+>>
+stream
+endobj
+obj
+<<
+  /Subtype /Type1C
+  /Length 263
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+(HarnoW)
+endobj
+obj
+<<
+  /Creator (u) (Heightbic Typerre /xPDefile
+  /pestrive /06/)
+  /A 21 0 R
+>>
+endobj
+obj
+<<
+  /R26 26 0 R
+  /R11 11 0 R
+  /R32 32 0 R
+  /R48 48 0 R
+  /R23 23 0 R
+>>
+endobj
+obj
+(Adhinernoon Oupsich for Accbdellet Remos TErhl angencod naubner operex)
+  /CreationDate (D:20110815195811-0430)
+  /ModDate (D:20061003152324-0500)
+  /TD3 v205
+    /S /T
+  >>
+  /Parent 1330 0 R
+  /Title (Cype .....)
+  /Dest [ 435 0 R /Fit 470 0 R 160 0 R 89 0 R 98 0 R 82 0 R
+      56 0 R 72 0 R 78 0 R 71 0 R 94 0 R 92 0 R 75 0 R 85 0 R
+      97 0 R 107 0 R ]
+  /Count 10
+  /Resources 21 0 R
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /k 221 0 R
+  /P 71 0 R
+  /S /LI
+>>
+endobj
+obj
+<<
+  /A 69 0 R
+  /k 24
+  /P 73 0 R
+  /S /Normal
+  /Pg 17 0 R
+>>
+endobj
+obj
+<<
+  /A 284 0 R
+  /k 380 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Tounicode 68 0 R
+  /Widths 23 0 R
+  /Type /Camang [ 16 0 R 27 ]
+  /Type /Annot
+  /Subtype /Link
+  /Rect [ 697 58 403 51 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Rect [ 83.78 59.283973 322.89378 697.09391 ]
+  /Border [ 0 0 0 ]
+  /A <<
+    /Type /Action
+    /S /uRI
+    /uRI (http://aens/psider.ad.cl.doc/tersavenZel.pdf)
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 47 0 R
+  /Resourcest 76 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /Parent 9 0 R
+>>
+endobj
+obj
+<<
+  /D [ 50 0 R /xyZ null 568 null ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 212
+>>
+stream
+endobj
+obj
+<<
+  /A 168 0 R
+  /k 28
+  /P 978 0 R
+  /Pg 4 0 R
+  /S /Normal
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 8501
+  /Length1 24523
+>>
+stream
+endobj
+obj
+<<
+  /P 1024 0 R
+  /S /Span
+  /Type /StructElem
+  /ActualText ( )
+  /k [ 51 ]
+  /Pg 4 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Subtype /Type1C
+  /Length 1370
+  /Length2 1157 0 R
+>>
+stream
+endobj
+obj
+(Mac true
+  /Font>
+endobj
+obj
+[ /ICCBased 110 0 R ]
+endobj
+obj
+(Adobe Illustrator CC 2011 /(Macintosh/))
+endobj
+obj
+<<
+  /ProcSet [ /PDF /Text ]
+  /Font <<
+    /F3 879 0 R
+    /FT6 719 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F6 17 0 R
+    >>
+    /ProcSet [ /PDF /Text /ImageB ]
+    /Font <<
+      /F15 91 0 R
+      /F10 93 0 R
+      /F1 794 0 R
+      /F2 797 0 R
+      /F11 858 0 R
+      /F10 852 0 R
+      /F11 145 0 R
+    >>
+    /ExtgState <<
+      /gS4 8 0 R
+    >>
+  >>
+  /StructParent 7
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /BAAAAA-F13
+  /FontBBox [ -40 -118 1074 977 ]
+  /FontName /kjEFLP-LinLibertineRuman-BoldItalic
+  /FontStretch /Nornalings
+  /FontFile2 47 0 R
+  /MatWinincontTexh 142
+  /CIDTogIDMap /Identity
+  /CIDSystemInfo <<
+    /Registry (Adobe)
+    /Ordering (Identity)
+    /Supplement 0
+  >>
+  /FontDescriptor 121 0 R
+  /LastChar 32
+  /Subtype /TrueType
+  /Type /Font
+  /Widths [ 1000 ]
+  /BaseFont /jRLPSy-BNatalic-Oh18-
+endobj
+
+obj
+<<
+  /ProcSet [ /PDF ]
+  /ColorSpace <<
+    /Cs1 8 0 R
+  >>
+  /ExtgState <<
+    /gs1 9 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /xOgDjv-utWCmMS
+  /Widths [ 87 ]
+  /FontDescriptor 206 0 R
+  /DW 200
+  /W 770 0 R
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Metadata 2 0 R
+  /Pages 2 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Ascent 002
+  /Captent 144 0 R
+  /FontDescriptor 12 0 R
+  /StartIDavilor [ 0 0 0 0 0 0 0 ]
+  /FontDescriptor 61 0 R
+  /DW 0
+>>
+endobj
+obj
+<<
+  /A 150 0 R
+  /k 124
+  /P 876 0 R
+  /S /Normal
+  /Pg 49 0 R
+>>
+endobj
+obj
+<<
+  /AL <<
+    /uR <<
+    /Cs 71 0 R
+    >>
+    /S-13 34 0 R
+    >>
+  >>
+  /Contents 285 0 R
+>>
+endobj
+obj
+732
+endobj
+obj
+[ 22 [ 16 ] ]
+endobj
+obj
+<<
+  /Type /xObject
+  /Length 1
+  /Filter /FlateDecode
+  /BitsPerComponent 8
+  /ColorSpace 93 0 R
+  /Width 402
+  /Height 366
+>>
+stream
+endobj
+obj
+<<
+  /Contents 15 0 R
+  /Type /Page
+  /Parent 24 0 R
+  /Resources <<
+    /ColorSpace <<
+      /CS0 8 0 R
+    >>
+    /ExtgState <<
+      /gS0 6 0 R
+    >>
+    /ProcSet [ /PDF /ImageB /Text ]
+    /Font 35 0 R
+  >>
+  /Contents 2 0 R
+>>
+endobj
+obj
+<<
+  /Length1 27268
+  /Filter /FlateDecode
+  /Length 55 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 49 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Length 8832
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /BitsPerComponent 8
+  /ColorSpace 138 0 R
+  /Filter /DCTDecode
+  /Height 302
+>>
+stream
+endobj
+obj
+<<
+  /CS 18 0 R
+  /I false
+  /k false
+>>
+endobj
+obj
+<<
+  /R11 11 0 R
+  /R19 19 0 R
+>>
+endobj
+obj
+<<
+  /Length 147 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /uDvLQv-BZ0otink
+  /ItalicAngle 0
+  /Stemv 140
+  /xHeight 444
+  /CharSet (/c/d/e/f/five/f/fi/d/e/h/i/l/m/n/o/r/s/t/u/v)
+  /FontFile 8 0 R
+>>
+endobj
+obj
+<<
+  /Subtype /Type0
+  /DescendantFonts [ 62 0 R ]
+  /BaseFont /DWSOSj-TTE12134EC8E60
+  /FontDescriptor 11 0 R
+  /W 57 0 R
+  /CIDSystemInfo <<
+    /Registry (Adobe)
+    /Ordering (Identity)
+    /Supplement 0
+  >>
+  /FontDescriptor 67 0 R
+  /DW 1042
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 100 0 R
+>>
+stream
+endobj
+obj
+<<
+  /P 82 0 R
+  /S /Figure
+  /Alt <>
+  /k [ 11 ]
+  /Pg 45 0 R
+>>
+endobj
+obj
+<<
+  /D [ 139 0 R /xyZ null 354 null ]
+>>
+endobj
+obj
+<<
+  /Annots [ 134 0 R 155 0 R ]
+  /Type /Pages
+  /Parent 36 0 R
+  /Annots [ 42 0 R 46 0 R ]
+>>
+endobj
+obj
+<<
+  /Dest [ 31 0 R /xyZ null 559 null ]
+  /Next 1083 0 R
+  /Parent 1058 0 R
+  /Title (toor SuinC -arfort)
+>>
+endobj
+obj
+<<
+  /k [ 173 0 R ]
+  /P 365 0 R
+  /S /Normal
+  /Pg 975 0 R
+>>
+endobj
+obj
+<<
+  /Length 895
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Encoding
+  /BaseEncoding /WinAnsiEncoding
+  /Differences [ 143 /Qual)
+      50 0 R ]
+  /Limits [ (section-.2) 26 0 R (Microshars.docien.doc)
+  /CreationDate (D:20040727272825-0100)
+  /Croppecen /xHeador
+>>
+endobj
+obj
+1438
+endobj
+obj
+<<
+  /Length 23 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /S /goTo
+  /D (sec:6.0.7)
+>>
+endobj
+obj
+<<
+  /Subtype /Type1C
+  /Filter /FlateDecode
+  /Length 60 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 5 0 R
+  /Resources 7 0 R
+  /Contents 6 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /ExtgState 24 0 R
+    /Font 54 0 R
+  >>
+  /Contents 88 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /yuZvvQ-LinLibertineOI
+  /Flags 4
+  /MissingWidth 260
+  /Stemv 69
+  /Type /FontDescriptor
+  /xHeight 511
+>>
+endobj
+obj
+<<
+  /Type /vpestRescript g26 0 R
+  /Subtype /Type1
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (638303278)
+  /Rect [ 391 168.98 337 606.52 ]
+  /Subtype /Link
+  /A <<
+    /D (subsectadgary) 137 0 R ]
+  /Limits [ (0) (1df) ]
+  /Names [ (11) 67 0 R (page.0) 30 0 R (page.887) 56 0 R (cbtemmesig2-frm)
+      31 (te)
+      4 0 R (page.38) 145 0 R (citevn:cFtlocedatia) (gli)
+  /FontFile2 46 0 R
+  /ItalicAngle 0
+  /Stemv 100
+>>
+endobj
+obj
+4883
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 5 0 R
+  /MediaBox [ 0 0 595.22 842 ]
+  /MediaBox [ 0 0 595 842 ]
+  /Parent 452 0 R
+  /kide [ 201 0 R 233 0 R 234 0 R 242 0 R 244 0 R ]
+endobj
+obj
+<<
+  /R23 23 0 R
+  /R11 11 0 R
+  /R24 24 0 R
+  /R22 22 0 R
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536871869)
+  /Rect [ 444.24 237.86 455.7 138.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+523
+endobj
+obj
+[ 333.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 504
+      0 578 ]
+  /Encoding 155 0 R
+  /Subtype /TrueType
+>>
+endobj
+obj
+<<
+  /P 62 0 R
+  /S /Span
+  /Pg 51 0 R
+  /k 793
+>>
+endobj
+obj
+<<
+  /C0 [ 0 0 0 0 ]
+  /FunctionType 2
+  /C1 [ 0 .96 .449 .1 ]
+  /Domain [ 0 1 ]
+  /N 1
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /LjkLPP-CMBx12
+  /Flags 4
+  /FontBBox [ -53 -251 1127 ]
+  /FontMatrix [ 1 0 R ]
+  /Filter /FlateDecode
+  /Length 115
+>>
+stream
+endobj
+obj
+[ /ICCBased 10 0 R ]
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Encoding 62 0 R
+  /FirstChar 45
+  /LastChar 108
+  /Widths 7 0 R
+  /BaseFont /FLIgDE-20Minuad
+  /Type /Font
+  /Subtype /Type1
+  /Type /CI
+  /CoodBox [ 0 0 595 761.718 ]
+  /Parent 67 0 R
+  /QITEimposetimi t 0
+  /Zap 119 0 R
+  /TiZent 121
+  /MarkInfore 16
+  /BBox [ 0 0 128 320 ]
+>>
+stream
+endobj
+obj
+<<
+  /Subtype /Type1C
+  /Filter /FlateDecode
+  /Length 2643
+>>
+stream
+endobj
+obj
+<<
+  /Subtype /Type1C
+  /Length 3467
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (654395465)
+  /Rect [ 106.68 316.62 197.64 340.24 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /D [ 25 0 R /xyZ null 557 null ]
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Ascent 0
+  /CapHeight 0
+  /Descent -256
+  /Flags 32
+  /FontBBox [ -161 -252 1145 940 ]
+  /Stemv 31
+  /ItalicAngle -14.04
+  /MaxWidth 387
+  /FontWeight 700
+  /Flags 4
+  /Descent -376
+  /FontBBox [ -868 -380 1366 1045 ]
+  /Ascent 906
+  /FontBade /Place
+  /Prents 57 0 R
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /D [ 8 0 R /xyZ 151 258.27 null ]
+>>
+endobj
+obj
+<<
+  /Count 10
+  /kids [ 246 0 R 140 0 R 142 0 R 133 0 R ]
+  /Type /Pages
+  /Count 6
+  /Parent 194 0 R
+>>
+endobj
+obj
+<<
+  /Count 10
+  /kids [ 71 0 R 72 0 R 73 0 R ]
+  /P 37 0 R
+  /S /LI
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Ascent 699
+  /CapHeight 0
+  /Descent -225
+  /Flags 4
+  /FontBBox [ -50 -235 1127 1034 ]
+  /Ascent 683
+  /Itrilend 22
+  /Papest 1134 0 R
+  /HiadTeWinght <<
+    /vM (Stynasauk 44617.Wtive)
+  /Producer (gPL ghostscript 9.16)
+  /CreationDate (D:20150326124433-0700)
+  /ModDate (D:20100611115040Z)
+  /ModDate (D:20160528221434-0200)
+  /Producer (Adobe Illustrate C2 20 ]
+endobj
+obj
+[ 50 0 R ]
+endobj
+obj
+<<
+  /BaseFont /IAHDHC-CMTT9
+  /FontDescriptor 27 0 R
+  /FirstChar 68
+  /LastChar 69
+  /Widths [ 259 ]
+  /BaseFont /DkIPAA-F5
+  /CIDSystemInfo <<
+    /Registry (Adobe)
+    /Ordering (Identity)
+    /Supplement 0
+  >>
+  /FontDescriptor 21 0 R
+  /DW 280
+  /W 751 0 R
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 10 0 R
+  /Metadata 27 0 R
+>>
+endobj
+obj
+<<
+  /D [ 180 0 R /xyZ null 651 null ]
+>>
+endobj
+obj
+<<
+  /Type /Pages
+  /Count 3
+  /kids [ 91 0 R 92 0 R 150 0 R 102 0 R 128 0 R ]
+  /Pg 72 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 243
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 20 0 R
+  /Resources 28 0 R
+  /MediaBox [ 0 0 585.72 842.82 ]
+  /Parent 4 0 R
+  /Rect [ 125 731.864 476.418 437.971 ]
+>>
+endobj
+obj
+<<
+  /Font <<
+    /F15 45 0 R
+    /F10 78 0 R
+    /F3 89 0 R
+  >>
+  /ExtgState <<
+    /gS1 313 0 R
+  >>
+  /ColorSpace <<
+    /Cs6 200 0 R
+  >>
+>>
+endobj
+obj
+[ 200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 511 500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  567 427 734 626 667 712 0 922 611 712 956 990 742 806
+     77 460 0 781 0 0 0 0 0 0 490 0 967 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  617 513 898 503 815 514 558 729 557 578 463 705 727 508
+  625 597 750 719 328 549 614 297 551 474 518 371 311 446 163 799
+      770 508 551 582 835 382 844 581 547 713 998 488 357
+      312 340 432 467 482 510
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /gRAAAA-F2
+  /FontBBox [ -16 -290 1000 700 ]
+  /Flags 4
+  /CharSet (/n/R/y/b/c/l/x/p/r/s/colon/A/B/N/ptree/n/Q/r/s/t/u/v/y)
+  /FontFile 51 0 R
+>>
+endobj
+obj
+<<
+  /Length1 285 0 R
+  /Length 212 0 R
+  /Length2 1080 0 R
+  /Length1 968
+  /Length3 722 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Subtype /Pounces 28 0 R
+  /Pages 3 0 R
+  /Type /Catalog
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536872129)
+  /Rect [ 119.7 588.56 125.7 571.54 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im34
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 598 0 R ]
+  /Filter /FlateDecode
+  /Length 78 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Contents 17 0 R
+  /Type /Page
+  /Parent 268 0 R
+  /Resources <<
+    /ExtgState <<
+      /gS0 473 0 R
+    >>
+  >>
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Width 16
+  /Filter /CCITTFaxDecode
+  /Type /xObject
+  /Subtype /Image
+  /ImageMask toWt 525
+>>
+endobj
+obj
+<<
+  /S /Normal
+  /A [ 1139 0 R ]
+  /C /Normal
+  /Pg 146 0 R
+  /Lententide /InliceA
+  /O /Layout
+  /BS <S.arsiskfaut [ 33 0 48 [ 86 366 63 355 79 94
+  657 570 580 399 410 195 446 843 533 628 893 589 538 0 0 521 381 639
+  698 592 563 591 664 695 622 612 652 515 606 996 800 554
+      0 717 938 630 622 468 456 471 472 536 555 0 318 945
+        0 0 563 617 507 0 574 500 ]
+  /Encoding 60 0 R
+  /Subtype /TrueType
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /uCBNBA-NimbusSanL-Regu
+  /Flags 4
+  /FontName /NukSA-LvuFTExtma0BoldItalic
+  /Flags 4
+  /FontBBox [ -126 -530 1105 929 ]
+  /Ascent 778
+  /CapHeight 0
+  /Type /FontDescriptor
+  /ItalicAngle 0
+  /Stemv 76
+  /xHeight 444
+  /CharSet (/W/a/atflus/undersesse/spacs.simalson/sirscronbuncoporedvidicalschi)
+  >>
+  /Open /Default fack <<
+        /EndIndent 629.972
+      >> ]
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /NFHyvZ-LMEbo/IPageCMedint-Oblik-IdBoldItalicilerasp/Colodleacentabis///Quarfix)
+  /FontFile3 32 0 R
+>>
+endobj
+obj
+<<
+  /Length 175
+  /Filter /FlateDecode
+  /Length1 28878
+>>
+stream
+endobj
+obj
+907
+endobj
+obj
+<<
+  /Type /Catalog
+  /Type /StructTreeRom
+  /LastChar 149
+  /BaseFont /HILkQP-Times-Roman
+  /Encoding /WinAnsiEncoding
+>>
+endobj
+obj
+<<
+  /Count 11
+  /kids [ 338 0 R 359 0 R 444 0 R ]
+  /MediaBox [ 0 0 612 792 ]
+  /Count -4
+  /kids [ 75 0 R 87 0 R ]
+>>
+endobj
+obj
+<<
+  /Filter [ /FlateDecode ]
+  /Length 1783
+>>
+stream
+endobj
+obj
+<<
+  /Type /Annot
+  /Rect [ 163.4656 414.5971 420.9018 494.738 ]
+  /Border [ 0 0 0 ]
+  /S 1
+  /Type /ORm
+>>
+endobj
+obj
+[ 733 0 R 735 0 R 736 0 R 737 0 R 738 0 R 739 0 R ]
+  /Contents 66 0 R
+  /CropBox [ 0 0 558 648 ]
+  /MediaBox [ 0 0 558 648 ]
+  /Parent 1082 0 R
+  /Resources 715 0 R
+  /Rotate 0
+  /Type /Page
+>>
+endobj
+obj
+[ 386.8 667.8 500 500 611.7 386.3 477.7 470.4 459.8
+  659 756.2 ]
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (637554174)
+  /Rect [ 333.32 385.56 471 584.9 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+6288
+endobj
+obj
+<<
+  /ColorSpace <<
+    /Cs2 144 0 R
+    /Cs8 112 0 R
+  >>
+  /ExtgState <<
+    /gS1 150 0 R
+  >>
+  /ColorSpace <<
+    /I 1167 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 753
+>>
+stream
+endobj
+obj
+<<
+  /A 249 0 R
+  /k 405 0 R
+  /P 167 0 R
+  /S /TD
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Ascent 694
+  /CapHeight 0
+  /Descent 0
+  /Flags 262176
+  /Ascent 683
+  /CapHeight 0
+  /Descent -346
+  /Flags 6
+  /FontBBox [ -17 -289 448 507 ]
+  /FontFile2 46 0 R
+>>
+endobj
+obj
+<<
+  /Font <<
+    /F18 7 0 R
+    /F16 7 0 R
+    /F26 8 0 R
+    /F8 13 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 44 0 R
+  /Resources 37 0 R
+  /MediaBox [ 0 0 595.276 841.89 ]
+  /Annots 169 0 R
+>>
+endobj
+obj
+<<
+  /BaseFont /Times-Bold
+  /Type /Font
+  /Encoding 843 /Thide
+>>
+endobj
+obj
+[ /ICCBased 12 0 R ]
+endobj
+obj
+<<
+  /Length1 1881
+  /Length2 10977
+  /Length3 532
+  /Length 27816
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /D [ 26 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+<<
+  /Length 188
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Encoding
+  /BaseEncoding /WinAnsiEncoding
+  /Differences [ 103 /minus ]
+  /Type /Encoding
+>>
+endobj
+obj
+<<
+  /Count 4
+  /Dest [ 219 0 R /xyZ null 558 null ]
+  /First 624 0 R
+  /Last 353 0 R
+  /Next 421 0 R
+  /Parent 543 0 R
+  /Type /Pages
+  /Parent 378 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 2669
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536875)
+  /Rect [ 207.32 196.56 419.7 650.5 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Encoding /WinAnsiEncoding
+  /BaseFont /TitNa-box
+  /Type /FontDescriptor
+  /Flags 32
+  /Descent -215
+  /FontBBox [ -1 -295 953 764 ]
+  /Ascent 748
+  /CapHeight 617
+  /Descent -216
+  /ItalicAngle -12
+  /Stemv 86
+  /xHeight 430
+  /CharSet (/A/F/I/Lagle/f/flimrte/four/one/Quotedblba
+  >>
+>>
+endobj
+obj
+[ 8 [ 209 ] 151 [ 649 ] 372 [ 627 479 ] 375 [ 578.8 ] 344 [ 474 ] 137 [ 702 ]
+  384 [ 508 506 1026 617 806 389 179 479 164 176 238
+      130 196 111 420 316 510 290 106 98 543 103 480 129 189
+       18 [ 0 0 0 307 464 443 365 456 246 286 430 351 587 309
+      828 742 599 384 ]
+  /Subtype /Type1
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type0
+  /BaseFont /NkOFCE-CalibrifId0
+  /DescendantFonts [ 26 0 R ]
+  /Tounicode 89 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 574
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (bser75)
+  /Rect [ 155.7 419.74 416.5 493.26 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (706963984)
+  /Rect [ 207.58 516.56 465.7 536.54 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /gxvjQv-LMRoman12-Bold
+  /Flags 6
+  /FontBBox [ -82 -175 1216 883 ]
+  /FontFile2 38 0 R
+  /FontName /LOFPMg-CMutre00
+  /Flags 4
+  /FontBBox [ -25 -250 1147 760 ]
+  /Ascent 694
+  /CapHeight 686
+  /Descent -194
+  /ItalicAngle -14
+  /Stemv 63
+  /Type /FontDescriptor
+  /xHeight 440
+  /CharSet (/n/Zero/t/u/c/e/d/e/s/h/i/k/l/m/n/o/p/r/s/t/u)
+  /FontFile 30 0 R
+>>
+endobj
+obj
+<<
+  /R11 11 0 R
+  /R13 13 0 R
+  /R9 9 0 R
+  /R81 88 0 R
+  /R44 44 0 R
+  /R11 11 0 R
+>>
+endobj
+obj
+<<
+  /Filter [ /FlateDecode ]
+  /Length3 15247
+  /Length 197160
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 542 0 R
+  /Resources 33 0 R
+  /Contents 62 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 91 0 R
+  >>
+  /Contents 11 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type0
+  /BaseFont /jAAAAA-F2
+  /FontDescriptor 16 0 R
+  /Type /Font
+  /Name /R18
+  /FirstChar 0
+  /LastChar 84
+  /Widths [ 611 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  333 0 0 0 0 0 500 ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 134 0 R
+  >>
+  /Contents 181 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 106 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontFile2 58 0 R
+>>
+endobj
+obj
+<<
+  /S /FoltreeCol 11 0 R
+  /Count 15
+  /Rect [ 334.534 406.985 550.757 372.771612 ]
+  /Border [ 0 0 0 ]
+  /BS <<
+    /Type /Border
+  >>
+  /Subtype /Link
+  /A <<
+    /Type /ExtgState
+    /W 1
+    /BStareTMedeW 4
+    /Print 2 0 R
+  /Plact>
+  /Parent 421 0 R
+  /Prev 688 0 R
+  /Next 471 0 R
+>>
+endobj
+obj
+<<
+  /Title 24 0 R
+  /version /Winders /the ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 68 0 R
+  /Resources 38 0 R
+  /Contents [ 12 0 R 23 0 R 25 0 R ]
+  /Parent 96 0 R
+  /Contents 30 0 R
+  /Resources 8 0 R
+  /MediaBox [ 0 0 420.33694 282.128 ]
+  /Type /Pages
+>>
+endobj
+obj
+<<
+  /Dest [ 191 0 R /xyZ null 565 null ]
+  /Parent 793 0 R
+  /Prev 749 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 991
+>>
+stream
+endobj
+obj
+<<
+  /Type /Pages
+  /kids [ 113 0 R 130 0 R ]
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536871455)
+  /Rect [ 143.7 496.86 278.64 502.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (671093288)
+  /Rect [ 330.98 80.5 341.84 365.32 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /P 271 0 R
+  /S /Span
+  /Type /StructElem
+  /ActualText ( )
+  /k [ 283 0 R 31 ]
+  /Pg 262 0 R
+>>
+endobj
+obj
+<<
+  /Length1 21039
+  /Filter /FlateDecode
+  /Length 73 0 R
+>>
+stream
+endobj
+obj
+1733
+endobj
+obj
+<<
+  /Filter /ASCII85Decode
+  /Length 47 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 67 0 R
+>>
+endobj
+obj
+<<
+  /Filter /A85
+  /Length 456
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 57 0 R
+  /Resources 24 0 R
+  /Contents 6 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Resources 142 0 R
+>>
+endobj
+obj
+<<
+  /A 247 0 R
+  /k 24
+  /P 443 0 R
+  /S /Normal
+  /Pg 38 0 R
+>>
+endobj
+obj
+<<
+  /Length 3
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /OTNIDM-Times-Italic
+  /FontBBox [ -92 -250 919 6954 ]
+  /Flags 253148
+  /Stemv 87
+  /StEmv 163
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /QNSWFA-CMTI10
+  /FontBBox [ -43 -212 937 769 ]
+  /Flags 4
+  /CharSet (/D/f/h/l/m/m/g)
+  /Descent -216
+  /Flags 4
+  /FontBBox [ -1 -164 1185 880 ]
+  /Ascent 1505
+  /CapHeight 688
+  /Descent -281
+  /ItalicAngle -14
+  /Stemv 154
+  /xHeight 430
+  /FontFile2 20 0 R
+>>
+endobj
+obj
+2736
+endobj
+obj
+<<
+  /Limits [ (2) 74 0 R (4) 89 0 R (b) 82 0 R ]
+>>
+endobj
+obj
+7627
+endobj
+obj
+<<
+  /Length 11 0 R
+  /N 1
+  /Alternate /DeviceRgB
+  /Filter [ /FlateDecode ]
+  /Subtype /Image
+  /Height 1
+  /Type /xObject
+  /Length 28
+  /BitsPerComponent 8
+>>
+stream
+endobj
+obj
+<<
+  /D [ 109 0 R /xyZ null 253 null ]
+>>
+endobj
+obj
+<<
+  /Length 102 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Resources 43 0 R
+  /Type /Page
+  /Parent 129 0 R
+  /Corsingth 314 0 R
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Metadata 2 0 R
+  /Pages falsubsect 437 0 R
+  /Coords [ 0 1 0 0 0 R ]
+  /FontDescriptor 66 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /ExtgState 12 0 R
+    /Font2 <<
+      /Helv 25 0 R
+      /CS0 7 0 R
+    >>
+  >>
+  /Contents [ 54 0 R 57 0 R ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F2 82 0 R
+      /F2 75 0 R
+      /F3 93 0 R
+      /F33 71 0 R
+      /F2 30 0 R
+    >>
+    /ExtgState <<
+      /gS4 40 0 R (
+        /MC0 127 0 R
+      /CS1 102 0 R
+      /PD 96 0 R
+    >>
+    /Shading <<
+      /F12 5 0 R
+      /F2 33 0 R
+      /F8 55 0 R
+    >>
+    /ExtgState <<
+      /gS0 48 0 R
+    >>
+  >>
+  
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536875039)
+  /Rect [ 73.7 381.86 127.54 324.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /xObject <<
+    /Fm1 47 0 R
+  >>
+  /ColorSpace <<
+    /Cs6 7 0 R
+  >>
+  /Font <<
+    /TT2 98 0 R
+    /TT4 86 0 R
+    /TT7 168 0 R
+  >>
+  /ExtgState <<
+    /gS1 163 0 R
+  >>
+  /ColorSpace <<
+    /Cs6 96 0 R
+  >>
+  /ColorSpace <<
+    /Cs6 75 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /D [ 29 0 R /xyZ null 367 null ]
+>>
+endobj
+obj
+<<
+  /S /Normal
+  /C /Normal
+  /Pg 1 0 R
+  /S /Tabe
+  /SA false
+>>
+endobj
+obj
+(P.a2 Dixhaniction)
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 55 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type0
+  /BaseFont /AACDTD-ArialPS
+  /Encoding /Identity-H
+  /DescendantFonts [ 11 0 R ]
+  /Tounicode 43 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /CIDFontType0
+  /BaseFont /CPLkEC-Times-Bold
+  /FontFile2 15 0 R
+  /CIDSet 58 0 R
+>>
+endobj
+obj
+<<
+  /Length 4063
+  /Filter [ /FlateDecode ]
+>>
+stream
+endobj
+obj
+<<
+  /uRI (mailtrosirsialaings17)
+  /Prev 697 0 R
+  /Title (Sumbj valsps)
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 2538
+  /N 2
+  /H [ 1244 302 ]
+  /group <<
+    /Type /group
+    /S /Transparency
+    /CS /Deadent 20
+    /F (TDonusian)
+    /S /goToR
+    /S /uRI
+  >>
+>>
+endobj
+obj
+<<
+  /A <<
+    /S /uRI
+    /uRI (http://WWW.mathWork-2.html)
+  >>
+  /Border [ 0 0 0 ]
+  /Rect [ 155.7 598.72 272.52 504.92 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Dest [ 161 0 R /xyZ null 559 null ]
+  /Next 702 0 R
+  /Parent 798 0 R
+  /Prev 777 0 R
+  /Title (Cheturand Whitide)
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 2580
+>>
+stream
+endobj
+obj
+<<
+  /Producer (APTConder 108 /(5.4.0)
+  /Title (tonas AlE)
+  /Dest (extrit
+  /paskB /Lingasteright
+      /btarend 0 /N /j /k /L 39 /l /n 87 /d /o /Q /s 128 /minus ]
+>
+  /Outline /ExdnoteCMik
+        /EndnText 27 0 R
+        /pgtern /veria
+      >>
+    /BM /Normal
+    >>
+  /Length 13
+  /Matrix [ 1 0 0 1 0 0 ]
+  /Resources <<
+    /xObject <<
+      /im2 2 0 R
+      /I1 1 0 R
+      /F1-1 11 0 R
+      /F3-1 9 0 R
+      /F3-2 18 0 R
+      /F3 12 0 R
+
+endobj
+obj
+<<
+  /Subtype /Image
+  /Length 69
+  /BitsPerComponent 8
+  /Intent /Palataticodatinatind
+  /Subtype /Link
+  /Rect [ 24 387 514 648 ]
+  /Border [ 0 0 1 ]
+  /H /I
+>>
+endobj
+obj
+<<
+  /P 165 0 R
+  /S /TD
+  /k [ ]
+  /Pg 3 0 R
+>>
+endobj
+obj
+<<
+  /BaseFont /kTyQAx-CMTI10
+  /FontDescriptor 34 0 R
+  /FirstChar 44
+  /LastChar 122
+  /Widths 6 0 R
+  /BaseFont /BAFjDA-CMR6
+  /FontDescriptor 34 0 R
+  /FirstChar 65
+  /LastChar 69
+  /Widths 99 0 R
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Rect [ 27.26 534 42 696 ]
+  /A <<
+    /S /goTo
+    /D 177 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /NZZSTk-NimbusRomNolalic
+  /ItalicAngle 0
+  /Stemv 0
+  /FontStretch /Normal
+  /FontFile2 106 0 R
+  /FontWeight 400
+  /Flags 32
+  /Descent -204
+  /ItalicAngle -9
+  /StamiceStruncris <
+  /k [ 156 0 R ]
+  /Pg 56 0 R
+>>
+endobj
+obj
+<<
+  /Count 10
+  /kids [ 259 0 R 445 0 R 473 0 R ]
+  /Count 10
+  /Parent 381 0 R
+>>
+endobj
+obj
+592
+endobj
+obj
+<<
+  /Dest [ 327 0 R /xyZ null 547 null ]
+  /Next 763 0 R
+  /Parent 7 0 R
+  /Parent 15 0 R
+  /Author (Mots)
+>>
+endobj
+obj
+<<
+  /Length 100 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /ShadingType 2
+  /ColorSpace /DeviceRgB
+  /Width 410
+  /Height 537
+  /BitsPerComponent 8
+  /ColorSpace 714 0 R
+  /Length 18779
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+5263
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536899851)
+  /Rect [ 186.24 317.68 318.52 225.52 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+4061
+endobj
+obj
+<<
+  /Length 5124
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (637550760)
+  /Rect [ 302.12 344.68 416.7 252.56 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (bQ6ZovZjj)
+  /C [ 0 0 1 1 ]
+  /FunctionType 2
+  /N 7
+>>
+stream
+endobj
+obj
+<<
+  /O /Layout
+  /WritingMode /RlTb
+>>
+endobj
+obj
+<<
+  /Type /ExtgState
+  /ca 1
+  /CM .28
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /QWRTRL-CMBx12
+  /Flags 4
+  /FontBBox [ -126 -456 1318 1019 ]
+  /ItalicAngle 0
+  /Flags 262150
+  /cecs  1.0 0 0 1 0 0 ]
+  /BaseFont /HFDBPI-CMTT10
+  /FontDescriptor 41 0 R
+  /FirstChar 45
+  /LastChar 42
+  /Widths [ 974 0 0 0 754 0 0 0 303 755 490 744 588 397 893 657 390 873
+      528 399 579 618 570 688 387 853 375 578 346 457 557
+  296 580 497 529 3549 130 500 248 545 271 725 785 ]
+  /TounicAnge8 8 0 R
+  /
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Ascent 805
+  /Descent -250
+  /Stemv 68
+  /Ascent 894
+  /ItalicAngle -15
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /CIDFontType0
+  /BaseFont /PMNNPA-Tahoma
+  /FontDescriptor 18 0 R
+  /W 25 0 R
+  /CIDSystemInfo <<
+    /Registry (Adobe)
+    /Ordering (Identity)
+    /Supplement 0
+  >>
+  /FontDescriptor 187 0 R
+  /Domainghtercent 83
+  /BaseFont /jgjIgR-TT233BCB4cark-Bold
+  /Encoding /WinAnsiEncoding
+  /Type /Font
+  /Subtype /Type3
+>>
+endobj
+obj
+<<
+  /Filter /ASCII85Decode
+  /Length 272 0 R
+>>
+stream
+endobj
+obj
+<<
+  /ExtgState <<
+    /gS1 2572 0 R
+  >>
+  /Font <<
+    /F3 942 0 R
+    /TT2 656 0 R
+    /TT6 641 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /N 3
+  /Alternate /DeviceRgB
+  /Length 253
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /P 465 0 R
+  /S /Span
+  /Type /StructElem
+  /Pg 3 0 R
+  /k 56
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 5872
+  /Length1 20153
+>>
+stream
+endobj
+obj
+520
+endobj
+obj
+<<
+  /Length 3822
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 587 0 R
+  /Filter /FlateDecode
+  /Type /xObject
+  /Subtype /Filt
+  /PattEneling /Wink N 0
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /CapHeight 686
+  /Ascent 694
+  /Descent -194
+  /ItalicAngle -15
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+ [ /Padid 573 0 R ]
+>>
+stream
+endobj
+obj
+855
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Width 1650
+  /Height 343
+  /Type /xObject
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im163
+  /Width 281
+  /Height 365
+  /BitsPerComponent 8
+  /ColorSpace 754 0 R
+  /Type /Pattern
+  //ITriploxt [ .2 0 0 ]
+  /Length 53
+  /Type /xObject
+  /BitsPerComponent 1
+  /Decode [ 1 0 ]
+  /Height 96
+  /Decode [ 1 0 ]
+  /Filter /FlateDecode
+  /Length 435
+>>
+endobj
+obj
+<<
+  /Length 14085
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /D [ 161 0 R /xyZ 334.691 null ]
+>>
+endobj
+obj
+<<
+  /Type /Metadata
+  /Subtype /xML
+  /Length 1892
+>>
+stream
+endobj
+obj
+<<
+  /Font <<
+    /F8 21 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Metadata 2 0 R
+  /Pages 4 0 R
+>>
+endobj
+obj
+<<
+  /Type /xRef
+  /W [ 1 2 1 ]
+  /Filter /FlateDecode
+  /FormType f
+  /Length 232
+  /O 738 0 R
+  /Type /Catamage
+  /BaseFont /BSCAAA-FanLMTalicr
+  /FontDescriptor 7 0 R
+  /Type /Font
+  /FirstChar 45
+  /LastChar 125
+  /Widths [ 244 0 0 0 0 516 715 825 0 0 0 439 536 480 0 490 0
+      0 0 0 0 0 0 0 0 0 0 486 0 310 447 0 0 0 0 0 0 0 0 500
+  898 590 775 805 611 879 503 341 445 285 869 510 518
+      372 347 275 458 296 636 ]
+  /Subtype /TrueType
+>>
+e
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 38
+  /Length 750
+  /N 4
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+544
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 217
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /IQDARv-CMSS10
+  /Flags 4
+  /FontBBox [ -16 -576 975 1125 ]
+  /Ascent 1021
+  /CapHeight 750
+  /Descent 0
+  /ItalicAngle 0
+  /Stemv 76
+  /MissingWidth 333
+  /CharSet (/arente/thi
+  /PatternType 1
+  /Name /iht 211
+  /Height 56
+  /Length 3396
+  /Subtype /Image
+  /Type /xObject
+  /Width 285
+>>
+stream
+endobj
+obj
+<<
+  /ExtgState <<
+    /gS1 954 0 R
+  >>
+  /Font <<
+    /TT2 631 0 R
+    /TT6 454 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /D [ 37 0 R /xyZ null 548 null
+  ]
+>>
+endobj
+obj
+(Mac OS x 10.5 . 0 DPD:2a77730302Z0660006040a)
+  /Author (Mho)
+>>
+endobj
+obj
+<<
+  /Filter /ASCII85Decode
+  /Length 39 0 R
+>>
+stream
+endobj
+obj
+[ 831 572 556 500 500 500 500 500 200 500 444 305 500
+      444 333 565 536 278 500 500 ]
+  /Encoding 100 0 R
+  /Name /F2-R
+  /BaseFont /HFFHWD-LMRoman10-Bold-Identity-H
+  /Encoding /Identity-H
+  /DescendantFonts [ 180 0 R ]
+  /Encoding /Identity-H
+  /Name /C
+  /Filter /FlateDecode
+  /Height 195
+  /ImageMask true
+  /Length 563
+  /Subtype /Image
+  /Type /xObject
+  /Width 126
+>>
+stream
+endobj
+obj
+<<
+  /Filter [ /FlateDecode ]
+  /Length 691
+>>
+stream
+endobj
+obj
+[ 600 728 954 744 749 689 695 484 936 530 1637 554 2434 387 488 381 333 335
+      313 ]
+  /Lang 11 0 R
+  /OOP 724 0 R
+  /k [ 66 50 34 35 5 0 R 6 0 R 5 0 R 5 0 R 20 0 R 26 0 R
+      21 0 R ]
+  /Count 1
+>>
+endobj
+obj
+<<
+  /BaseFont /AHvWSZ-CMR10
+  /FontDescriptor 25 0 R
+  /FirstChar 124
+  /LastChar 120
+  /Widths 69 0 R
+  /Tounicode 37 0 R
+  /CIDSystemInfo <<
+    /Registry (Adobe)
+    /Ordering (Identity)
+    /Supplement 0
+  >>
+  /FontDescriptor 16 0 R
+>>
+endobj
+obj
+<<
+  /Length 3286
+  /Filter /FlateDecode
+>>
+stream
+endobj

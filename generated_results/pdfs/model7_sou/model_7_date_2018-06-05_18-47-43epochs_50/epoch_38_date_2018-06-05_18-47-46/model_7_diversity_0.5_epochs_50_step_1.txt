@@ -1,0 +1,116 @@
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F2 130 0 R
+      /F5 114 0 R
+      /F7 129 0 R
+      /F8 152 0 R
+      /F2 126 0 R
+      /F3 136 0 R
+    >>
+    /ExtgState <<
+      /gS4 163 0 R
+    >>
+  >>
+  /Contents 95 0 R
+  /Parent 32 0 R
+>>
+endobj
+obj
+<<
+  /D [ 161 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 12 0 R
+  /Resources 11 0 R
+  /MediaBox [ 0 0 595.276 841.89 ]
+  /Parent 12 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Courier-Bold
+  /Encoding /WinAnsiEncoding
+>>
+endobj
+obj
+<<
+  /D [ 119 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 220
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /CapHeight 683
+  /Ascent 694
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 69
+  /xHeight 431
+  /CharSet (/B/C/D/E/F/O/M/N/S/T/a/b/c/colon/comma/d/e/eQual/m/o/p/r/s/t/y)
+  /FontFile 11 0 R
+>>
+endobj
+obj
+<<
+  /D [ 22 0 R /xyZ null 583 null ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 28 0 R
+  /Resources 4 0 R
+  /Contents 14 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 792 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /D [ 33 0 R /xyZ null 494 null ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 228
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /CRAAAA-F2
+  /FontBBox [ -14 -284 942 693 ]
+  /Flags 4
+  /Ascent 833
+  /CapHeight 831
+  /Descent -206
+  /ItalicAngle 0
+  /Stemv 131
+  /MissingWidth 250
+  /xHeight 44
+  /CharSet (/a/b/c/colon/comma/d/e/f/g/h/i/l/n/o/p/Q/r/s/t/u/y)
+  /FontFile3 11 0 R
+>>
+endobj

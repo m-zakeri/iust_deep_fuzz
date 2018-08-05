@@ -1,0 +1,130 @@
+obj
+<<
+  /Type /FontDescriptor
+  /FontFile2 262 0 R
+  /FontBBox [ -568 -307 2000 1007 ]
+  /FontName /DBAAAA-F2
+  /Flags 6
+  /FontBBox [ -126 -694 1155 1025 ]
+  /FontName /CkATLk-TimesNeWRoman
+  /ItalicAngle 0
+  /Stemv 0
+  /Type /Font
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /C [ 1 0 0 ]
+  /A <<
+    /S /goTo
+    /D (1)
+  >>
+  /Rect [ 141.734 75.205 238.383 792.718 ]
+>>
+endobj
+obj
+<<
+  /CreationDate (D:20050322125618-0200)
+  /ModDate (D:20150213154722-0100)
+  /Trapped /False
+  /PTEx.Fullbanner (This is pdfeTex version 3.141592-1.40.30)
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Encoding /MacRomanEncoding
+  /Widths [ 500 500 500 500 500 500 500 500 500 500 500 500
+  500 500 500 500 500 500 500 500 500 500 500 500 500
+  500 500 500 500 500 500 500 500 500 500 500 500 500
+  500 500 500 500 500 500 500 500 500 500 500 500 500 500
+  500 500 500 500 500 500 500 500 500 500 500 500 500 500 500
+  500 500 500 500 500 500 500 500 500 500 500 500 500 500 500
+  500 500 500 500 500 500 500 500 500 500 500 500 500
+  500 500 500 500 500 500 500 500 500 500 500 500 500
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 289
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /xjQDWv-CMR10
+  /Flags 4
+  /FontBBox [ -21 -250 1132 750 ]
+  /Ascent 694
+  /CapHeight 683
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 50
+  /xHeight 430
+  /CharSet (/A/C/D/E/F/g/H/I/k/M/O/P/S/T/x/y/a/b/c/d/e/eight/endash/f/fi/g/h/i/l/n/o/p/r/s/t/u/W/y)
+  /FontFile3 12 0 R
+>>
+endobj
+obj
+<<
+  /Count 10
+  /kids [ 95 0 R 98 0 R 101 0 R 104 0 R 101 0 R 101 0 R 103 0 R
+      106 0 R 113 0 R 115 0 R 116 0 R ]
+  /Pg 3 0 R
+>>
+endobj
+obj
+<<
+  /Length 188
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 28 0 R
+  /Resources 2 0 R
+  /Contents 2 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 792 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /D [ 21 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im269
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 17 0 R ]
+  /Filter /FlateDecode
+  /Length 1048
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 49 0 R
+  >>
+  /Contents 43 0 R
+>>
+endobj

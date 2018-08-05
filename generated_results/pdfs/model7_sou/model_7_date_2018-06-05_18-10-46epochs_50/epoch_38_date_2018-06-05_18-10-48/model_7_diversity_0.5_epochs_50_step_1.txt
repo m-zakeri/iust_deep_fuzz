@@ -1,0 +1,158 @@
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /xEWkyT-Times-Italic
+  /FontBBox [ -195 -250 1000 890 ]
+  /FontFile3 131 0 R
+  /FontName /WOFLkv-LMSans10-Regular
+  /Flags 4
+  /FontBBox [ -19 -958 1177 811 ]
+  /Ascent 5154
+  /CapHeight 694
+  /Descent -210
+  /ItalicAngle 0
+  /Stemv 119
+  /MissingWidth 325
+  /CharSet (/p/a/e/i/l/n/o/p/r/s/t/v/W/y/Z)
+  /FontFile 30 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F3
+  /BaseFont /ISWZkO-LMSans17-Regular-Identity-H
+  /Encoding /Identity-H
+  /DescendantFonts [ 4 0 R ]
+  /Tounicode 130 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ByvAPE-CMR10
+  /Flags 4
+  /FontBBox [ -33 -250 945 749 ]
+  /Ascent 694
+  /CapHeight 683
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 86
+  /xHeight 431
+  /CharSet (/A/B/C/D/E/F/g/H/I/L/M/N/O/P/R/S/T/u/v/W/x/y/bracketleft/bracketright/asci/comma/d/e/eight/f/fi/four/g/h/i/l/m/n/o/p/r/s/space/t/tWo/u/y)
+  /FontFile 5 0 R
+>>
+endobj
+obj
+<<
+  /Type /Pages
+  /kids [ 3 0 R 30 0 R 34 0 R 37 0 R 39 0 R 33 0 R 44 0 R 44 0 R
+      43 0 R 45 0 R 48 0 R 50 0 R 51 0 R 53 0 R 55 0 R 58 0 R
+      50 0 R 51 0 R 55 0 R 57 0 R 58 0 R 58 0 R 59 0 R 59 0 R
+      52 0 R 51 0 R 54 0 R 56 0 R 56 0 R 55 0 R 56 0 R 55 0 R
+  59 0 R 59 0 R 64 0 R 68 0 R 68 0 R 67 0 R 78 0 R 72 0 R
+      88 0 R 82 0 R 85 0 R 86 0 R 88 0 R 89 0 R 89 0 R 99 0 R
+      96 0 R 96 0 R ]
+  /Pg 3 0 R
+>>
+endobj
+obj
+<<
+  /k [ 170 0 R 170 0 R 175 0 R 172 0 R ]
+  /P 30 0 R
+  /S /Laso
+>>
+endobj
+obj
+<<
+  /ColorSpace <<
+    /Cs6 126 0 R
+  >>
+  /Font <<
+    /TT1 13 0 R
+    /TT3 13 0 R
+    /TT4 15 0 R
+    /TT6 14 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /Count 7
+  /Type /Pages
+  /kids [ 110 0 R 111 0 R 116 0 R 116 0 R 118 0 R 119 0 R 121 0 R ]
+  /MediaBox [ 0 0 595.28 841.89 ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 37 0 R
+  /Resources 24 0 R
+  /MediaBox [ 0 0 595.276 841.89 ]
+  /Parent 13 0 R
+  /Annots [ 14 0 R 142 0 R ]
+  /Parent 328 0 R
+  /Type /Pages
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536879485)
+  /Rect [ 319.9 350.56 425.7 352.54 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im23
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 366 0 R ]
+  /Filter /FlateDecode
+  /Length 1278
+>>
+stream
+endobj
+obj
+<<
+  /ColorSpace <<
+    /Cs6 175 0 R
+  >>
+  /Font <<
+    /TT1 169 0 R
+    /TT2 152 0 R
+    /TT4 162 0 R
+    /TT6 178 0 R
+    /TT8 173 0 R
+    /TT10 146 0 R
+    /TT12 153 0 R
+  >>
+  /xObject <<
+    /Im1 14 0 R
+    /Im2 4 0 R
+  >>
+  /ExtgState <<
+    /gS1 11 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /C [ 1 0 0 ]
+  /A <<
+    /S /goTo
+    /D (section.2)
+  >>
+>>
+endobj

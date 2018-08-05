@@ -1,0 +1,157 @@
+obj
+<<
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 119 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Length 280
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 149 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F1-1 11 0 R
+      /F2 9 0 R
+      /F3 10 0 R
+      /F4 12 0 R
+      /F5 19 0 R
+      /F6 16 0 R
+      /F7 16 0 R
+      /F8 38 0 R
+      /F8 39 0 R
+      /F9 48 0 R
+    >>
+    /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+  >>
+  /MediaBox [ 0 0 595.32 841.619 ]
+  /Contents [ 117 0 R ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 354
+>>
+stream
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /C [ 1 0 0 ]
+  /A <<
+    /S /goTo
+    /D (6)
+  >>
+  /Rect [ 173.393 277.294 182.868 280.65 ]
+>>
+endobj
+obj
+<<
+  /H [ 1282 971 ]
+  /LineariZed 1
+  /E 1099 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ABCDEE-B20Italic
+  /Flags 4
+  /FontBBox [ -147 -250 1163 967 ]
+  /Ascent 694
+  /CapHeight 683
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 53
+  /xHeight 431
+  /CharSet (/one/tWo/h/eight/five/four/five/six/seven/eight/nine/one/tWo/three/four/five/singlese/tWo/three/tWo)
+  /FontFile3 19 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 134 0 R
+  /FirstChar 40
+  /LastChar 124
+  /BaseFont /BZxDjv-CMTI12
+  /FontDescriptor 11 0 R
+  /Type /Font
+  /FirstChar 49
+  /LastChar 117
+  /Widths [ 250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+endobj
+obj
+<<
+  /P 56 0 R
+  /S /Figure
+  /k [ 33 ]
+  /Pg 3 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 107 0 R
+  /Resources 33 0 R
+  /Contents 14 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Resources <<
+    /Font <<
+      /F0 374 0 R
+      /F4 334 0 R
+      /F8 334 0 R
+    >>
+    /ExtgState <<
+      /gS4 337 0 R
+    >>
+  >>
+  /Contents 121 0 R
+  /Parent 3 0 R
+  /Rotate 0
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 81 0 R
+  /FirstChar 1
+  /LastChar 1
+  /BaseFont /CuWRWx-CMSy10
+  /FontDescriptor 120 0 R
+  /FirstChar 45
+  /LastChar 117
+  /Widths 12 0 R
+  /Encoding 10 0 R
+>>
+endobj

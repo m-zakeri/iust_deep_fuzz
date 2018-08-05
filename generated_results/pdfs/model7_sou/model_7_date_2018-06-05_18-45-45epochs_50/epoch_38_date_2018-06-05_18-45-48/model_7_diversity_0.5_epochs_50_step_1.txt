@@ -1,0 +1,100 @@
+obj
+<<
+  /Subtype /CIDFontType0C
+  /Length 791
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+>>
+endobj
+obj
+<<
+  /Length 11 0 R
+  /N 3
+  /Alternate /DeviceRgB
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 118
+>>
+stream
+endobj
+obj
+<<
+  /Pages 2 0 R
+  /Type /Catalog
+>>
+endobj
+obj
+<<
+  /Contents 24 0 R
+  /Type /Page
+  /Parent 122 0 R
+>>
+endobj
+obj
+<<
+  /Title (6.2.5 isbnsoftcoverus)
+  /A <<
+    /S /goTo
+    /D (8)
+  >>
+  /Parent 122 0 R
+  /Next 117 0 R
+>>
+endobj
+obj
+<<
+  /P 129 0 R
+  /S /TD
+  /k [ 447 0 R ]
+  /Pg 3 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /AMLABk-Times-Bold
+  /FontBBox [ -9 -207 944 684 ]
+  /Flags 4
+  /Ascent 694
+  /CapHeight 694
+  /Descent -218
+  /ItalicAngle 0
+  /Stemv 136
+  /MissingWidth 391
+  /CharSet (/A/C/D/S/a/b/c/colon/comma/d/e/eight/endash/f/fi/four/g/h/hyphen/i/k/l/m/n/o/p/period/Q/r/s/space/t/v/W/x)
+  /FontFile3 11 0 R
+>>
+endobj
+obj
+<<
+  /Length 163
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 1450
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 27 0 R
+  /Resources 21 0 R
+  /MediaBox [ 0 0 595.276 841.89 ]
+  /Parent 10 0 R
+>>
+endobj

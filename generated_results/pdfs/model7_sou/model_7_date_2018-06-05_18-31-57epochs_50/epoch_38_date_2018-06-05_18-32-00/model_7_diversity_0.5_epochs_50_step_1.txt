@@ -1,0 +1,126 @@
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (805321518)
+  /Rect [ 149.7 328.86 396.48 339.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 17 0 R
+  /FirstChar 48
+  /LastChar 117
+  /BaseFont /HWMRNx-CMR7
+  /FontDescriptor 37 0 R
+  /Type /Font
+  /FirstChar 48
+  /LastChar 117
+  /Widths [ 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525
+  525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525
+  525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 
+endobj
+obj
+<<
+  /BitsPerComponent 8
+  /ColorSpace 272 0 R
+  /Filter /DCTDecode
+  /Height 165
+  /Length 355 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 12 0 R
+  /FirstChar 32
+  /LastChar 121
+  /BaseFont /yBCLTL-CMR10
+  /FontDescriptor 137 0 R
+  /FirstChar 49
+  /LastChar 116
+  /Widths 50 0 R
+  /Encoding 12 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 1 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text /ImageC ]
+    /Font <<
+      /F1 2 0 R
+      /F2 11 0 R
+      /F3 10 0 R
+      /F4 16 0 R
+      /F5 16 0 R
+    >>
+  >>
+  /Contents 109 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ABCDEE-B20NaZaninBold
+  /Flags 6
+  /Stemv 110
+  /CapHeight 1230
+  /Ascent 1006
+  /Descent -210
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Border [ 0 0 0 ]
+  /H /I
+  /C [ 0 1 1 ]
+  /Rect [ 143.51 158.78 245.41 382.01 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /R25 25 0 R
+  /R232 232 0 R
+>>
+endobj
+obj
+<<
+  /D [ 262 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 53 0 R
+  >>
+  /Contents 53 0 R
+>>
+endobj
+obj
+<<
+  /Type /ExtgState
+  /OPM 1
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 22
+>>
+stream
+endobj

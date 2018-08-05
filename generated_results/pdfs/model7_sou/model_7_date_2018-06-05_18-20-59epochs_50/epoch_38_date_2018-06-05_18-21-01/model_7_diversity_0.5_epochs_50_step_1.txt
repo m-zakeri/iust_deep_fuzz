@@ -1,0 +1,127 @@
+obj
+<<
+  /Filter /ASCII85Decode
+  /Length 678 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536871701)
+  /Rect [ 317.7 586.98 387.86 596.92 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /P 324 0 R
+  /S /Span
+  /Type /StructElem
+  /Pg 42 0 R
+  /k 22
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im81
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 180 0 R ]
+  /Filter /FlateDecode
+  /Length 1019
+>>
+stream
+endobj
+obj
+<<
+  /D [ 115 0 R /xyZ null 493 null ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 270
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im152
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 47 0 R ]
+  /Filter /FlateDecode
+  /Length 1319
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 125
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /EgOWuP-CMSy10
+  /FontBBox [ -1 -10 147 100 ]
+  /Flags 5
+  /Ascent 820
+  /CapHeight 720
+  /Descent -206
+  /ItalicAngle 0
+  /Stemv 133
+  /MissingWidth 250
+  /xHeight 463
+  /CharSet (/A/a/b/c/colon/d/e/g/h/i/l/m/n/o/p/period/r/s/t/tWo/u/W/x/y)
+  /FontFile3 87 0 R
+>>
+endobj
+obj
+<<
+  /Type /Pages
+  /Count 1
+  /kids [ 2 0 R ]
+  /MediaBox [ 0 0 362.83 252.045 ]
+  /TrimBox [ 0 0 595.2756 841.8898 ]
+  /TrimBox [ 0 0 38.491 53.4517 ]
+  /Type /Pages
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536871245)
+  /Rect [ 143.7 446.86 401.7 484.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 110 0 R
+  /FirstChar 0
+  /LastChar 122
+  /BaseFont /BDuIkE-CMR8
+  /FontDescriptor 18 0 R
+  /Type /Font
+  /FirstChar 32
+  /LastChar 125
+  /Widths [ 250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+endobj
+

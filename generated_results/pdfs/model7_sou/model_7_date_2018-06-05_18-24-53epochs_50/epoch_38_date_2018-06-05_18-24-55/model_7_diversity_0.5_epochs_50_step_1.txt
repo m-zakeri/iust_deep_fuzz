@@ -1,0 +1,116 @@
+obj
+<<
+  /Type /Pages
+  /kids [ 7 0 R 22 0 R 26 0 R 30 0 R 34 0 R 37 0 R 48 0 R 50 0 R
+      52 0 R 53 0 R 58 0 R 59 0 R 50 0 R 59 0 R 50 0 R 50 0 R
+      50 0 R 52 0 R 53 0 R 54 0 R 54 0 R 56 0 R 57 0 R 58 0 R
+      59 0 R 60 0 R 61 0 R 61 0 R ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 112
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontFile2 16 0 R
+  /FontBBox [ -133 -309 1000 1079 ]
+  /FontName /DLAPHH-Tahoma-Bold
+  /ItalicAngle 0
+  /Stemv 0
+  /FontFile2 26 0 R
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Metadata 2 0 R
+  /Pages 4 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 4 0 R
+  /Resources 2 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /Parent 14 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 96 0 R
+  /Resources 30 0 R
+  /Contents 18 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 792 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Length 9424
+  /Filter [ /FlateDecode ]
+  /DecodeParms [ <<
+        /Predictor 15
+        /Columns 1019
+        /Bits [ 101.43 140.84 156.12 174.906 ]
+    /Function 35 0 R
+    /ColorSpace <<
+      /CS0 15 0 R
+    >>
+    /Shading <<
+      /Sh0 10 0 R
+    >>
+  >>
+  /Rotate 0
+  /TrimBox [ 0 0 310 12 ]
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Type /Pages
+  /Count 2
+  /kids [ 3 0 R 18 0 R ]
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Tounicode 103 0 R
+  /Widths 110 0 R
+  /FirstChar 65
+  /LastChar 121
+  /BaseFont /ZjuQyu-CMSy10
+  /FontDescriptor 133 0 R
+>>
+endobj
+obj
+<<
+  /Pages 21 0 R
+  /Type /Catalog
+>>
+endobj
+obj
+<<
+  /P 1173 0 R
+  /S /Figure
+  /Alt <>
+  /k [ 61 ]
+  /Pg 3 0 R
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+  /Metadata 12 0 R
+>>
+endobj

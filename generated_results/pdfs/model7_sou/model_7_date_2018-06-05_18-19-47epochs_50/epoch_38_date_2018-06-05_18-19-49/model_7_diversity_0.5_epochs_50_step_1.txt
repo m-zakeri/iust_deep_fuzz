@@ -1,0 +1,156 @@
+obj
+<<
+  /A <<
+    /S /uRI
+    /uRI (http://WWW.mathWorks.com/help/releases/R2012a/toolbox/physmod/simscape/ref/sinperstrentibrathersashart)
+  /FontFile 11 0 R
+>>
+endobj
+obj
+<<
+  /A 108 0 R
+  /k 10
+  /P 1272 0 R
+  /S /Normal
+  /Pg 1014 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 96 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text /ImageC ]
+    /Font <<
+      /F1 3 0 R
+      /F0 2 0 R
+      /F4 4 0 R
+      /F7 4 0 R
+    >>
+  >>
+  /Contents 71 0 R
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+>>
+endobj
+obj
+<<
+  /Count 10
+  /kids [ 14 0 R 1 0 R 4 0 R 7 0 R 10 0 R 13 0 R 16 0 R 19 0 R
+      22 0 R 25 0 R ]
+  /Count 12
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 18 0 R
+  /Resources 14 0 R
+  /Contents 112 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Resources <<
+    /Font <<
+      /F0 374 0 R
+      /F1 374 0 R
+      /F2 326 0 R
+      /F2-2 328 0 R
+      /F2 325 0 R
+      /F2-2 328 0 R
+      /F2 325 0 R
+      /F5 328 0 R
+      /F2 320 0 R
+      /F20 258 0 R
+    >>
+    /ProcSet [ /PDF /Text ]
+    /ExtgState <<
+      /gS0 467 0 R
+      /gS1 468 0 R
+      /gS2 47
+endobj
+
+obj
+<<
+  /BaseFont /ODNMDg-TTE39240D0t00
+  /FontDescriptor 129 0 R
+  /LastChar 121
+  /Subtype /Type1
+  /Tounicode 100 0 R
+  /Type /Font
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 3 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /Resources <<
+    /xObject <<
+      /Fm0 24 0 R
+    >>
+    /ProcSet [ /PDF /Text ]
+    /ExtgState <<
+      /gS0 1271 0 R
+      /gS1 1281 0 R
+    >>
+    /BityPPSText <<
+    >>
+  >>
+  /H /N
+  /Type /Page
+  /Parent 122 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ERAAAA-F3
+  /FontBBox [ -1 -221 1143 695 ]
+  /Flags 4
+  /Ascent 615
+  /CapHeight 693
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 65
+  /Flags 6
+  /FontBBox [ -53 -251 1139 750 ]
+  /FontFile3 110 0 R
+  /FontName /CxLkZO-CMSy6
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 256 0 R
+  /Resources 111 0 R
+  /Contents 129 0 R
+  /Thumb 305 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 792 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /D [ 131 0 R /xyZ null 583 null ]
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im12
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 525 0 R ]
+  /Filter /FlateDecode
+  /Length 1240
+>>
+stream
+endobj

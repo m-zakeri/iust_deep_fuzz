@@ -1,0 +1,118 @@
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /C [ 1 0 0 ]
+  /A <<
+    /S /goTo
+    /D (6)
+  >>
+  /Rect [ 103.14 149.516 149.976 254.36 ]
+>>
+endobj
+obj
+<<
+  /BaseFont /Courier-Bold
+  /Encoding /WinAnsiEncoding
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+  /Encoding /WinAnsiEncoding
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /C [ 1 0 0 ]
+  /A <<
+    /S /goTo
+    /D (7)
+  >>
+  /Rect [ 141.713 142.624 174.36 164.46 ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 154
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /HgTOBW-TTE15373818t00
+  /FontBBox [ -10 -250 949 750 ]
+  /Flags 4
+  /Ascent 750
+  /CapHeight 750
+  /Descent -206
+  /ItalicAngle 0
+  /Stemv 114
+  /MissingWidth 500
+  /Type /FontDescriptor
+  /xHeight 1000
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 471
+  /Length 336
+  /N 100
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+<<
+  /Annots [ 432 0 R 436 0 R 437 0 R 431 0 R 435 0 R 436 0 R 436 0 R ]
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im269
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 167 0 R ]
+  /Filter /FlateDecode
+  /Length 1188
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 25
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Encoding /WinAnsiEncoding
+  /Subtype /Type1
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /C [ 1 0 0 ]
+  /A <<
+    /S /goTo
+    /D (16)
+  >>
+  /Rect [ 143.66 165.401 354.488 164.631 ]
+>>
+endobj

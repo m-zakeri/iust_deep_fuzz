@@ -1,0 +1,123 @@
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ERAAAA-F2
+  /FontBBox [ -17 -204 970 605 ]
+  /Flags 4
+  /Ascent 678
+  /CapHeight 678
+  /Descent -218
+  /ItalicAngle 0
+  /Stemv 141
+  /MissingWidth 500
+  /xHeight 448
+  /CharSet (/B/C/D/E/g/H/I/j/k/L/M/N/O/P/R/S/T/u/v/W/x/y/Z/a/b/c/d/e/f/g/i/l/n/o/p/Q/r/s/t/u/y/Z)
+  /FontFile 31 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 16 0 R
+  /Resources 11 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /Parent 17 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 115
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536879656)
+  /Rect [ 143.7 110.56 371.7 110.54 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Contents 109 0 R
+  /CropBox [ 0 0 558 648 ]
+  /MediaBox [ 0 0 558 648 ]
+  /Parent 1110 0 R
+  /Resources 384 0 R
+  /Rotate 0
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im31
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 210 0 R ]
+  /Filter /FlateDecode
+  /Length 1026
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 6
+  /Length 86
+  /N 1
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 101
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 117 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /ADZEWQ-CMSS12
+  /FontDescriptor 11 0 R
+  /Type /Font
+  /FirstChar 46
+  /LastChar 119
+  /Widths [ 515 0 515 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type0
+  /BaseFont /BMBDjk-TimesNeWRomanBold
+  /Encoding /Identity-H
+  /Type /Font
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536881474)
+  /Rect [ 155.7 355.86 131.7 386.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj

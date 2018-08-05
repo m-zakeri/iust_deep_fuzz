@@ -1,0 +1,143 @@
+obj
+[ 380.8 380.8 489.6 761.6 272 326.4 272 489.6 572 572 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 777
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /IWguvg-CMR10
+  /Flags 4
+  /FontBBox [ -34 -250 1109 750 ]
+  /Ascent 694
+  /CapHeight 683
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 88
+  /xHeight 431
+  /CharSet (/A/C/D/E/g/I/L/M/N/O/P/R/S/T/u/y/a/b/c/d/e/f/g/h/i/l/m/n/o/p/period/s/t/u/v/W/y/Z)
+  /FontFile3 11 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /yQAAAA-F0
+  /FontBBox [ -10 -208 939 775 ]
+  /Flags 4
+  /Ascent 705
+  /CapHeight 705
+  /Descent -287
+  /ItalicAngle 0
+  /Stemv 146
+  /MissingWidth 500
+  /FontFile2 23 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /DMuRST-CMR10
+  /FontBBox [ -1 -234 520 696 ]
+  /Flags 4
+  /Ascent 697
+  /CapHeight 697
+  /Descent -208
+  /ItalicAngle 0
+  /Stemv 119
+  /MissingWidth 500
+  /CharSet (/A/D/E/g/H/I/L/M/N/O/P/R/S/T/u/v/W/x/y/Zero)
+  /FontFile 19 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /OFAFkO-CMR10
+  /FontDescriptor 12 0 R
+  /Type /Font
+  /FirstChar 48
+  /LastChar 127
+  /Widths [ 515 562 514 0 515 0 515 0 0 0 0 0 515 0 0 515 515 515 515 515 0 515 515 515 515 0 515 515 515 515 0 515 515
+  515 0 515 515 515 0 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 515 ]
+endobj
+obj
+<<
+  /ProcSet [ /PDF /Text /ImageB ]
+  /Font <<
+    /F1 22 0 R
+    /F2 21 0 R
+    /F3 29 0 R
+  >>
+  /ProcSet [ /PDF /Text /ImageC /ImageB /ImageI ]
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /yQAAAA-F0
+  /FontBBox [ -16 -254 979 751 ]
+  /Flags 4
+  /Ascent 713
+  /CapHeight 751
+  /Descent -194
+  /FontName /IkOMBO-CMTI10
+  /ItalicAngle -14.04
+  /Stemv 88
+  /xHeight 431
+  /FontBBox [ -34 -251 988 750 ]
+  /Flags 4
+  /CharSet (/a/c/p/r/s/t/o/p/x/d/e/i/p/e/i/l/n/o/r/s/t/u/y)
+  /FontFile3 38 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im120
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 297 0 R ]
+  /Filter /FlateDecode
+  /Length 1369
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 222 0 R
+  /Resources 135 0 R
+  /Contents 124 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Length 190
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 239
+>>
+stream
+endobj

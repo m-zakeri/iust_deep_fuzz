@@ -1,0 +1,143 @@
+obj
+<<
+  /AntiAlias false
+  /ColorSpace 8 0 R
+  /Coords [ 0 0 0 ]
+  /H /I
+  /Rect [ 133.384 515.419 326.184 143.635 ]
+  /Subtype /Link
+  /A <<
+    /Type /Action
+    /S /uRI
+    /uRI (http://WWW.mihandoWnload.com/)
+  >>
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /CRAAAA-F3
+  /FontBBox [ -16 -204 971 694 ]
+  /Flags 4
+  /Ascent 694
+  /CapHeight 694
+  /Descent -218
+  /ItalicAngle 0
+  /Stemv 136
+  /MissingWidth 377
+  /CharSet (/F/R/a/b/c/d/e/h/i/l/m/n/o/p/r/s/t/u/y)
+  /FontFile 61 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type0
+  /BaseFont /gNOWQQ-LinLibertineOB
+  /CIDSystemInfo <<
+    /Registry (Adobe)
+    /Ordering (Identity)
+    /Supplement 0
+  >>
+  /FontDescriptor 16 0 R
+  /DW 500
+  /W 36 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im221
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 414 0 R ]
+  /Filter /FlateDecode
+  /Length 1049
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im96
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 27 0 R ]
+  /Filter /FlateDecode
+  /Length 48 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F1-1 11 0 R
+      /F1-2 18 0 R
+      /F2 12 0 R
+      /F3 10 0 R
+    >>
+  >>
+  /Contents 179 0 R
+>>
+endobj
+obj
+<<
+  /ExtgState <<
+    /gS1 1073 0 R
+  >>
+  /Font <<
+    /F1 1092 0 R
+    /F2 406 0 R
+    /F3 422 0 R
+    /TT2 424 0 R
+    /TT6 440 0 R
+  >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+obj
+<<
+  /Pages 11 0 R
+  /Type /Catalog
+>>
+endobj
+obj
+<<
+  /Length 162
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /D [ 59 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+<<
+  /Length 328
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 107 0 R
+  /Resources 34 0 R
+  /Contents 35 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 792 ]
+  /Rotate 0
+>>
+endobj

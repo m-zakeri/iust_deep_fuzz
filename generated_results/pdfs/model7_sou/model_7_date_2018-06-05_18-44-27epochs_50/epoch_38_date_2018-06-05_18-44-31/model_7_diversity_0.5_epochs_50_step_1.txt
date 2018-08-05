@@ -1,0 +1,147 @@
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 326 332 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F2 110 0 R
+      /F4 112 0 R
+      /F10 116 0 R
+      /F1 110 0 R
+      /F4 128 0 R
+      /F8 169 0 R
+      /F10 119 0 R
+      /F24 126 0 R
+      /F24 140 0 R
+      /F2 123 0 R
+      /F20 149 0 R
+      /F1 169 0 R
+      /F20 156 0 R
+      /F37 153 0 R
+      /F2 163 0 R
+      /F25 144 0 R
+      /F20 141 0 R
+      /F4 134 0 R
+    >>
+    /ProcSet [ /PDF /Text /ImageB /
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /FOEgHM-Times-Italic
+  /FontBBox [ -146 -210 1000 778 ]
+  /Flags 4
+  /CharSet (/a/b/c/colon/d/e/f/g/h/i/k/l/m/n/o/p/period/Q/r/s/t/v/W/y)
+  /FontFile 11 0 R
+>>
+endobj
+obj
+<<
+  /Contents 17 0 R
+  /Type /Page
+  /Parent 13 0 R
+  /Rotate 0
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Length 11 0 R
+  /N 3
+  /Alternate /DeviceRgB
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /Times-Italic
+  /FontBBox [ -14 -274 1042 694 ]
+  /Flags 4
+  /Ascent 677
+  /CapHeight 677
+  /Descent -201
+  /ItalicAngle 0
+  /Stemv 119
+  /MissingWidth 500
+  /xHeight 448
+  /CharSet (/A/C/D/E/g/I/L/M/N/O/P/R/S/T/u/v/W/x/y/Z/bracketleft/bracketright/bracketleft/bracketright/bracketright/ascircods/underscore/comma/period/one/parenleft/parenright/bracketleft/bracketright/comma/hyphen/period/Zero/one/b/a/d/e/h/i/l/n
+endobj
+obj
+<<
+  /Length 445
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (brjveZ4)
+  /Rect [ 143.7 464.56 343.36 464.52 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536875891)
+  /Rect [ 303.44 491.08 371.7 408.66 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Length 13 0 R
+  /Type /Metadata
+  /Subtype /xML
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /ABCDEE-Calibri
+  /Encoding /Identity-H
+  /DescendantFonts [ 13 0 R ]
+  /Tounicode 71 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /xQDAvW-CMBx12
+  /Flags 4
+  /FontBBox [ -29 -960 1116 775 ]
+  /Ascent 750
+  /CapHeight 683
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 50
+  /xHeight 430
+  /CharSet (/a/b/c/e/g/h/i/l/n/o/p/period/r/s/t/W/x/y)
+  /FontFile3 16 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 28 0 R
+  /Resources 10 0 R
+  /Contents 11 0 R
+  /Thumb 32 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Rotate 0
+>>
+endobj

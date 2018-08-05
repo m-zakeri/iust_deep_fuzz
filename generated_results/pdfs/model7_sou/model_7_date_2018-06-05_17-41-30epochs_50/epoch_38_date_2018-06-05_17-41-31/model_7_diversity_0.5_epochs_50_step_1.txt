@@ -1,0 +1,147 @@
+obj
+<<
+  /Count 4
+  /Dest [ 206 0 R /xyZ null 559 null ]
+  /First 757 0 R
+  /Last 795 0 R
+  /Next 830 0 R
+  /Parent 783 0 R
+  /Prev 774 0 R
+  /Title (R2006a-Erample)
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /FLEWyv-CMSy10
+  /FontDescriptor 11 0 R
+  /Type /Font
+  /FirstChar 46
+  /LastChar 116
+  /Widths 100 0 R
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /C [ 0 1 1 ]
+  /A <<
+    /S /uRI
+    /uRI (http://WWW.mathWorks.com/help/releases/R2012a/toolbox/sldv/ref/productions.html)
+  >>
+  /Border [ 0 0 0 ]
+  /Rect [ 143.7 482.02 241.98 494.36 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 2 0 R
+  /Outlines <<
+    /Subj (Devicer.sorfe .alperate Partoor bler version)
+  /A <<
+    /S /goTo
+    /D (subsection.7.3)
+  >>
+>>
+endobj
+obj
+<<
+  /Length 11 0 R
+  /N 3
+  /Alternate /DeviceRgB
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /R13 13 0 R
+  /R15 15 0 R
+>>
+endobj
+obj
+<<
+  /P 188 0 R
+  /S /Span
+  /Type /StructElem
+  /Pg 33 0 R
+  /k 102
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im149
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 119 0 R ]
+  /Filter /FlateDecode
+  /Length 1210
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Encoding /WinAnsiEncoding
+  /BaseFont /BLPgEj-BCompiera-Bold
+  /FontDescriptor 13 0 R
+  /FirstChar 48
+  /LastChar 117
+  /Widths 19 0 R
+  /Encoding 20 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F2 339 0 R
+      /F10 366 0 R
+      /F15 246 0 R
+      /F1 273 0 R
+      /F20 281 0 R
+      /F2-2 1160 0 R
+      /F20 1263 0 R
+      /F24 154 0 R
+      /F2 1228 0 R
+      /F21 119 0 R
+      /F20 149 0 R
+      /F4 113 0 R
+      /F21 156 0 R
+      /F8 159 0 R
+      /F8 113 0 R
+      /F10 126 0 R
+      /F11 175 0 R
+      /
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /TrueType
+  /Name /F3-1
+  /Widths [ 244 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 280
+>>
+stream
+endobj

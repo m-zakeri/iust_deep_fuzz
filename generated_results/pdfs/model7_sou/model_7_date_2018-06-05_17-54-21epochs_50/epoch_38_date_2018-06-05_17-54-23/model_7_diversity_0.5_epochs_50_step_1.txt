@@ -1,0 +1,159 @@
+obj
+<<
+  /D [ 45 0 R /xyZ 254.118 773.169 null ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 96 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+  >>
+  /MediaBox [ 0 0 595.32 841.92 ]
+  /Contents 11 0 R
+  /group <<
+    /Type /group
+    /S /Transparency
+    /CS /DeviceRgB
+  >>
+  /TOWbjconIndent -17
+  /BaseFont /BTRPEF-Times-Bold
+  /FontDescriptor 13 0 R
+  /Tounicode 32 0 R
+  /Type /Font
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Encoding /WinAnsiEncoding
+  /BaseFont /Helvetica-Bold
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /TimesNeWRomanBold
+  /Flags 34
+  /FontBBox [ -665 -325 2000 1000 ]
+  /Stemv 0
+  /ItalicAngle 0
+  /CapHeight 891
+  /Ascent 891
+  /Descent -216
+  /ItalicAngle 0
+  /FontFamily (Cambria)
+  /FontStretch /Normal
+  /FontWeight 400
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /C [ 1 0 0 ]
+  /A <<
+    /S /goTo
+    /D (8)
+  >>
+  /Rect [ 131.731 519.416 257.82 525.283 ]
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536871883)
+  /Rect [ 95.7 218.86 356.98 221.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Count 1
+  /Dest [ 155 0 R /xyZ null 559 null ]
+  /First 56 0 R
+  /Last 46 0 R
+  /Next 495 0 R
+  /Parent 432 0 R
+  /Prev 440 0 R
+  /Title (Ducal Enhanced Simulink Stating Property Specifs)
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /Times-Bold
+  /Flags 32
+  /FontBBox [ -558 -307 2034 1026 ]
+  /Stemv 0
+  /ItalicAngle 0
+  /CapHeight 1000
+  /Ascent 1000
+  /Descent -207
+  /FontBBox [ -193 -250 1149 959 ]
+  /Ascent 694
+  /CapHeight 683
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 69
+  /xHeight 431
+  /CharSet (/A/C/E/F/H/I/L/M/N/O/P/R/S/T/u/v/W/x/y/Z/Zero)
+  /FontFile3 15 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /TimesNeWRomanBold
+  /Flags 34
+  /FontBBox [ -568 -307 2000 1007 ]
+  /Stemv 0
+  /ItalicAngle 0
+  /CapHeight 1000
+  /Ascent 1000
+  /Descent -207
+  /FontBBox [ -181 -250 1141 950 ]
+  /Ascent 694
+  /CapHeight 683
+  /Descent -194
+  /ItalicAngle -14
+  /Stemv 72
+  /xHeight 431
+  /CharSet (/a/d/e/f/g/h/i/k/l/m/n/o/p/period/plus/Q/Quotedboly/hyphen/p/T/x/E/comma/Zero/one/tWo/six/seven/A/asterisk/b/e/hyphen/period/one/parenleft/parenright/asterisk/hyphen/i/k/l/m/n/o/p/Q/r/s/t/u/v/y)
+  
+endobj
+obj
+<<
+  /P 69 0 R
+  /S /P
+  /Type /StructElem
+  /k [ 196 0 R ]
+  /Pg 3 0 R
+>>
+endobj
+obj
+<<
+  /Length 13 0 R
+  /Type /Metadata
+  /Subtype /xML
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /BaseFont /MTOEB-CMR10
+  /FontDescriptor 11 0 R
+  /Type /Font
+  /FirstChar 44
+  /LastChar 121
+  /Widths [ 756 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+endobj
+

@@ -1,0 +1,130 @@
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /TimesNeWRomanBold
+  /Flags 32
+  /FontBBox [ -126 -615 1112 1043 ]
+  /Stemv 0
+  /ItalicAngle 0
+  /CapHeight 891
+  /Ascent 891
+  /Descent -216
+  /FontFile2 111 0 R
+>>
+endobj
+obj
+<<
+  /D [ 113 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 275 0 R
+  /Resources 128 0 R
+  /Contents 149 0 R
+>>
+endobj
+obj
+<<
+  /Length 429
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 228
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 166
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /CropBox [ 0 0 595 842 ]
+  /Parent 37 0 R
+  /Contents 3 0 R
+  /Rotate 0
+  /MediaBox [ 0 0 595.22 842 ]
+  /Resources <<
+    /Font <<
+      /F1 5 0 R
+      /F2 12 0 R
+      /F3 10 0 R
+      /F4 11 0 R
+      /F5 11 0 R
+      /F6 16 0 R
+      /F5 18 0 R
+      /F6 14 0 R
+      /F7 14 0 R
+      /F7 37 0 R
+      /F8 38 0 R
+      /F11 58 0 R
+      /F9 46 0 R
+    >>
+    /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+  >>
+  /MediaBox [ 0 0 595.32 841.92 ]
+  /Contents 32 0 R
+  /CropBox [ 0 0 58 57 ]
+  /MediaBox [ 0 0 349.22 249.183 ]
+  /Parent 3 0 R
+  /Resources <<
+    /ColorSpac
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /C [ 1 0 0 ]
+  /A <<
+    /S /goTo
+    /D (7)
+  >>
+  /Rect [ 335.483 216.641 365.367 249.056 ]
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Encoding /WinAnsiEncoding
+  /BaseFont /BNHELP-TitrBoldPS
+  /FontDescriptor 143 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 339
+>>
+stream
+endobj
+obj
+<<
+  /D [ 39 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /BTRAAA-F3
+  /FontBBox [ -13 -300 949 725 ]
+  /Flags 4
+  /Ascent 750
+  /CapHeight 750
+  /Descent -280
+  /ItalicAngle 0
+  /Stemv 87
+  /MissingWidth 250
+  /xHeight 460
+  /CharSet (/A/B/C/D/E/g/H/I/k/L/M/N/O/P/R/S/T/u/v/y/a/b/c/colon/d/e/h/i/k/l/m/n/o/p/period/Quotedblleft/Quotedblright/r/s/s/t/v/W/x/y)
+>>
+endobj

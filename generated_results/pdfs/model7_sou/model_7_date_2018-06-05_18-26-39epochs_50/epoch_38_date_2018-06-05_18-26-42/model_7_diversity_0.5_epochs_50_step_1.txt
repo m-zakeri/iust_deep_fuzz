@@ -1,0 +1,165 @@
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /C [ 1 0 0 ]
+  /A <<
+    /S /goTo
+    /D (6)
+  >>
+  /Rect [ 381.712 364.393 371.16 360.839 ]
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 110 0 R
+  /FirstChar 44
+  /LastChar 122
+  /BaseFont /ZjggEZ-CMSS17
+  /FontDescriptor 12 0 R
+  /Type /Font
+  /FirstChar 46
+  /LastChar 117
+  /Widths [ 575 575 575 575 575 575 575 575 575 575 575 575 575 319
+  719 563 784 696 640 889 710 556 838 568 601 640 697
+      667 619 659 621 619 778 734 618 667 601 678 640 687
+      714 742 794 595 647 629 438 494 686 654 652 639 639
+  631 593 852 944 648 691 815 747 737 956 678 1083 1008 940 675 970 841 718 678 704 744 926 833 644
+      685 83
+endobj
+obj
+<<
+  /A <<
+    /S /uRI
+    /uRI (http://WWW.mathWorks.com/help/releases/R2012a/toolbox/sldv/ref/sldv.pdulatator.html)
+  >>
+  /Border [ 0 0 0 ]
+  /Rect [ 224.98 490.02 384.08 415.04 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ABCDEE-B20Mitra
+  /Flags 32
+  /ItalicAngle 0
+  /Ascent 922
+  /Descent -210
+  /CapHeight 1043
+  /AvgWidth 548
+  /MaxWidth 1080
+  /FontWeight 700
+  /xHeight 250
+  /Stemv 49
+  /FontBBox [ -147 -500 1143 1010 ]
+  /FontFile2 245 0 R
+  /FontName /MkkBkk-TimesNeWRomanBold
+  /ItalicAngle 0
+  /Stemv 123.83
+  /Type /FontDescriptor
+  /xHeight 1000
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F1-1 11 0 R
+      /F2 12 0 R
+      /F2 15 0 R
+      /F3 13 0 R
+      /F4 16 0 R
+    >>
+  >>
+  /Contents 11 0 R
+  /CropBox [ 0 0 595 841 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Dest [ 268 0 R /xyZ null 559 null ]
+  /Next 710 0 R
+  /Parent 782 0 R
+  /Prev 728 0 R
+  /Title (Polyspage Strate Porter Sens)
+>>
+endobj
+obj
+<<
+  /P 51 0 R
+  /S /P
+  /k [ 11 12 ]
+  /Pg 44 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /Times-Bold
+  /Flags 4
+  /Stemv 0
+  /CapHeight 1000
+  /Ascent 1000
+  /Descent -210
+  /FontBBox [ -568 -307 2000 1006 ]
+  /Ascent 891
+  /FontFamily (Times NeW Roman)
+  /CapHeight 656
+  /Type /Font
+  /F 8
+  /FontDescriptor 16 0 R
+  /BaseFont /NPLETI-TimesNeWRomanBold
+  /Encoding /Identity-H
+  /DescendantFonts [ 14 0 R ]
+  /Tounicode 20 0 R
+>>
+endobj
+obj
+<<
+  /A 106 0 R
+  /k 10
+  /P 623 0 R
+  /S /Normal
+  /Pg 41 0 R
+>>
+endobj
+obj
+<<
+  /D [ 233 0 R /xyZ null 471 null ]
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ABCDEE-B20Intadir
+  /Flags 4
+  /FontBBox [ -126 -612 1167 1021 ]
+  /FontName /HEAAAA-F0
+  /Flags69
+  /FontBBox [ -53 -251 959 750 ]
+  /FontFile3 38 0 R
+  /FontName /CLgDEB-CMR10
+  /ItalicAngle 0
+  /StemH 45
+  /ShadingType 3
+>>
+endobj
+obj
+<<
+  /A 170 0 R
+  /k 188 0 R
+  /P 186 0 R
+  /S /TD
+>>
+endobj

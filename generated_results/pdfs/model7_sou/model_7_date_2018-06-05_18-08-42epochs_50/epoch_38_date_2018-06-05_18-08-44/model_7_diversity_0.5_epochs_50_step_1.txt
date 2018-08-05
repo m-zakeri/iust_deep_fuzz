@@ -1,0 +1,116 @@
+obj
+[ 18 [ 514 514 ] 34 [ 740 ] 37 [ 734 ] 42 [ 361 ] 49 [ 599 ] 50 [
+    525 ] 57 [ 324 ] 69 [ 363 ] 74 [ 467 ] 72 [ 500 ] 83
+  [ 526 525 ] 98 [ 525 ] 104 [ 525 ] 112 [ 525 ] ]
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Encoding 33 0 R
+  /FirstChar 40
+  /LastChar 121
+  /Widths 13 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im111
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 586 0 R ]
+  /Filter /FlateDecode
+  /Length 1630
+>>
+stream
+endobj
+obj
+<<
+  /Type /Pages
+  /kids [ 5 0 R ]
+  /Count 1
+>>
+endobj
+obj
+<<
+  /D [ 110 0 R /xyZ 71 313.94 null ]
+>>
+endobj
+obj
+<<
+  /A 278 0 R
+  /k 26
+  /P 332 0 R
+  /S /Normal
+  /Pg 1314 0 R
+>>
+endobj
+obj
+<<
+  /Length 178
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 6
+  /Length 86
+  /N 1
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /Arial
+  /Flags 32
+  /FontBBox [ -126 -467 1139 1010 ]
+  /FontName /ALPNkD-CMTT12
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im16
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 256 0 R ]
+  /Filter /FlateDecode
+  /Length 1039
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /Ascent 806
+  /Descent -194
+  /Stemv 82
+  /CapHeight 805
+  /AvgWidth 549
+  /FontBBox [ -451 -313 1497 1051 ]
+  /ItalicAngle 0
+  /Flags 262150
+  /Style <<
+    /Panose <000000000600000000000000>
+  >>
+  /FontName /NZuWuH-LMRoman10-Regular
+  /FontFile3 15 0 R
+  /CIDSet 32 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 183
+>>
+stream
+endobj

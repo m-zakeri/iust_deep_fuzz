@@ -1,0 +1,124 @@
+obj
+<<
+  /Filter /FlateDecode
+  /Length 328 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im59
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 484 0 R ]
+  /Filter /FlateDecode
+  /Length 1447
+>>
+stream
+endobj
+obj
+<<
+  /Type /Pages
+  /MediaBox [ 0 0 612 792 ]
+  /Count 1
+  /kids [ 3 0 R ]
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /xWBDZE-CMR10
+  /FontDescriptor 16 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im88
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 185 0 R ]
+  /Filter /FlateDecode
+  /Length 1293
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536871908)
+  /Rect [ 155.7 502.86 396.46 518.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+[ 525 0 0 525 0 525 0 0 0 0 525 0 0 525 525 525 0 0 0 525 525 525 525 525 525 525 525 525 525 525 525
+  525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525
+  525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525
+  525 525 525 525 525 525 525 525 525 525 525 525 525 525
+  525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525 525
+  525 525 525 525 525 525 525 525 525 525 525 525 5
+endobj
+obj
+<<
+  /A 676 0 R
+  /k [ 11 687 0 R 13 ]
+  /P 237 0 R
+  /S /Normal
+  /Pg 1 0 R
+>>
+endobj
+obj
+<<
+  /Count 10
+  /kids [ 17 0 R 19 0 R 21 0 R ]
+  /Count 3
+>>
+endobj
+obj
+<<
+  /A 203 0 R
+  /k 4
+  /P 237 0 R
+  /S /Normal
+  /Pg 3 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 122 0 R
+  /Resources 12 0 R
+  /Contents 113 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Resources <<
+    /Font <<
+      /F0 80 0 R
+      /F2 6 0 R
+    >>
+  >>
+  /Contents 50 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im54
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 343 0 R ]
+  /Filter /FlateDecode
+  /Length 359
+>>
+stream
+endobj

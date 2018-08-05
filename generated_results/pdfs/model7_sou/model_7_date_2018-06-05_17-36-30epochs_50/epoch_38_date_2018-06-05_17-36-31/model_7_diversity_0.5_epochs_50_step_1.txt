@@ -1,0 +1,165 @@
+obj
+<<
+  /BaseFont /yQAAAA-F0
+  /FontDescriptor 10 0 R
+  /Type /Font
+  /Name /R11
+  /FirstChar 0
+  /LastChar 1
+  /Widths [ 0 250 ]
+  /Subtype /TrueType
+>>
+endobj
+obj
+<<
+  /D [ 36 0 R /xyZ null 583 null ]
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 149
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 238
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /yQHWCN-CMSy10
+  /FontDescriptor 107 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ABCDEE-B20Mitra
+  /Flags 32
+  /ItalicAngle 0
+  /Ascent 926
+  /Descent -210
+  /CapHeight 1043
+  /AvgWidth 404
+  /MaxWidth 1775
+  /FontWeight 400
+  /xHeight 250
+  /Leading 43
+  /Stemv 40
+  /FontBBox [ -568 -203 1000 ]
+  /Ascent 683
+  /CapHeight 683
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 53
+  /xHeight 444
+  /CharSet (/one/tWo/three/four/five/six/seven/eight/nine/a/t/i/g/M/t/i/o/p/e/x/c/hyphen/i/l/n/o/r/s/t/u/x/y/Z)
+  /FontFile 31 0 R
+>>
+endobj
+obj
+<<
+  /Length 216
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 123
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 3 0 R
+  /MediaBox [ 0 0 595 841 ]
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F1-1 11 0 R
+      /F1-2 21 0 R
+      /F2 12 0 R
+      /F3 10 0 R
+    >>
+  >>
+  /Contents 197 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F2 136 0 R
+      /F4 136 0 R
+      /F10 156 0 R
+      /F4 143 0 R
+    >>
+    /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+  >>
+  /MediaBox [ 0 0 595.32 841.92 ]
+  /Contents 13 0 R
+  /group <<
+    /Type /group
+    /S /Transparency
+    /CS /DeviceRgB
+  >>
+  /TOWbjcont
+  /First 80 0 R
+  /Last 84 0 R
+  /SiZe 30
+  /Type /xRef
+  /W [ 1 2 1 ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F2 136 0 R
+      /F1 113 0 R
+      /F4 149 0 R
+      /F4 137 0 R
+      /F11 1293 0 R
+      /F24 127 0 R
+      /F21 129 0 R
+      /F20 143 0 R
+      /F20 127 0 R
+      /F20 140 0 R
+      /F2 130 0 R
+      /F4 154 0 R
+      /F8 159 0 R
+    >>
+    /ExtgState <<
+      /gS4 160 0 R
+    >>
+  >>
+  /MediaBox [ 0 0 595 842 ]
+  /Contents 13 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 258
+>>
+stream
+endobj

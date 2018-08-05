@@ -1,0 +1,128 @@
+obj
+<<
+  /Resources 50 0 R
+  /Type /Page
+  /Parent 37 0 R
+  /Contents [ 18 0 R ]
+>>
+endobj
+obj
+<<
+  /Producer (gPL ghostscript 8.73)
+  /CreationDate (D:20041110155654)
+  /ModDate (D:20051121132325)
+  /Producer (jaWs PDF Creator v3.4.1837)
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /Arial
+  /Flags 32
+  /FontBBox [ -103 -547 1035 1082 ]
+  /Stemv 0
+  /ItalicAngle 0
+  /CapHeight 1000
+  /Ascent 1000
+  /Descent -207
+  /FontBBox [ -650 -204 1338 1035 ]
+  /Ascent 1117
+  /CapHeight 683
+  /Descent -190
+  /ItalicAngle 0
+  /Stemv 65
+  /Flags 6
+  /FontBBox [ -4 -234 534 694 ]
+  /FontFile3 23 0 R
+  /FontName /CALOEI-CMR10
+>>
+endobj
+obj
+<<
+  /Contents 21 0 R
+  /Type /Page
+  /Parent 31 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /TimesNeWRomanBold
+  /Flags 34
+  /FontBBox [ -558 -307 2000 1026 ]
+  /Stemv 0
+  /ItalicAngle 0
+  /CapHeight 1000
+  /Ascent 1000
+  /Descent -207
+  /FontFile2 119 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 12
+  /Length 285
+  /N 2
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 6
+  /Length 85
+  /N 1
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 25 0 R
+  >>
+  /Contents 23 0 R
+>>
+endobj
+obj
+<<
+  /Length 260
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 368
+>>
+stream
+endobj
+obj
+<<
+  /Length 124
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im159
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 210 0 R ]
+  /Filter /FlateDecode
+  /Length 1089
+>>
+stream
+endobj

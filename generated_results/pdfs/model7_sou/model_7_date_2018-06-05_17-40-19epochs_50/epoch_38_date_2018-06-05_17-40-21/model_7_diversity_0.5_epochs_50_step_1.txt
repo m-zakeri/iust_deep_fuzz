@@ -1,0 +1,147 @@
+obj
+<<
+  /Type /Annot
+  /H /I
+  /Border [ 0 0 0 ]
+  /C [ 0 1 1 ]
+  /Rect [ 511.15 606.66 399.38 434.5 ]
+  /A <<
+    /S /goTo
+    /D (section.2.2)
+  >>
+>>
+endobj
+obj
+<<
+  /CreationDate (D:20060308105339-0500)
+  /Creator (Adobe Illustrator CC 2015 /(Macintosh/))
+  /ModDate (D:20020606194812-0100)
+  /Producer (Acrobat Distiller 6.0 /(WindoWs/))
+  /Author (Artiabra)
+  /Creator (PScript5.dll version 5.2)
+  /Producer (jaWs PDF Creator v20.1074)
+>>
+endobj
+obj
+<<
+  /Contents 2 0 R
+  /Type /Page
+  /Parent 11 0 R
+  /Resources <<
+    /xObject <<
+      /Im2 3 0 R
+    >>
+    /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+  >>
+  /MediaBox [ 0 0 595.32 841.92 ]
+  /Contents 19 0 R
+  /group <<
+    /Type /group
+    /S /Transparency
+    /CS /DeviceRgB
+  >>
+  /TOWbjStrac /x
+  /StractTriml /nent
+  /TextAlign /Center
+>>
+endobj
+obj
+<<
+  /Length 447
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /CapHeight 683
+  /Ascent 697
+  /Descent -190
+  /ItalicAngle 0
+  /Stemv 67
+  /MissingWidth 333
+  /CharSet (/a/b/c/d/e/g/h/i/l/n/o/p/S/t/i/v/e/n/r/a/r/o/r/s/t/tWo/u/y)
+  /FontFile 30 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im81
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 125 0 R ]
+  /Filter /FlateDecode
+  /Length 1288
+>>
+stream
+endobj
+obj
+<<
+  /P 974 0 R
+  /S /Textbox
+  /k [ 989 0 R 982 0 R 882 0 R 883 0 R 887 0 R 884 0 R 876 0 R
+      898 0 R 889 0 R 990 0 R 991 0 R 991 0 R 902 0 R 903 0 R
+      100 0 R 91 0 R 92 0 R 94 0 R 95 0 R 95 0 R 96 0 R ]
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 5 0 R
+  /Resources 4 0 R
+  /MediaBox [ 0 0 362.835 272.126 ]
+  /Trans <<
+    /S /R
+  >>
+  /Parent 48 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im16
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 212 0 R ]
+  /Filter /FlateDecode
+  /Length 1123
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 17 0 R
+  >>
+  /Contents 15 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im119
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 145 0 R ]
+  /Filter /FlateDecode
+  /Length 170
+>>
+stream
+endobj
+obj
+<<
+  /D [ 220 0 R /xyZ null 583 null ]
+>>
+endobj

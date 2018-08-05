@@ -1,0 +1,132 @@
+obj
+<<
+  /P 55 0 R
+  /S /L
+  /Type /StructElem
+  /k [ 23 0 R 24 0 R 24 0 R 24 0 R 24 0 R 24 0 R 24 0 R ]
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /C [ 1 0 0 ]
+  /A <<
+    /S /goTo
+    /D (4)
+  >>
+  /Rect [ 197.47 371.96 348.84 481.42 ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font <<
+      /F1-1 11 0 R
+      /F2 12 0 R
+      /F3-1 9 0 R
+      /F3-2 33 0 R
+      /F3 10 0 R
+    >>
+  >>
+  /Contents 185 0 R
+>>
+endobj
+obj
+<<
+  /Length 173
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 170
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im111
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 58 0 R ]
+  /Filter /FlateDecode
+  /Length 364 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 70 0 R
+  /Names 91 0 R
+  /PageMode /useOutlines
+  /vieWerPreferences <<
+    /HideToolbar false
+    /HideWindoWuI false
+      /unden /minus /space /seven /eight /nine /colon /slash
+      /period /slash /Zero /one /tWo /tWo /three /four /five
+      /fi /fl 173 /minus ]
+>>
+endobj
+obj
+<<
+  /Length 120
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 567
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ABCDEE-B20MitraBold
+  /Flags 32
+  /ItalicAngle 0
+  /Ascent 678
+  /Descent -222
+  /CapHeight 1043
+  /AvgWidth 500
+  /MaxWidth 1075
+  /FontWeight 400
+  /xHeight 250
+  /Leading 33
+  /Stemv 44
+  /FontBBox [ -568 -307 2000 1007 ]
+  /FontName /CBgFgj-BTitrBold
+  /ItalicAngle 0
+  /StemH 108
+  /Stemv 133
+  /Type /FontDescriptor
+  /xHeight 1000
+>>
+endobj
+obj
+<<
+  /D [ 15 0 R /xyZ 113.662 598.26 null ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 16 0 R
+  /Resources 4 0 R
+  /Contents [ 53 0 R ]
+>>
+endobj

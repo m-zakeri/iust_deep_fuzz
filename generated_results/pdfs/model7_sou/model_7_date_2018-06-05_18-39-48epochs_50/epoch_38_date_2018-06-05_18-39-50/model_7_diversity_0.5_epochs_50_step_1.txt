@@ -1,0 +1,122 @@
+obj
+<<
+  /O /Layout
+  /EndIndent 5.25
+  /StartIndent 3.75
+  /WritingMode /RlTb
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /CNDQZL-CMTI10
+  /FontBBox [ -16 -200 943 700 ]
+  /Flags 4
+  /Ascent 720
+  /CapHeight 700
+  /Descent -200
+  /ItalicAngle 0
+  /Stemv 119
+  /MissingWidth 500
+  /CharSet (/space/one/tWo/Zero)
+  /FontFile 12 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /CRgABu-CMSy10
+  /FontDescriptor 13 0 R
+  /Type /Font
+  /FirstChar 32
+  /LastChar 121
+  /Widths [ 525 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+endobj
+obj
+<<
+  /Type /Pages
+  /kids [ 4 0 R ]
+  /Count 1
+>>
+endobj
+obj
+<<
+  /BaseFont /IgIBIO-CMSS8
+  /FontDescriptor 18 0 R
+  /Tounicode 109 0 R
+  /Type /Font
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 103 0 R
+  /Resources 14 0 R
+  /Contents 12 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /H /I
+  /Border [ 0 0 0 ]
+  /C [ 0 1 1 ]
+  /Rect [ 162.184 418.274 411.014 425.584 ]
+  /A <<
+    /S /goTo
+    /D (Navigation4)
+  >>
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 30 0 R
+  /Resources 21 0 R
+  /MediaBox [ 0 0 595.276 841.89 ]
+  /Parent 10 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im23
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 29 0 R ]
+  /Filter /FlateDecode
+  /Length 1620
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 180
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 14
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 3 0 R
+  /Resources 1 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /Parent 15 0 R
+>>
+endobj

@@ -1,0 +1,155 @@
+obj
+<<
+  /Length 6 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /uAAAAA-F2
+  /FontBBox [ -14 -281 914 693 ]
+  /Flags 4
+  /Ascent 677
+  /CapHeight 677
+  /Descent -210
+  /ItalicAngle 0
+  /Stemv 133
+  /MissingWidth 250
+  /xHeight 448
+  /CharSet (/A/C/D/E/F/g/I/k/L/M/N/O/P/R/S/T/u/v/W/x/y/bracketleft/backslash/bracketright/asciicit/o/c/e/g/h/i/n/o/p/period/s/h/a/e/f/g/i/l/m/n/o/p/r/s/t/u)
+  /FontFile 77 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /DQZMNT-CMSS12
+  /Flags 4
+  /FontBBox [ -4 -233 537 696 ]
+  /Ascent 611
+  /CapHeight 611
+  /Descent -222
+  /ItalicAngle 0
+  /Stemv 114
+  /MissingWidth 500
+  /FontFile2 24 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /Times-Italic
+  /Flags 4
+  /FontBBox [ -166 -250 1200 883 ]
+  /Ascent 750
+  /CapHeight 674
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 114
+  /xHeight 444
+  /CharSet (/one/tWo/three/four/one/tWo/three/four/five/six/seven/eight/nine/D/I/slash/eight/D/g/hyphen/period/Zero/one/e/eight/five/four/hyphen/ints/mallinus/underscore/comma/perieresasa/pright/minus)
+  /FontFile 11 0 R
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Metadata 2 0 R
+  /Pages 4 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /Times-Italic
+  /FontBBox [ -1 -230 514 691 ]
+  /Flags 4
+  /Ascent 677
+  /CapHeight 678
+  /Descent -205
+  /ItalicAngle 0
+  /Stemv 113
+  /MissingWidth 343
+  /CharSet (/A/B/C/D/E/F/g/H/I/k/L/M/N/O/P/R/S/T/u/v/y/Z/a/b/c/d/e/g/h/i/l/m/n/o/p/period/p/period/slash/n/one/p/period/slash/h/i/m/n/o/p/r/s)
+  /FontFile 22 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /OHkvIE-CMSy10
+  /Flags 4
+  /FontBBox [ -25 -250 1162 750 ]
+  /Ascent 694
+  /CapHeight 683
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 65
+  /Flags 6
+  /FontBBox [ -4 -233 537 696 ]
+  /FontFile3 20 0 R
+  /FontName /LOgEBk-TimesNeWRoman
+  /FontStretch /Normal
+  /FontFile2 33 0 R
+  /FontWeight 400
+  /Flags 4
+  /Descent -210
+  /FontBBox [ -128 -294 1002 952
+  /FontFile3 33 0 R
+  /FontName /WRAAAA-F3
+  /FontFile3 105 0 R
+  /Flags 34
+  /Descent -210
+  /FontBBox [ -147 -250 1163 951 ]
+  /Ascent 694
+  /CapHeig
+endobj
+obj
+<<
+  /Type /Encoding
+  /BaseEncoding /WinAnsiEncoding
+  /Differences [ 39 /Quoteright ]
+>>
+endobj
+obj
+<<
+  /D [ 89 0 R /xyZ null 494 null ]
+>>
+endobj
+obj
+<<
+  /BaseFont /OjjHLM-TTE213B8i8t00
+  /FontDescriptor 181 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im179
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 329 0 R ]
+  /Filter /FlateDecode
+  /Length 938
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /CuBAAA-F1
+  /FontBBox [ -14 -284 894 801 ]
+  /Flags 4
+  /Ascent 820
+  /CapHeight 823
+  /Descent -380
+  /ItalicAngle 0
+  /Stemv 116
+  /MissingWidth 500
+  /FontFile2 30 0 R
+>>
+endobj

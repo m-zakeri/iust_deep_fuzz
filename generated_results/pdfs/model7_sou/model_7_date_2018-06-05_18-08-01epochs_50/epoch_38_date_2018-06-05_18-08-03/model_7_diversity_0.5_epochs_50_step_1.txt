@@ -1,0 +1,112 @@
+obj
+<<
+  /P 224 0 R
+  /S /P
+  /Type /StructElem
+  /k [ 88 0 R ]
+  /Pg 3 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+  /Encoding /WinAnsiEncoding
+>>
+endobj
+obj
+<<
+  /Type /Encoding
+  /Differences [ 0 /.notdef 12 /circles ]
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /C [ 1 0 0 ]
+  /A <<
+    /S /goTo
+    /D (2)
+  >>
+  /Rect [ 191.494 441.36 298.489 455.59 ]
+>>
+endobj
+obj
+<<
+  /Length 141
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 612 792 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 24 0 R
+  >>
+  /Contents 23 0 R
+>>
+endobj
+obj
+<<
+  /Subtype /Image
+  /Length 99 0 R
+  /Name /im13
+  /ColorSpace [ /Indexed /DeviceRgB 1 183 0 R ]
+  /Filter /FlateDecode
+  /Length 104 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 244
+>>
+stream
+endobj
+obj
+<<
+  /Type /ExtgState
+  /OPM 1
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /Resources <<
+    /Font <<
+      /F1 5 0 R
+      /F2 11 0 R
+      /F3 10 0 R
+      /F4 19 0 R
+    >>
+  >>
+  /Contents 27 0 R
+>>
+endobj
+obj
+<<
+  /Subtype /Type1C
+  /Filter /FlateDecode
+  /Length 118 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536871793)
+  /Rect [ 141.7 306.86 217.98 316.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj

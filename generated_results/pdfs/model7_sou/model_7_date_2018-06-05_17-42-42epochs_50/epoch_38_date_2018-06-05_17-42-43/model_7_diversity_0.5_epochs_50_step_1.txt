@@ -1,0 +1,107 @@
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (637535784)
+  /Rect [ 107.7 474.98 149.48 482.46 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 253
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /TimesNeWRoman
+  /Flags 34
+  /FontBBox [ -498 -307 1131 1016 ]
+  /FontName /CBPPFH-BNaZaninBold
+  /Flags 4
+  /Stemv 133
+  /CapHeight 0
+  /Ascent 692
+  /Descent -217
+  /ItalicAngle 0
+  /FontFamily (Times NeW Roman)
+  /FontStretch /Normal
+  /FontWeight 700
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 226
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im97
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 346 0 R ]
+  /Filter /FlateDecode
+  /Length 1020
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 118
+>>
+stream
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (805318691)
+  /Rect [ 317.7 298.98 371.7 300.52 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Contents 121 0 R
+  /CropBox [ 0 0 558 648 ]
+  /MediaBox [ 0 0 558 648 ]
+  /Parent 1084 0 R
+  /Resources 588 0 R
+  /Rotate 0
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica-Bold
+  /Encoding /WinAnsiEncoding
+>>
+endobj
+obj
+<<
+  /D [ 196 0 R /xyZ null 493 null ]
+>>
+endobj
+obj
+<<
+  /Length 534
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /D [ 173 0 R /xyZ null 647 null ]
+>>
+endobj

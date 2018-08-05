@@ -1,0 +1,129 @@
+obj
+<<
+  /ArtBox [ 0 0 58 57 ]
+  /BleedBox [ 0 0 58 57 ]
+  /Contents 6 0 R
+  /CropBox [ 0 0 58 57 ]
+  /group 7 0 R
+  /MediaBox [ 0 0 58 57 ]
+  /Type /Pages
+>>
+endobj
+obj
+<<
+  /Length 230
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontFile3 119 0 R
+  /FontBBox [ -126 -532 1098 1229 ]
+  /Subtype /Link
+>>
+endobj
+obj
+<<
+  /Length 231
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Producer (pdfeTex-1.20a)
+  /Creator (Tex)
+  /CreationDate (D:20090426143521-0400)
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /yQAAAA-F0
+  /FontBBox [ -15 -30 1139 833 ]
+  /Flags 4
+  /Ascent 821
+  /CapHeight 833
+  /Descent -211
+  /ItalicAngle 0
+  /Stemv 119
+  /MissingWidth 1000
+  /CharSet (/period/space)
+  /Descent -264
+  /Flags 32
+  /FontBBox [ -168 -284 1100 925 ]
+  /FontFamily (Century Schoolbook)
+  /FontFile2 349 0 R
+  /FontName /BAAAAA-Tahoma
+  /Flags 4
+  /Stemv 0
+  /CapHeight 652
+  /xHeight 0
+  /Ascent 891
+  /Descent -216
+  /ItalicAngle 0
+  /FontFamily 
+endobj
+
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536878596)
+  /Rect [ 149.7 370.86 337.88 383.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 17 0 R
+  /FirstChar 46
+  /LastChar 126
+  /BaseFont /WLgvMH-CMSy10
+  /FontDescriptor 139 0 R
+  /FirstChar 11
+  /LastChar 115
+  /Widths 20 0 R
+>>
+endobj
+obj
+<<
+  /Length 190
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+  /Metadata 22 0 R
+>>
+endobj
+obj
+<<
+  /Dest [ 150 0 R /xyZ null 559 null ]
+  /Next 1045 0 R
+  /Parent 980 0 R
+  /Prev 945 0 R
+  /Title (DO /TWory and coments)
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 121 0 R
+  /Resources 140 0 R
+  /Contents 139 0 R
+  /CropBox [ 0 0 558 648 ]
+  /MediaBox [ 0 0 558 648 ]
+  /Parent 713 0 R
+  /Resources 494 0 R
+  /Rotate 0
+  /Type /Page
+>>
+endobj

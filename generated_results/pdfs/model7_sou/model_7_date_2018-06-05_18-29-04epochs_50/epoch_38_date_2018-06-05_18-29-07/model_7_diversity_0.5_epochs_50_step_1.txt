@@ -1,0 +1,164 @@
+obj
+<<
+  /P 238 0 R
+  /S /Span
+  /Type /StructElem
+  /Pg 3 0 R
+  /k 13
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536871279)
+  /Rect [ 149.7 164.86 240.48 163.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /P 198 0 R
+  /S /Span
+  /Type /StructElem
+  /Pg 33 0 R
+  /k 104
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 337
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im122
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 469 0 R ]
+  /Filter /FlateDecode
+  /Length 1029
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /NvLZQg-CMTT10
+  /FontBBox [ 0 -229 520 694 ]
+  /Flags 5
+  /Ascent 694
+  /CapHeight 694
+  /Descent -202
+  /ItalicAngle 0
+  /Stemv 131
+  /MissingWidth 500
+  /FontFile2 22 0 R
+>>
+endobj
+obj
+<<
+  /Ascent 985
+  /CapHeight 1000
+  /Descent -216
+  /Flags 34
+  /FontBBox [ -177 -294 1108 1058 ]
+  /FontFile3 95 0 R
+  /FontName /EFyCPN-TimesNeWRomanBold
+  /Flags 4
+  /FontBBox [ -89 -674 1075 1067 ]
+  /FontName /BHAAAA-F27
+  /FontFile2 59 0 R
+  /Flags 2621254
+  /Streight 484
+  /FontBBox [ -29 -960 1116 775 ]
+  /Flags 4
+  /CharSet (/a/b/c/e/g/h/i/l/n/o/p/r/s/s/u/W)
+  /Descent -262
+  /Flags 262176
+  /FontBBox [ -193 -250 1000 979 ]
+  /FontFile3 115 0 R
+  /FontName /FTOgjL-CMSS12
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /Arial
+  /Flags 32
+  /ItalicAngle 0
+  /Ascent 905
+  /Descent -210
+  /CapHeight 678
+  /Stemv 87
+  /StemH 95
+  /FontBBox [ -126 -510 1139 1003 ]
+  /FontFamily (Century Schoolbook)
+  /FontFile2 356 0 R
+  /FontName /CHMFM-TimesNeWRoman
+  /ItalicAngle 0
+  /StemH 129
+  /Stemv 183
+  /Type /FontDescriptor
+  /xHeight 435
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 81 0 R
+  >>
+  /Contents 83 0 R
+>>
+endobj
+obj
+<<
+  /Ascent 985
+  /CapHeight 1025
+  /Descent -216
+  /Flags 4
+  /FontBBox [ -102 -547 1035 1188 ]
+  /Stemv 114
+  /ItalicAngle 0
+  /CapHeight 1000
+  /Ascent 1000
+  /Descent -207
+  /FontFile2 33 0 R
+>>
+endobj
+obj
+<<
+  /Length 11 0 R
+  /N 3
+  /Alternate /DeviceRgB
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ARAAAA-F1
+  /FontBBox [ -16 -476 975 961 ]
+  /Flags 4
+  /Ascent 720
+  /CapHeight 700
+  /Descent -270
+  /ItalicAngle 0
+  /Stemv 118
+  /MissingWidth 500
+  /xHeight 442
+  /CharSet (/A/C/E/F/g/H/I/k/L/M/N/O/P/R/S/T/u/v/W/x/y/braceleft/bracketright/asciitilde/asterisk/b/e/hyphen/i/k/l/m/n/o/p/period/Q/r/s/t/u/v/W/y)
+  /FontFile 19 0 R
+>>
+endobj

@@ -1,0 +1,148 @@
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /vDRjSS-CMTI10
+  /FontBBox [ -1 -1060 104 811 ]
+  /Flags 5
+  /Ascent 850
+  /CapHeight 704
+  /Descent -200
+  /ItalicAngle 0
+  /Stemv 119
+  /MissingWidth 500
+  /xHeight 444
+  /CharSet (/A/C/D/E/g/I/L/M/N/O/P/R/S/T/u/v/W/x/y/Z/a/b/c/colon/comma/d/e/f/g/h/i/j/k/l/m/n/o/p/Q/Q/R/t/i/c/u/l/a/m/M/Q/j/x/T/period/g/e/h/i/l/n/o/p/r/s/t/v/W/y)
+  /FontFile 28 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im161
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 213 0 R ]
+  /Filter /FlateDecode
+  /Length 170
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Encoding 80 0 R
+  /FirstChar 44
+  /LastChar 125
+  /Widths 17 0 R
+  /Encoding 13 0 R
+>>
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536873773)
+  /Rect [ 149.7 319.86 391.56 318.82 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /MAkgML-TTE12A938t00
+  /FontBBox [ -17 -308 1053 792 ]
+  /Flags 4
+  /Ascent 705
+  /CapHeight 700
+  /Descent -210
+  /ItalicAngle 0
+  /Stemv 132
+  /MissingWidth 250
+  /xHeight 469
+  /CharSet (/A/D/E/g/H/I/L/M/N/O/P/R/S/T/u/y/bracketleft/bracketright/bracketleft/bracketright/ascolon/comma/d/e/h/i/l/m/n/o/p/period/r/s/seven/six/t/three/tWo/u/W/x/y/Z)
+  /FontFile3 11 0 R
+>>
+endobj
+obj
+<<
+  /Stemv 40
+  /FontName /jDLPLF-xyATIP10
+  /FontFile3 37 0 R
+  /Flags 4
+  /Descent -210
+  /FontBBox [ -34 -250 1109 750 ]
+  /Ascent 694
+  /CapHeight 683
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 53
+  /xHeight 431
+  /CharSet (/A/B/C/D/E/F/g/H/I/k/L/M/N/O/P/R/S/T/u/v/W/x/y/Z/c/u/y/Z/one/eight/space/x/s/i/m/o/r/s/t/M/o/t/i/Q/m/u/hyphen/a/W/y/x/y)
+  /FontFile 23 0 R
+>>
+endobj
+obj
+<<
+  /Nums [ 0 <<
+        /S /D
+      >> ]
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ROkCux-CMR10
+  /FontBBox [ -1 -233 524 697 ]
+  /Flags 4
+  /Ascent 677
+  /CapHeight 677
+  /Descent 0
+  /ItalicAngle 0
+  /Stemv 114
+  /MissingWidth 357
+  /CharSet (/numbersign/plus/eQuestion/slash/plus/excht/bed)
+  /FontFile 42 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /First 6
+  /Length 104
+  /N 1
+  /Type /ObjStm
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 3 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 26 0 R
+  >>
+  /Contents 20 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 112 0 R
+  /Resources 102 0 R
+  /Contents 139 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Rotate 0
+>>
+endobj

@@ -1,0 +1,163 @@
+obj
+<<
+  /Filter /FlateDecode
+  /Subtype /Type1C
+  /Length 485
+>>
+stream
+endobj
+obj
+<<
+  /BaseFont /ABCDEE-B20Mitra
+  /Subtype /Type1
+  /DescendantFonts [ 19 0 R ]
+  /Tounicode 43 0 R
+>>
+endobj
+obj
+<<
+  /P 59 0 R
+  /S /P
+  /k [ 22 ]
+  /Pg 154 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 209 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text /ImageC ]
+    /Font <<
+      /F1 3 0 R
+      /F1 1 0 R
+      /F2 11 0 R
+      /F3 11 0 R
+      /F4 11 0 R
+      /F5 16 0 R
+    >>
+  >>
+  /Contents 197 0 R
+  /CropBox [ 0 0 595 841 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Length 219
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /OQAAAA-F2
+  /FontBBox [ 0 0 638 677 ]
+  /Flags 4
+  /Ascent 625
+  /CapHeight 611
+  /Descent -217
+  /ItalicAngle 0
+  /Stemv 130
+  /MissingWidth 250
+  /xHeight 448
+  /CharSet (/A/D/E/I/L/M/N/P/R/S/T/u/v/W/y/a/b/c/colon/comma/d/e/eight/endash/g/i/l/n/o/p/period/r/s/slash/space/t/tWo/u/x/y/Z)
+  /FontFile 40 0 R
+>>
+endobj
+obj
+<<
+  /Font <<
+    /F1 5 0 R
+    /F2 7 0 R
+  >>
+  /ProcSet [ /PDF /Text /ImageC /ImageB /ImageI ]
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 276 0 R
+  /Resources 155 0 R
+  /Contents 159 0 R
+  /Thumb 355 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 792 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 214 0 R
+  /Resources 115 0 R
+  /Contents 155 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Resources <<
+    /Font <<
+      /F0 374 0 R
+      /F1 374 0 R
+      /F2-1 358 0 R
+      /F2-2 328 0 R
+      /F2 335 0 R
+    >>
+  >>
+  /Contents 29 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /CHBLQT-CMR10
+  /Flags 4
+  /FontBBox [ -40 -250 1009 750 ]
+  /Ascent 694
+  /CapHeight 683
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 76
+  /xHeight 431
+  /CharSet (/A/D/E/g/H/I/k/O/P/R/S/T/u/W/x/a/b/c/colon/d/e/f/g/h/i/l/m/n/o/p/period/Q/r/s/t/u/v/y)
+  /FontFile 48 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 120 0 R
+  /Resources 14 0 R
+  /Contents 11 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Resources <<
+    /Font <<
+      /F0 80 9 R
+      /F2 7 0 R
+      /F3 9 0 R
+    >>
+  >>
+  /Parent 4 0 R
+  /Rotate 0
+  /MediaBox [ 0 0 595 842 ]
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 47 0 R
+  >>
+  /Contents 41 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /CMPBCA-CMSy10
+  /FontDescriptor 10 0 R
+  /Type /Font
+  /FirstChar 46
+  /LastChar 121
+  /Widths [ 514 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+endobj
+

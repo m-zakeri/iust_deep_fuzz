@@ -323,7 +323,7 @@ class IncrementalUpdate(object):
         :return: fuzzed_binary_stream
         """
         if iu_config['stream_fuzzing_policy'] == 'basic_random':
-            for i in range(round(math.ceil(len(binary_stream)/50))):
+            for i in range(round(math.ceil(len(binary_stream)/25))):
                 # Choose one byte randomly
                 byte_to_reverse_index = random.randint(0, len(binary_stream)-1)
                 one_byte = binary_stream[byte_to_reverse_index]

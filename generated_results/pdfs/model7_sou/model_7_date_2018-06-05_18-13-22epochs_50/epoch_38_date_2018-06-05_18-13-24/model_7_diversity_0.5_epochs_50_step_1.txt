@@ -1,0 +1,176 @@
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /ExtgState 11 0 R
+    /Font 10 0 R
+  >>
+  /Contents 5 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 22 0 R
+  /FirstChar 1
+  /LastChar 12
+  /BaseFont /LukBMC-CMR10
+  /FontDescriptor 10 0 R
+  /Type /Font
+  /FirstChar 0
+  /LastChar 1
+  /Widths [ 500 ]
+  /Encoding 20 0 R
+  /Subtype /TrueType
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /BLkCuk-CMMI10
+  /Flags 4
+  /FontBBox [ -33 -250 945 749 ]
+  /Ascent 694
+  /CapHeight 683
+  /Descent -194
+  /ItalicAngle 0
+  /Stemv 76
+  /xHeight 431
+  /CharSet (/A/B/C/D/E/F/g/H/I/k/L/M/N/O/P/R/S/T/u/y/a/b/c/colon/comma/d/e/eight/endash/f/fi/g/h/i/k/l/m/n/o/p/period/Quotsex/I/space/I/space/I/space/u/c/colon/d/e/i/l/n/o/p/r/s/t/u/x/y/a/v/e/eight/five/four/g/greater/h/hyphen/i/l/n/o/p/Q/r/s/t/u/v/W/x/y/Z)
+  /FontFile 11 0 R
+>>
+endobj
+obj
+<<
+  /BaseFont /BRAAAA-F3
+  /FontDescriptor 14 0 R
+  /Type /Font
+  /Name /R11
+  /FirstChar 0
+  /LastChar 1
+  /Widths [ 0 250 ]
+  /Subtype /TrueType
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 135 0 R
+  /Resources 11 0 R
+  /Contents 11 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Resources <<
+    /Font <<
+      /F0 32 0 R
+      /F1 2 0 R
+      /F3 10 0 R
+      /F4 14 0 R
+      /F5 18 0 R
+      /F6 23 0 R
+    >>
+    /ExtgState <<
+      /gS4 5 0 R
+    >>
+  >>
+  /MediaBox [ 0 0 595 842 ]
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 26 0 R
+  /FirstChar 32
+  /LastChar 125
+  /BaseFont /CByCyR-CMSy10
+  /FontDescriptor 11 0 R
+>>
+endobj
+obj
+<<
+  /Length 172 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ABCDEE-B20Mitra
+  /Flags 32
+  /ItalicAngle 0
+  /Ascent 678
+  /Descent -202
+  /CapHeight 1037
+  /Stemv 80
+  /StemH 97
+  /StemH 0
+  /CapHeight 694
+  /xHeight 453
+  /AvgWidth 523
+  /FontBBox [ -103 -262 1484 1100 ]
+  /ItalicAngle 0
+  /Flags 6
+  /Style <<
+    /Panose <0000000005000000000000>
+  >>
+  /FontName /NFQBDA-LMSans10-Regular-Identity-H
+  /Encoding /Identity-H
+  /DescendantFonts [ 13 0 R ]
+  /Tounicode 103 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im96
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 146 0 R ]
+  /Filter /FlateDecode
+  /Length 1522
+>>
+stream
+endobj
+obj
+<<
+  /Type /ExtgState
+  /OPM 1
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /BjQjCN-CMR7
+  /FontBBox [ -1 -21 514 490 ]
+  /Flags 5
+  /Ascent 719
+  /CapHeight 720
+  /Descent -205
+  /ItalicAngle 0
+  /Stemv 143
+  /MissingWidth 500
+  /xHeight 463
+  /CharSet (/A/B/C/D/E/g/H/I/k/L/M/N/O/P/R/S/T/u/W/a/b/c/colon/comma/d/e/eight/endash/eQual/slysh/fl/three/space/period/Zero/one/tWo/three/tWo/Zero)
+  /FontFile 11 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 1 0 R
+  /Resources 20 0 R
+  /Contents 22 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Rotate 0
+>>
+endobj

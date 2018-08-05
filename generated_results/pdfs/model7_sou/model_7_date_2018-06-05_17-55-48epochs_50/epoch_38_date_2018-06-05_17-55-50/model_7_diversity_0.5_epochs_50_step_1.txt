@@ -1,0 +1,112 @@
+obj
+<<
+  /Length 955
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 184
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /MediaBox [ 0 0 595 842 ]
+  /Rotate 0
+  /Parent 3 0 R
+  /Resources <<
+    /ProcSet [ /PDF /Text ]
+    /Font 81 0 R
+  >>
+  /Contents 89 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /AWvQLu-Times-Italic
+  /FontBBox [ -146 -205 1007 700 ]
+  /Flags 4
+  /CharSet (/a/b/e/g/h/i/l/n/o/p/r/s/t/tWo/u/y)
+  /FontFile3 27 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 108 0 R
+  /FirstChar 101
+  /LastChar 125
+  /BaseFont /ABCDEE-CMR10
+  /FontDescriptor 19 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 11 0 R
+  /Resources 13 0 R
+  /MediaBox [ 0 0 135 135 ]
+  /Count 1
+>>
+endobj
+obj
+<<
+  /Subtype /Image
+  /Length 31
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 185 0 R ]
+  /Filter /FlateDecode
+  /Length 1520
+>>
+stream
+endobj
+obj
+<<
+  /P 168 0 R
+  /S /Figure
+  /Alt <>
+  /k [ 6 ]
+  /Pg 120 0 R
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im288
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 444 0 R ]
+  /Filter /FlateDecode
+  /Length 1170
+>>
+stream
+endobj
+obj
+<<
+  /D [ 48 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (536879704)
+  /Rect [ 303.04 511.56 419.7 529.54 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 111 0 R
+>>
+stream
+endobj

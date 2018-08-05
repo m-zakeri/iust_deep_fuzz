@@ -1,0 +1,135 @@
+obj
+<<
+  /Length 652
+  /Filter /DCTDecode
+  /Width 14
+  /Height 1
+  /BitsPerComponent 8
+  /ColorSpace 210 0 R
+  /Type /xObject
+  /Subtype /Image
+>>
+stream
+endobj
+obj
+<<
+  /ColorSpace <<
+    /Cs8 580 0 R
+    /Cs13 128 0 R
+    /Cs9 118 0 R
+  >>
+>>
+endobj
+obj
+<<
+  /Count 10
+  /kids [ 136 0 R 137 0 R 143 0 R 155 0 R 150 0 R 154 0 R 155 0 R
+      168 0 R 152 0 R ]
+  /Count 10
+  >>
+>>
+endobj
+obj
+<<
+  /D [ 46 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Encoding 90 0 R
+  /FirstChar 36
+  /LastChar 120
+  /Widths 11 0 R
+>>
+endobj
+obj
+<<
+  /R11 11 0 R
+  /R13 13 0 R
+  /R15 15 0 R
+>>
+endobj
+obj
+<<
+  /Font <<
+    /F1 4 0 R
+    /F4 5 0 R
+    /F4 14 0 R
+    /F5 11 0 R
+    /F11 11 0 R
+  >>
+  /ProcSet [ /PDF /Text /ImageC /ImageB /ImageI ]
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /Times-Italic
+  /FontBBox [ -14 -270 1000 894 ]
+  /Flags 4
+  /Ascent 843
+  /CapHeight 859
+  /Descent -300
+  /ItalicAngle 0
+  /Stemv 119
+  /MissingWidth 333
+  /CharSet (/asteriskmath)
+  /FontFile 43 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 209 0 R
+  /Resources 12 0 R
+  /Contents 11 0 R
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 792 ]
+  /Resources <<
+    /Font <<
+      /F0 310 0 R
+      /F1 314 0 R
+      /F4 327 0 R
+    >>
+    /ProcSet [ /PDF /Text ]
+    /ExtgState <<
+      /gS0 1271 0 R
+      /gS1 1281 0 R
+    >>
+    /BityDe (D:20060210105452-0100)
+  /ModDate (D:20041110145645-0800)
+  /Producer (Acrobat Distiller 1.0.0 /(WindoWs/))
+endobj
+obj
+<<
+  /Producer (AFPL ghostscript 8.0)
+  /CreationDate (D:20041113172323)
+  /ModDate (D:20041110150026)
+  /Title (Microsoft Word - anablel)
+  /Creator (Adobe Acrobat 7.4)
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /CapHeight 683
+  /Ascent 611
+  /Descent -222
+  /ItalicAngle 0
+  /Stemv 85
+  /xHeight 431
+  /CharSet (/a/b/d/e/i/n/o/r/s/t/u/y)
+  /FontFile3 15 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /WLRZLF-LMSans10-Regular-Identity-H
+  /Encoding /Identity-H
+  /DescendantFonts [ 11 0 R ]
+  /Tounicode 220 0 R
+>>
+endobj

@@ -1,0 +1,161 @@
+obj
+<<
+  /Border [ 0 0 0 ]
+  /Dest (bsaWliZ-3)
+  /Rect [ 143.7 504.98 262.44 518.66 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im81
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 385 0 R ]
+  /Filter /FlateDecode
+  /Length 1124
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im178
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 121 0 R ]
+  /Filter /FlateDecode
+  /Length 1247
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Contents 10 0 R
+  /Resources 10 0 R
+  /MediaBox [ 0 0 595.276 841.89 ]
+  /Parent 39 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /Times-Italic
+  /Flags 4
+  /FontBBox [ -126 -547 1035 1038 ]
+  /FontName /ARAAAA-F0
+  /FontBBox [ -14 -294 1000 953 ]
+  /Flags 4
+  /Ascent 1100
+  /CapHeight 1049
+  /Descent -304
+  /ItalicAngle 0
+  /Stemv 119
+  /MissingWidth 500
+  /FontFile2 100 0 R
+>>
+endobj
+obj
+<<
+  /D [ 42 0 R /xyZ null 647 null ]
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /Courier-Bold
+  /Flags 4
+  /FontBBox [ -168 -293 1082 931 ]
+  /Ascent 719
+  /CapHeight 683
+  /Descent -219
+  /ItalicAngle 0
+  /Stemv 141
+  /MissingWidth 1337
+  /CharSet (/space)
+  /FontFile 23 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 17 0 R
+  /Resources 26 0 R
+  /Contents 22 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /FQIRyL-CMR7
+  /Flags 4
+  /FontBBox [ -4 -233 537 696 ]
+  /Ascent 611
+  /CapHeight 611
+  /Descent -222
+  /ItalicAngle 0
+  /Stemv 65
+  /Flags 6
+  /FontBBox [ -33 -250 945 749 ]
+  /FontFile3 129 0 R
+  /FontName /CMBxBk-BLitrBold
+  /FontStretch /Normal
+  /FontFile2 59 0 R
+  /FontWeight 400
+  /Flags 4
+  /Descent -500
+  /FontBBox [ -168 -293 1080 889 ]
+  /Ascent 750
+  /CapHeight 683
+  /Descent -195
+  /ItalicAngle 0
+  /Stemv 119
+  /MissingWidth 250
+  /xHeight 448
+  /CharSet (/A/C/D/E/g/
+endobj
+obj
+<<
+  /Dest [ 28 0 R /xyZ null 559 null ]
+  /Next 770 0 R
+  /Parent 736 0 R
+  /Prev 724 0 R
+  /Title (NeW to Sens for vision the thit shan Hist File Processing Modeling the Based Simulink SiZe sorted Controps)
+  /Type /Annot
+  /Subtype /Link
+  /Rect [ 147.53 362.86 359.3 300.90 ]
+  /Subtype /Link
+  /Type /Annot
+>>
+endobj
+obj
+<<
+  /Length 117 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /xObject
+  /Subtype /Image
+  /Name /im63
+  /Width 2786
+  /Height 12
+  /BitsPerComponent 8
+  /ColorSpace [ /Indexed /DeviceRgB 255 53 0 R ]
+  /Filter /FlateDecode
+  /Length 620 0 R
+>>
+stream
+endobj

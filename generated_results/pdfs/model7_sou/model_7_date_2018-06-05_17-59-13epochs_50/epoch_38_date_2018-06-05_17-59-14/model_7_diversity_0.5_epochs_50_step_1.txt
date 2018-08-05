@@ -1,0 +1,129 @@
+obj
+<<
+  /Contents 332 0 R
+  /CropBox [ 0 0 558 648 ]
+  /MediaBox [ 0 0 558 648 ]
+  /Parent 1259 0 R
+  /Resources 904 0 R
+  /Rotate 0
+  /Type /Page
+>>
+endobj
+obj
+<<
+  /Length 215
+>>
+stream
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /WIvELx-CMR10
+  /FontDescriptor 32 0 R
+  /FirstChar 45
+  /LastChar 120
+  /Widths 11 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ABCDEE-B20Mitra
+  /Flags 4
+  /Stemv 0
+  /CapHeight 833
+  /Ascent 905
+  /Descent -210
+  /FontFile2 62 0 R
+>>
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 214 0 R
+  /Resources 114 0 R
+  /Contents 155 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Resources <<
+    /Font <<
+      /F0 3 0 R
+      /F2 12 0 R
+      /F6 14 0 R
+    >>
+  >>
+  /Contents 164 0 R
+>>
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Widths 12 0 R
+  /FirstChar 1
+  /LastChar 1
+  /BaseFont /ZPgDAj-CMR10
+  /FontDescriptor 16 0 R
+  /Type /Font
+  /FirstChar 44
+  /LastChar 117
+  /Widths [ 250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+endobj
+
+obj
+<<
+  /Filter /FlateDecode
+  /Length 65 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Length 218 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /yQAAAA-F0
+  /FontBBox [ -14 -200 919 750 ]
+  /Flags 4
+  /CharSet (/period/one/tWo)
+  /FontFile3 18 0 R
+>>
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 78 0 R
+>>
+stream
+endobj
+obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+  /Metadata 21 0 R
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /ABCDEE-B20Mitra
+  /Flags 32
+  /ItalicAngle 0
+  /Ascent 666
+  /Descent -500
+  /ItalicAngle 0
+  /FontFamily (Times NeW Roman)
+  /FontStretch /Normal
+  /FontWeight 400
+>>
+endobj

@@ -1,0 +1,156 @@
+obj
+<<
+  /Type /Pages
+  /Count 1
+  /kids [ 3 0 R ]
+  /MediaBox [ 0 0 612 792 ]
+  /CropBox [ 0 0 612 792 ]
+  /Resources <<
+    /Font <<
+      /F0 316 0 R
+      /F1 374 0 R
+      /F2-1 358 0 R
+      /F2-2 328 0 R
+      /F2 325 0 R
+      /F2-2 328 0 R
+      /F2 325 0 R
+      /F5 339 0 R
+      /F2 324 0 R
+      /F2-2 328 0 R
+      /F2 325 0 R
+      /F5 325 0 R
+      /F7 325 0 R
+      /F4 334 0 R
+    >>
+    /ExtgState <<
+      /gS4 345 0 R
+    >>
+  >>
+  /MediaBox [ 0 0 595 842 ]
+  /Contents 54 0 R
+  /Type /Page
+  /Parent 32 0 R
+  /
+endobj
+obj
+<<
+  /Trans <<
+    /S /R
+  >>
+  /Resources 132 0 R
+  /Type /Page
+  /Parent 20 0 R
+  /Contents [ 12 0 R ]
+>>
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /HgNLEI-CMBx12
+  /Flags 4
+  /FontBBox [ -126 -250 1163 950 ]
+  /Ascent 615
+  /CapHeight 683
+  /Descent -194
+  /FontName /FWNMRT-CMSS12
+  /ItalicAngle 0
+  /StemH 41
+  /Stemv 83.109
+>>
+endobj
+obj
+<<
+  /Type /Annot
+  /Subtype /Link
+  /Border [ 0 0 0 ]
+  /C [ 1 0 0 ]
+  /A <<
+    /S /goTo
+    /D (7)
+  >>
+  /Rect [ 130.482 394.541 375.372 419.989 ]
+>>
+endobj
+obj
+<<
+  /Length 147
+>>
+stream
+endobj
+obj
+<<
+  /Type /Page
+  /Parent 217 0 R
+  /Resources 119 0 R
+  /Contents 128 0 R
+  /MediaBox [ 0 0 595 842 ]
+  /CropBox [ 0 0 595 842 ]
+  /Rotate 0
+>>
+endobj
+obj
+<<
+  /Length 6191
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Length 44 0 R
+  /Filter /FlateDecode
+>>
+stream
+endobj
+obj
+<<
+  /Filter /FlateDecode
+  /Length 536
+>>
+stream
+endobj
+obj
+<<
+  /Type /FontDescriptor
+  /FontName /CRAAAA-F2
+  /FontBBox [ -16 -204 973 709 ]
+  /Flags 4
+  /Ascent 717
+  /CapHeight 746
+  /Descent -211
+  /ItalicAngle 0
+  /Stemv 133
+  /MissingWidth 250
+  /xHeight 463
+  /CharSet (/A/B/C/D/E/F/g/I/k/L/M/N/O/P/R/S/T/u/y/a/b/bracketleft/bracketright/c/colon/comma/d/e/eight/f/fi/five/four/g/h/hyphen/i/k/l/m/n/o/one/p/parenleft/parenright/period/Quotedblleft/Quotedblright/Quoteright/r/s/semicolon/seven/seven/six/space/t/tWo/u/v/W/x/y/Z)
+  
+endobj
+obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Tounicode 108 0 R
+  /Widths 37 0 R
+  /FirstChar 2
+  /LastChar 121
+  /BaseFont /WBukkT-CMSS17
+  /FontDescriptor 38 0 R
+  /FirstChar 28
+  /LastChar 122
+  /Widths 12 0 R
+>>
+endobj
+obj
+<<
+  /Producer (gPL ghostscript 9.19)
+  /CreationDate (D:20160323090932-0400)
+  /ModDate (D:20160426193624-0200)
+  /Title (Microsoft Word - chopte)
+  /Creator (pdfFactory Pro WWW.Nagrothork)
+    /Type /AitTop
+    /Pomvail 8 0 R
+    >>
+  >>
+  /StructParents 1
+>>
+endobj
