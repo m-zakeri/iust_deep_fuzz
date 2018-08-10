@@ -451,8 +451,8 @@ class FileFormatFuzzer(object):
                 # prob_vals = '1 ' * self.maxlen
                 # learnt_grammar = obj_prefix
 
-                # print('--- Generating ts_text with seed:\n "' + obj_prefix + '"')
-                # sys.stdout.write(generated)
+                print('--- Generating ts_text with seed:\n "' + obj_prefix + '"')
+                sys.stdout.write(generated)
 
                 if generated.endswith('endobj'):
                     generated_obj_counter += 1
@@ -510,8 +510,8 @@ class FileFormatFuzzer(object):
                         generated += obj_prefix
                         endobj_attach_manually = False
 
-                    # sys.stdout.write(next_char)
-                    # sys.stdout.flush()
+                    sys.stdout.write(next_char)
+                    sys.stdout.flush()
                     # print()
                 generated_total += generated + '\n'
             # save generated_result to file inside program
