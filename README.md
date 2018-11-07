@@ -3,7 +3,7 @@
 
 Welcome to our new File Format Fuzzer :)
 
-This work belong to my master thesis in software engineering: "Automatic Test Data Generation in File Format Fuzzers".
+This work belongs to my master thesis in software engineering: "Automatic Test Data Generation in File Format Fuzzers".
 We can automatically generate new, valid, and various PDF files as test data to use in dynamic testing of real word PDF reader applications.
 
 ![](docs/figs/amazing_generated_test_data.png)
