@@ -13,9 +13,7 @@ A file format fuzzer base on deep neural networks.
 This repository is under active development and it don't documented well.
 If you downloaded it and have any question feel free to email me
 (*m-zakeri@live.com*) and get more information. 
-See the main [references](reference.md) 
-
-![](docs/figs/amazing_test_data_generation_process.gif)
+You may see the main [references](reference.md). 
 
 ## About Version 0.1
 The main purpose of this version is to implement a free version of learn and fuzz paper 
