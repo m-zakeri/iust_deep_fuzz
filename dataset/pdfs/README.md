@@ -13,7 +13,7 @@ The extracted objects have put under a _pdfs_ directory. We divide the objects d
 We are extending this corpus and want to add more PDF files, as soon as possible.
 We also extract 1000 binary streams form data objects. These streams have put under the small-size subdirectory. All extracted objects are available to view and download from the current GitHub repository. The complete set of PDF files will be availble to view and download after our paper on IUST DeepFuzz publish. 
 
-[View and download IUST PDF Corpus (version 1.0)](https://www.dropbox.com/sh/0gr8qscxdoawwtw/AAD_0Za_bFbrfCoSBTzoeE1Oa?dl=0)
+[View and download IUST PDF Corpus (version 1.0)](#)
 
 
 ## IUST XML Corpus
