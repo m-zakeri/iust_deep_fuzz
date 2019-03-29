@@ -34,17 +34,18 @@ def load_from_file(path):
 
 
 def concat():
-    pdf_object_directory_path = 'D:/iust_pdf_objects/all_object_files_514190_object_6101_out_of_6163_file/'
+    pdf_object_directory_path = 'D:/iust_pdf_objects/kalaee/all/'
     concat_seq = ''
     for filename in os.listdir(pdf_object_directory_path):
-        with open(pdf_object_directory_path + filename, 'r') as f:
+        print(pdf_object_directory_path + filename)
+        with open(pdf_object_directory_path + filename, mode='r', encoding='utf8') as f:
             concat_seq += f.read()
             # concat_seq += '\n' + ('-' * 75) + '\n'
         print(filename, 'read successfully')
     # concat_seq = concat_seq.replace('\n\n', '\n')
-    concat_file = 'D:/iust_pdf_objects/pdf_object_trainset_with_devider.txt'
+    concat_file = 'D:/iust_pdf_objects/pdf_object_trainset_with_binary_all.txt'
     concat_seq = sanitize(concat_seq)
-    # save_to_file(concat_file,concat_seq)
+    save_to_file(concat_file,concat_seq)
     print('end successfully')
     return concat_seq
 
@@ -294,7 +295,7 @@ def main(argv):
            '02_pdf_object_dataset_removed_null_and_slash_and_percentile_485080_sorted.txt'
     path = 'D:/iust_pdf_objects/preprocess/' \
            '03_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_sorted_ii.txt'
-    seq = load_from_file(path)
+    # seq = load_from_file(path)
     # remove_null_and_slash_object(seq)  # Preprocess Step 1
     # remove_first_and_last_percentile(seq)  # Preprocess Step 2
     # calculate_object_len_frequency(seq)  # Preprocess Step 3
@@ -317,14 +318,16 @@ def main(argv):
                '05_object_id__object_len_485080_iqr_cleaned_with_2_column_477104_validationset_89457_shuffle.csv'
 
     # Baseline csv
-    csv_path = 'incremental_update/hosts/baseline/baseline_obj_1193_from_testset.csv'
+    # csv_path = 'incremental_update/hosts/baseline/baseline_obj_1193_from_testset.csv'
 
-    retrieve_specific_dataset_fold(seq, csv_path)
+    # retrieve_specific_dataset_fold(seq, csv_path)
     # statistical_analysis(seq)
 
     # chars_repeats_csv_calculate()
     # dataset_text_normalization()
 
+
+    concat()
 
     """end_of_main_function_script"""
 

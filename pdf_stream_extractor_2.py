@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jan  8 15:13:22 2018
-last edit:  1397-01-15
+first edit: 1397-01-15
+second edit: 1397-11-25
 @author: Morteza
 """
 
@@ -20,7 +21,7 @@ from config import pdf_corpus_config
 
 
 def get_stream_within_object(pdf_file_path=None,
-                             mutool_path='D:\\afl\\mupdf-1.11-windows\\mutool.exe',
+                             mutool_path='D:/afl/mupdf-1.11-windows/mutool.exe',
                              mutool_command=' show -b -e ',
                              mutool_object_number=' x'
                              ):
@@ -62,7 +63,7 @@ def write_stream_into_file(pdf_stream_byte=None, filename=None, obj_id=None):
     :param obj_id:
     :return:
     """
-    stream_file_path = './selected_binary_streams/' + filename + str(obj_id).zfill(3)
+    stream_file_path = './dataset/pdfs/corpus_merged_binary_streams/' + filename + str(obj_id).zfill(3)
     with open(stream_file_path, 'wb') as new_file:
         new_file.write(pdf_stream_byte)
 
@@ -114,8 +115,9 @@ def select_binary_streams_randomly(number=1000):
 
 
 def main(argv):
-    # get_all_stream()  # call this function on every pdf corpus and retrieve all binary stream within them.
-    select_binary_streams_randomly(number=1000)
+    get_all_stream()  # call this function on every pdf corpus and retrieve all binary stream within them.
+    # select_binary_streams_randomly(number=1000)  # This function just used for my master thesis when I needed just 1000
+    # PDF binary objects.
 
 
 if __name__ == "__main__":

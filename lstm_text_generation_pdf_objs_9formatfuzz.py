@@ -475,7 +475,7 @@ class FileFormatFuzzer(object):
                         p_fuzz = random.random()
                         if p_fuzz > t_fuzz and preds2[next_index] > p_t:
                             next_index = np.argmin(preds2)
-                            print('((Fuzz!))')
+                            print(' FUZZ ', end='', flush=True)
                         next_char = self.indices_char[next_index]  # next_char updated.
                     ###### End of fuzzing section
 
