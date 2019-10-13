@@ -24,7 +24,7 @@ import PyPDF2
 # sys.path.insert(0, '..')
 from config import iu_config
 import pdf_object_preprocess as preprocess
-from lstm_text_generation_pdf_objs_8 import FileFormatFuzzer
+from nlm_pdf_objs_8 import FileFormatFuzzer
 
 
 class IncrementalUpdate(object):
