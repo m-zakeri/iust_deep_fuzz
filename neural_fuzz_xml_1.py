@@ -1,14 +1,7 @@
-'''Example script to generate text from Nietzsche's writings.
+"""
 
-At least 20 epochs are required before the generated text
-starts sounding coherent.
 
-It is recommended to run this script on GPU, as recurrent
-networks are quite computationally intensive.
-
-If you try this script on new data, make sure your corpus
-has at least ~100k characters. ~1M is better.
-'''
+"""
 
 from __future__ import print_function
 from keras.models import Sequential
@@ -25,8 +18,7 @@ import datetime
 from keras.utils import plot_model
 
 # read training data from file (data set)
-#path = get_file('nietzsche.txt', origin='https://s3.amazonaws.com/text-datasets/nietzsche.txt')
-#text = io.open(path, encoding='utf-8').read().lower()
+
 text = open('trainset/larg.xml', encoding="utf8").read()
 print('corpus length:', len(text))
 
