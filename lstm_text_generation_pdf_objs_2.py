@@ -1,23 +1,21 @@
 """
-NLM PDF OBJ 1
-A more complete version of this script is PDF OBJ 3.
-Please refer to PDF OBJ 3 (nlm_pdf_objs_3.py)
+PDF OBJ 2
+Train with generator for large datasets.
+My strategy in this script is departed and not work,
+so I decide to build new script.
+Please refer to PDF OBJ 3 (lstm_text_generation_pdf_objs_3.py)
 
-At least 20 epochs are required before the generated text
-starts sounding coherent.
 
-It is recommended to run this script on GPU, as recurrent
-networks are quite computationally intensive.
-
-If you try this script on new data, make sure your corpus
-has at least ~100k characters. ~1M is better.
 """
 
 from __future__ import print_function
+
+from docutils.nodes import paragraph
 from keras.models import Sequential, load_model
 from keras.layers import Dense, Activation
 from keras.layers import LSTM
 from keras.optimizers import RMSprop
+from keras.callbacks import LambdaCallback
 from keras.utils import plot_model
 from keras.utils.data_utils import get_file
 import numpy as np
@@ -26,7 +24,7 @@ import sys
 import io
 
 import datetime
-import pdf_object_preprocess as poc
+import pdf_object_preprocess as preprocess
 
 
 def save(model, epochs):
@@ -40,10 +38,11 @@ def save(model, epochs):
     model.save('./modelh5/' + save_name + '.h5')
 
 
-def train():
+def dataset2npyfilse():
+    """ for using with data generator"""
     trainset_path = './trainset/pdfobjs.txt'
-    trainset_path = './trainset/pdf_object_trainset_100_to_500_percent01.txt'
-    text = poc.load_from_file(trainset_path)
+    trainset_path = './trainset/pdf_object_trainset_100_to_500_percent10.txt'
+    text = preprocess.load_from_file(trainset_path)
     print('corpus length:', len(text))
 
     chars = sorted(list(set(text)))
@@ -58,7 +57,52 @@ def train():
     # print(indices_char)
 
     # cut the text in semi-redundant sequences of maxlen characters
-    maxlen = 50  # Good idea: use ave_object_len to determine this hyper-parameter
+    maxlen = 100  # Good idea: use ave_object_len to determine this hyper-parameter
+    step = 1  # should set to 1 for best result
+    epochs = 10  # number of epochs for training
+    sentences = []  # list of all sentence as input
+    next_chars = []  # list of all next chars as labels
+    for i in range(0, len(text) - maxlen, step):  # arg2 why this?
+        sentences.append(text[i: i + maxlen])
+        preprocess.save_to_file('./npysamples/IDs/id-' + str(i), text[i: i + maxlen])
+        next_chars.append(text[i + maxlen])
+        preprocess.save_to_file('./npysamples/Labels/id-' + str(i), text[i + maxlen])
+
+    print('semi sequences:', len(sentences))
+
+    print('end...')
+
+"""
+    for i, sentence in enumerate(sentences):
+        x = np.zeros((1, maxlen, len(chars)), dtype=np.bool)  # input x
+        y = np.zeros((1, len(chars)), dtype=np.bool)  # output label y
+        for t, char in enumerate(sentence):
+            x[0, t, char_indices[char]] = 1
+        y[0, char_indices[next_chars[i]]] = 1
+        np.save('./npysamples/IDs/id-' + str(i), x)
+        np.save('./npysamples/Labels/id-' + str(i), y)
+"""
+
+
+def train():
+    trainset_path = './trainset/pdfobjs.txt'
+    trainset_path = './trainset/pdf_object_trainset_100_to_500_percent20.txt'
+    text = preprocess.load_from_file(trainset_path)
+    print('corpus length:', len(text))
+
+    chars = sorted(list(set(text)))
+    print('Total chars:', len(chars))
+    # print(chars)
+
+    # Vectorization
+    print('Building dictionary index ...')
+    char_indices = dict((c, i) for i, c in enumerate(chars))
+    # print(char_indices)
+    indices_char = dict((i, c) for i, c in enumerate(chars))
+    # print(indices_char)
+
+    # cut the text in semi-redundant sequences of maxlen characters
+    maxlen = 100  # Good idea: use ave_object_len to determine this hyper-parameter
     step = 1  # should set to 1 for best result
     epochs = 10  # number of epochs for training
     sentences = []  # list of all sentence as input
@@ -70,14 +114,32 @@ def train():
         # print(next_chars)
 
     print('semi sequences:', len(sentences))
-
+    
+    divide_factor = int(1e6)  # 1m
+    partial_seq_len = int(len(sentences) / divide_factor)
+    X = [] # input list
+    Y = [] # output list
     print('One-Hot vectorization...')
-    x = np.zeros((len(sentences), maxlen, len(chars)), dtype=np.bool)  # input x
-    y = np.zeros((len(sentences), len(chars)), dtype=np.bool)  # output label y
-    for i, sentence in enumerate(sentences):
+    print(partial_seq_len)
+    for z in range(partial_seq_len):
+        x = (np.zeros((divide_factor, maxlen, len(chars)), dtype=np.bool))  # input x
+        y = (np.zeros((divide_factor, len(chars)), dtype=np.bool))  # output label y
+        for i, sentence in enumerate(sentences[z*divide_factor:(z+1)*divide_factor]):
+            for t, char in enumerate(sentence):
+                x[i, t, char_indices[char]] = 1
+            y[i, char_indices[next_chars[i]]] = 1
+        X.append(x)
+        Y.append(y)
+
+    v = len(sentences) - partial_seq_len * divide_factor
+    x = (np.zeros((v, maxlen, len(chars)), dtype=np.bool))  # input x
+    y = (np.zeros((v, len(chars)), dtype=np.bool))  # output label y
+    for i, sentence in enumerate(sentences[partial_seq_len * divide_factor:]):
         for t, char in enumerate(sentence):
             x[i, t, char_indices[char]] = 1
         y[i, char_indices[next_chars[i]]] = 1
+    X.append(x)
+    Y.append(y)
 
     # build the model: a single LSTM layer # we need to deep it
     print('Build model...')
@@ -94,24 +156,28 @@ def train():
     optimizer = RMSprop(lr=0.01)
     model.compile(loss='categorical_crossentropy', optimizer=optimizer)
 
-    input()
     # sys.exit()
 
-    model.fit(x, y, batch_size=128, epochs=epochs, validation_split=0.2)  # why epochs=?
+    print('fitfit', partial_seq_len)
+    for i in range(partial_seq_len):
+        model.fit(X[i], Y[i], batch_size=128, epochs=epochs, validation_split=0.2)  # why epochs=?
+
     save(model, epochs)
 
     # del model
     # model = load_model('./modelh5/lstm_text_generation_pdf_objs_1_20180214_235713_epochs10.h5')
 
     """ sampling the model and generate new object """
+    # configuration parameters
     diversities = [0.2, 0.5, 1.0, 1.2, 1.5, 1.8]
-    # diversities = [0.1, 0.2, 0.3, 0.5, 0.7, 1, 1.2, 1.5, 1.7, 2]
+    # diversities = [i*0.10 for i in range(1,20,2)]
     generated_obj_max_number = 5
     generated_obj_max_allowed_len = 500
     t_fuzz = 0.9
     p_t = 0.9  # 0.9 for format fuzzing and 0.5 or letter for data fuzzing. Now format fuzzing
+    # end of configuration parameters
 
-    list_of_objects = poc.get_list_of_object(text)
+    list_of_objects = preprocess.get_list_of_object(text)
     list_of_objects_with_maxlen = []
     for o in list_of_objects:
         if len(o) > maxlen:
@@ -196,7 +262,7 @@ def train():
         dir_name = './generated_results/pdfobjs_new/'
         file_name = 'gen_objs' + dt + 'epochs' + repr(epochs) + '_div' \
                     + repr(diversity) + '_step' + repr(step) + '.txt'
-        poc.save_to_file(dir_name + file_name, generated)
+        preprocess.save_to_file(dir_name + file_name, generated)
         # poc.save_to_file(dir_name + file_name + 'probabilities.txt', prob_vals)
         # poc.save_to_file(dir_name + file_name + 'learntgrammar.txt',learnt_grammar)
 
@@ -229,8 +295,8 @@ def sample_space():
 
 def main(argv):
     """ the main function """
-    train()
-
+    # train()
+    dataset2npyfilse()
 
 if __name__ == "__main__":
     main(sys.argv)
