@@ -9,7 +9,7 @@ PDF OBJ 8laf3
 -- Fuzzing back to generate_and_fuzz method.
 -- Perplexity and cross entropy add to metrics list.
 -- Use some Keras backend to reset model graph and state.
--- Lets iu_4.py call the generate_and_fuzz method.
+-- Lets pdf_file_incremental_update_4.py call the generate_and_fuzz method.
 - New in version 7
 -- Use for bidirectional LSTM model, model=model9
 - New in version 6

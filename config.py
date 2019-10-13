@@ -1,3 +1,10 @@
+"""
+ISUT-DeepFuzz global configuration file.
+-- Before running IUST-DeepFuzz:
+-- Set the settings such as dataset path and other configuration in this file.
+
+"""
+
 iu_config = {
     'single_object_update': False,  # [False, True]
     # The below option use only if 'single_object_update' set to False
