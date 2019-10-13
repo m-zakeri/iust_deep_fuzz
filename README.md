@@ -15,9 +15,9 @@ In this thesis, we proposed an automated method for hybrid test data generation.
 In the current release (0.3.0) you can use IUST-DeepFuzz for test data generation and then fuzzing every application.
 
 ### Install
-You need to have Python 3.6.x and and up-to-date TensroFlow and Keras frameworks on your computer.
-* Install [python 3.6.x](https://www.python.org/)
-* Install [Tensorflow](https://www.tensorflow.org/)
+You need to have Python 3.6.x and and up-to-date TensorFlow and Keras frameworks on your computer.
+* Install [Python 3.6.x](https://www.python.org/)
+* Install [TensorFlow](https://www.tensorflow.org/)
 * Install [Keras](https://keras.io/)
 * Clone the IUST-DeepFuzz repository: `git clone https://github.com/m-zakeri/iust_deep_fuzz.git` or download the latest version https://github.com/m-zakeri/iust_deep_fuzz.git
 * IUST-DeepFuzz is almost ready for test data generation!
@@ -41,6 +41,7 @@ ISUT-DeepFuzz has implemented four new deep models and two new fuzz algorithms: 
 Various file format for learning with IUST-DeepFuzz and then fuzz testing is available at [dataset directory](dataset).
 
 
+## How It Works?
 
 ### The PDF File Generation Process 
  ![amazing_test_data_generation_process](docs/figs/amazing_test_data_generation_process.gif)
@@ -49,13 +50,6 @@ Various file format for learning with IUST-DeepFuzz and then fuzz testing is ava
 ### New PDF Files
 ![generated_pdfs](docs/figs/amazing_generated_test_data.png)
 
-
-
-## 
-### Version 0.1.0
-A free implementation of the model used in learn&fuzz paper with the **samplefuzz algorithm**.
-
-### Version 0.3.0 ()
 
 
 ### FAQs
