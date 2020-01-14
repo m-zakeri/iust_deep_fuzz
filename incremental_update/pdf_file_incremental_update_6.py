@@ -37,7 +37,7 @@ class IncrementalUpdate(object):
     """
     def __init__(self,
                  host_id=None,
-                 object_file_path=iu_config['baseline_object_path'],
+                 object_file_path=iu_config['new_objects_path'],
                  stream_directory_path=iu_config['stream_directory_path']):
         """
 
@@ -82,9 +82,9 @@ class IncrementalUpdate(object):
 
     def __get_objects_sequence(self):
         seq = ''
-        for filename in os.listdir(iu_config['new_objects_path']):
+        for filename in os.listdir(self.object_file_path):
             try:
-                seq += preprocess.load_from_file(iu_config['new_objects_path'] + filename)
+                seq += preprocess.load_from_file(self.object_file_path + filename)
             except Exception as e:
                 print('Extracting failed from %s:' % filename, file=sys.stderr)
                 print(str(e), file=sys.stderr)
@@ -131,7 +131,8 @@ class IncrementalUpdate(object):
         # selected object.
         stream_index = obj.find('stream')
         obj = bytes(obj, encoding='ascii')
-        if stream_index != -1:
+        # if stream_index != -1:
+        if False:
             # random_stream_index = random.randint(0, len(self.stream_filename_list)-1)
             # with open(self.stream_directory_path+self.stream_filename_list[random_stream_index], mode='rb') as f:
             #     binary_stream = f.read()
@@ -365,7 +366,7 @@ class IncrementalUpdate(object):
 
 
 def main(argv):
-    host_id = 'host1_max'
+    host_id = 'host2_min'
     amount_of_testdata = 10000
     iu = IncrementalUpdate(host_id=host_id)
     for i in range(0, amount_of_testdata, 1):
