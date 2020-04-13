@@ -1,4 +1,4 @@
-# IUST-DeepFuzz
+# Introduction
 Welcome to our new file format fuzzer, IUST-DeepFuzz, a fuzzing framework based on the deep neural languages. This project belongs to my master thesis in software engineering: ["Automatic test data generation in file format fuzzers"](https://1drv.ms/b/s!AmpQstTzvc-T003nHGvhCeNP_ZpH). We can automatically generate new, valid, and various complex structure files, mainly PDF files, as test data to use in dynamic testing of real world application, e.g. PDF reader applications. For more information about both the theoretical and practical aspect of IUST-DeepFuzz, refer to the IUST-DeepFuzz relevant paper and thesis as in the following:
 
 * [Format-aware Learn&Fuzz: Deep Test Data Generation for Efficient Fuzzing](https://arxiv.org/abs/1812.09961v2)
@@ -30,7 +30,7 @@ You need to have Python 3.6.x and and up-to-date TensorFlow and Keras frameworks
 * Wait until your file format learn and your test data is generate!
 
 #### Available Pre-trained Models
-A pre-trained model is a model that was trained on a large benchmark dataset to solve a problem similar to the one that we want to solve. For the time being, we provided some pre-trained model for *PDF file format*. Our best trained model is available at [model_checkpoint/best_models](model_checkpoint/best_models)
+A pre-trained model is a model that was trained on a large benchmark dataset to solve a problem similar to the one that we want to solve. For the time being, we provided some pre-trained model for *PDF file format*. Our best trained model is available at [model_checkpoint/best_models](../model_checkpoint/best_models)
 
 #### Availbale Fuzzing Scripts
 ISUT-DeepFuzz has implemented four new deep models and two new fuzz algorithms: DataNeuralFuzz and MetadataNeuralFuzz as our contribution in mentioned thesis. The following algorithms to generate and fuzz test data are available in the current release (r0.3.0):
@@ -39,7 +39,7 @@ ISUT-DeepFuzz has implemented four new deep models and two new fuzz algorithms: 
 * `learn_and_fuzz_3_sample_fuzz.py`: To implement SampleFuzz algorithm introduced in https://arxiv.org/abs/1701.07232. 
 
 #### Available Dataset
-Various file format for learning with IUST-DeepFuzz and then fuzz testing is available at [dataset directory](dataset).
+Various file formats for learning with IUST-DeepFuzz and then fuzz testing are available at [dataset directory](dataset.md).
 
 
 ## How It Works?
@@ -67,6 +67,6 @@ The result of the test data generation process in the previous section has been 
 
 
 ### FAQs
-If you have got the IUST-DeepFuzz tool and have any questions, then feel free to send me an email (*m-zakeri@live.com*) and get more information. You may see the main [references](REFERENCES.md) or look at our large [test corpus](dataset).
+If you have got the IUST-DeepFuzz tool and have any questions, then feel free to send me an email (*m-zakeri@live.com*) and get more information. You may see the main [references](reference.md) or look at our large [test corpus](dataset).
 
 *Last update: April 13, 2020*
