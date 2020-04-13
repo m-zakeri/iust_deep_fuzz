@@ -13,7 +13,7 @@ At this time, IUST PDF Corpus is ready to view and download.
 ## IUST-PDFCorpus
 **Download:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3484013.svg)](https://doi.org/10.5281/zenodo.3484013)
 
- ![IUSTPDFCorpusDemo Image](pdfs/IUST-PDFCorpusDemo.PNG)
+ ![IUSTPDFCorpusDemo Image](../docs/figs/IUST-PDFCorpusDemo.png)
 
 We are happy to introduce **IUST PDF Corpus**, a large set of various PDF files, aimed at manipulating, 
 testing and improving the qualification of real-world PDF readers such as [MuPDF](https://mupdf.com/).
@@ -33,3 +33,4 @@ Under gathering, construction and sanitizing. Coming soon :)
 
 Under gathering, construction and sanitizing. Coming Soon :)
 
+*Last update: April 13, 2020*

@@ -20,26 +20,27 @@ You need to have Python 3.6.x and and up-to-date TensorFlow and Keras frameworks
 * Install [Python 3.6.x](https://www.python.org/)
 * Install [TensorFlow](https://www.tensorflow.org/)
 * Install [Keras](https://keras.io/)
-* Clone the IUST-DeepFuzz repository: `git clone https://github.com/m-zakeri/iust_deep_fuzz.git` or download the latest version https://github.com/m-zakeri/iust_deep_fuzz.git
+* Clone the IUST-DeepFuzz repository: `git clone https://github.com/m-zakeri/iust_deep_fuzz.git` or download the latest version [https://github.com/m-zakeri/iust_deep_fuzz.git](https://github.com/m-zakeri/iust_deep_fuzz.git)
 * IUST-DeepFuzz is almost ready for test data generation!
 
 ### Running
 * Configure the `config.py` work with your dataset and to set other paths settings.
-* Find the script of specific algorithm that you need. 
+* Find the `.py` script of specific algorithm that you need. 
 * Run the script in command line: `python script_name.py`
 * Wait until your file format learn and your test data is generate!
+* Happy fuzzing.
 
 #### Available Pre-trained Models
-A pre-trained model is a model that was trained on a large benchmark dataset to solve a problem similar to the one that we want to solve. For the time being, we provided some pre-trained model for *PDF file format*. Our best trained model is available at [model_checkpoint/best_models](../model_checkpoint/best_models)
+A pre-trained model is a model that was trained on a large benchmark dataset to solve a problem similar to the one that we want to solve. For the time being, we provided some pre-trained model for *PDF file format*. Our best trained model is available at [model_checkpoint/best_models](https://github.com/m-zakeri/iust_deep_fuzz/tree/master/model_checkpoint/best_models)
 
 #### Availbale Fuzzing Scripts
 ISUT-DeepFuzz has implemented four new deep models and two new fuzz algorithms: DataNeuralFuzz and MetadataNeuralFuzz as our contribution in mentioned thesis. The following algorithms to generate and fuzz test data are available in the current release (r0.3.0):
 * `data_neural_fuzz.py`: To implement the DataNeuralFuzz algorithm for fuzzing data in the files.
 * `metadata_neural_fuzz.py`: To implement MetadataNeuralFuzz for fuzzing metadata in the files.
-* `learn_and_fuzz_3_sample_fuzz.py`: To implement SampleFuzz algorithm introduced in https://arxiv.org/abs/1701.07232. 
+* `learn_and_fuzz_3_sample_fuzz.py`: To implement SampleFuzz algorithm introduced in the [Learn and Fuzz Paper](https://arxiv.org/abs/1701.07232). 
 
 #### Available Dataset
-Various file formats for learning with IUST-DeepFuzz and then fuzz testing are available at [dataset directory](dataset.md).
+Various file formats for learning with IUST-DeepFuzz and then fuzz testing are available at [dataset directory](https://github.com/m-zakeri/iust_deep_fuzz/tree/master/dataset). Read dataset descriptions [here](dataset.md).
 
 
 ## How It Works?
