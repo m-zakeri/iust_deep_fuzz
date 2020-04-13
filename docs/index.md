@@ -40,7 +40,7 @@ ISUT-DeepFuzz has implemented four new deep models and two new fuzz algorithms: 
 * `learn_and_fuzz_3_sample_fuzz.py`: To implement SampleFuzz algorithm introduced in the [Learn and Fuzz Paper](https://arxiv.org/abs/1701.07232). 
 
 #### Available Dataset
-Various file formats for learning with IUST-DeepFuzz and then fuzz testing are available at [dataset directory](https://github.com/m-zakeri/iust_deep_fuzz/tree/master/dataset). Read dataset descriptions [here](dataset.md).
+Various file formats for learning with IUST-DeepFuzz and then fuzz testing are available at [dataset subdirectory](https://github.com/m-zakeri/iust_deep_fuzz/tree/master/dataset). Read dataset descriptions [here](dataset.md).
 
 
 ## How It Works?

@@ -4,7 +4,7 @@ Neural software testing (NST) is about applying machine learning techniques, spe
 
 For now, we are gathering some large corpus for different file formats such as portable document format (PDF), extensible markup language (XML), and hypertext markup language (HTML) to do fuzz testing real-world application which takes these formats as their majoring inputs.
 At this time, IUST PDF Corpus is ready to view and download. 
-We refer the user on [dataset subdirectory](../dataset/) of project which is available  on Github
+We refer users to [dataset subdirectory](https://github.com/m-zakeri/iust_deep_fuzz/tree/master/dataset) of project which is available on Github
 
 ### News
 **2019-10-13:** IUST-PDFCorpus version 1.0.0 is publicly available at [https://zenodo.org/record/3484013](https://zenodo.org/record/3484013) with DOI **10.5281/zenodo.3484013**.
