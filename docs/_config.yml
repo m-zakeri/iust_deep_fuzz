@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 title: "IUST-DeepFuzz"
 description: "A modern file format fuzzer base on deep neural networks."
-logo: "./figs/figure3-new-test-data.png"
+logo: "./figs/IUSTDeepFuzz_logo.png"
 show_downloads: "true"
