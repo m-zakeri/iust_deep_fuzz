@@ -1,8 +1,10 @@
 # Introduction
-Welcome to our new file format fuzzer, IUST-DeepFuzz, a fuzzing framework based on the deep neural languages. This project belongs to my master thesis in software engineering: ["Automatic test data generation in file format fuzzers"](https://1drv.ms/b/s!AmpQstTzvc-T003nHGvhCeNP_ZpH). We can automatically generate new, valid, and various complex structure files, mainly PDF files, as test data to use in dynamic testing of real world application, e.g. PDF reader applications. For more information about both the theoretical and practical aspect of IUST-DeepFuzz, refer to the IUST-DeepFuzz relevant paper and thesis as in the following:
+Welcome to our new file format fuzzer, IUST-DeepFuzz, a fuzzing framework based on the deep neural languages. This project belongs to my master thesis in software engineering: ["Automatic test data generation in file format fuzzers"](https://1drv.ms/b/s!AmpQstTzvc-T003nHGvhCeNP_ZpH). 
+We can automatically generate new, valid, and various complex structure files, mainly PDF files, as test data to use in dynamic testing of real-world applications, e.g., PDF reader applications. 
+For more information about both the theoretical and practical aspects of IUST-DeepFuzz, refer to the IUST-DeepFuzz relevant publications:
 
-* [Format-aware Learn&Fuzz: Deep Test Data Generation for Efficient Fuzzing](https://arxiv.org/abs/1812.09961v2)
-* [Automatic Test Data Generation in File Format Fuzzers](https://ecdj.ihu.ac.ir/article_204735.html) (ISC paper in Persian)
+* [Format-aware Learn&Fuzz: Deep Test Data Generation for Efficient Fuzzing](https://arxiv.org/abs/1812.09961v2) - (Published in [Neural Computing and Applications](https://link.springer.com/article/10.1007/s00521-020-05039-7))
+* [Automatic Test Data Generation in File Format Fuzzers](https://ecdj.ihu.ac.ir/article_204735_en.html) (Published in [ Scientific Journal of Electronic and Cyber Defense](https://ecdj.ihu.ac.ir/?lang=en))
 * [Automatic Test Data Generation in File Format Fuzzers](https://1drv.ms/b/s!AmpQstTzvc-T003nHGvhCeNP_ZpH) (M.Sc. Thesis, in Persian)
 
 
@@ -70,4 +72,4 @@ The result of the test data generation process in the previous section has been 
 ### FAQs
 If you have got the IUST-DeepFuzz tool and have any questions, then feel free to send me an email (*m-zakeri@live.com*) and get more information. You may see the main [references](reference.md) or look at our large [test corpus](dataset).
 
-*Last update: April 13, 2020*
+*Last update: June 28, 2020*
