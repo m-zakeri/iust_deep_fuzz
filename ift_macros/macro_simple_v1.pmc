@@ -4,7 +4,7 @@ Groups=Start:1
 2|[Assign Variable]|passcount := 0|1|333|Variable|||||
 3|[Assign Variable]|warningcount := 0|1|333|Variable|||||
 4|[Assign Variable]|errorcount := 0|1|333|Variable|||||
-5|RunAs|administrator, 2018|1|333|RunAs|||||
+05|RunAs|administrator, 2018|1|333|RunAs|||||
 6|Run|D:\AnacondaProjects\iust_deep_fuzz\ift_macros\compute_coverage_model7.bat|1|2000|Run|||||
 7|[Pause]||1|7000|Sleep|||||
 8|[LoopStart]|LoopStart|12|500|Loop|||||
