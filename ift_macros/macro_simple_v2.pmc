@@ -1,0 +1,136 @@
+﻿[PMC Code v5.0.5]|F7||1|Window,2,Fast,0,1,Input,-1,-1,1|1|main_1
+Groups=Start:1
+1|[Assign Variable]|total := 0|1|333|Variable|||||
+2|[Assign Variable]|passcount := 0|1|333|Variable|||||
+3|[Assign Variable]|warningcount := 0|1|333|Variable|||||
+4|[Assign Variable]|errorcount := 0|1|333|Variable|||||
+05|RunAs|Administrator, 2018|1|333|RunAs|||||
+6|Run|D:\AnacondaProjects\iust_deep_fuzz\ift_macros\compute_coverage_model7.bat|1|2000|Run|||||
+7|[Pause]||1|7000|Sleep|||||
+8|[LoopStart]|LoopStart|12|500|Loop|||||
+9|[Add Variable]|total += 1|1|333|Variable|||||
+10|[Pause]||1|2000|Sleep|||||
+11|If Window Exist|MuPDF: Error|1|333|If_Statement|||||
+12|WinClose|1|1|500|WinClose||MuPDF: Error|||
+13|[Add Variable]|errorcount += 1|1|500|Variable|||||
+14|[Pause]||1|333|Sleep|||||
+15|[Else]|Else|1|333|If_Statement|||||
+16|If Window Exist|MuPDF: Warning|1|333|If_Statement|||||
+17|[Pause]||1|500|Sleep|||||
+18|WinClose|1|1|333|WinClose||MuPDF: Warning|||
+19|[Add Variable]|warningcount += 1|1|333|Variable|||||
+20|[Pause]||1|333|Sleep|||||
+21|[End If]|EndIf|1|333|If_Statement|||||
+22|[Pause]||1|1000|Sleep|||||
+23|[Gosub]|TSc1|1|333|Gosub|||||
+024|[Gosub]|TSc2|1|333|Gosub|||||
+25|[Gosub]|TSc3|1|333|Gosub|||||
+26|[Gosub]|TSc4|1|333|Gosub|||||
+27|[Gosub]|TSc5|1|333|Gosub|||||
+28|[Gosub]|TSc6|1|333|Gosub|||||
+29|WinKill|1|1|1000|WinKill||ahk_exe mupdf.exe|||
+30|[End If]|EndIf|1|333|If_Statement|||||
+31|[Pause]||1|2000|Sleep|||||
+32|[LoopEnd]|LoopEnd|1|500|Loop|||||
+33|[Pause]||1|500|Sleep|||||
+34|[Assign Variable]|passcount := total - ( warningcount + errorcount)|1|333|Variable|Expression||||
+35|Run|D:\AnacondaProjects\iust_deep_fuzz\ift_macros\compute_coverage_model7_statistics.txt|1|500|Run|||||
+36|[Control]|total = %total% :: passcount = %passcount% :: warningcount = %warningcount% :: errorcount = %errorcount% |1|500|ControlSetText||compute_coverage_model7_statistics.txt - Notepad|||
+37|Control + s|{Control Down}{s}{Control Up}|1|500|Send|||||
+38|Alt + F4|{Alt Down}{F4}{Alt Up}|1|500|Send|||||
+39|[Pause]||1|1000|Sleep|||||
+
+[PMC Code v5.0.5]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TSc1
+Groups=Start:1
+1|WinMinimize||1|333|WinMinimize||ahk_exe mupdf.exe|||
+2|WinRestore||1|333|WinRestore||ahk_exe mupdf.exe|||
+3|WinMaximize||1|333|WinMaximize||ahk_exe mupdf.exe|||
+4|[Pause]||1|500|Sleep|||||
+
+[PMC Code v5.0.5]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TSc2
+Groups=
+01|WinMaximize||1|333|WinMaximize||ahk_exe mupdf.exe|||
+2|[LoopStart]|LoopStart|12|500|Loop|||||
+3|[Pause]||1|500|Sleep|||||
+4|PgDn|{PgDn}|1|500|Send|||||
+5|If Window Exist|MuPDF: Warning|1|333|If_Statement|||||
+6|WinActivate||1|333|WinActivate||MuPDF: Warning|||
+7|WinClose||1|333|WinClose||MuPDF: Warning|||
+8|[End If]|EndIf|1|333|If_Statement|||||
+9|[Pause]||1|333|Sleep|||||
+10|[LoopEnd]|LoopEnd|1|500|Loop|||||
+11|[Pause]||1|1000|Sleep|||||
+12|[LoopStart]|LoopStart|12|500|Loop|||||
+13|[Pause]||1|500|Sleep|||||
+14|PgUp|{PgUp}|1|500|Send|||||
+15|If Window Exist|MuPDF: Warning|1|333|If_Statement|||||
+16|WinActivate||1|333|WinActivate||MuPDF: Warning|||
+17|WinClose||1|333|WinClose||MuPDF: Warning|||
+18|[End If]|EndIf|1|333|If_Statement|||||
+19|[Pause]||1|333|Sleep|||||
+20|[LoopEnd]|LoopEnd|1|500|Loop|||||
+21|[Pause]||1|1000|Sleep|||||
+
+[PMC Code v5.0.5]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TSc2_2
+Groups=
+01|WinMaximize||1|333|WinMaximize||ahk_exe mupdf.exe|||
+2|[LoopStart]|LoopStart|12|500|Loop|||||
+3|[Pause]||1|500|Sleep|||||
+4|PgDn|{PgDn}|1|500|Send|||||
+5|If Window Exist|MuPDF: Warning|1|333|If_Statement|||||
+6|WinActivate||1|333|WinActivate||MuPDF: Warning|||
+7|WinClose||1|333|WinClose||MuPDF: Warning|||
+8|[End If]|EndIf|1|333|If_Statement|||||
+9|[Pause]||1|333|Sleep|||||
+10|[LoopEnd]|LoopEnd|1|500|Loop|||||
+11|[Pause]||1|1000|Sleep|||||
+
+[PMC Code v5.0.5]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TSc3
+Groups=
+01|WinMinimize||1|333|WinMinimize||ahk_exe mupdf.exe|||
+02|WinMaximize||1|333|WinMaximize||ahk_exe mupdf.exe|||
+03|WinRestore||1|333|WinRestore||ahk_exe mupdf.exe|||
+4|=|{=}|5|333|Send|||||
+5|-|{-}|10|333|Send|||||
+6|=|{=}|5|333|Send|||||
+7|Shift + w|{Shift Down}{w}{Shift Up}|2|500|Send|||||
+8|Shift + h|{Shift Down}{h}{Shift Up}|2|500|Send|||||
+9|Shift + z|{Shift Down}{z}{Shift Up}|2|500|Send|||||
+10|w|{w}|2|500|Send|||||
+11|f|{f}|2|500|Send|||||
+12|[Pause]||1|500|Sleep|||||
+
+[PMC Code v5.0.5]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TSc4
+Groups=Start:1
+01|WinMaximize||1|333|WinMaximize||ahk_exe mupdf.exe|||
+2|Shift + l|{Shift Down}{l}{Shift Up}|4|333|Send|||||
+3|Shift + r|{Shift Down}{r}{Shift Up}|4|333|Send|||||
+4|[Pause]||1|500|Sleep|||||
+
+[PMC Code v5.0.5]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TSc5
+Groups=Start:1
+1|l|{l}|1|500|Send|||||
+2|h|{h}|1|500|Send|||||
+3|j|{j}|1|500|Send|||||
+4|If Window Exist|MuPDF: Warning|1|333|If_Statement|||||
+5|WinActivate||1|333|WinActivate||MuPDF: Warning|||
+6|WinClose||1|333|WinClose||MuPDF: Warning|||
+7|[End If]|EndIf|1|333|If_Statement|||||
+8|k|{k}|1|500|Send|||||
+9|If Window Exist|MuPDF: Warning|1|333|If_Statement|||||
+10|WinActivate||1|333|WinActivate||MuPDF: Warning|||
+11|WinClose||1|333|WinClose||MuPDF: Warning|||
+12|[End If]|EndIf|1|333|If_Statement|||||
+13|[Pause]||1|500|Sleep|||||
+
+[PMC Code v5.0.5]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TSc6
+Groups=Start:1
+01|WinMaximize||1|333|WinMaximize||ahk_exe mupdf.exe|||
+2|Shift + c|{Shift Down}{c}{Shift Up}|2|333|Send|||||
+3|c|{c}|2|333|Send|||||
+4|i|{i}|2|333|Send|||||
+5|[Pause]||1|500|Sleep|||||
+
+[PMC Code v5.0.5]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|TSc7
+Groups=Start:1
+
