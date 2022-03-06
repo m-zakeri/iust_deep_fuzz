@@ -3,7 +3,7 @@ REM Mode = Single Object Update (SOU)
 REM test mupdf pdf viewer on windows (c++ win32)
 @ECHO off
 REM SET PATH=%PATH%;"D:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Performance Tools\x64"
-SET PATH=%PATH%;"D:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Performance Tools"
+SET PATH=%PATH%;"D:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\vs2019\"
 CLS
 D:
 CD D:\afl\mupdf\platform\win32\Release
