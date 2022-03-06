@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Zakeri-Nasrabadi"
+  given-names: "Morteza"
+  orcid: "https://orcid.org/0000-0003-4289-0606"
+title: "IUST-DeepFuzz"
+version: 1.0.0
+doi: https://zenodo.org/badge/latestdoi/125926646
+date-released: 2020-03-01
+url: "https://github.com/m-zakeri/iust_deep_fuzz"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Zakeri-Nasrabadi"
+    given-names: "Morteza"
+    orcid: "https://orcid.org/0000-0003-4289-0606"
+  - family-names: "Parsa"
+    given-names: "Saeed"
+    orcid: " https://orcid.org/0000-0003-4381-2773 "
+  doi: "https://doi.org/10.1007/s00521-020-05039-7"
+  journal: "Neural Computing and Applications"
+  month: 6
+  start: 1497 # First page number
+  end: 1513 # Last page number
+  title: "Format-aware learn&fuzz: deep test data generation for efficient fuzzing"
+  issue: 5
+  volume: 33
+  year: 2021
