@@ -1,26 +1,28 @@
 # -*- coding: utf-8 -*-
 """
-File name: pdf_object_extractor_2.py
+File name: pdf_object_extractor_3.py
 Created on Mon Jan  8 15:13:22 2018 (1396-10-16)
 Last update on 1397-01-14
-@author: Morteza Zakeri
 
-Description:
+Changelog:
 Version 2 of pdf_pdf_object_extractor.py
 Version 2 new change set:
  - The code is now more portable
 
 Version 1:
 This file use to extract data object in (set of) PDF files.
-We use mutool a subprogram of mupdf an open source pdf library, readers and tools.
+We use `mutool` a subprogram of `mupdf` an open source pdf library, readers and tools.
 
 """
+
+__author__ = 'Morteza Zakeri'
+__version__ = '0.3.0'
+
 
 import sys
 import subprocess
 import re
 import os
-
 
 # Set MUTOOL_PATH
 MUTOOL_PATH = r'D:/afl/mupdf-1.11-windows/mutool.exe'
@@ -30,10 +32,10 @@ PDF_DIR_PATH = r'C:/Users/Morteza/Desktop/pdf_test'
 
 
 # change mutool_path to point the location of mupdf
-def get_xref(pdf_file_path=None,
-             mutool_path=MUTOOL_PATH,
-             mutool_command=' show -e ',
-             mutool_object_number=' x'):
+def get_pdf_xref(pdf_file_path=None,
+                 mutool_path=MUTOOL_PATH,
+                 mutool_command=' show -e ',
+                 mutool_object_number=' x'):
     """
     command line to get xref size
     :param pdf_file_path:
@@ -70,8 +72,10 @@ def get_pdf_object(pdf_file_path=None,
                    mutool_path=MUTOOL_PATH,
                    mutool_command=' show -b -e ',
                    mutool_object_number=' x'):
-    """ get a single object with id ' x'
     """
+    Get a single object with id ' x'
+    """
+
     cmd = mutool_path + mutool_command + pdf_file_path + ' ' + mutool_object_number
     # Execute the cmd command and return output of command e.g. pdf objects
     returned_value_in_byte = subprocess.check_output(cmd, shell=True)
@@ -84,11 +88,16 @@ def get_pdf_objects(pdf_file_path=None,
                     mutool_path=MUTOOL_PATH,
                     mutool_command=' show -e ',
                     mutool_object_number=' x'):
-    """ get all object with id ' x1, x2, x3, ..., xn'"""
+    """
+    Get all object with id 'x1, x2, x3, ..., xn'
+    """
+
     cmd = mutool_path + mutool_command + pdf_file_path + mutool_object_number
     # cmd = 'D:\\afl\\mupdf-1.11-windows\\mutool.exe show -e  D:\\afl\\mupdf-1.11-windows\\input\\pdftc_100k_2708.pdf '
+
     # Execute the cmd command and return output of command e.g. pdf objects
     returned_value_in_byte = subprocess.check_output(cmd, shell=True)
+
     # Convert output to string
     return_value_in_string = returned_value_in_byte.decode()
 
@@ -147,14 +156,13 @@ def main(argv):
         os.makedirs(object_directory_path)
 
     files = [f for f in os.listdir(pdf_directory_path) if
-             os.path.isfile(os.path.join(pdf_directory_path, f)) and
-             f.endswith(".pdf")]
+             os.path.isfile(os.path.join(pdf_directory_path, f)) and f.endswith(".pdf")]
 
     print(f'Extracting objects for {len(files)} PDF files:')
-    for filename in files:
+    for i, filename in enumerate(files):
         try:
-            # find minimum and maximum object id exist in file filename
-            start_index_integer, end_index_integer = get_xref(os.path.join(pdf_directory_path, filename))
+            # Find minimum and maximum object id existed in the file `filename`
+            start_index_integer, end_index_integer = get_pdf_xref(os.path.join(pdf_directory_path, filename))
             mutool_object_number = ' '
             for obj_id in range(start_index_integer + 1, end_index_integer):
                 mutool_object_number += str(obj_id) + ' '
@@ -164,16 +172,16 @@ def main(argv):
                                          )
             object_seq = bytes(object_seq)
 
-            filename_object = os.path.join(object_directory_path,
-                                           f'{filename}_{str(end_index_integer - 1)}_obj.txt')
+            filename_object = f'{filename}_{str(end_index_integer - 1)}_obj.txt'
+            filename_object_path = os.path.join(object_directory_path, filename_object)
 
-            with open(filename_object, 'wb') as new_file:
+            with open(filename_object_path, 'wb') as new_file:
                 new_file.write(object_seq)
 
             total_extracted_object += (end_index_integer - 1)
-            print(f'Objects from "{filename}" successfully was extracted to "{filename_object}".')
+            print(f'{i}: Objects from "{filename}" successfully was extracted to "{filename_object}".')
         except Exception as e:
-            print(f'Extraction from "{filename}" was failed.', file=sys.stderr)
+            print(f'{i}: Extraction from "{filename}" was failed.', file=sys.stderr)
             print(str(e), file=sys.stderr)
             # finally:
 
