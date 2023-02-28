@@ -34,7 +34,7 @@ PDF_DIR_PATH = r'C:/Users/Morteza/Desktop/pdf_test'
 # change mutool_path to point the location of mupdf
 def get_pdf_xref(pdf_file_path=None,
                  mutool_path=MUTOOL_PATH,
-                 mutool_command=' show -e ',
+                 mutool_command='show -e',
                  mutool_object_number=' x'):
     """
     command line to get xref size
@@ -44,8 +44,10 @@ def get_pdf_xref(pdf_file_path=None,
     :param mutool_object_number:
     :return:
     """
-    cmd = mutool_path + mutool_command + pdf_file_path + ' ' + mutool_object_number
+
+    cmd = f'"{mutool_path}" {mutool_command} "{pdf_file_path}" {mutool_object_number}'
     # cmd = 'D:\\afl\\mupdf-1.11-windows\\mutool.exe show -e  D:\\afl\\mupdf-1.11-windows\\input\\pdftc_100k_2708.pdf x'
+    print(f'Executing {cmd}')
 
     returned_value_in_byte = subprocess.check_output(cmd, shell=True)
     return_value_in_string = returned_value_in_byte.decode()
@@ -70,13 +72,14 @@ def get_pdf_xref(pdf_file_path=None,
 
 def get_pdf_object(pdf_file_path=None,
                    mutool_path=MUTOOL_PATH,
-                   mutool_command=' show -b -e ',
+                   mutool_command='show -b -e',
                    mutool_object_number=' x'):
     """
     Get a single object with id ' x'
     """
 
-    cmd = mutool_path + mutool_command + pdf_file_path + ' ' + mutool_object_number
+    cmd = f'"{mutool_path}" {mutool_command} "{pdf_file_path}" {mutool_object_number}'
+    print(f'Executing {cmd}')
     # Execute the cmd command and return output of command e.g. pdf objects
     returned_value_in_byte = subprocess.check_output(cmd, shell=True)
     # Convert output to string
@@ -86,14 +89,15 @@ def get_pdf_object(pdf_file_path=None,
 
 def get_pdf_objects(pdf_file_path=None,
                     mutool_path=MUTOOL_PATH,
-                    mutool_command=' show -e ',
-                    mutool_object_number=' x'):
+                    mutool_command='show -e',
+                    mutool_object_number='x'):
     """
     Get all object with id 'x1, x2, x3, ..., xn'
     """
 
-    cmd = mutool_path + mutool_command + pdf_file_path + mutool_object_number
+    cmd = f'"{mutool_path}" {mutool_command} "{pdf_file_path}" {mutool_object_number}'
     # cmd = 'D:\\afl\\mupdf-1.11-windows\\mutool.exe show -e  D:\\afl\\mupdf-1.11-windows\\input\\pdftc_100k_2708.pdf '
+    # print(f'Executing {cmd}')
 
     # Execute the cmd command and return output of command e.g. pdf objects
     returned_value_in_byte = subprocess.check_output(cmd, shell=True)
