@@ -2,9 +2,10 @@
 """
 File name: pdf_object_extractor_3.py
 Created on Mon Jan  8 15:13:22 2018 (1396-10-16)
-Last update on 1397-01-14
+Last update on Mars 15, 2023
 
 Changelog:
+Version 3 bugs fixed
 Version 2 of pdf_pdf_object_extractor.py
 Version 2 new change set:
  - The code is now more portable
@@ -18,7 +19,6 @@ We use `mutool` a subprogram of `mupdf` an open source pdf library, readers and 
 __author__ = 'Morteza Zakeri'
 __version__ = '0.3.0'
 
-
 import sys
 import subprocess
 import re
@@ -28,14 +28,14 @@ import os
 MUTOOL_PATH = r'D:/afl/mupdf-1.11-windows/mutool.exe'
 
 # Set PDF_DIR_PATH
-PDF_DIR_PATH = r'C:/Users/Morteza/Desktop/pdf_test'
+PDF_DIR_PATH = r'C:/Users/Morteza/Desktop/pdf_test/under_test'
 
 
 # change mutool_path to point the location of mupdf
 def get_pdf_xref(pdf_file_path=None,
                  mutool_path=MUTOOL_PATH,
                  mutool_command='show -e',
-                 mutool_object_number=' x'):
+                 mutool_object_number='x'):
     """
     command line to get xref size
     :param pdf_file_path:
@@ -49,7 +49,8 @@ def get_pdf_xref(pdf_file_path=None,
     # cmd = 'D:\\afl\\mupdf-1.11-windows\\mutool.exe show -e  D:\\afl\\mupdf-1.11-windows\\input\\pdftc_100k_2708.pdf x'
     print(f'Executing {cmd}')
 
-    returned_value_in_byte = subprocess.check_output(cmd, shell=True)
+    returned_value_in_byte = subprocess.check_output(cmd, shell=True, )
+
     return_value_in_string = returned_value_in_byte.decode()
     # print command line output to see it in python console
     # print(return_value_in_string)
@@ -73,15 +74,18 @@ def get_pdf_xref(pdf_file_path=None,
 def get_pdf_object(pdf_file_path=None,
                    mutool_path=MUTOOL_PATH,
                    mutool_command='show -b -e',
-                   mutool_object_number=' x'):
+                   mutool_object_number='x'):
     """
     Get a single object with id ' x'
     """
 
     cmd = f'"{mutool_path}" {mutool_command} "{pdf_file_path}" {mutool_object_number}'
     print(f'Executing {cmd}')
+
     # Execute the cmd command and return output of command e.g. pdf objects
+
     returned_value_in_byte = subprocess.check_output(cmd, shell=True)
+
     # Convert output to string
     return_value_in_string = returned_value_in_byte.decode()
     return return_value_in_string
@@ -167,20 +171,18 @@ def main(argv):
         try:
             # Find minimum and maximum object id existed in the file `filename`
             start_index_integer, end_index_integer = get_pdf_xref(os.path.join(pdf_directory_path, filename))
-            mutool_object_number = ' '
+            object_seq = []
             for obj_id in range(start_index_integer + 1, end_index_integer):
-                mutool_object_number += str(obj_id) + ' '
-
-            object_seq = get_pdf_objects(os.path.join(pdf_directory_path, filename),
-                                         mutool_object_number=mutool_object_number
-                                         )
-            object_seq = bytes(object_seq)
+                # mutool_object_number += str(obj_id) + ' '
+                object_seq2 = get_pdf_objects(os.path.join(pdf_directory_path, filename),
+                                              mutool_object_number=str(obj_id))
+                object_seq.append(object_seq2)
 
             filename_object = f'{filename}_{str(end_index_integer - 1)}_obj.txt'
             filename_object_path = os.path.join(object_directory_path, filename_object)
 
             with open(filename_object_path, 'wb') as new_file:
-                new_file.write(object_seq)
+                new_file.writelines(object_seq)
 
             total_extracted_object += (end_index_integer - 1)
             print(f'{i}: Objects from "{filename}" successfully was extracted to "{filename_object}".')
