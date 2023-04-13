@@ -25,7 +25,7 @@ import re
 import os
 
 # Set MUTOOL_PATH
-MUTOOL_PATH = r'D:/afl/mupdf-1.11-windows/mutool.exe'
+MUTOOL_PATH = r'D:/afl/mupdf-1.21.0-windows/mutool.exe'
 
 # Set PDF_DIR_PATH
 PDF_DIR_PATH = r'C:/Users/Morteza/Desktop/pdf_test/under_test'
@@ -35,7 +35,7 @@ PDF_DIR_PATH = r'C:/Users/Morteza/Desktop/pdf_test/under_test'
 def get_pdf_xref(pdf_file_path=None,
                  mutool_path=MUTOOL_PATH,
                  mutool_command='show -e',
-                 mutool_object_number='x'):
+                 mutool_object_number='xref'):
     """
     command line to get xref size
     :param pdf_file_path:
@@ -51,24 +51,78 @@ def get_pdf_xref(pdf_file_path=None,
 
     returned_value_in_byte = subprocess.check_output(cmd, shell=True, )
 
-    return_value_in_string = returned_value_in_byte.decode()
+    return_value_in_string = returned_value_in_byte.decode()  # The output is like:
+    """ 
+        xref
+        0 1458
+        00000: 0000000000 00000 f
+    """
     # print command line output to see it in python console
     # print(return_value_in_string)
+
     start_index_string = ''
     end_index_string = ''
     index = 6
     while return_value_in_string[index].isdigit():
         start_index_string += return_value_in_string[index]
         index += 1
-    index += 1
+    index += 1  # passing the space
     while return_value_in_string[index].isdigit():
         end_index_string += return_value_in_string[index]
         index += 1
 
     start_index_integer = int(start_index_string)
     end_index_integer = int(end_index_string)
-    # print(start_index_integer, end_index_integer)
+    print(start_index_integer, end_index_integer)
     return start_index_integer, end_index_integer
+
+
+def get_pdf_object_numbers(pdf_file_path=None,
+                           mutool_path=MUTOOL_PATH,
+                           mutool_command='show -e',
+                           mutool_object_number='xref'):
+    cmd = f'"{mutool_path}" {mutool_command} "{pdf_file_path}" {mutool_object_number}'
+    # cmd = 'D:\\afl\\mupdf-1.11-windows\\mutool.exe show -e  D:\\afl\\mupdf-1.11-windows\\input\\pdftc_100k_2708.pdf x'
+    print(f'Executing {cmd}')
+
+    result = subprocess.run(cmd,
+                            # capture_output=True,
+                            shell=True,
+                            stdout=subprocess.PIPE,
+                            stderr=subprocess.PIPE)
+
+    if result.returncode != 0:
+        raise subprocess.CalledProcessError(
+            returncode=result.returncode,
+            cmd=result.args,
+            stderr=result.stderr
+        )
+
+    objects_ids_available = []  # Include objects ids with flags`n` and `o` in the xref table
+    if result.stdout:
+        xref_table_string = result.stdout.decode('utf-8')
+        # print(f"Command Result:\n{xref_table_string}")
+
+        xref_table_list = xref_table_string.split('\r\n')
+        # print(f'{xref_table_list}')
+
+        start_and_end_object_number = re.findall(r'\d+', xref_table_list[1])
+        start_index_integer = int(start_and_end_object_number[0])
+        end_index_integer = int(start_and_end_object_number[1])
+        # print(start_index_integer, end_index_integer)
+
+        # return start_index_integer, end_index_integer
+
+        for object_description in xref_table_list[2:-1]:
+
+            object_id = int(object_description.split(':')[0])
+            if 'n' in object_description.split(':')[1]:  # or 'o' in object_description.split(':')[1]:
+                # print(object_description)
+                objects_ids_available.append(object_id)
+        print(len(objects_ids_available))
+        return objects_ids_available
+    else:
+        return None
 
 
 def get_pdf_object(pdf_file_path=None,
@@ -170,21 +224,30 @@ def main(argv):
     for i, filename in enumerate(files):
         try:
             # Find minimum and maximum object id existed in the file `filename`
-            start_index_integer, end_index_integer = get_pdf_xref(os.path.join(pdf_directory_path, filename))
-            object_seq = []
-            for obj_id in range(start_index_integer + 1, end_index_integer):
-                # mutool_object_number += str(obj_id) + ' '
-                object_seq2 = get_pdf_objects(os.path.join(pdf_directory_path, filename),
-                                              mutool_object_number=str(obj_id))
-                object_seq.append(object_seq2)
+            # start_index_integer, end_index_integer = get_pdf_xref(os.path.join(pdf_directory_path, filename))
+            objects_ids_n = get_pdf_object_numbers(os.path.join(pdf_directory_path, filename))
+            if objects_ids_n is None:
+                print(f'No object id with flag n is found for {filename}')
+                continue
 
-            filename_object = f'{filename}_{str(end_index_integer - 1)}_obj.txt'
+            # Convert list to sublist of ids
+            seq_step = 500
+            ids_subList = [objects_ids_n[n:n + seq_step] for n in range(0, len(objects_ids_n), seq_step)]
+
+            object_seqs = []
+            for obj_ids in ids_subList:
+                # mutool_object_number += str(obj_id) + ' '
+                object_seq1 = get_pdf_objects(pdf_file_path=os.path.join(pdf_directory_path, filename),
+                                              mutool_object_number=' '.join(map(str, obj_ids)))
+                object_seqs.append(object_seq1)
+
+            filename_object = f'{filename}_{str(len(objects_ids_n))}_obj.txt'
             filename_object_path = os.path.join(object_directory_path, filename_object)
 
             with open(filename_object_path, 'wb') as new_file:
-                new_file.writelines(object_seq)
+                new_file.writelines(object_seqs)
 
-            total_extracted_object += (end_index_integer - 1)
+            total_extracted_object += len(objects_ids_n)
             print(f'{i}: Objects from "{filename}" successfully was extracted to "{filename_object}".')
         except Exception as e:
             print(f'{i}: Extraction from "{filename}" was failed.', file=sys.stderr)
